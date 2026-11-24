@@ -111,7 +111,9 @@ if (dryRun) {
 }
 
 // ---------- Google sign-in (OAuth, loopback redirect, PKCE) ----------
-const b64url = (buf) => buf.toString('base64url');
+function b64url(buf) {
+  return buf.toString('base64url');
+}
 function readClient() {
   if (!fs.existsSync(CLIENT_FILE)) die(`missing ${CLIENT_FILE}. Create an OAuth client of type "Desktop app" and save its JSON there (see README).`);
   const j = JSON.parse(fs.readFileSync(CLIENT_FILE, 'utf8'));

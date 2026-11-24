@@ -4,3 +4,4 @@ dist
 .env
 .data
 production/*.wav
+production/pipeline/.venv
