@@ -18,6 +18,15 @@ export interface BookLanguage {
   /** Optional excerpt (public/preview/*.txt), shown on the book page without any registration. */
   preview?: string;
   previewParagraphs?: string[];
+  /** Optional full text for the reading page, a file in data/ such as "texts/lady-en.txt". */
+  text?: string;
+  /** Optional short note shown above the text, e.g. that it is a machine translation. */
+  textNote?: string;
+  readingParts?: ReadingPart[];
+}
+export interface ReadingPart {
+  title: string;
+  paragraphs: string[];
 }
 export interface Book {
   id: string;
@@ -30,9 +39,26 @@ export interface Book {
 }
 
 const publicDir = path.join(process.cwd(), 'public');
-const { errors } = validateBooks(raw, publicDir);
+const dataDir = path.join(process.cwd(), 'data');
+const { errors } = validateBooks(raw, publicDir, dataDir);
 if (errors.length) {
   throw new Error(`data/books.json has ${errors.length} problem(s):\n` + errors.map((e) => `  - ${e}`).join('\n'));
+}
+
+/** "## Title" starts a part; blank lines separate paragraphs. */
+function readText(file: string): ReadingPart[] {
+  const parts: ReadingPart[] = [];
+  for (const block of fs.readFileSync(path.join(dataDir, file), 'utf8').replace(/\r\n/g, '\n').split(/\n\s*\n/)) {
+    const t = block.trim();
+    if (!t) continue;
+    const m = t.match(/^##\s+(.+)$/);
+    if (m) parts.push({ title: m[1], paragraphs: [] });
+    else {
+      if (!parts.length) parts.push({ title: '', paragraphs: [] });
+      parts[parts.length - 1].paragraphs.push(t.replace(/\s*\n\s*/g, ' '));
+    }
+  }
+  return parts;
 }
 
 export const books: Book[] = (raw as any[]).map((b) => {
@@ -42,7 +68,7 @@ export const books: Book[] = (raw as any[]).map((b) => {
     const previewParagraphs = l.preview
       ? fs.readFileSync(path.join(publicDir, l.preview), 'utf8').split(/\n\s*\n/).map((x: string) => x.trim()).filter(Boolean)
       : undefined;
-    languages[code] = { ...l, videoId: parseYouTubeId(l.youtube)!, previewParagraphs };
+    languages[code] = { ...l, videoId: parseYouTubeId(l.youtube)!, previewParagraphs, readingParts: l.text ? readText(l.text) : undefined };
   }
   return { ...b, coverWidth: size.width, coverHeight: size.height, languages };
 });

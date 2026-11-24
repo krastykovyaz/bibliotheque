@@ -572,3 +572,58 @@ main.wrap {
 .js .watch-btn {
   display: none;
 }
+
+/* Reading mode */
+.reader {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+.reader h1 {
+  margin: 0.4rem 0 0.4rem;
+}
+.reader-small {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin: 0 0 0.9rem;
+}
+.reader-parts ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 1.5rem;
+  padding: 0;
+}
+.reader-text {
+  font-family: 'Lora Variable', Georgia, 'Times New Roman', serif;
+  font-size: 1.2rem;
+  line-height: 1.85;
+  background: var(--card);
+  border: 2px solid var(--line);
+  border-radius: 12px;
+  padding: 0.5rem 1.25rem 1.5rem;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+.reader-text h2 {
+  font-size: 2.2rem;
+  text-align: center;
+  margin: 2.5rem 0 1.25rem;
+  scroll-margin-top: 1rem;
+}
+.reader-text p {
+  margin: 0;
+  text-indent: 1.4em;
+}
+.reader-text h2 + p {
+  text-indent: 0;
+}
+.reader-end {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+@media (min-width: 720px) {
+  .reader-text {
+    padding: 0.5rem 2.5rem 2rem;
+  }
+}

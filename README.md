@@ -70,6 +70,19 @@ The page is built ahead of time, so the block changes when the site is rebuilt. 
 
 `/children/` (and `/ru/children/`) lists children's authors and their stories from `data/sources/children.json`, each with a link to the Russian original on Wikisource (from `data/sources/wikisource-children.json`). These are catalogue entries only: there are no videos yet, so they are not book cards. To refresh the links after editing the list: `node scripts/find-on-wikisource.mjs data/sources/children.json data/sources/wikisource-children.json`. To turn a story into a real book, add it to `data/books.json` as described above.
 
+## Read online (reading mode)
+
+A language can have its full text on the site, so visitors read the whole book in the browser without downloading anything:
+
+```json
+"text": "texts/lady-en.txt",
+"textNote": "Machine translation from the Russian, a draft that needs a human editor."
+```
+
+`text` is a file in `data/texts/`: a line starting with `## ` begins a part (for example `## I · Yalta`), and blank lines separate paragraphs. `textNote` is optional and is shown above the text. The book page then shows **Read online** (instead of the short preview), and the whole text is on its own page at `/read/<id>/<language>/`, in a reading layout that works without JavaScript and sets no cookie.
+
+To get the text out of one of our reading PDFs: `python scripts/extract-text-from-pdf.py public/pdf/lady-en.pdf data/texts/lady-en.txt` (needs `pip install pymupdf`; it expects the layout our PDFs have).
+
 ## Preview (no registration)
 
 Each language can have an optional excerpt:
@@ -151,6 +164,8 @@ Things to know:
 Set `SITE_URL` to the public address at build time. It is used for canonical links and share images, and it is the host the server accepts form posts for.
 
 **Node host (full site)**
+
+On the main server, `scripts/deploy-site.sh` does all of this: it builds `main` from a fresh clone for the real address, copies the result over and restarts the service.
 
 ```bash
 SITE_URL=https://your-domain.example npm run build

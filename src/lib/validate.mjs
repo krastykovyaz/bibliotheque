@@ -20,7 +20,7 @@ export function parseYouTubeId(url) {
 
 const isStr = (v) => typeof v === 'string' && v.trim().length > 0;
 
-export function validateBooks(books, publicDir) {
+export function validateBooks(books, publicDir, dataDir) {
   const errors = [];
   const warnings = [];
   if (!Array.isArray(books) || books.length === 0) {
@@ -58,6 +58,11 @@ export function validateBooks(books, publicDir) {
         else if (!isStr(l.booklet) || !l.booklet.startsWith('/')) err(`languages.${code}.booklet`, 'must be a path like "/pdf/name-booklet.pdf"');
         else if (!fs.existsSync(path.join(publicDir, l.booklet))) err(`languages.${code}.booklet`, `file not found: public${l.booklet}`);
       }
+      if (l && l.text !== undefined) {
+        if (!isStr(l.text) || l.text.startsWith('/')) err(`languages.${code}.text`, 'must be a path like "texts/name.txt", relative to the data folder');
+        else if (dataDir && !fs.existsSync(path.join(dataDir, l.text))) err(`languages.${code}.text`, `file not found: data/${l.text}`);
+      }
+      if (l && l.textNote !== undefined && !isStr(l.textNote)) err(`languages.${code}.textNote`, 'must be a short text');
       if (l && l.preview !== undefined) {
         if (!isStr(l.preview) || !l.preview.startsWith('/')) err(`languages.${code}.preview`, 'must be a path like "/preview/name.txt"');
         else if (!fs.existsSync(path.join(publicDir, l.preview))) err(`languages.${code}.preview`, `file not found: public${l.preview}`);

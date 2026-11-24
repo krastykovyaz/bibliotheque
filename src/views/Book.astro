@@ -90,16 +90,22 @@ const short = (s: string) => (s.length <= 158 ? s : s.slice(0, 155).replace(/\s+
                 {t.watch} <span aria-hidden="true">↗</span>
                 <span class="visually-hidden">{t.newTab}</span>
               </a>
-              {/* Preview: an excerpt anyone can read, no registration. */}
-              {l.previewParagraphs && (
-                <details class="preview" lang={lang}>
-                  <summary class="btn btn-secondary">{t.preview}</summary>
-                  <div class="preview-box">
-                    <div class="preview-text" lang={code}>
-                      {l.previewParagraphs.map((para) => <p>{para}</p>)}
+              {/* Reading: the whole text on its own page, or, when only an excerpt exists, the short preview. No registration. */}
+              {l.readingParts && l.readingParts.length ? (
+                <div class="preview" lang={lang}>
+                  <a class="btn btn-secondary" href={pageUrl(lang, `/read/${book.id}/${code}/`)}>{t.read}</a>
+                </div>
+              ) : (
+                l.previewParagraphs && (
+                  <details class="preview" lang={lang}>
+                    <summary class="btn btn-secondary">{t.preview}</summary>
+                    <div class="preview-box">
+                      <div class="preview-text" lang={code}>
+                        {l.previewParagraphs.map((para) => <p>{para}</p>)}
+                      </div>
                     </div>
-                  </div>
-                </details>
+                  </details>
+                )
               )}
               {/* Full version: optional PDF. Connecting Grandlivre is offered first and can be skipped. */}
               {l.pdf && (

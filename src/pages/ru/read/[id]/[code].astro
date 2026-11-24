@@ -1,0 +1,16 @@
+---
+import Read from '../../../../views/Read.astro';
+import { books } from '../../../../lib/books';
+
+// One static reading page per book and language that has a full text.
+export function getStaticPaths() {
+  return books.flatMap((book) =>
+    Object.entries(book.languages)
+      .filter(([, l]) => l.readingParts && l.readingParts.length)
+      .map(([code]) => ({ params: { id: book.id, code }, props: { book, code } })),
+  );
+}
+const { book, code } = Astro.props;
+---
+
+<Read lang="ru" book={book} code={code} />

@@ -14,7 +14,9 @@
         "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
         "pdf": "/pdf/lady-en.pdf",
         "preview": "/preview/lady-en.txt",
-        "booklet": "/pdf/lady-en-booklet.pdf"
+        "booklet": "/pdf/lady-en-booklet.pdf",
+        "text": "texts/lady-en.txt",
+        "textNote": "Machine translation from the Russian, a draft that needs a human editor."
       },
       "ru": {
         "title": "Дама с собачкой",
@@ -22,7 +24,8 @@
         "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
         "pdf": "/pdf/lady-ru.pdf",
         "preview": "/preview/lady-ru.txt",
-        "booklet": "/pdf/lady-ru-booklet.pdf"
+        "booklet": "/pdf/lady-ru-booklet.pdf",
+        "text": "texts/lady-ru.txt"
       }
     }
   },

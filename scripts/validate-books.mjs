@@ -12,7 +12,7 @@ try {
   console.error(`\n✖ data/books.json is not valid JSON: ${e.message}\n`);
   process.exit(1);
 }
-const { errors, warnings } = validateBooks(data, path.join(root, 'public'));
+const { errors, warnings } = validateBooks(data, path.join(root, 'public'), path.join(root, 'data'));
 warnings.forEach((w) => console.warn(`⚠ ${w}`));
 if (errors.length) {
   console.error(`\n✖ data/books.json has ${errors.length} problem(s):\n`);

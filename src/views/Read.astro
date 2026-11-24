@@ -1,0 +1,62 @@
+---
+// Reading mode: the whole text of a book in one language, on its own page. Static HTML, works without JavaScript.
+import '@fontsource-variable/lora';
+import Layout from '../layouts/Layout.astro';
+import { ui, pageUrl, asset, langName, fill, type UiLang } from '../lib/i18n';
+import { authorIn, type Book } from '../lib/books';
+
+interface Props {
+  lang: UiLang;
+  book: Book;
+  code: string;
+}
+const { lang, book, code } = Astro.props;
+const t = ui[lang];
+const l = book.languages[code];
+const author = authorIn(book, lang);
+const parts = l.readingParts ?? [];
+const words = parts.reduce((n, p) => n + p.paragraphs.reduce((m, q) => m + q.split(/\s+/).length, 0), 0);
+const minutes = Math.max(1, Math.round(words / 200));
+const bookUrl = `${pageUrl(lang, `/book/${book.id}/`)}?lang=${code}`;
+const first = parts[0]?.paragraphs[0] ?? '';
+const description = `${l.title}, ${author}: ${t.readTitle}. ${first.slice(0, 120).replace(/\s+\S*$/, '')}…`;
+---
+
+<Layout lang={lang} path={`/read/${book.id}/${code}/`} title={`${l.title}, ${author}: ${t.readTitle} | ${t.site}`} description={description}>
+  <article class="reader" lang={code}>
+    <p class="reader-small" lang={lang}><a href={bookUrl}>← {t.readBack}</a></p>
+    <h1>{l.title}</h1>
+    <p class="reader-small" lang={lang}>
+      {author} · {book.year} · {langName(lang, code)} · {fill(t.readTime, { min: String(minutes) })}
+    </p>
+    {l.textNote && <p class="note" lang="en">{l.textNote}</p>}
+    {
+      parts.length > 1 && (
+        <nav class="reader-parts" aria-label={t.readParts} lang={lang}>
+          <ul>
+            {parts.map((p, i) => (
+              <li>
+                <a class="chip" href={`#part-${i + 1}`}>{p.title}</a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )
+    }
+    <div class="reader-text">
+      {
+        parts.map((p, i) => (
+          <section aria-labelledby={`part-${i + 1}`}>
+            {p.title && <h2 id={`part-${i + 1}`}>{p.title}</h2>}
+            {p.paragraphs.map((q) => <p>{q}</p>)}
+          </section>
+        ))
+      }
+    </div>
+    <p class="reader-small reader-end" lang={lang}>{t.readEnd}</p>
+    <p class="reader-small" lang={lang}>
+      <a href={bookUrl}>← {t.readBack}</a>
+      {l.pdf && <span> · <a href={asset(l.pdf)} download>{t.readDownload}</a></span>}
+    </p>
+  </article>
+</Layout>
