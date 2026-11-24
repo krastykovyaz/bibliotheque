@@ -1,0 +1,22 @@
+---
+import Read from '../../../../views/Read.astro';
+import { books } from '../../../../lib/books';
+import { paginate } from '../../../../lib/reader';
+
+// One static page for every page of every book text: /read/<id>/<language>/ is page 1, then .../2/, .../3/ and so on.
+export function getStaticPaths() {
+  return books.flatMap((book) =>
+    Object.entries(book.languages)
+      .filter(([, l]) => l.readingParts && l.readingParts.length)
+      .flatMap(([code, l]) =>
+        paginate(l.readingParts!).pages.map((_, i) => ({
+          params: { id: book.id, code, page: i === 0 ? undefined : String(i + 1) },
+          props: { book, code, pageNo: i + 1 },
+        })),
+      ),
+  );
+}
+const { book, code, pageNo } = Astro.props;
+---
+
+<Read lang="en" book={book} code={code} pageNo={pageNo} />

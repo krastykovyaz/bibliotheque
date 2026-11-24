@@ -627,3 +627,80 @@ main.wrap {
     padding: 0.5rem 2.5rem 2rem;
   }
 }
+
+/* Reading mode: page navigation */
+.reader-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin: 0 0 1rem;
+}
+.reader-nav-end {
+  margin: 1.25rem 0 1rem;
+}
+.reader-nav .btn {
+  min-height: 2.75rem;
+  padding: 0.4rem 1.1rem;
+  font-size: 1rem;
+}
+.reader-nav .is-off {
+  opacity: 0.35;
+  cursor: default;
+  pointer-events: none;
+}
+.reader-count {
+  color: var(--muted);
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-align: center;
+}
+.reader-running,
+.reader-part {
+  margin: 0 0 0.75rem;
+  letter-spacing: 0.04em;
+}
+.reader-part {
+  text-align: center;
+  margin: 1.1rem 0 0.4rem;
+}
+.reader-text section:first-child h2 {
+  margin-top: 1.4rem;
+}
+.reader-jump {
+  margin: 0 0 1rem;
+  font-size: 0.95rem;
+}
+.reader-jump summary {
+  cursor: pointer;
+  color: var(--accent);
+  font-weight: 700;
+  padding: 0.4rem 0;
+}
+.reader-jump ol {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.5rem 0 0;
+  padding: 0;
+}
+.reader-jump a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.4rem;
+  min-height: 2.4rem;
+  padding: 0 0.4rem;
+  border: 2px solid var(--line);
+  border-radius: 999px;
+  background: var(--card);
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 700;
+}
+.reader-jump a[aria-current] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--on-accent);
+}

@@ -1,62 +1,114 @@
 ---
-// Reading mode: the whole text of a book in one language, on its own page. Static HTML, works without JavaScript.
+// Reading mode: a book's text in one language, one page at a time. Static HTML, works without JavaScript.
 import '@fontsource-variable/lora';
 import Layout from '../layouts/Layout.astro';
 import { ui, pageUrl, asset, langName, fill, type UiLang } from '../lib/i18n';
 import { authorIn, type Book } from '../lib/books';
+import { paginate } from '../lib/reader';
 
 interface Props {
   lang: UiLang;
   book: Book;
   code: string;
+  pageNo: number;
 }
-const { lang, book, code } = Astro.props;
+const { lang, book, code, pageNo } = Astro.props;
 const t = ui[lang];
 const l = book.languages[code];
 const author = authorIn(book, lang);
 const parts = l.readingParts ?? [];
-const words = parts.reduce((n, p) => n + p.paragraphs.reduce((m, q) => m + q.split(/\s+/).length, 0), 0);
-const minutes = Math.max(1, Math.round(words / 200));
+const { pages, partPage } = paginate(parts);
+const total = pages.length;
+const page = pages[pageNo - 1];
+const base = pageUrl(lang, `/read/${book.id}/${code}/`);
+const at = (n: number) => (n <= 1 ? base : `${base}${n}/`);
 const bookUrl = `${pageUrl(lang, `/book/${book.id}/`)}?lang=${code}`;
+const words = pages.reduce((n, p) => n + p.words, 0);
+const minutes = Math.max(1, Math.round(words / 200));
 const first = parts[0]?.paragraphs[0] ?? '';
-const description = `${l.title}, ${author}: ${t.readTitle}. ${first.slice(0, 120).replace(/\s+\S*$/, '')}…`;
+const label = fill(t.readPage, { n: String(pageNo), total: String(total) });
+const path = `/read/${book.id}/${code}/${pageNo > 1 ? `${pageNo}/` : ''}`;
+const title = `${l.title}, ${author}: ${t.readTitle}${pageNo > 1 ? `, ${label.toLowerCase()}` : ''} | ${t.site}`;
+const description = pageNo > 1 ? `${l.title}, ${author}: ${label}.` : `${l.title}, ${author}: ${t.readTitle}. ${first.slice(0, 120).replace(/\s+\S*$/, '')}…`;
 ---
 
-<Layout lang={lang} path={`/read/${book.id}/${code}/`} title={`${l.title}, ${author}: ${t.readTitle} | ${t.site}`} description={description}>
+<Layout lang={lang} path={path} title={title} description={description}>
   <article class="reader" lang={code}>
     <p class="reader-small" lang={lang}><a href={bookUrl}>← {t.readBack}</a></p>
-    <h1>{l.title}</h1>
-    <p class="reader-small" lang={lang}>
-      {author} · {book.year} · {langName(lang, code)} · {fill(t.readTime, { min: String(minutes) })}
-    </p>
-    {l.textNote && <p class="note" lang="en">{l.textNote}</p>}
     {
-      parts.length > 1 && (
+      pageNo === 1 ? (
+        <>
+          <h1>{l.title}</h1>
+          <p class="reader-small" lang={lang}>
+            {author} · {book.year} · {langName(lang, code)} · {fill(t.readTime, { min: String(minutes) })}
+          </p>
+          {l.textNote && <p class="note" lang="en">{l.textNote}</p>}
+        </>
+      ) : (
+        <p class="reader-small reader-running" lang={lang}>{l.title}</p>
+      )
+    }
+
+    <nav class="reader-nav" aria-label={t.readPages} lang={lang}>
+      {pageNo > 1 ? <a class="btn btn-secondary" rel="prev" href={at(pageNo - 1)}>← {t.readPrev}</a> : <span class="btn btn-secondary is-off" aria-hidden="true">← {t.readPrev}</span>}
+      <span class="reader-count" aria-current="page">{label}</span>
+      {pageNo < total ? <a class="btn" rel="next" href={at(pageNo + 1)}>{t.readNext} →</a> : <span class="btn is-off" aria-hidden="true">{t.readNext} →</span>}
+    </nav>
+
+    {
+      pageNo === 1 && parts.length > 1 && (
         <nav class="reader-parts" aria-label={t.readParts} lang={lang}>
           <ul>
             {parts.map((p, i) => (
               <li>
-                <a class="chip" href={`#part-${i + 1}`}>{p.title}</a>
+                <a class="chip" href={`${at(partPage[i])}#part-${i + 1}`}>{p.title}</a>
               </li>
             ))}
           </ul>
         </nav>
       )
     }
+
     <div class="reader-text">
       {
-        parts.map((p, i) => (
-          <section aria-labelledby={`part-${i + 1}`}>
-            {p.title && <h2 id={`part-${i + 1}`}>{p.title}</h2>}
-            {p.paragraphs.map((q) => <p>{q}</p>)}
+        page.sections.map((s) => (
+          <section aria-labelledby={s.heading ? `part-${s.partIndex + 1}` : undefined}>
+            {s.heading && s.title && <h2 id={`part-${s.partIndex + 1}`}>{s.title}</h2>}
+            {!s.heading && s.title && pageNo > 1 && s === page.sections[0] && <p class="reader-small reader-part" lang={lang}>{s.title}</p>}
+            {s.paragraphs.map((q) => <p>{q}</p>)}
           </section>
         ))
       }
     </div>
-    <p class="reader-small reader-end" lang={lang}>{t.readEnd}</p>
+
+    <nav class="reader-nav reader-nav-end" aria-label={t.readPages} lang={lang}>
+      {pageNo > 1 ? <a class="btn btn-secondary" rel="prev" href={at(pageNo - 1)}>← {t.readPrev}</a> : <span class="btn btn-secondary is-off" aria-hidden="true">← {t.readPrev}</span>}
+      <span class="reader-count">{label}</span>
+      {pageNo < total ? <a class="btn" rel="next" href={at(pageNo + 1)}>{t.readNext} →</a> : <span class="btn is-off" aria-hidden="true">{t.readNext} →</span>}
+    </nav>
+
+    <details class="reader-jump" lang={lang}>
+      <summary>{t.readPages}</summary>
+      <ol>
+        {pages.map((_, i) => <li><a href={at(i + 1)} aria-current={i + 1 === pageNo ? 'page' : undefined}>{i + 1}</a></li>)}
+      </ol>
+    </details>
+
+    {pageNo === total && <p class="reader-small reader-end" lang={lang}>{t.readEnd}</p>}
     <p class="reader-small" lang={lang}>
       <a href={bookUrl}>← {t.readBack}</a>
       {l.pdf && <span> · <a href={asset(l.pdf)} download>{t.readDownload}</a></span>}
     </p>
   </article>
 </Layout>
+
+<script>
+  // Left and right arrow keys turn the page.
+  document.addEventListener('keydown', (e) => {
+    if (e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) return;
+    const tag = (e.target as HTMLElement | null)?.tagName ?? '';
+    if (/^(INPUT|TEXTAREA|SELECT)$/.test(tag)) return;
+    if (e.key === 'ArrowRight') document.querySelector<HTMLAnchorElement>('a[rel="next"]')?.click();
+    if (e.key === 'ArrowLeft') document.querySelector<HTMLAnchorElement>('a[rel="prev"]')?.click();
+  });
+</script>
