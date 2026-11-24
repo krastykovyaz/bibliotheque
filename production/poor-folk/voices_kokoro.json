@@ -1,0 +1,17 @@
+{
+ "NARRATOR": {
+  "voice": "bm_george",
+  "speed": 0.95,
+  "lang": "en-gb"
+ },
+ "MAKAR": {
+  "voice": "bm_lewis",
+  "speed": 0.97,
+  "lang": "en-gb"
+ },
+ "VARENKA": {
+  "voice": "bf_emma",
+  "speed": 0.98,
+  "lang": "en-gb"
+ }
+}

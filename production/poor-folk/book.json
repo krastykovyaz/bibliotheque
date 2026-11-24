@@ -1,0 +1,342 @@
+{
+  "slug": "poor-folk",
+  "prefix": "Poor_Folk",
+  "lang": "en",
+  "title": "Poor Folk",
+  "author": "Fyodor Dostoevsky",
+  "author_ru": "Фёдор Достоевский",
+  "year": 1846,
+  "title_original": "Бедные люди",
+  "publication_note": "first published in «Петербургский сборник», 1846",
+  "source_note": "Text from ru.wikisource.org, after F. M. Dostoevsky, Collected Works, 1988–1996, vol. 1.",
+  "translated_from": "the Russian original",
+  "parts": [
+    "I",
+    "II",
+    "III",
+    "IV",
+    "V",
+    "VI",
+    "VII",
+    "VIII",
+    "IX"
+  ],
+  "names": {
+    "I": "April",
+    "II": "May",
+    "III": "The Notebook",
+    "IV": "June",
+    "V": "July",
+    "VI": "Early August",
+    "VII": "Mid-August",
+    "VIII": "September",
+    "IX": "The Last Letters"
+  },
+  "art": {
+    "I": "1_window",
+    "II": "2_canal",
+    "III": "3_notebook",
+    "IV": "4_island",
+    "V": "5_whitenight",
+    "VI": "6_office",
+    "VII": "7_rain",
+    "VIII": "8_autumn",
+    "IX": "9_road"
+  },
+  "art_alt": {
+    "1_window": "Two facing walls of a courtyard at night, one lit window with a geranium",
+    "2_canal": "A canal in the May evening with an arched bridge and gas lamps",
+    "3_notebook": "A girl's silhouette at a table with a candle and an open notebook",
+    "4_island": "A river island in June, a bench, trees and a small boat",
+    "5_whitenight": "A white night over a canal, a bridge and golden reflections",
+    "6_office": "A government office, three clerks at slanted desks",
+    "7_rain": "A rainy window and a blurred street lamp",
+    "8_autumn": "An autumn street, a cart loaded with trunks",
+    "9_road": "An empty road at dusk, one lamp, a small figure walking away"
+  },
+  "focus": {
+    "1_window": [
+      [
+        0.12,
+        0.3
+      ],
+      [
+        0.75,
+        0.35
+      ],
+      [
+        0.5,
+        0.7
+      ]
+    ],
+    "2_canal": [
+      [
+        0.5,
+        0.62
+      ],
+      [
+        0.2,
+        0.45
+      ],
+      [
+        0.8,
+        0.45
+      ]
+    ],
+    "3_notebook": [
+      [
+        0.4,
+        0.6
+      ],
+      [
+        0.7,
+        0.25
+      ],
+      [
+        0.38,
+        0.4
+      ]
+    ],
+    "4_island": [
+      [
+        0.2,
+        0.6
+      ],
+      [
+        0.55,
+        0.78
+      ],
+      [
+        0.85,
+        0.55
+      ]
+    ],
+    "5_whitenight": [
+      [
+        0.5,
+        0.62
+      ],
+      [
+        0.2,
+        0.4
+      ],
+      [
+        0.8,
+        0.4
+      ]
+    ],
+    "6_office": [
+      [
+        0.2,
+        0.3
+      ],
+      [
+        0.5,
+        0.7
+      ],
+      [
+        0.85,
+        0.3
+      ]
+    ],
+    "7_rain": [
+      [
+        0.62,
+        0.4
+      ],
+      [
+        0.25,
+        0.55
+      ],
+      [
+        0.5,
+        0.5
+      ]
+    ],
+    "8_autumn": [
+      [
+        0.5,
+        0.78
+      ],
+      [
+        0.3,
+        0.4
+      ],
+      [
+        0.72,
+        0.5
+      ]
+    ],
+    "9_road": [
+      [
+        0.5,
+        0.72
+      ],
+      [
+        0.7,
+        0.5
+      ],
+      [
+        0.48,
+        0.8
+      ]
+    ]
+  },
+  "glossary": [
+    [
+      "rouble",
+      "the Russian rouble; 100 kopecks. A copying clerk like Makar earned perhaps 20 to 30 silver roubles a month."
+    ],
+    [
+      "his Excellency",
+      "the formal address of a high official, here Makar's chief."
+    ],
+    [
+      "the Fontanka",
+      "a canal in St Petersburg where Makar goes to work."
+    ],
+    [
+      "Gorokhovaya",
+      "a street in St Petersburg where Makar's lodging stands."
+    ],
+    [
+      "clerk",
+      "a minor civil servant, often a copyist of official papers."
+    ]
+  ],
+  "thumb_art": "1_window",
+  "thumb_position": "12% 50%",
+  "summary": "Makar Devushkin, a poor, middle-aged copying clerk, and Varenka, a young woman alone in the world, live across a courtyard from each other in St Petersburg. They write letters, almost every day. Dostoevsky's first novel, told only in their letters, about pride, shame, small kindnesses, and what poverty does to love.",
+  "site_description": "Makar Devushkin, a poor, middle-aged copying clerk, and Varenka, a young woman alone in the world, live across a courtyard from each other in St Petersburg. They write letters, almost every day. Dostoevsky's first novel, told only in their letters, is about pride, shame, small kindnesses, and what poverty does to love.",
+  "tags": [
+    "Dostoevsky",
+    "Fyodor Dostoevsky",
+    "Poor Folk",
+    "audiobook",
+    "full cast audiobook",
+    "novel",
+    "epistolary novel",
+    "classic literature",
+    "Russian literature",
+    "public domain",
+    "English audiobook"
+  ],
+  "hashtags": "#Dostoevsky #audiobook #classicliterature #novel #publicdomain",
+  "playlist": "PLVuswr3XMg9E",
+  "text_note": "Machine translation from the Russian, a draft that needs a human editor.",
+  "ru": {
+    "title": "Бедные люди",
+    "author": "Фёдор Достоевский",
+    "names": {
+      "I": "Апрель",
+      "II": "Май",
+      "III": "Тетрадь",
+      "IV": "Июнь",
+      "V": "Июль",
+      "VI": "Начало августа",
+      "VII": "Середина августа",
+      "VIII": "Сентябрь",
+      "IX": "Последние письма"
+    },
+    "note": "Роман в письмах. Издание для чтения с оригинальными иллюстрациями.",
+    "source_note": "Текст с ru.wikisource.org, по изданию: Ф. М. Достоевский, Полное собрание сочинений, 1988—1996, т. 1.",
+    "contents": "Содержание",
+    "back": "О тексте",
+    "small": "Текст романа находится в общественном достоянии. Названия частей и иллюстрации сделаны для этого издания. Набрано шрифтом Lora (SIL Open Font License).",
+    "description": "Макар Девушкин, бедный немолодой переписчик, и Варенька, одинокая молодая девушка, живут в Петербурге друг напротив друга и пишут друг другу почти каждый день. Первый роман Достоевского, рассказанный только в письмах, о гордости, стыде, маленьких добрых делах и о том, что бедность делает с любовью."
+  },
+  "cover_bg": [
+    "#161a2b",
+    "#10131d"
+  ],
+  "thumb_sub": "NOVEL IN LETTERS<br>FULL-CAST AUDIOBOOK",
+  "art_pool": {
+    "I": [
+      "1_window",
+      "10_dawn_court",
+      "11_geranium",
+      "12_letter_desk",
+      "13_partition"
+    ],
+    "II": [
+      "2_canal",
+      "14_spring_street",
+      "15_sweets_books"
+    ],
+    "III": [
+      "3_notebook",
+      "16_estate",
+      "17_grove",
+      "18_snow_house",
+      "19_books_room",
+      "20_church",
+      "21_embroidery",
+      "22_sickroom",
+      "23_cold_road"
+    ],
+    "IV": [
+      "4_island",
+      "24_boat",
+      "25_bench_day",
+      "26_study_evening",
+      "27_june_street",
+      "28_poems"
+    ],
+    "V": [
+      "5_whitenight",
+      "29_clock",
+      "30_samovar",
+      "31_tavern",
+      "32_summer_rain"
+    ],
+    "VI": [
+      "6_office",
+      "33_desk",
+      "34_boots",
+      "35_stove",
+      "36_evening_street"
+    ],
+    "VII": [
+      "7_rain",
+      "37_trunk",
+      "38_candle_letter"
+    ],
+    "VIII": [
+      "8_autumn",
+      "39_button",
+      "40_embankment",
+      "41_snowy_street",
+      "42_rain_embankment",
+      "43_cold_stove"
+    ],
+    "IX": [
+      "9_road",
+      "44_packed",
+      "45_carriage",
+      "46_empty_window",
+      "47_tears"
+    ]
+  },
+  "fx": {
+    "7_rain": "rain",
+    "32_summer_rain": "rain",
+    "42_rain_embankment": "rain",
+    "18_snow_house": "snow",
+    "23_cold_road": "snow",
+    "41_snowy_street": "snow",
+    "8_autumn": "leaves",
+    "40_embankment": "leaves",
+    "9_road": "leaves",
+    "3_notebook": "flicker",
+    "12_letter_desk": "flicker",
+    "22_sickroom": "flicker",
+    "38_candle_letter": "flicker",
+    "47_tears": "flicker",
+    "13_partition": "flicker",
+    "35_stove": "flicker",
+    "43_cold_stove": "flicker",
+    "30_samovar": "flicker",
+    "20_church": "flicker"
+  },
+  "no_booklet": true
+}

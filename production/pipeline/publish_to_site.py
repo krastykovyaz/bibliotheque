@@ -32,7 +32,8 @@ RU = lang == "ru"
 R = B.get("ru", {}) if RU else {}
 sfx = "_ru" if RU else ""
 A5, A4 = f"{prefix}_A5_reading{sfx}.pdf", f"{prefix}_A4_booklet{sfx}.pdf"
-for need in (A5, A4, "art/png/cover.png", "source_clean.json" if RU else "translation_en.json"):
+NOBOOK = bool(B.get("no_booklet"))
+for need in ((A5,) if NOBOOK else (A5, A4)) + ("art/png/cover.png", "source_clean.json" if RU else "translation_en.json"):
     if not os.path.exists(os.path.join(bdir, need)):
         sys.exit(f"missing {need} in {bdir}; run the earlier stages first")
 
@@ -40,7 +41,8 @@ for need in (A5, A4, "art/png/cover.png", "source_clean.json" if RU else "transl
 if not RU or not os.path.exists(os.path.join(ROOT, "public/covers", f"{slug}.webp")):
     Image.open(os.path.join(bdir, "art/png/cover.png")).convert("RGB").resize((1000, 1000), Image.LANCZOS).save(os.path.join(ROOT, "public/covers", f"{slug}.webp"), quality=88)
 shutil.copy(os.path.join(bdir, A5), os.path.join(ROOT, "public/pdf", f"{slug}-{lang}.pdf"))
-shutil.copy(os.path.join(bdir, A4), os.path.join(ROOT, "public/pdf", f"{slug}-{lang}-booklet.pdf"))
+if not NOBOOK:
+    shutil.copy(os.path.join(bdir, A4), os.path.join(ROOT, "public/pdf", f"{slug}-{lang}-booklet.pdf"))
 
 # full text for the reading pages: "## I · Name" starts a part, blank lines separate paragraphs
 if RU:
@@ -52,21 +54,30 @@ else:
 os.makedirs(os.path.join(ROOT, "data/texts"), exist_ok=True)
 with open(os.path.join(ROOT, "data/texts", f"{slug}-{lang}.txt"), "w", encoding="utf-8") as f:
     for part in B["parts"]:
-        f.write(f"## {part} · {NAMES[part]}\n\n" + "\n\n".join(T[part]) + "\n\n")
+        f.write(f"## {part} · {NAMES[part]}\n\n" + "\n\n".join(x[2:] if x.startswith("§ ") else x for x in T[part]) + "\n\n")
+
+# the Russian cover for the Russian pages
+RUCOVER = os.path.join(bdir, "art/png/cover_ru.png")
+if RU and os.path.exists(RUCOVER):
+    Image.open(RUCOVER).convert("RGB").resize((1000, 1000), Image.LANCZOS).save(os.path.join(ROOT, "public/covers", f"{slug}-ru.webp"), quality=88)
 
 # the book entry
 bp = os.path.join(ROOT, "data/books.json")
 books = json.load(open(bp, encoding="utf-8"))
 entry_lang = {"title": R.get("title", B["title"]), "description": R.get("description", B["site_description"]), "youtube": a.youtube,
-              "pdf": f"/pdf/{slug}-{lang}.pdf", "booklet": f"/pdf/{slug}-{lang}-booklet.pdf", "text": f"texts/{slug}-{lang}.txt"}
+              "pdf": f"/pdf/{slug}-{lang}.pdf", "text": f"texts/{slug}-{lang}.txt"}
+if not NOBOOK:
+    entry_lang["booklet"] = f"/pdf/{slug}-{lang}-booklet.pdf"
 if B.get("text_note") and not RU:
     entry_lang["textNote"] = B["text_note"]
 existing = next((b for b in books if b["id"] == slug), None)
 if existing:
     existing["languages"][lang] = entry_lang
+    if RU and os.path.exists(RUCOVER): existing["coverRu"] = f"/covers/{slug}-ru.webp"
 else:
     books.append({"id": slug, "author": {"en": B["author"], "ru": B.get("author_ru", B["author"])}, "year": B["year"],
                   "cover": f"/covers/{slug}.webp", "languages": {lang: entry_lang}})
+    if RU and os.path.exists(RUCOVER): books[-1]["coverRu"] = f"/covers/{slug}-ru.webp"
 json.dump(books, open(bp, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 open(bp, "a").write("\n")
 
@@ -85,7 +96,7 @@ if "Complete!" not in out:
     sys.exit("the site build did not complete:\n" + out[-600:])
 print("build ok")
 
-sh(["git", "add", "data/books.json", "data/queue.json", f"data/texts/{slug}-{lang}.txt", f"public/covers/{slug}.webp", f"public/pdf/{slug}-{lang}.pdf", f"public/pdf/{slug}-{lang}-booklet.pdf"])
+sh(["git", "add", "data/books.json", "data/queue.json", f"data/texts/{slug}-{lang}.txt", f"public/covers/{slug}.webp", f"public/pdf/{slug}-{lang}.pdf"] + ([] if NOBOOK else [f"public/pdf/{slug}-{lang}-booklet.pdf"]) + ([f"public/covers/{slug}-ru.webp"] if RU and os.path.exists(RUCOVER) else []))
 sh(["git", "commit", "-q", "-m", f"Add {B['title']} by {B['author']} to the shelf\n\nCover, reading text, PDFs and the YouTube video, made with the book pipeline.\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>"])
 env = dict(os.environ)
 env.pop("GH_TOKEN", None)

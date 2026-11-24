@@ -23,11 +23,15 @@ ASSETS = "video_assets"
 ART = B["art_for_part"]
 # points of interest in each picture, as fractions of its width and height
 FOCUS = {k: [tuple(p) for p in v] for k, v in B["focus"].items()}
+DEFAULT_FOCUS = [(0.3, 0.5), (0.7, 0.55), (0.5, 0.7)]
+POOL = B.get("art_pool")          # optional: pictures per part; a new picture every SUB_SECONDS and at every letter (see plan_letters)
+FX = B.get("fx", {})              # optional: {"picture name": "rain" | "snow" | "leaves" | "flicker"}
+SUB_SECONDS = 180.0
 
 
 def moves(art, k):
     """Camera move number k for this picture: (zoom start, zoom end, centre start, centre end), centres as fractions."""
-    A, B, C = FOCUS[art]
+    A, B, C = FOCUS.get(art, DEFAULT_FOCUS)
     mid = (0.5, 0.5)
     table = [(1.00, 1.34, mid, A), (1.30, 1.30, (0.32, B[1]), (0.68, B[1])), (1.40, 1.00, B, mid),
              (1.26, 1.26, (0.70, C[1]), (0.30, C[1])), (1.12, 1.30, C, B), (1.32, 1.05, A, mid)]
@@ -61,6 +65,77 @@ def plan(timing):
     return scenes, total_frames
 
 
+def letter_rows():
+    """[(segment id, number, label)] for every letter: the narrator rows of the voice script announce them ("June 21. Makar Alexeyevich writes.")."""
+    rows = json.load(open(f"{B['prefix']}_voice_script.json", encoding="utf-8"))
+    out = []
+    for r in rows:
+        if r["speaker"] == "NARRATOR":
+            date = r["text"].split(".")[0]
+            who = "MAKAR" if "Makar" in r["text"] else "VARENKA"
+            out.append((r["id"], r["part"], len(out) + 1, f"LETTER {len(out) + 1} · {date.upper()} · {who}"))
+    return out
+
+
+def plan_letters(timing):
+    """Like plan(), but a scene for every stretch of at most SUB_SECONDS inside a letter, each with its own picture from the part's pool."""
+    seg_start = {s["id"]: s["start"] for s in timing["segments"]}
+    total_frames = int(math.ceil(timing["total"] * FPS))
+    ls = letter_rows()
+    starts = [(max(0.0, seg_start[i] - LEAD) if n > 1 else TITLE_SECONDS) for i, _, n, _ in ls] + [timing["total"]]
+    scenes = [{"name": "title", "part": None, "f0": 0, "f1": int(round(TITLE_SECONDS * FPS)), "art": None, "strip": None}]
+    seen = {}
+    idx = 1
+    for j, (sid, part, n, label) in enumerate(ls):
+        t0, t1 = starts[j], starts[j + 1]
+        pool = POOL[part]
+        k_in_part = seen.get(part, 0); seen[part] = k_in_part + 1
+        subs = max(1, int(round((t1 - t0) / SUB_SECONDS)))
+        for q in range(subs):
+            a = t0 + (t1 - t0) * q / subs; b = t0 + (t1 - t0) * (q + 1) / subs
+            f0 = int(round(a * FPS)) if not (j == 0 and q == 0) else scenes[0]["f1"]
+            f1 = int(round(b * FPS)) if j < len(ls) - 1 or q < subs - 1 else total_frames
+            scenes.append({"name": f"s{idx:03d}", "part": part, "f0": f0, "f1": f1, "art": pool[(k_in_part + q) % len(pool)], "strip": f"L{n:02d}"})
+            idx += 1
+    for s in scenes:
+        nfr = s["f1"] - s["f0"]
+        k = max(1, int(round(nfr / FPS / SHOT_SECONDS))) if s["part"] else 1
+        edges = [s["f0"] + int(round(nfr * j / k)) for j in range(k + 1)]
+        s["shots"] = [(edges[j], edges[j + 1]) for j in range(k)]
+    return scenes, total_frames
+
+
+_P = {}
+
+
+def fx_layer(img, kind, f):
+    """Small animations drawn on top of the moving picture, all from the frame number (so any frame can be rendered alone)."""
+    h, w = img.shape[:2]
+    if kind == "flicker":                                   # candle or stove light: the whole picture breathes a little
+        g = 1.0 + 0.035 * math.sin(f * 0.31) + 0.02 * math.sin(f * 0.93 + 1.0) + 0.012 * math.sin(f * 2.3)
+        return cv2.convertScaleAbs(img, alpha=g, beta=0)
+    if kind not in _P:
+        r = np.random.RandomState(7)
+        n = {"rain": 150, "snow": 130, "leaves": 34}[kind]
+        _P[kind] = (r.rand(n), r.rand(n), r.rand(n), r.rand(n))
+    x0, y0, a, b = _P[kind]
+    ov = img.copy()
+    if kind == "rain":
+        for i in range(len(x0)):
+            sp = 26 + 20 * a[i]; y = (y0[i] * h + f * sp) % h; x = (x0[i] * w - 0.25 * (y - y0[i] * h)) % w
+            cv2.line(ov, (int(x), int(y)), (int(x - 7), int(y + 24 + 16 * a[i])), (225, 214, 201), 1, cv2.LINE_AA)
+        return cv2.addWeighted(ov, 0.32, img, 0.68, 0)
+    if kind == "snow":
+        for i in range(len(x0)):
+            y = (y0[i] * h + f * (1.4 + 2.2 * a[i])) % h; x = (x0[i] * w + 14 * math.sin(f / 25.0 + b[i] * 6.28)) % w
+            cv2.circle(ov, (int(x), int(y)), 2 + int(3 * a[i]), (255, 250, 245), -1, cv2.LINE_AA)
+        return cv2.addWeighted(ov, 0.8, img, 0.2, 0)
+    for i in range(len(x0)):                               # leaves
+        y = (y0[i] * h + f * (1.2 + 1.8 * a[i])) % h; x = (x0[i] * w + f * (1.0 + 1.6 * b[i]) + 30 * math.sin(f / 31.0 + a[i] * 6.28)) % w
+        cv2.ellipse(ov, (int(x), int(y)), (10, 4), (f * 2 + i * 40) % 180, 0, 360, (46, 106, 184), -1, cv2.LINE_AA)
+    return cv2.addWeighted(ov, 0.85, img, 0.15, 0)
+
+
 def frame_at(f, scene, art_img, strip, title_img, art):
     """The finished 1920x1080 frame number f (a global frame index) of a scene."""
     if scene["part"] is None:
@@ -74,6 +149,8 @@ def frame_at(f, scene, art_img, strip, title_img, art):
     z = z0 + (z1 - z0) * t
     out = np.empty((H, W, 3), np.uint8)
     out[:VH] = view(art_img, z, c0[0] + (c1[0] - c0[0]) * t, c0[1] + (c1[1] - c0[1]) * t)
+    if art in FX:
+        out[:VH] = fx_layer(out[:VH], FX[art], f)
     out[VH:] = strip
     return out
 
@@ -82,8 +159,8 @@ def load(scene):
     title = cv2.imread(f"{ASSETS}/title_card.png")
     if scene["part"] is None:
         return None, None, title, None
-    art = ART[scene["part"]]
-    return cv2.imread(f"{ASSETS}/art_{art}.png"), cv2.imread(f"{ASSETS}/strip_{scene['part']}.png"), title, art
+    art = scene.get("art") or ART[scene["part"]]
+    return cv2.imread(f"{ASSETS}/art_{art}.png"), cv2.imread(f"{ASSETS}/strip_{scene.get('strip') or scene['part']}.png"), title, art
 
 
 def render_scene(args):
@@ -110,15 +187,15 @@ if __name__ == "__main__":
     ap.add_argument("--workers", type=int, default=9)
     a = ap.parse_args()
     timing = json.load(open(a.timing))
-    scenes, total_frames = plan(timing)
+    scenes, total_frames = plan_letters(timing) if POOL else plan(timing)
     for i, s in enumerate(scenes):
         s["part_index"] = i
-    for s in scenes:
+    for s in scenes[:12] + scenes[-3:]:
         print(f"{s['name']:>9}: frames {s['f0']:6d}-{s['f1']:6d}  ({(s['f1'] - s['f0']) / FPS:6.1f} s, {len(s['shots'])} shot(s))")
     print("total frames:", total_frames, "=", round(total_frames / FPS, 2), "s | audio:", timing["total"], "s")
     if a.test_frames:
         os.makedirs("test_frames", exist_ok=True)
-        picks = [("title", 20), ("part_I", 2), ("part_V", 5), ("part_VIII", 3), ("part_IX", 4), ("part_IX", 99999)]
+        picks = [("title", 20), ("part_I", 2), ("part_V", 5), ("part_VIII", 3), ("part_IX", 4), ("part_IX", 99999)] if not POOL else [("title", 2), ("s001", 3), ("s002", 6), ("s030", 5), ("s060", 9), ("s100", 4)]
         for name, off in picks:
             s = next(x for x in scenes if x["name"] == name)
             f = min(s["f0"] + int(off * FPS) if off < 1000 else s["f1"] - 2, s["f1"] - 1)

@@ -28,12 +28,22 @@ def shot(html, png, w, h):
                    check=True, capture_output=True)
 
 
-for n in sorted(set(B["art"].values())):
+ARTS = set(B["art"].values()) | {a for pool in B.get("art_pool", {}).values() for a in pool}
+for n in sorted(ARTS):
+    if os.path.exists(os.path.join(OUT, f"art_{n}.png")) and os.path.getmtime(os.path.join(OUT, f"art_{n}.png")) > os.path.getmtime(os.path.join(BASE, "art", f"{n}.svg")):
+        continue
     shot(f'<style>html,body{{margin:0;background:#000}}img{{display:block;width:3840px;height:2160px}}</style>'
          f'<img src="file://{BASE}/art/{n}.svg">', os.path.join(OUT, f"art_{n}.png"), 3840, 2160)
 
-for p, name in NAMES.items():
-    label = f"PART {p} · {name.upper()}"
+STRIPS = {p: f"PART {p} · {name.upper()}" for p, name in NAMES.items()}
+if B.get("art_pool"):      # one strip per letter, from the narrator rows of the voice script
+    import json
+    n = 0
+    for r in json.load(open(os.path.join(BASE, f"{B['prefix']}_voice_script.json"), encoding="utf-8")):
+        if r["speaker"] == "NARRATOR":
+            n += 1
+            STRIPS[f"L{n:02d}"] = f"LETTER {n} · {r['text'].split('.')[0].upper()} · {'MAKAR' if 'Makar' in r['text'] else 'VARENKA'}"
+for p, label in STRIPS.items():
     shot(f"""<style>{FONTS}html,body{{margin:0}}body{{width:1920px;height:90px;background:#171c3a;position:relative;overflow:hidden}}
 .line{{position:absolute;left:810px;width:300px;top:14px;border-top:2px solid #c79a4a}}
 .t{{position:absolute;left:0;right:0;top:30px;text-align:center;font:400 27px Lora,serif;letter-spacing:.3em;color:#e3c27a}}</style>
