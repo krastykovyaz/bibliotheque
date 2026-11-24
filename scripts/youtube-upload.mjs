@@ -2,7 +2,13 @@
 // Uploads an audiobook video to YouTube with the YouTube Data API (resumable upload).
 // Title and description come from data/books.json, so the video matches the site.
 //
-//   node scripts/youtube-upload.mjs <video.mp4> --book <id> --lang <code> [options]
+//   node scripts/youtube-upload.mjs <video.mp4> --book <id> --lang <code> [options]    metadata from data/books.json
+//   node scripts/youtube-upload.mjs <video.mp4> --package <file> [--lang en] [options]  metadata from a package file
+//   node scripts/youtube-upload.mjs --auth-only                                          sign in only (on a computer with a browser)
+//
+// A package file has sections TITLE, DESCRIPTION and TAGS (see production/how-much-land/How_Much_Land_youtube_description.txt).
+// Where the login lives: YOUTUBE_CLIENT_FILE and YOUTUBE_TOKEN_FILE (defaults: .data/youtube-client.json, .data/youtube-token.json).
+// On a server without a browser: sign in with --auth-only on your own computer and copy the token file to the server.
 //
 //   --privacy private|unlisted|public   default: private (projects that Google has not
 //                                       audited can only upload private videos)
@@ -18,7 +24,7 @@ import { execFile } from 'node:child_process';
 
 const DATA_DIR = '.data';
 const CLIENT_FILE = process.env.YOUTUBE_CLIENT_FILE || path.join(DATA_DIR, 'youtube-client.json');
-const TOKEN_FILE = path.join(DATA_DIR, 'youtube-token.json');
+const TOKEN_FILE = process.env.YOUTUBE_TOKEN_FILE || path.join(DATA_DIR, 'youtube-token.json');
 const SCOPE = 'https://www.googleapis.com/auth/youtube.upload';
 const CHUNK = 8 * 1024 * 1024; // must be a multiple of 256 KiB
 
@@ -28,9 +34,12 @@ const flag = (name) => {
   const i = args.indexOf('--' + name);
   return i === -1 ? undefined : args[i + 1];
 };
-const file = args.find((a, i) => !a.startsWith('--') && !(i > 0 && args[i - 1].startsWith('--') && args[i - 1] !== '--dry-run'));
+const BOOLEAN = ['--dry-run', '--auth-only'];
+const file = args.find((a, i) => !a.startsWith('--') && !(i > 0 && args[i - 1].startsWith('--') && !BOOLEAN.includes(args[i - 1])));
 const bookId = flag('book');
-const lang = flag('lang');
+const lang = flag('lang') ?? (flag('package') ? 'en' : undefined);
+const packageFile = flag('package');
+const authOnly = args.includes('--auth-only');
 const privacy = flag('privacy') ?? 'private';
 const thumbnail = flag('thumbnail');
 const dryRun = args.includes('--dry-run');
@@ -39,35 +48,55 @@ const die = (msg) => {
   console.error('Error: ' + msg);
   process.exit(1);
 };
-if (!file || !bookId || !lang) die('usage: node scripts/youtube-upload.mjs <video.mp4> --book <id> --lang <code> [--privacy private|unlisted|public] [--thumbnail image.png] [--dry-run]');
+if (authOnly) {
+  await accessToken();
+  console.log('Signed in. The login is saved in ' + TOKEN_FILE);
+  process.exit(0);
+}
+if (!file || !(packageFile || (bookId && lang))) die('usage: node scripts/youtube-upload.mjs <video.mp4> (--book <id> --lang <code> | --package <file>) [--privacy private|unlisted|public] [--thumbnail image.png] [--dry-run]   or   --auth-only');
 if (!['private', 'unlisted', 'public'].includes(privacy)) die('--privacy must be private, unlisted or public');
 if (!fs.existsSync(file)) die(`video not found: ${file}`);
 if (thumbnail && !fs.existsSync(thumbnail)) die(`thumbnail not found: ${thumbnail}`);
+if (packageFile && !fs.existsSync(packageFile)) die(`package file not found: ${packageFile}`);
 
-// ---------- metadata from data/books.json ----------
-const books = JSON.parse(fs.readFileSync('data/books.json', 'utf8'));
-const book = books.find((b) => b.id === bookId) ?? die(`no book "${bookId}" in data/books.json (have: ${books.map((b) => b.id).join(', ')})`);
-const l = book.languages[lang] ?? die(`book "${bookId}" has no language "${lang}" (have: ${Object.keys(book.languages).join(', ')})`);
-const author = book.author[lang] ?? book.author.en;
-const aiNote =
-  lang === 'ru'
+// ---------- metadata: from a package file, or from data/books.json ----------
+const aiNote = (code) =>
+  code === 'ru'
     ? 'Произведение находится в общественном достоянии. Перевод и озвучка сделаны с помощью ИИ.'
     : 'The text is in the public domain. The translation and the voices are made with AI.';
-const metadata = {
-  snippet: {
-    title: `${l.title} — ${author} | ${lang === 'ru' ? 'Аудиокнига' : 'Audiobook'}`.slice(0, 100),
-    description: `${l.description}\n\n${aiNote}`,
-    categoryId: '27', // Education
-    defaultLanguage: lang,
-    defaultAudioLanguage: lang,
-  },
-  status: {
-    privacyStatus: privacy,
-    selfDeclaredMadeForKids: false,
-    containsSyntheticMedia: true, // AI voices: YouTube's disclosure for realistic synthetic audio
-    embeddable: true, // the site plays it through youtube-nocookie.com
-  },
-};
+let metadata;
+if (packageFile) {
+  // sections are lines in capitals: TITLE, DESCRIPTION, TAGS, ...
+  const parts = fs.readFileSync(packageFile, 'utf8').split(/^([A-Z][A-Z ]+)\r?\n/m);
+  const section = {};
+  for (let i = 1; i < parts.length; i += 2) section[parts[i].trim()] = parts[i + 1].trim();
+  if (!section.TITLE || !section.DESCRIPTION) die(`${packageFile} needs TITLE and DESCRIPTION sections`);
+  const tags = (section.TAGS ?? '').split(',').map((t) => t.trim()).filter(Boolean);
+  metadata = {
+    snippet: { title: section.TITLE.slice(0, 100), description: section.DESCRIPTION.slice(0, 4900), tags, categoryId: '27', defaultLanguage: lang, defaultAudioLanguage: lang },
+    status: { privacyStatus: privacy, selfDeclaredMadeForKids: false, containsSyntheticMedia: true, embeddable: true },
+  };
+} else {
+  const books = JSON.parse(fs.readFileSync('data/books.json', 'utf8'));
+  const book = books.find((b) => b.id === bookId) ?? die(`no book "${bookId}" in data/books.json (have: ${books.map((b) => b.id).join(', ')})`);
+  const l = book.languages[lang] ?? die(`book "${bookId}" has no language "${lang}" (have: ${Object.keys(book.languages).join(', ')})`);
+  const author = book.author[lang] ?? book.author.en;
+  metadata = {
+    snippet: {
+      title: `${l.title} — ${author} | ${lang === 'ru' ? 'Аудиокнига' : 'Audiobook'}`.slice(0, 100),
+      description: `${l.description}\n\n${aiNote(lang)}`,
+      categoryId: '27', // Education
+      defaultLanguage: lang,
+      defaultAudioLanguage: lang,
+    },
+    status: {
+      privacyStatus: privacy,
+      selfDeclaredMadeForKids: false,
+      containsSyntheticMedia: true, // AI voices: YouTube's disclosure for realistic synthetic audio
+      embeddable: true, // the site plays it through youtube-nocookie.com
+    },
+  };
+}
 const size = fs.statSync(file).size;
 console.log(`Video:   ${file} (${(size / 1e6).toFixed(1)} MB)`);
 console.log(`Title:   ${metadata.snippet.title}`);
@@ -87,7 +116,7 @@ function readClient() {
   return c;
 }
 function saveToken(t) {
-  fs.mkdirSync(DATA_DIR, { recursive: true });
+  fs.mkdirSync(path.dirname(TOKEN_FILE), { recursive: true });
   fs.writeFileSync(TOKEN_FILE, JSON.stringify(t), { mode: 0o600 });
 }
 async function tokenRequest(client, params) {
@@ -120,7 +149,7 @@ async function signIn(client) {
       code_challenge_method: 'S256',
     });
   console.log('\nOpening Google sign-in in your browser. If nothing opens, paste this link:\n' + url + '\n');
-  execFile('open', [url], () => {});
+  execFile(process.platform === 'darwin' ? 'open' : 'xdg-open', [url], () => {});
   const code = await new Promise((resolve, reject) => {
     server.on('request', (req, res) => {
       const q = new URL(req.url, redirect).searchParams;
