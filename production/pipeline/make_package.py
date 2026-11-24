@@ -81,8 +81,6 @@ desc = f"""{B['title']} by {B['author']} ({B['year']}), a full-cast audiobook in
 Chapters
 {chr(10).join(chapters)}
 
-The voices and the translation are made with AI. The English translation is a machine draft made from {B.get('translated_from', 'the original')} and may contain mistakes. The text is in the public domain. Original: «{B['title_original']}», {B.get('publication_note', 'first published ' + str(B['year']))}.
-
 Listen with the text: the illustrated reading edition (A5 PDF and a printable A4 booklet) is available on the Bibliothèque site.
 Read the text and download the book (PDF): https://biblio.unilu.space/book/{B['slug']}/
 
