@@ -75,7 +75,15 @@
         "pdf": "/pdf/poor-folk-en.pdf",
         "text": "texts/poor-folk-en.txt",
         "textNote": "Machine translation from the Russian, a draft that needs a human editor."
+      },
+      "ru": {
+        "title": "Бедные люди",
+        "description": "Макар Девушкин, бедный немолодой переписчик, и Варенька, одинокая молодая девушка, живут в Петербурге друг напротив друга и пишут друг другу почти каждый день. Первый роман Достоевского, рассказанный только в письмах, о гордости, стыде, маленьких добрых делах и о том, что бедность делает с любовью.",
+        "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
+        "pdf": "/pdf/poor-folk-ru.pdf",
+        "text": "texts/poor-folk-ru.txt"
       }
-    }
+    },
+    "coverRu": "/covers/poor-folk-ru.webp"
   }
 ]
