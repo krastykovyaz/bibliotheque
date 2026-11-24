@@ -42,6 +42,7 @@ export function validateBooks(books, publicDir, dataDir) {
     if (!Number.isInteger(b.year)) err('year', 'missing or not an integer');
     if (!isStr(b.cover) || !b.cover.startsWith('/')) err('cover', 'missing; must be a path like "/covers/name.png"');
     else if (!fs.existsSync(path.join(publicDir, b.cover))) err('cover', `file not found: public${b.cover}`);
+    if (b.coverRu !== undefined && (!isStr(b.coverRu) || !fs.existsSync(path.join(publicDir, b.coverRu)))) err('coverRu', `file not found: public${b.coverRu}`);
     if (!b.languages || typeof b.languages !== 'object') return err('languages', 'missing');
     if (!b.languages.en) err('languages.en', 'missing (English is required: it is the fallback language)');
     for (const [code, l] of Object.entries(b.languages)) {

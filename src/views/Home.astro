@@ -1,7 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { ui, pageUrl, asset, langName, fill, type UiLang } from '../lib/i18n';
-import { books, inLang, authorIn } from '../lib/books';
+import { books, inLang, authorIn, coverIn } from '../lib/books';
 import { nextBook } from '../lib/queue';
 import { childAuthors } from '../lib/children';
 
@@ -41,7 +41,7 @@ const { item: next } = nextBook();
             <article class="card">
               <a class="card-link" href={href}>
                 <img
-                  src={asset(book.cover)}
+                  src={asset(coverIn(book, lang))}
                   width={book.coverWidth}
                   height={book.coverHeight}
                   alt={fill(t.coverAlt, { title: b.title, author })}

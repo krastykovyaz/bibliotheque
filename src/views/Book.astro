@@ -1,7 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { ui, pageUrl, asset, pdfLink, langName, fill, type UiLang } from '../lib/i18n';
-import { inLang, authorIn, type Book } from '../lib/books';
+import { inLang, authorIn, coverIn, type Book } from '../lib/books';
 
 interface Props {
   lang: UiLang;
@@ -24,7 +24,7 @@ const short = (s: string) => (s.length <= 158 ? s : s.slice(0, 155).replace(/\s+
   path={`/book/${book.id}/`}
   title={`${main.title}, ${author} | ${t.site}`}
   description={short(main.description)}
-  image={asset(book.cover)}
+  image={asset(coverIn(book, lang))}
   ogType="book"
 >
   <article
@@ -39,7 +39,7 @@ const short = (s: string) => (s.length <= 158 ? s : s.slice(0, 155).replace(/\s+
   >
     <div class="book-cover">
       <img
-        src={asset(book.cover)}
+        src={asset(coverIn(book, lang))}
         width={book.coverWidth}
         height={book.coverHeight}
         alt={fill(t.coverAlt, { title: main.title, author })}

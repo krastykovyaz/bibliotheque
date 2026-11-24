@@ -33,6 +33,8 @@ export interface Book {
   author: Record<string, string>;
   year: number;
   cover: string;
+  /** Optional cover for the Russian interface (title and author in Russian). */
+  coverRu?: string;
   coverWidth: number;
   coverHeight: number;
   languages: Record<string, BookLanguage>;
@@ -72,6 +74,9 @@ export const books: Book[] = (raw as any[]).map((b) => {
   }
   return { ...b, coverWidth: size.width, coverHeight: size.height, languages };
 });
+
+/** The cover to show for an interface language: the Russian one on the Russian pages when the book has it. */
+export const coverIn = (book: Book, lang: string): string => (lang === 'ru' && book.coverRu ? book.coverRu : book.cover);
 
 /** Texts of a book in the interface language, or English when the book has no such language. */
 export const inLang = (book: Book, lang: UiLang) => book.languages[lang] ?? book.languages.en;

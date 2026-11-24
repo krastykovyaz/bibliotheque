@@ -27,7 +27,8 @@
         "booklet": "/pdf/lady-ru-booklet.pdf",
         "text": "texts/lady-ru.txt"
       }
-    }
+    },
+    "coverRu": "/covers/lady-ru.webp"
   },
   {
     "id": "how-much-land",
@@ -55,6 +56,7 @@
         "booklet": "/pdf/how-much-land-ru-booklet.pdf",
         "text": "texts/how-much-land-ru.txt"
       }
-    }
+    },
+    "coverRu": "/covers/how-much-land-ru.webp"
   }
 ]
