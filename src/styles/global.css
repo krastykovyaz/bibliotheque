@@ -744,57 +744,32 @@ main.wrap {
   }
 }
 
-/* Download format switch */
-.nojs-only {
-  display: contents;
-}
-.js .nojs-only {
-  display: none;
-}
-.dl-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-}
-.dl-toggle {
-  flex: 1 0 100%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.75rem;
-}
-.seg {
+/* Download format: one switch whose two halves download right away */
+.seg-links {
   display: inline-flex;
-  margin: 0;
-  padding: 0;
+  flex: 1 0 auto;
   border: 2px solid var(--accent);
   border-radius: 999px;
   overflow: hidden;
+  max-width: 100%;
 }
-.seg label {
-  position: relative;
-  display: block;
-}
-.seg input {
-  position: absolute;
-  inset: 0;
-  opacity: 0;
-  margin: 0;
-  cursor: pointer;
-}
-.seg span {
-  display: block;
-  padding: 0.55rem 1rem;
+.seg-links a {
+  padding: 0.6rem 1rem;
   font-weight: 800;
   font-size: 0.95rem;
   color: var(--accent);
   background: var(--card);
+  text-decoration: none;
+  text-align: center;
 }
-.seg input:checked + span {
+.seg-links a + a {
+  border-left: 2px solid var(--accent);
+}
+.seg-links a:hover {
   background: var(--accent);
   color: var(--on-accent);
 }
-.seg input:focus-visible + span {
+.seg-links a:focus-visible {
   outline: 3px solid var(--text);
   outline-offset: -5px;
 }

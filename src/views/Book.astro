@@ -121,24 +121,12 @@ const short = (s: string) => (s.length <= 158 ? s : s.slice(0, 155).replace(/\s+
                         <button class="btn" type="submit">{t.glConnect}</button>
                       </form>
                       {l.booklet ? (
-                        <>
-                          {/* Without JavaScript: both files as plain links. */}
-                          <div class="nojs-only dl-links">
-                            <a class="btn btn-secondary" href={asset(l.pdf)} download>{t.dlRead}</a>
-                            <a class="btn btn-secondary" href={asset(l.booklet)} download>{t.dlBooklet}</a>
-                          </div>
-                          {/* With JavaScript: one switch for the format and one download button. */}
-                          <div class="js-only dl-toggle" data-pdf={asset(l.pdf)} data-booklet={asset(l.booklet)}>
-                            <fieldset class="seg">
-                              <legend class="visually-hidden">{t.dlFormat}</legend>
-                              <label><input type="radio" name={`fmt-${code}`} value="pdf" checked /><span>{t.fmtRead}</span></label>
-                              <label><input type="radio" name={`fmt-${code}`} value="booklet" /><span>{t.fmtPrint}</span></label>
-                            </fieldset>
-                            <a class="btn btn-secondary" href={asset(l.pdf)} download data-dl>{t.dlGo}</a>
-                          </div>
-                        </>
+                        <div class="seg-links" role="group" aria-label={t.dlFormat}>
+                          <a href={asset(l.pdf)} download>{t.fmtRead}</a>
+                          <a href={asset(l.booklet)} download>{t.fmtPrint}</a>
+                        </div>
                       ) : (
-                        <a class="btn btn-secondary" href={asset(l.pdf)} download>{t.skipBtn}</a>
+                        <a class="btn btn-secondary" href={asset(l.pdf)} download>{t.dlGo}</a>
                       )}
                     </div>
                   </details>

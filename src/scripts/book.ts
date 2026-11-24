@@ -66,13 +66,3 @@ if (root) {
     frame.focus();
   });
 }
-
-// One switch for the download format: it points the single download button at the chosen file.
-document.querySelectorAll<HTMLElement>('.dl-toggle').forEach((box) => {
-  const link = box.querySelector<HTMLAnchorElement>('[data-dl]');
-  if (!link) return;
-  box.addEventListener('change', (e) => {
-    const v = (e.target as HTMLInputElement).value;
-    link.href = (v === 'booklet' ? box.dataset.booklet : box.dataset.pdf) ?? link.href;
-  });
-});
