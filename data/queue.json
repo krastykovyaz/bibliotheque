@@ -3,12 +3,6 @@
   "start": "2026-11-24",
   "items": [
     {
-      "author_en": "Fyodor Dostoevsky",
-      "author_ru": "Фёдор Достоевский",
-      "title_en": "Poor Folk",
-      "title_ru": "Бедные люди"
-    },
-    {
       "author_en": "Leo Tolstoy",
       "author_ru": "Лев Толстой",
       "title_en": "Childhood",
