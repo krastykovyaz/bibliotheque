@@ -777,3 +777,12 @@ main.wrap {
   outline: 3px solid var(--text);
   outline-offset: -5px;
 }
+
+.video-soon {
+  margin: 1.25rem 0 0;
+  padding: 0.9rem 1.1rem;
+  border: 2px dashed var(--accent);
+  border-radius: 14px;
+  color: var(--accent);
+  font-weight: 700;
+}

@@ -86,10 +86,12 @@ const short = (s: string) => (s.length <= 158 ? s : s.slice(0, 155).replace(/\s+
                 {author} · {book.year}
               </p>
               <p class="description">{l.description}</p>
-              <a class="btn watch-btn" href={l.youtube} target="_blank" rel="noopener noreferrer" lang={lang}>
-                {t.watch} <span aria-hidden="true">↗</span>
-                <span class="visually-hidden">{t.newTab}</span>
-              </a>
+              {l.videoId !== 'PLACEHOLDER' && (
+                <a class="btn watch-btn" href={l.youtube} target="_blank" rel="noopener noreferrer" lang={lang}>
+                  {t.watch} <span aria-hidden="true">↗</span>
+                  <span class="visually-hidden">{t.newTab}</span>
+                </a>
+              )}
               {/* One row of actions: Read on the left, Download on the right. */}
               <div class="actions">
               {/* Reading: the whole text on its own page, or, when only an excerpt exists, the short preview. No registration. */}
@@ -135,12 +137,16 @@ const short = (s: string) => (s.length <= 158 ? s : s.slice(0, 155).replace(/\s+
               </div>
               {/* With JavaScript the player below replaces the "Watch on YouTube" button (hidden in CSS); without JavaScript there is no player, so the button stays. */}
               {/* The YouTube player is created only after the visitor clicks (see src/scripts/book.ts). */}
-              <div class="player js-only" data-video={l.videoId} lang={lang}>
-                <button class="btn" type="button" data-play>
-                  <span aria-hidden="true">▶</span> {t.play}
-                </button>
-                <p class="player-hint">{t.playHint}</p>
-              </div>
+              {l.videoId !== 'PLACEHOLDER' ? (
+                <div class="player js-only" data-video={l.videoId} lang={lang}>
+                  <button class="btn" type="button" data-play>
+                    <span aria-hidden="true">▶</span> {t.play}
+                  </button>
+                  <p class="player-hint">{t.playHint}</p>
+                </div>
+              ) : (
+                <p class="video-soon" lang={lang}>{t.videoSoon}</p>
+              )}
             </section>
           );
         })
