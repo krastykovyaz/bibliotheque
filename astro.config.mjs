@@ -9,7 +9,14 @@ const site = process.env.SITE_URL || 'https://example.com';
 export default defineConfig({
   site,
   // Hosts the server answers for. Needed so form posts (Connect, Disconnect) pass the same-origin check.
-  security: { allowedDomains: [{ hostname: 'localhost' }, { hostname: new URL(site).hostname, protocol: new URL(site).protocol.replace(':', '') }] },
+  // Hosts the server accepts form posts for. Behind Cloudflare the page is https while the server itself sees http, so both are allowed.
+  security: {
+    allowedDomains: [
+      { hostname: 'localhost' },
+      { hostname: new URL(site).hostname, protocol: 'https' },
+      { hostname: new URL(site).hostname, protocol: 'http' },
+    ],
+  },
   base: process.env.BASE_PATH || '/',
   trailingSlash: 'ignore',
   build: { format: 'directory' },
