@@ -8,6 +8,23 @@ const grid = document.querySelector<HTMLElement>('[data-search-grid]');
 const status = document.querySelector<HTMLElement>('[data-search-status]');
 const empty = document.querySelector<HTMLElement>('[data-search-empty]');
 
+// Opening the field: measure how far it can grow (to the logo if the logo shares its row, else to the left edge of the bar),
+// so it opens in place and smoothly instead of the layout jumping to another row.
+if (form && input) {
+  const row = form.closest<HTMLElement>('.header-row');
+  const logo = row?.querySelector<HTMLElement>('.logo');
+  input.addEventListener('focus', () => {
+    if (!row || !logo) return;
+    const f = form.getBoundingClientRect();
+    const l = logo.getBoundingClientRect();
+    const r = row.getBoundingClientRect();
+    const rowLeft = r.left + parseFloat(getComputedStyle(row).paddingLeft);
+    const sameRow = Math.abs((l.top + l.bottom) / 2 - (f.top + f.bottom) / 2) < 20;
+    const left = sameRow ? l.right + 10 : rowLeft;
+    input.style.setProperty('--search-w', `${Math.round(Math.max(f.width, f.right - left))}px`);
+  });
+}
+
 if (form && input && grid && status && empty) {
   // Lower case, no accents, "ё" = "е": "Bibliotheque" finds "Bibliothèque", "Чехов" finds "ЧЕХОВ".
   const norm = (s: string) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/ё/g, 'е');

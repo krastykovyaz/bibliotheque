@@ -491,7 +491,8 @@ main.wrap {
   font: 700 1.9rem/1.15 var(--font-title);
 }
 
-/* Search in the top bar: a magnifier that opens into a field on focus, a full field on wide screens */
+/* Search in the top bar: a magnifier that opens smoothly into a field over the menu.
+   Nothing around it moves: the field grows in place and the menu fades out behind it. */
 .header-search {
   position: relative;
   flex: none;
@@ -507,7 +508,7 @@ main.wrap {
   width: 2.75rem;
   height: 2.5rem;
   font: inherit;
-  font-size: 0.95rem;
+  font-size: 16px; /* 16px or more: iPhone Safari does not zoom the page when the field gets focus */
   color: var(--text);
   background: var(--card) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%233d2620' stroke-width='2.5' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M20 20l-3.5-3.5'/%3E%3C/svg%3E") no-repeat center;
   border: 2px solid var(--text);
@@ -516,6 +517,7 @@ main.wrap {
   cursor: pointer;
   -webkit-appearance: none;
   appearance: none;
+  transition: width 0.24s ease, padding 0.24s ease, background-position 0.24s ease;
 }
 .header-search input::placeholder {
   color: transparent;
@@ -523,8 +525,9 @@ main.wrap {
 .header-search input::-webkit-search-cancel-button {
   display: none;
 }
+/* The width to open to is measured in src/scripts/search.ts (--search-w): out to the logo, or to the left edge of the bar. */
 .header-search input:focus {
-  width: min(16rem, calc(100vw - 2rem));
+  width: var(--search-w, min(16rem, calc(100vw - 2rem)));
   padding: 0 0.9rem 0 2.5rem;
   background-position: 0.8rem center;
   cursor: text;
@@ -532,25 +535,19 @@ main.wrap {
 .header-search input:focus::placeholder {
   color: var(--muted);
 }
-/* While typing on narrower screens the menu steps aside and the field fills the bar, from the logo to the edge. */
-@media (max-width: 1099px) {
-  .header-row:has(.header-search input:focus) .nav {
-    display: none;
-  }
-  .header-row:has(.header-search input:focus) .header-search {
-    flex: 1 1 auto;
-    width: auto;
-    margin-left: 0.6rem;
-  }
-  .header-search input:focus {
-    width: 100%;
-  }
+.nav {
+  transition: opacity 0.18s ease;
+}
+.header-row:has(.header-search input:focus) .nav {
+  opacity: 0;
+  pointer-events: none;
 }
 @media (min-width: 1100px) {
   .header-search {
     width: 15rem;
   }
-  .header-search input {
+  .header-search input,
+  .header-search input:focus {
     width: 100%;
     padding: 0 0.9rem 0 2.5rem;
     background-position: 0.8rem center;
@@ -558,5 +555,15 @@ main.wrap {
   }
   .header-search input::placeholder {
     color: var(--muted);
+  }
+  .header-row:has(.header-search input:focus) .nav {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .header-search input,
+  .nav {
+    transition: none;
   }
 }
