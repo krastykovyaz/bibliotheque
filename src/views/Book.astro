@@ -90,6 +90,8 @@ const short = (s: string) => (s.length <= 158 ? s : s.slice(0, 155).replace(/\s+
                 {t.watch} <span aria-hidden="true">↗</span>
                 <span class="visually-hidden">{t.newTab}</span>
               </a>
+              {/* One row of actions: Read on the left, Download on the right. */}
+              <div class="actions">
               {/* Reading: the whole text on its own page, or, when only an excerpt exists, the short preview. No registration. */}
               {l.readingParts && l.readingParts.length ? (
                 <div class="preview" lang={lang}>
@@ -111,25 +113,38 @@ const short = (s: string) => (s.length <= 158 ? s : s.slice(0, 155).replace(/\s+
               {l.pdf && (
                 <div class="download" lang={lang}>
                   <details>
-                    <summary class="btn btn-secondary">{t.download}</summary>
+                    <summary class="btn btn-secondary"><span class="dl-long">{t.download}</span><span class="dl-short">{t.downloadShort}</span></summary>
                     <div class="download-box">
                       <p>{t.connectText}</p>
                       <form method="post" action={asset('/grandlivre/connect')}>
                         <input type="hidden" name="lang" value={lang} />
                         <button class="btn" type="submit">{t.glConnect}</button>
                       </form>
-                      <a class="btn btn-secondary" href={asset(l.pdf)} download>
-                        {l.booklet ? t.dlRead : t.skipBtn}
-                      </a>
-                      {l.booklet && (
-                        <a class="btn btn-secondary" href={asset(l.booklet)} download>
-                          {t.dlBooklet}
-                        </a>
+                      {l.booklet ? (
+                        <>
+                          {/* Without JavaScript: both files as plain links. */}
+                          <div class="nojs-only dl-links">
+                            <a class="btn btn-secondary" href={asset(l.pdf)} download>{t.dlRead}</a>
+                            <a class="btn btn-secondary" href={asset(l.booklet)} download>{t.dlBooklet}</a>
+                          </div>
+                          {/* With JavaScript: one switch for the format and one download button. */}
+                          <div class="js-only dl-toggle" data-pdf={asset(l.pdf)} data-booklet={asset(l.booklet)}>
+                            <fieldset class="seg">
+                              <legend class="visually-hidden">{t.dlFormat}</legend>
+                              <label><input type="radio" name={`fmt-${code}`} value="pdf" checked /><span>{t.fmtRead}</span></label>
+                              <label><input type="radio" name={`fmt-${code}`} value="booklet" /><span>{t.fmtPrint}</span></label>
+                            </fieldset>
+                            <a class="btn btn-secondary" href={asset(l.pdf)} download data-dl>{t.dlGo}</a>
+                          </div>
+                        </>
+                      ) : (
+                        <a class="btn btn-secondary" href={asset(l.pdf)} download>{t.skipBtn}</a>
                       )}
                     </div>
                   </details>
                 </div>
               )}
+              </div>
               {/* With JavaScript the player below replaces the "Watch on YouTube" button (hidden in CSS); without JavaScript there is no player, so the button stays. */}
               {/* The YouTube player is created only after the visitor clicks (see src/scripts/book.ts). */}
               <div class="player js-only" data-video={l.videoId} lang={lang}>
