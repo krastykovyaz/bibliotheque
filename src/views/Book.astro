@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { ui, pageUrl, asset, langName, fill, type UiLang } from '../lib/i18n';
+import { ui, pageUrl, asset, pdfLink, langName, fill, type UiLang } from '../lib/i18n';
 import { inLang, authorIn, type Book } from '../lib/books';
 
 interface Props {
@@ -124,11 +124,11 @@ const short = (s: string) => (s.length <= 158 ? s : s.slice(0, 155).replace(/\s+
                       </form>
                       {l.booklet ? (
                         <div class="seg-links" role="group" aria-label={t.dlFormat}>
-                          <a href={asset(l.pdf)} download>{t.fmtRead}</a>
-                          <a href={asset(l.booklet)} download>{t.fmtPrint}</a>
+                          <a href={pdfLink(l.pdf)} download>{t.fmtRead}</a>
+                          <a href={pdfLink(l.booklet)} download>{t.fmtPrint}</a>
                         </div>
                       ) : (
-                        <a class="btn btn-secondary" href={asset(l.pdf)} download>{t.dlGo}</a>
+                        <a class="btn btn-secondary" href={pdfLink(l.pdf)} download>{t.dlGo}</a>
                       )}
                     </div>
                   </details>

@@ -7,6 +7,10 @@ const BASE = import.meta.env.BASE_URL.replace(/\/$/, '');
 /** Prefix a root-relative path ("/covers/x.png") with the configured base path. */
 export const asset = (p: string) => BASE + p;
 
+// PDFs are downloaded from the git repository (raw file link), not from the site's own server. Override with PUBLIC_PDF_BASE.
+const PDF_BASE = import.meta.env.PUBLIC_PDF_BASE || 'https://raw.githubusercontent.com/krastykovyaz/bibliotheque/main/public';
+export const pdfLink = (p: string) => PDF_BASE + p;
+
 /** URL of a page ("/", "/about/", "/book/<id>/") in the given interface language. */
 export const pageUrl = (lang: UiLang, p: string) => BASE + (lang === 'ru' ? '/ru' : '') + p;
 

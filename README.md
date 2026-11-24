@@ -199,3 +199,10 @@ The book, home and about pages are plain HTML in `dist/client/` and can be hoste
 ## Privacy
 
 Fonts are self-hosted. The YouTube player uses `youtube-nocookie.com` and is created only after the visitor clicks "Play here". The site sets no cookie for reading; one session cookie is set only when a visitor clicks "Connect Grandlivre". There is no analytics or tracking.
+
+## Where PDFs are downloaded from
+
+The PDFs are kept in git (`public/pdf/`) and the Download buttons link to the raw file on GitHub
+(`https://raw.githubusercontent.com/krastykovyaz/bibliotheque/main/public/pdf/<name>.pdf`), so the site's own server does not serve them.
+This needs the repository to stay public and the PDFs to be pushed before the site is deployed (the publish script does that).
+To serve them from the site again, build with `PUBLIC_PDF_BASE` set to the site address, e.g. `PUBLIC_PDF_BASE=https://biblio.unilu.space npm run build`.
