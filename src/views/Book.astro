@@ -86,7 +86,7 @@ const short = (s: string) => (s.length <= 158 ? s : s.slice(0, 155).replace(/\s+
                 {author} · {book.year}
               </p>
               <p class="description">{l.description}</p>
-              <a class="btn" href={l.youtube} target="_blank" rel="noopener noreferrer" lang={lang}>
+              <a class="btn watch-btn" href={l.youtube} target="_blank" rel="noopener noreferrer" lang={lang}>
                 {t.watch} <span aria-hidden="true">↗</span>
                 <span class="visually-hidden">{t.newTab}</span>
               </a>
@@ -124,6 +124,7 @@ const short = (s: string) => (s.length <= 158 ? s : s.slice(0, 155).replace(/\s+
                   </details>
                 </div>
               )}
+              {/* With JavaScript the player below replaces the "Watch on YouTube" button (hidden in CSS); without JavaScript there is no player, so the button stays. */}
               {/* The YouTube player is created only after the visitor clicks (see src/scripts/book.ts). */}
               <div class="player js-only" data-video={l.videoId} lang={lang}>
                 <button class="btn" type="button" data-play>

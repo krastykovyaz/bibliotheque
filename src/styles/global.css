@@ -567,3 +567,8 @@ main.wrap {
     transition: none;
   }
 }
+
+/* The player replaces the "Watch on YouTube" button; without JavaScript there is no player, so the button stays. */
+.js .watch-btn {
+  display: none;
+}
