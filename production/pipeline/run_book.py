@@ -24,7 +24,7 @@ PY = os.path.join(PIPE, ".venv", "bin", "python")
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 REMOTE, REMOTE_DIR = "aak-llm", "bibliotheque-production"          # the production machine, folder in its home
 MAIN, MAIN_KEY, INBOX = "root@31.207.7.3", os.path.expanduser("~/.ssh/id_ed25519_bibliotheque_server"), "/srv/bibliotheque-incoming"
-STAGES = ["check", "pdf", "assets", "audio", "video", "package", "deliver", "upload", "publish"]
+STAGES = ["check", "assets", "pdf", "audio", "video", "package", "deliver", "upload", "publish"]
 DEFAULT = STAGES[:7]
 
 

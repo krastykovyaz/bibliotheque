@@ -38,7 +38,7 @@ __RUFONTS__
 html{font-family:Lora,Georgia,serif;font-size:__FS__pt;line-height:__LH__;color:#2a211c;hyphens:auto;-webkit-hyphens:auto}
 body{margin:0}
 .cover{page:cover;break-after:page;width:148mm;height:210mm;position:relative;
-  background:linear-gradient(to bottom,#171c3a 0,#171c3a 50%,#77552b 50%,#77552b 100%)}
+  background:linear-gradient(to bottom,__C1__ 0,__C1__ 50%,__C2__ 50%,__C2__ 100%)}
 .cover img{position:absolute;left:0;top:31mm;width:148mm;height:148mm;display:block}
 .titlepage{page:front;break-after:page;text-align:center;padding-top:34mm}
 .titlepage .by{letter-spacing:.32em;font-size:9.5pt;color:#9c4a2e;margin-bottom:12mm}
@@ -63,6 +63,7 @@ figure img{display:block;width:100%;height:auto}
 .part h2 .name{display:block;font-size:9.5pt;letter-spacing:.2em;text-transform:uppercase;color:#6b5a4a;margin-top:2mm}
 .part p{margin:0;text-align:justify;text-indent:1.35em;orphans:3;widows:3}
 .part p.first{text-indent:0}
+.part p.lh{text-indent:0;text-align:center;font-size:8.6pt;letter-spacing:.2em;text-transform:uppercase;color:#6b5a4a;margin:5mm 0 2.5mm;break-after:avoid;orphans:2;widows:2}
 .part p.first::first-letter{float:left;font-size:3.5em;line-height:.82;padding:.05em .09em 0 0;color:#9c4a2e;font-weight:600}
 .back{page:front;break-before:page;padding-top:14mm}
 .back h2{font-size:13pt;letter-spacing:.2em;text-transform:uppercase;text-align:center;font-weight:600;color:#1d2340;margin:0 0 9mm}
@@ -91,14 +92,20 @@ def page_html(page_numbers):
     for p in PARTS:
         start = p in ART
         fig = (f'<figure><img src="art/png/{ART[p]}.png" alt="{html.escape(ALT[ART[p]])}"></figure>' if start else "")
-        ps = [f'<p class="{"first" if i == 0 else ""}">{html.escape(t)}</p>' for i, t in enumerate(T[p])]
-        first, rest = ps[0], "".join(ps[1:])
+        ps, seen = [], False
+        for t in T[p]:
+            if t.startswith("§ "):       # a letter heading (its date) or a section marker
+                ps.append(f'<p class="lh">{html.escape(t[2:])}</p>')
+            else:
+                ps.append(f'<p class="{"" if seen else "first"}">{html.escape(t)}</p>'); seen = True
+        k = next(i for i, x in enumerate(ps) if "lh" not in x[:12])        # the opening block: heading, and the paragraph that follows the letter heading
+        first, rest = "".join(ps[:k + 1]), "".join(ps[k + 1:])
         head = f'<h2><span class="num">{p}</span><span class="name">{html.escape(NAMES[p])}</span></h2>'
         # illustrated parts begin at the top of a page, so their first paragraph may run on; the others keep heading and first paragraph together
         body = (head + first + rest) if start else (f'<div class="opening">{head}{first}</div>' + rest)
         parts.append(f'<section class="part{" start" if start else ""}" id="part-{p}">{fig}{body}</section>')
     gloss = "".join(f"<dt>{html.escape(k)}</dt><dd>{v}</dd>" for k, v in GLOSSARY)
-    return f"""<!doctype html><html lang="{LANG}"><head><meta charset="utf-8"><title>{TITLE}</title><style>{CSS.replace('__FS__', FS).replace('__LH__', LH).replace('__FONTS__', 'file://' + os.path.join(PIPE, 'fonts'))}</style></head><body>
+    return f"""<!doctype html><html lang="{LANG}"><head><meta charset="utf-8"><title>{TITLE}</title><style>{CSS.replace('__C1__', B.get('cover_bg', ['#171c3a', '#77552b'])[0]).replace('__C2__', B.get('cover_bg', ['#171c3a', '#77552b'])[1]).replace('__FS__', FS).replace('__LH__', LH).replace('__FONTS__', 'file://' + os.path.join(PIPE, 'fonts'))}</style></head><body>
 <section class="cover"><img src="art/png/{COVER}_print.png" alt="{TITLE}"></section>
 <section class="titlepage"><div class="by">{AUTHOR.upper()}</div><h1>{TITLE}</h1><div class="rule"></div><div class="rule s"></div>
 <p class="note">{html.escape(R["note"]) if R else "Draft English translation from the Russian text supplied. Machine draft, checked once against the original: needs a human editor before publication."}</p>
