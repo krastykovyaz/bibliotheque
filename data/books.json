@@ -30,30 +30,6 @@
     }
   },
   {
-    "id": "fall-of-the-house-of-usher",
-    "author": {
-      "en": "Edgar Allan Poe",
-      "ru": "Эдгар Аллан По"
-    },
-    "year": 1839,
-    "cover": "/covers/usher.png",
-    "languages": {
-      "en": {
-        "title": "The Fall of the House of Usher",
-        "description": "A traveller answers a desperate letter from his boyhood friend Roderick Usher and rides to a gloomy mansion beside a black tarn. He finds Roderick unwell in mind and body, and his twin sister Madeline fading toward death. As the days pass, the house itself seems to share their sickness. Poe's classic tale of dread builds to one of the most famous endings in Gothic fiction.",
-        "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
-        "pdf": "/pdf/usher-en.pdf",
-        "preview": "/preview/usher-en.txt"
-      },
-      "de": {
-        "title": "Der Untergang des Hauses Usher",
-        "description": "Ein Reisender folgt dem verzweifelten Brief seines Jugendfreundes Roderick Usher und reitet zu einem düsteren Herrenhaus an einem schwarzen See. Er findet Roderick krank an Körper und Geist, seine Zwillingsschwester Madeline liegt im Sterben. Mit jedem Tag scheint das Haus selbst an ihrer Krankheit teilzuhaben. Poes Schauergeschichte steuert auf eines der berühmtesten Enden der Gothic-Literatur zu.",
-        "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
-        "pdf": "/pdf/usher-de.pdf"
-      }
-    }
-  },
-  {
     "id": "how-much-land",
     "author": {
       "en": "Leo Tolstoy",
