@@ -1,0 +1,57 @@
+{
+ "NARRATOR": {
+  "voice": "bm_george",
+  "speed": 0.95,
+  "lang": "en-gb"
+ },
+ "PAKHOM": {
+  "voice": "bm_lewis",
+  "speed": 1.0,
+  "lang": "en-gb"
+ },
+ "PAKHOM_THOUGHT": {
+  "voice": "bm_lewis",
+  "speed": 0.92,
+  "lang": "en-gb"
+ },
+ "YOUNGER_SISTER": {
+  "voice": "bf_emma",
+  "speed": 1.0,
+  "lang": "en-gb"
+ },
+ "ELDER_SISTER": {
+  "voice": "bf_isabella",
+  "speed": 1.0,
+  "lang": "en-gb"
+ },
+ "MERCHANT": {
+  "voice": "bm_daniel",
+  "speed": 0.98,
+  "lang": "en-gb"
+ },
+ "INTERPRETER": {
+  "voice": "bm_daniel",
+  "speed": 1.05,
+  "lang": "en-gb"
+ },
+ "BASHKIR_ELDER": {
+  "voice": "bm_fable",
+  "speed": 0.95,
+  "lang": "en-gb"
+ },
+ "TRAVELLER": {
+  "voice": "bm_fable",
+  "speed": 1.0,
+  "lang": "en-gb"
+ },
+ "PEASANTS": {
+  "voice": "bm_fable",
+  "speed": 1.05,
+  "lang": "en-gb"
+ },
+ "DEVIL": {
+  "voice": "bm_fable",
+  "speed": 0.88,
+  "lang": "en-gb"
+ }
+}

@@ -1,0 +1,195 @@
+{
+  "slug": "how-much-land",
+  "prefix": "How_Much_Land",
+  "lang": "en",
+  "title": "How Much Land Does a Man Need?",
+  "author": "Leo Tolstoy",
+  "author_ru": "Лев Толстой",
+  "year": 1886,
+  "title_original": "Много ли человеку земли нужно",
+  "publication_note": "first published in «Русское богатство», 1886",
+  "source_note": "Text from ru.wikisource.org, after L. N. Tolstoy, Collected Works in 22 volumes, Moscow, 1982, vol. 10.",
+  "parts": [
+    "I",
+    "II",
+    "III",
+    "IV",
+    "V",
+    "VI",
+    "VII",
+    "VIII",
+    "IX"
+  ],
+  "names": {
+    "I": "Two Sisters",
+    "II": "Land of His Own",
+    "III": "Cramped",
+    "IV": "A Thousand Roubles",
+    "V": "The Bashkirs",
+    "VI": "The Price of a Day",
+    "VII": "The Dream",
+    "VIII": "The Long Walk",
+    "IX": "Sunset"
+  },
+  "art": {
+    "I": "1_hut",
+    "III": "2_river",
+    "V": "3_camp",
+    "VII": "4_dawn",
+    "IX": "5_sunset"
+  },
+  "art_alt": {
+    "1_hut": "A lit peasant hut at night, smoke curling from the chimney",
+    "2_river": "A paddle steamer on the Volga at sunrise, rye sheaves on the bank",
+    "3_camp": "Felt tents and horses on the steppe at sunset",
+    "4_dawn": "Dawn over the steppe, a low hill far away and marks in the grass",
+    "5_sunset": "The sun going down behind the hill, a spade planted in the ground"
+  },
+  "focus": {
+    "1_hut": [
+      [
+        0.4,
+        0.66
+      ],
+      [
+        0.8,
+        0.55
+      ],
+      [
+        0.5,
+        0.4
+      ]
+    ],
+    "2_river": [
+      [
+        0.64,
+        0.6
+      ],
+      [
+        0.22,
+        0.46
+      ],
+      [
+        0.35,
+        0.9
+      ]
+    ],
+    "3_camp": [
+      [
+        0.45,
+        0.66
+      ],
+      [
+        0.78,
+        0.58
+      ],
+      [
+        0.25,
+        0.78
+      ]
+    ],
+    "4_dawn": [
+      [
+        0.27,
+        0.57
+      ],
+      [
+        0.73,
+        0.95
+      ],
+      [
+        0.72,
+        0.6
+      ]
+    ],
+    "5_sunset": [
+      [
+        0.33,
+        0.66
+      ],
+      [
+        0.78,
+        0.68
+      ],
+      [
+        0.25,
+        0.95
+      ]
+    ]
+  },
+  "glossary": [
+    [
+      "desyatina",
+      "a Russian measure of land, about 1.09 hectares (2.7 acres)."
+    ],
+    [
+      "verst",
+      "a Russian measure of distance, about 1.07 kilometres (two thirds of a mile)."
+    ],
+    [
+      "arshin",
+      "a Russian measure of length, about 71 centimetres (28 inches)."
+    ],
+    [
+      "commune",
+      "the village assembly (<i>mir</i>) that held the land and decided who could settle."
+    ],
+    [
+      "the red cock",
+      "a peasant expression for setting a house on fire."
+    ],
+    [
+      "kumis",
+      "fermented mare’s milk, a drink of the steppe peoples."
+    ],
+    [
+      "shikhan",
+      "a small hill, in the Bashkir language."
+    ],
+    [
+      "rouble, kopeck",
+      "Russian money; a rouble is a hundred kopecks."
+    ]
+  ],
+  "thumb_art": "5_sunset",
+  "thumb_position": "34% 50%",
+  "summary": "A peasant called Pakhom believes that if he only had enough land, he would fear nothing, not even the devil. Then the devil takes him at his word. One of Tolstoy's best-known short stories, about greed, about enough, and about what a person finally needs.",
+  "site_description": "A peasant called Pakhom is sure that with enough land he would fear nothing, not even the devil. The devil hears him and takes him at his word. Pakhom buys land, quarrels with his neighbours, moves on to richer places, and finally meets the Bashkirs, who offer him as much land as he can walk round in one day, for a thousand roubles. Tolstoy's best-known short story asks what a person finally needs.",
+  "tags": [
+    "Tolstoy",
+    "Leo Tolstoy",
+    "audiobook",
+    "full cast audiobook",
+    "How Much Land Does a Man Need",
+    "short story",
+    "classic literature",
+    "Russian literature",
+    "public domain",
+    "English audiobook"
+  ],
+  "hashtags": "#Tolstoy #audiobook #classicliterature #shortstory #publicdomain",
+  "playlist": "PLVuswr3XMg9E",
+  "text_note": "Machine translation from the Russian, a draft that needs a human editor.",
+  "translated_from": "the Russian original",
+  "ru": {
+    "title": "Много ли человеку земли нужно",
+    "author": "Лев Толстой",
+    "names": {
+      "I": "Две сестры",
+      "II": "Своя земля",
+      "III": "Теснота",
+      "IV": "Тысяча рублей",
+      "V": "Башкиры",
+      "VI": "Цена одного дня",
+      "VII": "Сон",
+      "VIII": "Долгий путь",
+      "IX": "Закат"
+    },
+    "note": "Текст рассказа, как он напечатан в «Русском богатстве». Издание для чтения с оригинальными иллюстрациями.",
+    "source_note": "Текст с ru.wikisource.org, по изданию: Л. Н. Толстой, Собрание сочинений в 22 томах, М.: Художественная литература, 1982, т. 10.",
+    "contents": "Содержание",
+    "back": "О тексте",
+    "small": "Текст рассказа находится в общественном достоянии. Названия частей и иллюстрации сделаны для этого издания. Набрано шрифтом Lora (SIL Open Font License).",
+    "description": "Крестьянин Пахом думает: был бы только у него достаточно земли, и он не побоялся бы даже самого дьявола. А дьявол берёт его на слове. Один из самых известных рассказов Толстого о жадности, о достаточном и о том, что человеку нужно на самом деле."
+  }
+}

@@ -1,0 +1,14 @@
+START 2026-11-24 19:31:29
+Step 1a done: clean Russian text, 9 parts, 92 paragraphs, 3790 words (19:32:14)
+Step 1b: translation parts I-V written (19:33:40)
+Step 1b done: full English draft, 9 parts, paragraph counts match (19:34:48)
+Step 1 done: text + English draft + checks (19:35:59); elapsed 270 s
+Step 2: illustrations and cover drawn and viewed (19:38:00)
+Step 3 done: A5 PDF (27 pp), A4 booklet (14 sides), checked (19:44:06); elapsed 757 s
+Step 4 done: 240-segment voice script, cast table (19:45:17)
+Step 5: full audio run started on aak-llm (19:47:23); test result: 3.43x real time
+Step 6: full video render started on aak-llm (20:18:17)
+2026-11-24 21:15:44 stage check done in 2 s
+2026-11-24 21:19:34 stage check done in 2 s
+2026-11-24 21:19:48 stage upload done in 14 s
+2026-11-24 21:25:29 stage publish done in 39 s

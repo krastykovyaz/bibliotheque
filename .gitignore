@@ -5,3 +5,20 @@ dist
 .data
 production/*.wav
 production/pipeline/.venv
+
+# book production outputs (big; they live on aak-llm and YouTube)
+production/*/*.mp3
+production/*/*.mp4
+production/*/*.wav
+production/*/*.pdf
+production/*/art/png/
+production/*/video_assets/
+production/*/check/
+production/*/test_frames/
+production/*/vcheck/
+production/*/scenes/
+production/*/segments/
+production/*/book.html
+production/pipeline/__pycache__/
+production/*/.started
+production/*/.venvpath
