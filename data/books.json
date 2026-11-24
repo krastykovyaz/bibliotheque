@@ -46,6 +46,14 @@
         "booklet": "/pdf/how-much-land-en-booklet.pdf",
         "text": "texts/how-much-land-en.txt",
         "textNote": "Machine translation from the Russian, a draft that needs a human editor."
+      },
+      "ru": {
+        "title": "Много ли человеку земли нужно",
+        "description": "Крестьянин Пахом думает: был бы только у него достаточно земли, и он не побоялся бы даже самого дьявола. А дьявол берёт его на слове. Один из самых известных рассказов Толстого о жадности, о достаточном и о том, что человеку нужно на самом деле.",
+        "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
+        "pdf": "/pdf/how-much-land-ru.pdf",
+        "booklet": "/pdf/how-much-land-ru-booklet.pdf",
+        "text": "texts/how-much-land-ru.txt"
       }
     }
   }
