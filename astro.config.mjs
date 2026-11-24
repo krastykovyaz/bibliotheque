@@ -9,7 +9,7 @@ const site = process.env.SITE_URL || 'https://example.com';
 export default defineConfig({
   site,
   // Hosts the server answers for. Needed so form posts (Connect, Disconnect) pass the same-origin check.
-  security: { allowedDomains: [{ hostname: 'localhost' }, { hostname: new URL(site).hostname, protocol: 'https' }] },
+  security: { allowedDomains: [{ hostname: 'localhost' }, { hostname: new URL(site).hostname, protocol: new URL(site).protocol.replace(':', '') }] },
   base: process.env.BASE_PATH || '/',
   trailingSlash: 'ignore',
   build: { format: 'directory' },
