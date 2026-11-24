@@ -4,7 +4,8 @@
 //
 //   node scripts/youtube-upload.mjs <video.mp4> --book <id> --lang <code> [options]    metadata from data/books.json
 //   node scripts/youtube-upload.mjs <video.mp4> --package <file> [--lang en] [options]  metadata from a package file
-//   node scripts/youtube-upload.mjs --auth-only                                          sign in only (on a computer with a browser)
+//   node scripts/youtube-upload.mjs --auth-only [--playlists]                            sign in only (on a computer with a browser)
+//   add  --playlist <id>  to put the new video into a playlist or podcast (the sign-in must then include --playlists)
 //
 // A package file has sections TITLE, DESCRIPTION and TAGS (see production/how-much-land/How_Much_Land_youtube_description.txt).
 // Where the login lives: YOUTUBE_CLIENT_FILE and YOUTUBE_TOKEN_FILE (defaults: .data/youtube-client.json, .data/youtube-token.json).
@@ -25,16 +26,17 @@ import { execFile } from 'node:child_process';
 const DATA_DIR = '.data';
 const CLIENT_FILE = process.env.YOUTUBE_CLIENT_FILE || path.join(DATA_DIR, 'youtube-client.json');
 const TOKEN_FILE = process.env.YOUTUBE_TOKEN_FILE || path.join(DATA_DIR, 'youtube-token.json');
-const SCOPE = 'https://www.googleapis.com/auth/youtube.upload';
 const CHUNK = 8 * 1024 * 1024; // must be a multiple of 256 KiB
 
 // ---------- arguments ----------
 const args = process.argv.slice(2);
+// Uploading needs only youtube.upload. Adding a video to a playlist needs the wider youtube scope, asked for only with --playlists.
+const SCOPE = 'https://www.googleapis.com/auth/youtube.upload' + (args.includes('--playlists') ? ' https://www.googleapis.com/auth/youtube' : '');
 const flag = (name) => {
   const i = args.indexOf('--' + name);
   return i === -1 ? undefined : args[i + 1];
 };
-const BOOLEAN = ['--dry-run', '--auth-only'];
+const BOOLEAN = ['--dry-run', '--auth-only', '--playlists'];
 const file = args.find((a, i) => !a.startsWith('--') && !(i > 0 && args[i - 1].startsWith('--') && !BOOLEAN.includes(args[i - 1])));
 const bookId = flag('book');
 const lang = flag('lang') ?? (flag('package') ? 'en' : undefined);
@@ -42,6 +44,7 @@ const packageFile = flag('package');
 const authOnly = args.includes('--auth-only');
 const privacy = flag('privacy') ?? 'private';
 const thumbnail = flag('thumbnail');
+const playlist = flag('playlist');
 const dryRun = args.includes('--dry-run');
 
 const die = (msg) => {
@@ -101,6 +104,7 @@ const size = fs.statSync(file).size;
 console.log(`Video:   ${file} (${(size / 1e6).toFixed(1)} MB)`);
 console.log(`Title:   ${metadata.snippet.title}`);
 console.log(`Privacy: ${privacy}`);
+if (playlist) console.log(`Playlist: ${playlist}`);
 if (dryRun) {
   console.log('\n--dry-run: nothing was sent. Metadata:\n' + JSON.stringify(metadata, null, 2));
   process.exit(0);
@@ -246,6 +250,17 @@ if (thumbnail) {
     body: fs.readFileSync(thumbnail),
   });
   console.log(res.ok ? 'Thumbnail set.' : `Thumbnail not set (${res.status}): YouTube only allows custom thumbnails on verified channels. Set it in YouTube Studio.`);
+}
+
+if (playlist) {
+  const res = await fetch('https://www.googleapis.com/youtube/v3/playlistItems?part=snippet', {
+    method: 'POST',
+    headers: { Authorization: `Bearer ${await accessToken()}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify({ snippet: { playlistId: playlist, resourceId: { kind: 'youtube#video', videoId: video.id } } }),
+  });
+  console.log(res.ok
+    ? `Added to the playlist ${playlist}.`
+    : `Could not add it to the playlist (${res.status}): ${(await res.text()).slice(0, 300)}\nCheck the playlist id, and that the sign-in was made with --playlists. You can also add the video in YouTube Studio.`);
 }
 
 if (privacy === 'private') {
