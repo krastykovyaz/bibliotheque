@@ -1,0 +1,25 @@
+{
+  "name": "bibliotheque",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Showcase of audiobook-videos made from public-domain classics. Store-ready, static.",
+  "scripts": {
+    "dev": "astro dev",
+    "validate": "node scripts/validate-books.mjs",
+    "build": "node scripts/validate-books.mjs && astro build",
+    "preview": "astro preview",
+    "test": "node --test --disable-warning=ExperimentalWarning \"tests/*.test.ts\"",
+    "start": "node --env-file-if-exists=.env dist/server/entry.mjs"
+  },
+  "dependencies": {
+    "@astrojs/node": "^9.5.5",
+    "@fontsource-variable/caveat": "^5.3.0",
+    "@fontsource-variable/nunito": "^5.3.0",
+    "astro": "^5.18.2",
+    "image-size": "^2.1.0"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.5"
+  }
+}

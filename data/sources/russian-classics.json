@@ -1,0 +1,1209 @@
+{
+  "_note": "Compiled from general knowledge, not checked against sources. Years are approximate first publication; verify. length_class is a rough guess of audiobook length: short under ~1.5h, medium ~1.5-6h, long over ~6h. us_pd_expected is true when first published 1930 or earlier; eu_pd_expected is true when author died 1955 or earlier. Not legal advice; check each title and translation.",
+  "authors": [
+    {
+      "popularity_rank": 1,
+      "name_en": "Fyodor Dostoevsky",
+      "name_ru": "Фёдор Достоевский",
+      "born": 1821,
+      "died": 1881,
+      "eu_pd_expected": true,
+      "works": [
+        {
+          "title_en": "Poor Folk",
+          "title_ru": "Бедные люди",
+          "first_published": 1846,
+          "form": "novel",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Double",
+          "title_ru": "Двойник",
+          "first_published": 1846,
+          "form": "novella",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "White Nights",
+          "title_ru": "Белые ночи",
+          "first_published": 1848,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Notes from the House of the Dead",
+          "title_ru": "Записки из Мёртвого дома",
+          "first_published": 1862,
+          "form": "novel",
+          "length_class": "long",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Notes from Underground",
+          "title_ru": "Записки из подполья",
+          "first_published": 1864,
+          "form": "novella",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Crime and Punishment",
+          "title_ru": "Преступление и наказание",
+          "first_published": 1866,
+          "form": "novel",
+          "length_class": "long",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Gambler",
+          "title_ru": "Игрок",
+          "first_published": 1867,
+          "form": "novella",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Idiot",
+          "title_ru": "Идиот",
+          "first_published": 1869,
+          "form": "novel",
+          "length_class": "long",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Eternal Husband",
+          "title_ru": "Вечный муж",
+          "first_published": 1870,
+          "form": "novella",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Demons",
+          "title_ru": "Бесы",
+          "first_published": 1872,
+          "form": "novel",
+          "length_class": "long",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Bobok",
+          "title_ru": "Бобок",
+          "first_published": 1873,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "A Gentle Creature",
+          "title_ru": "Кроткая",
+          "first_published": 1876,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Dream of a Ridiculous Man",
+          "title_ru": "Сон смешного человека",
+          "first_published": 1877,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Brothers Karamazov",
+          "title_ru": "Братья Карамазовы",
+          "first_published": 1880,
+          "form": "novel",
+          "length_class": "long",
+          "us_pd_expected": true
+        }
+      ]
+    },
+    {
+      "popularity_rank": 2,
+      "name_en": "Leo Tolstoy",
+      "name_ru": "Лев Толстой",
+      "born": 1828,
+      "died": 1910,
+      "eu_pd_expected": true,
+      "works": [
+        {
+          "title_en": "Childhood",
+          "title_ru": "Детство",
+          "first_published": 1852,
+          "form": "novella",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Sevastopol Sketches",
+          "title_ru": "Севастопольские рассказы",
+          "first_published": 1855,
+          "form": "stories",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Family Happiness",
+          "title_ru": "Семейное счастие",
+          "first_published": 1859,
+          "form": "novella",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Cossacks",
+          "title_ru": "Казаки",
+          "first_published": 1863,
+          "form": "novella",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "War and Peace",
+          "title_ru": "Война и мир",
+          "first_published": 1869,
+          "form": "novel",
+          "length_class": "long",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Anna Karenina",
+          "title_ru": "Анна Каренина",
+          "first_published": 1878,
+          "form": "novel",
+          "length_class": "long",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "What Men Live By",
+          "title_ru": "Чем люди живы",
+          "first_published": 1881,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Death of Ivan Ilyich",
+          "title_ru": "Смерть Ивана Ильича",
+          "first_published": 1886,
+          "form": "novella",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "How Much Land Does a Man Need?",
+          "title_ru": "Много ли человеку земли нужно",
+          "first_published": 1886,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Kreutzer Sonata",
+          "title_ru": "Крейцерова соната",
+          "first_published": 1889,
+          "form": "novella",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Master and Man",
+          "title_ru": "Хозяин и работник",
+          "first_published": 1895,
+          "form": "novella",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Resurrection",
+          "title_ru": "Воскресение",
+          "first_published": 1899,
+          "form": "novel",
+          "length_class": "long",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Devil",
+          "title_ru": "Дьявол",
+          "first_published": 1911,
+          "form": "novella",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Hadji Murat",
+          "title_ru": "Хаджи-Мурат",
+          "first_published": 1912,
+          "form": "novella",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Father Sergius",
+          "title_ru": "Отец Сергий",
+          "first_published": 1912,
+          "form": "novella",
+          "length_class": "short",
+          "us_pd_expected": true
+        }
+      ]
+    },
+    {
+      "popularity_rank": 3,
+      "name_en": "Anton Chekhov",
+      "name_ru": "Антон Чехов",
+      "born": 1860,
+      "died": 1904,
+      "eu_pd_expected": true,
+      "works": [
+        {
+          "title_en": "Vanka",
+          "title_ru": "Ванька",
+          "first_published": 1886,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Kashtanka",
+          "title_ru": "Каштанка",
+          "first_published": 1887,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Kiss",
+          "title_ru": "Поцелуй",
+          "first_published": 1887,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Steppe",
+          "title_ru": "Степь",
+          "first_published": 1888,
+          "form": "novella",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "A Dreary Story",
+          "title_ru": "Скучная история",
+          "first_published": 1889,
+          "form": "novella",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Duel",
+          "title_ru": "Дуэль",
+          "first_published": 1891,
+          "form": "novella",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Ward No. 6",
+          "title_ru": "Палата № 6",
+          "first_published": 1892,
+          "form": "novella",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Black Monk",
+          "title_ru": "Чёрный монах",
+          "first_published": 1894,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Student",
+          "title_ru": "Студент",
+          "first_published": 1894,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "My Life",
+          "title_ru": "Моя жизнь",
+          "first_published": 1896,
+          "form": "novella",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Seagull",
+          "title_ru": "Чайка",
+          "first_published": 1896,
+          "form": "play",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Uncle Vanya",
+          "title_ru": "Дядя Ваня",
+          "first_published": 1897,
+          "form": "play",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Man in a Case",
+          "title_ru": "Человек в футляре",
+          "first_published": 1898,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Gooseberries",
+          "title_ru": "Крыжовник",
+          "first_published": 1898,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "About Love",
+          "title_ru": "О любви",
+          "first_published": 1898,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Darling",
+          "title_ru": "Душечка",
+          "first_published": 1898,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Lady with the Little Dog",
+          "title_ru": "Дама с собачкой",
+          "first_published": 1899,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "In the Ravine",
+          "title_ru": "В овраге",
+          "first_published": 1900,
+          "form": "novella",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Three Sisters",
+          "title_ru": "Три сестры",
+          "first_published": 1901,
+          "form": "play",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Bishop",
+          "title_ru": "Архиерей",
+          "first_published": 1902,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Cherry Orchard",
+          "title_ru": "Вишнёвый сад",
+          "first_published": 1904,
+          "form": "play",
+          "length_class": "medium",
+          "us_pd_expected": true
+        }
+      ]
+    },
+    {
+      "popularity_rank": 4,
+      "name_en": "Nikolai Gogol",
+      "name_ru": "Николай Гоголь",
+      "born": 1809,
+      "died": 1852,
+      "eu_pd_expected": true,
+      "works": [
+        {
+          "title_en": "The Night Before Christmas",
+          "title_ru": "Ночь перед Рождеством",
+          "first_published": 1832,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Diary of a Madman",
+          "title_ru": "Записки сумасшедшего",
+          "first_published": 1835,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Nevsky Prospect",
+          "title_ru": "Невский проспект",
+          "first_published": 1835,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Viy",
+          "title_ru": "Вий",
+          "first_published": 1835,
+          "form": "novella",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Taras Bulba",
+          "title_ru": "Тарас Бульба",
+          "first_published": 1835,
+          "form": "novella",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Old World Landowners",
+          "title_ru": "Старосветские помещики",
+          "first_published": 1835,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Portrait",
+          "title_ru": "Портрет",
+          "first_published": 1835,
+          "form": "novella",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Nose",
+          "title_ru": "Нос",
+          "first_published": 1836,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Carriage",
+          "title_ru": "Коляска",
+          "first_published": 1836,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Government Inspector",
+          "title_ru": "Ревизор",
+          "first_published": 1836,
+          "form": "play",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Overcoat",
+          "title_ru": "Шинель",
+          "first_published": 1842,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Dead Souls",
+          "title_ru": "Мёртвые души",
+          "first_published": 1842,
+          "form": "novel",
+          "length_class": "long",
+          "us_pd_expected": true
+        }
+      ]
+    },
+    {
+      "popularity_rank": 5,
+      "name_en": "Ivan Turgenev",
+      "name_ru": "Иван Тургенев",
+      "born": 1818,
+      "died": 1883,
+      "eu_pd_expected": true,
+      "works": [
+        {
+          "title_en": "A Month in the Country",
+          "title_ru": "Месяц в деревне",
+          "first_published": 1850,
+          "form": "play",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Diary of a Superfluous Man",
+          "title_ru": "Дневник лишнего человека",
+          "first_published": 1850,
+          "form": "novella",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Bezhin Meadow",
+          "title_ru": "Бежин луг",
+          "first_published": 1851,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "A Sportsman's Sketches",
+          "title_ru": "Записки охотника",
+          "first_published": 1852,
+          "form": "stories",
+          "length_class": "long",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Mumu",
+          "title_ru": "Муму",
+          "first_published": 1854,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Rudin",
+          "title_ru": "Рудин",
+          "first_published": 1856,
+          "form": "novel",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Asya",
+          "title_ru": "Ася",
+          "first_published": 1858,
+          "form": "novella",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "A Nest of Gentlefolk",
+          "title_ru": "Дворянское гнездо",
+          "first_published": 1859,
+          "form": "novel",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "On the Eve",
+          "title_ru": "Накануне",
+          "first_published": 1860,
+          "form": "novel",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "First Love",
+          "title_ru": "Первая любовь",
+          "first_published": 1860,
+          "form": "novella",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Fathers and Sons",
+          "title_ru": "Отцы и дети",
+          "first_published": 1862,
+          "form": "novel",
+          "length_class": "long",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Smoke",
+          "title_ru": "Дым",
+          "first_published": 1867,
+          "form": "novel",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Spring Torrents",
+          "title_ru": "Вешние воды",
+          "first_published": 1872,
+          "form": "novella",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Virgin Soil",
+          "title_ru": "Новь",
+          "first_published": 1877,
+          "form": "novel",
+          "length_class": "long",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Poems in Prose",
+          "title_ru": "Стихотворения в прозе",
+          "first_published": 1882,
+          "form": "prose poems",
+          "length_class": "short",
+          "us_pd_expected": true
+        }
+      ]
+    },
+    {
+      "popularity_rank": 6,
+      "name_en": "Alexander Pushkin",
+      "name_ru": "Александр Пушкин",
+      "born": 1799,
+      "died": 1837,
+      "eu_pd_expected": true,
+      "works": [
+        {
+          "title_en": "Ruslan and Ludmila",
+          "title_ru": "Руслан и Людмила",
+          "first_published": 1820,
+          "form": "poem",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Boris Godunov",
+          "title_ru": "Борис Годунов",
+          "first_published": 1825,
+          "form": "play",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Belkin Tales",
+          "title_ru": "Повести Белкина",
+          "first_published": 1831,
+          "form": "stories",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Stationmaster",
+          "title_ru": "Станционный смотритель",
+          "first_published": 1831,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Shot",
+          "title_ru": "Выстрел",
+          "first_published": 1831,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Blizzard",
+          "title_ru": "Метель",
+          "first_published": 1831,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Little Tragedies",
+          "title_ru": "Маленькие трагедии",
+          "first_published": 1832,
+          "form": "plays",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Eugene Onegin",
+          "title_ru": "Евгений Онегин",
+          "first_published": 1833,
+          "form": "novel in verse",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Bronze Horseman",
+          "title_ru": "Медный всадник",
+          "first_published": 1837,
+          "form": "poem",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Queen of Spades",
+          "title_ru": "Пиковая дама",
+          "first_published": 1834,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Tale of the Golden Cockerel",
+          "title_ru": "Сказка о золотом петушке",
+          "first_published": 1835,
+          "form": "poem",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Captain's Daughter",
+          "title_ru": "Капитанская дочка",
+          "first_published": 1836,
+          "form": "novel",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Dubrovsky",
+          "title_ru": "Дубровский",
+          "first_published": 1841,
+          "form": "novel",
+          "length_class": "medium",
+          "us_pd_expected": true
+        }
+      ]
+    },
+    {
+      "popularity_rank": 7,
+      "name_en": "Mikhail Lermontov",
+      "name_ru": "Михаил Лермонтов",
+      "born": 1814,
+      "died": 1841,
+      "eu_pd_expected": true,
+      "works": [
+        {
+          "title_en": "Borodino",
+          "title_ru": "Бородино",
+          "first_published": 1837,
+          "form": "poem",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Song of the Merchant Kalashnikov",
+          "title_ru": "Песня про купца Калашникова",
+          "first_published": 1838,
+          "form": "poem",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "A Hero of Our Time",
+          "title_ru": "Герой нашего времени",
+          "first_published": 1840,
+          "form": "novel",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Mtsyri",
+          "title_ru": "Мцыри",
+          "first_published": 1840,
+          "form": "poem",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Masquerade",
+          "title_ru": "Маскарад",
+          "first_published": 1842,
+          "form": "play",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Demon",
+          "title_ru": "Демон",
+          "first_published": 1856,
+          "form": "poem",
+          "length_class": "short",
+          "us_pd_expected": true
+        }
+      ]
+    },
+    {
+      "popularity_rank": 8,
+      "name_en": "Ivan Goncharov",
+      "name_ru": "Иван Гончаров",
+      "born": 1812,
+      "died": 1891,
+      "eu_pd_expected": true,
+      "works": [
+        {
+          "title_en": "A Common Story",
+          "title_ru": "Обыкновенная история",
+          "first_published": 1847,
+          "form": "novel",
+          "length_class": "long",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Oblomov's Dream",
+          "title_ru": "Сон Обломова",
+          "first_published": 1849,
+          "form": "novel excerpt",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Frigate Pallada",
+          "title_ru": "Фрегат «Паллада»",
+          "first_published": 1858,
+          "form": "travel",
+          "length_class": "long",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Oblomov",
+          "title_ru": "Обломов",
+          "first_published": 1859,
+          "form": "novel",
+          "length_class": "long",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Precipice",
+          "title_ru": "Обрыв",
+          "first_published": 1869,
+          "form": "novel",
+          "length_class": "long",
+          "us_pd_expected": true
+        }
+      ]
+    },
+    {
+      "popularity_rank": 9,
+      "name_en": "Maxim Gorky",
+      "name_ru": "Максим Горький",
+      "born": 1868,
+      "died": 1936,
+      "eu_pd_expected": true,
+      "works": [
+        {
+          "title_en": "Makar Chudra",
+          "title_ru": "Макар Чудра",
+          "first_published": 1892,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Chelkash",
+          "title_ru": "Челкаш",
+          "first_published": 1895,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Old Izergil",
+          "title_ru": "Старуха Изергиль",
+          "first_published": 1895,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Twenty-six Men and a Girl",
+          "title_ru": "Двадцать шесть и одна",
+          "first_published": 1899,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Foma Gordeyev",
+          "title_ru": "Фома Гордеев",
+          "first_published": 1899,
+          "form": "novel",
+          "length_class": "long",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Lower Depths",
+          "title_ru": "На дне",
+          "first_published": 1902,
+          "form": "play",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Mother",
+          "title_ru": "Мать",
+          "first_published": 1906,
+          "form": "novel",
+          "length_class": "long",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Childhood",
+          "title_ru": "Детство",
+          "first_published": 1913,
+          "form": "memoir",
+          "length_class": "medium",
+          "us_pd_expected": true
+        }
+      ]
+    },
+    {
+      "popularity_rank": 10,
+      "name_en": "Alexander Kuprin",
+      "name_ru": "Александр Куприн",
+      "born": 1870,
+      "died": 1938,
+      "eu_pd_expected": true,
+      "works": [
+        {
+          "title_en": "Olesya",
+          "title_ru": "Олеся",
+          "first_published": 1898,
+          "form": "novella",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Duel",
+          "title_ru": "Поединок",
+          "first_published": 1905,
+          "form": "novel",
+          "length_class": "long",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Gambrinus",
+          "title_ru": "Гамбринус",
+          "first_published": 1907,
+          "form": "novella",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Garnet Bracelet",
+          "title_ru": "Гранатовый браслет",
+          "first_published": 1911,
+          "form": "novella",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Yama (The Pit)",
+          "title_ru": "Яма",
+          "first_published": 1915,
+          "form": "novel",
+          "length_class": "long",
+          "us_pd_expected": true
+        }
+      ]
+    },
+    {
+      "popularity_rank": 11,
+      "name_en": "Yevgeny Zamyatin",
+      "name_ru": "Евгений Замятин",
+      "born": 1884,
+      "died": 1937,
+      "eu_pd_expected": true,
+      "works": [
+        {
+          "title_en": "The Islanders",
+          "title_ru": "Островитяне",
+          "first_published": 1918,
+          "form": "novella",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Cave",
+          "title_ru": "Пещера",
+          "first_published": 1922,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "We (first English translation)",
+          "title_ru": "Мы",
+          "first_published": 1924,
+          "form": "novel",
+          "length_class": "medium",
+          "us_pd_expected": true
+        }
+      ]
+    },
+    {
+      "popularity_rank": 12,
+      "name_en": "Nikolai Leskov",
+      "name_ru": "Николай Лесков",
+      "born": 1831,
+      "died": 1895,
+      "eu_pd_expected": true,
+      "works": [
+        {
+          "title_en": "Lady Macbeth of the Mtsensk District",
+          "title_ru": "Леди Макбет Мценского уезда",
+          "first_published": 1865,
+          "form": "novella",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Cathedral Folk",
+          "title_ru": "Соборяне",
+          "first_published": 1872,
+          "form": "novel",
+          "length_class": "long",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Enchanted Wanderer",
+          "title_ru": "Очарованный странник",
+          "first_published": 1873,
+          "form": "novella",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Sealed Angel",
+          "title_ru": "Запечатлённый ангел",
+          "first_published": 1873,
+          "form": "novella",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Lefty",
+          "title_ru": "Левша",
+          "first_published": 1881,
+          "form": "novella",
+          "length_class": "short",
+          "us_pd_expected": true
+        }
+      ]
+    },
+    {
+      "popularity_rank": 13,
+      "name_en": "Leonid Andreyev",
+      "name_ru": "Леонид Андреев",
+      "born": 1871,
+      "died": 1919,
+      "eu_pd_expected": true,
+      "works": [
+        {
+          "title_en": "The Abyss",
+          "title_ru": "Бездна",
+          "first_published": 1902,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Red Laugh",
+          "title_ru": "Красный смех",
+          "first_published": 1904,
+          "form": "novella",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Lazarus",
+          "title_ru": "Елеазар",
+          "first_published": 1906,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Judas Iscariot",
+          "title_ru": "Иуда Искариот",
+          "first_published": 1907,
+          "form": "novella",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Seven Who Were Hanged",
+          "title_ru": "Семеро повешенных",
+          "first_published": 1908,
+          "form": "novella",
+          "length_class": "medium",
+          "us_pd_expected": true
+        }
+      ]
+    },
+    {
+      "popularity_rank": 14,
+      "name_en": "Ivan Bunin",
+      "name_ru": "Иван Бунин",
+      "born": 1870,
+      "died": 1953,
+      "eu_pd_expected": true,
+      "works": [
+        {
+          "title_en": "The Village",
+          "title_ru": "Деревня",
+          "first_published": 1910,
+          "form": "novella",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Sukhodol",
+          "title_ru": "Суходол",
+          "first_published": 1912,
+          "form": "novella",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Gentleman from San Francisco",
+          "title_ru": "Господин из Сан-Франциско",
+          "first_published": 1915,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Mitya's Love",
+          "title_ru": "Митина любовь",
+          "first_published": 1925,
+          "form": "novella",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Life of Arseniev",
+          "title_ru": "Жизнь Арсеньева",
+          "first_published": 1930,
+          "form": "novel",
+          "length_class": "long",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Dark Avenues",
+          "title_ru": "Тёмные аллеи",
+          "first_published": 1943,
+          "form": "stories",
+          "length_class": "medium",
+          "us_pd_expected": false
+        }
+      ]
+    }
+  ]
+}

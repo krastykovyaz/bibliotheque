@@ -1,0 +1,144 @@
+// Interface strings (English and Russian) and URL helpers.
+export type UiLang = 'en' | 'ru';
+export const UI_LANGS: UiLang[] = ['en', 'ru'];
+
+const BASE = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+/** Prefix a root-relative path ("/covers/x.png") with the configured base path. */
+export const asset = (p: string) => BASE + p;
+
+/** URL of a page ("/", "/about/", "/book/<id>/") in the given interface language. */
+export const pageUrl = (lang: UiLang, p: string) => BASE + (lang === 'ru' ? '/ru' : '') + p;
+
+export const ui = {
+  en: {
+    site: 'Bibliothèque',
+    tagline: 'Classics, read aloud',
+    intro: 'Public-domain classics as audiobook-videos, voiced in several languages. Pick a book and a language.',
+    home: 'Home',
+    about: 'About',
+    children: 'For children',
+    childrenTitle: 'Classics for children',
+    childrenIntro: 'Children\'s stories and tales by Russian authors whose works are in the public domain. Audiobook-videos for them are not on the shelf yet; for now each story links to its original Russian text.',
+    searchLabel: 'Search books',
+    searchPlaceholder: 'Title, author or language',
+    searchEmpty: 'No books found. Try another word.',
+    searchStatus: 'Found: {n}',
+    nextTitle: 'Next on the shelf',
+    childrenOriginal: 'Original text (Russian)',
+    childrenYears: '{born}–{died}',
+    skip: 'Skip to content',
+    uiLang: 'Interface language',
+    audioLang: 'Audio language',
+    watch: 'Watch on YouTube',
+    newTab: '(opens in a new tab)',
+    play: 'Play here',
+    playHint: 'The player loads from youtube-nocookie.com only after you click.',
+    playerTitle: 'YouTube player',
+    preview: 'Read a preview',
+    download: 'Download full version (PDF)',
+    connectText: 'Connect your Grandlivre account first if you would like to. You can skip it. Connecting sets one cookie in this browser, and you return to Settings afterwards.',
+    skipBtn: 'Skip and download the PDF',
+    dlRead: 'Skip and download for reading (A5)',
+    dlBooklet: 'Skip and download for printing (A4 booklet)',
+    settings: 'Settings',
+    glIntro: 'Connect your Grandlivre account to Bibliothèque. On Grandlivre you choose what Bibliothèque may do, and you can press Allow or Deny.',
+    glStatus: 'Status',
+    glConnected: 'Connected',
+    glNotConnected: 'Not connected',
+    glReconnect: 'Reconnect Grandlivre',
+    glConnect: 'Connect Grandlivre',
+    glReconnectBtn: 'Reconnect Grandlivre',
+    glDisconnect: 'Disconnect',
+    glDisconnectHint: 'Disconnect makes Bibliothèque forget its access. You can also see and switch off the connection in Grandlivre: Profile > Money > API keys.',
+    glCookieHint: 'Connecting sets one cookie in this browser so the site remembers the connection.',
+    glMsgConnected: 'Grandlivre is connected.',
+    glMsgDenied: 'Not connected. Access was denied on Grandlivre.',
+    glMsgState: 'Not connected. The request could not be verified. Try again.',
+    glMsgError: 'Not connected. Grandlivre did not complete the connection. Try again.',
+    glMsgDisconnected: 'Grandlivre is disconnected.',
+    glUnconfigured: 'The Grandlivre connection is not set up on this server.',
+    noVideo: 'There is no video in this language yet ({lang}), so this is the English version.',
+    coverAlt: 'Cover of “{title}” by {author}',
+    listenIn: '{title}: {lang}',
+    footer: 'The texts are in the public domain. Translations and voices are made with AI.',
+    aboutTitle: 'About the project',
+    aboutP1:
+      'Bibliothèque is a small shelf of classic books that are in the public domain. Each book is turned into an audiobook-video: the full text read aloud, published on YouTube and collected here so it is easy to find a story and choose the language you want to hear it in.',
+    aboutP2:
+      'The translations and the voices are made with AI. We check the results, but a machine translation or a synthetic voice can still contain mistakes or sound unusual in places. The original works belong to everyone; this site has no tracking. It sets one cookie only if you connect Grandlivre in Settings.',
+    notFound: 'Page not found',
+    notFoundText: 'This page is not on the shelf.',
+    backHome: 'Back to all books',
+  },
+  ru: {
+    site: 'Bibliothèque',
+    tagline: 'Классика вслух',
+    intro: 'Классические книги из общественного достояния в формате аудиокниг-видео на нескольких языках. Выберите книгу и язык.',
+    home: 'Главная',
+    about: 'О проекте',
+    children: 'Детям',
+    childrenTitle: 'Классика для детей',
+    childrenIntro: 'Детские рассказы и сказки русских авторов, чьи произведения находятся в общественном достоянии. Аудиокниг-видео по ним на полке пока нет; пока что у каждой истории есть ссылка на русский оригинал.',
+    searchLabel: 'Поиск по книгам',
+    searchPlaceholder: 'Название, автор или язык',
+    searchEmpty: 'Ничего не найдено. Попробуйте другое слово.',
+    searchStatus: 'Найдено: {n}',
+    nextTitle: 'Следующая на полке',
+    childrenOriginal: 'Оригинал (на русском)',
+    childrenYears: '{born}–{died}',
+    skip: 'Перейти к содержанию',
+    uiLang: 'Язык интерфейса',
+    audioLang: 'Язык озвучки',
+    watch: 'Смотреть на YouTube',
+    newTab: '(откроется в новой вкладке)',
+    play: 'Слушать здесь',
+    playHint: 'Плеер загружается с youtube-nocookie.com только после нажатия.',
+    playerTitle: 'Плеер YouTube',
+    preview: 'Читать отрывок',
+    download: 'Скачать полную версию (PDF)',
+    connectText: 'Если хотите, сначала подключите свой аккаунт Grandlivre. Этот шаг можно пропустить. При подключении в браузере сохраняется один файл cookie, после чего вы вернётесь в настройки.',
+    skipBtn: 'Пропустить и скачать PDF',
+    dlRead: 'Пропустить и скачать для чтения (A5)',
+    dlBooklet: 'Пропустить и скачать для печати (буклет A4)',
+    settings: 'Настройки',
+    glIntro: 'Подключите свой аккаунт Grandlivre к Bibliothèque. На стороне Grandlivre вы выбираете, что разрешить Bibliothèque, и нажимаете «Разрешить» или «Отклонить».',
+    glStatus: 'Статус',
+    glConnected: 'Подключено',
+    glNotConnected: 'Не подключено',
+    glReconnect: 'Подключите Grandlivre заново',
+    glConnect: 'Подключить Grandlivre',
+    glReconnectBtn: 'Подключить Grandlivre заново',
+    glDisconnect: 'Отключить',
+    glDisconnectHint: 'После отключения Bibliothèque забудет свой доступ. Подключение также видно и отключается в Grandlivre: Профиль > Деньги > API-ключи.',
+    glCookieHint: 'При подключении в этом браузере сохраняется один файл cookie, чтобы сайт помнил подключение.',
+    glMsgConnected: 'Grandlivre подключён.',
+    glMsgDenied: 'Не подключено. В Grandlivre доступ был отклонён.',
+    glMsgState: 'Не подключено. Запрос не удалось проверить. Попробуйте ещё раз.',
+    glMsgError: 'Не подключено. Grandlivre не завершил подключение. Попробуйте ещё раз.',
+    glMsgDisconnected: 'Grandlivre отключён.',
+    glUnconfigured: 'Подключение Grandlivre на этом сервере не настроено.',
+    noVideo: 'Видео на этом языке ({lang}) пока нет, поэтому показана английская версия.',
+    coverAlt: 'Обложка: «{title}», {author}',
+    listenIn: '{title}: {lang}',
+    footer: 'Тексты находятся в общественном достоянии. Переводы и озвучка сделаны с помощью ИИ.',
+    aboutTitle: 'О проекте',
+    aboutP1:
+      'Bibliothèque — небольшая полка классических книг, перешедших в общественное достояние. Каждая книга превращена в аудиокнигу-видео: полный текст прочитан вслух, опубликован на YouTube и собран здесь, чтобы было легко найти историю и выбрать язык, на котором хочется её услышать.',
+    aboutP2:
+      'Переводы и голоса созданы с помощью ИИ. Мы проверяем результат, но машинный перевод и синтетический голос всё же могут ошибаться или местами звучать непривычно. Сами произведения принадлежат всем; на сайте нет слежки. Один файл cookie сохраняется, только если вы подключите Grandlivre в настройках.',
+    notFound: 'Страница не найдена',
+    notFoundText: 'Такой страницы на полке нет.',
+    backHome: 'Ко всем книгам',
+  },
+} satisfies Record<UiLang, Record<string, string>>;
+
+const names: Record<UiLang, Record<string, string>> = {
+  en: { en: 'English', ru: 'Russian', de: 'German', fr: 'French', es: 'Spanish', it: 'Italian', pt: 'Portuguese', zh: 'Chinese', ja: 'Japanese', uk: 'Ukrainian', pl: 'Polish', tr: 'Turkish' },
+  ru: { en: 'английский', ru: 'русский', de: 'немецкий', fr: 'французский', es: 'испанский', it: 'итальянский', pt: 'португальский', zh: 'китайский', ja: 'японский', uk: 'украинский', pl: 'польский', tr: 'турецкий' },
+};
+
+/** Human name of an audio language, in the interface language. Unknown codes fall back to "XX". */
+export const langName = (uiLang: UiLang, code: string) => names[uiLang][code] ?? code.toUpperCase();
+
+export const fill = (s: string, vars: Record<string, string>) => s.replace(/\{(\w+)\}/g, (_, k) => vars[k] ?? '');

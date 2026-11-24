@@ -1,0 +1,53 @@
+[
+  {
+    "id": "lady-with-the-little-dog",
+    "author": {
+      "en": "Anton Chekhov",
+      "ru": "Антон Чехов"
+    },
+    "year": 1899,
+    "cover": "/covers/lady.webp",
+    "languages": {
+      "en": {
+        "title": "The Lady with the Little Dog",
+        "description": "On holiday in Yalta, the married banker Dmitri Gurov notices a young woman walking a small white Spitz along the seafront. What begins as a casual summer flirtation slowly turns into something neither of them expected. Back in Moscow and St Petersburg, they discover they cannot forget each other. Chekhov's quiet masterpiece asks how two people can live honestly inside lives built on small deceptions.",
+        "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
+        "pdf": "/pdf/lady-en.pdf",
+        "preview": "/preview/lady-en.txt",
+        "booklet": "/pdf/lady-en-booklet.pdf"
+      },
+      "ru": {
+        "title": "Дама с собачкой",
+        "description": "На отдыхе в Ялте женатый банкир Дмитрий Гуров замечает на набережной молодую женщину с белым шпицем. Лёгкий курортный роман неожиданно перерастает в чувство, о котором оба не смели мечтать. Вернувшись в Москву и Петербург, они понимают, что не могут друг друга забыть. Тихий шедевр Чехова о том, как жить честно в жизни, построенной на мелком обмане.",
+        "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
+        "pdf": "/pdf/lady-ru.pdf",
+        "preview": "/preview/lady-ru.txt",
+        "booklet": "/pdf/lady-ru-booklet.pdf"
+      }
+    }
+  },
+  {
+    "id": "fall-of-the-house-of-usher",
+    "author": {
+      "en": "Edgar Allan Poe",
+      "ru": "Эдгар Аллан По"
+    },
+    "year": 1839,
+    "cover": "/covers/usher.png",
+    "languages": {
+      "en": {
+        "title": "The Fall of the House of Usher",
+        "description": "A traveller answers a desperate letter from his boyhood friend Roderick Usher and rides to a gloomy mansion beside a black tarn. He finds Roderick unwell in mind and body, and his twin sister Madeline fading toward death. As the days pass, the house itself seems to share their sickness. Poe's classic tale of dread builds to one of the most famous endings in Gothic fiction.",
+        "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
+        "pdf": "/pdf/usher-en.pdf",
+        "preview": "/preview/usher-en.txt"
+      },
+      "de": {
+        "title": "Der Untergang des Hauses Usher",
+        "description": "Ein Reisender folgt dem verzweifelten Brief seines Jugendfreundes Roderick Usher und reitet zu einem düsteren Herrenhaus an einem schwarzen See. Er findet Roderick krank an Körper und Geist, seine Zwillingsschwester Madeline liegt im Sterben. Mit jedem Tag scheint das Haus selbst an ihrer Krankheit teilzuhaben. Poes Schauergeschichte steuert auf eines der berühmtesten Enden der Gothic-Literatur zu.",
+        "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
+        "pdf": "/pdf/usher-de.pdf"
+      }
+    }
+  }
+]

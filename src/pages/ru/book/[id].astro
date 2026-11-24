@@ -1,0 +1,12 @@
+---
+import Book from '../../../views/Book.astro';
+import { books } from '../../../lib/books';
+
+// One static HTML page per book, generated at build time from data/books.json.
+export function getStaticPaths() {
+  return books.map((book) => ({ params: { id: book.id }, props: { book } }));
+}
+const { book } = Astro.props;
+---
+
+<Book lang="ru" book={book} />

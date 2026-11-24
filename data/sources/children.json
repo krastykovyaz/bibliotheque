@@ -1,0 +1,344 @@
+{
+  "_note": "Children's section, from the table the user shared (free in both the EU and the US). Chekhov, Tolstoy and Pushkin titles are picked by me from that table's hints; Ushinsky and Charskaya titles are examples, verify. Same schema as russian-classics.json.",
+  "section": "children",
+  "authors": [
+    {
+      "popularity_rank": 1,
+      "name_en": "Leo Tolstoy",
+      "name_ru": "Лев Толстой",
+      "born": 1828,
+      "died": 1910,
+      "eu_pd_expected": true,
+      "works": [
+        {
+          "title_en": "Filipok",
+          "title_ru": "Филипок",
+          "first_published": 1875,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Three Bears",
+          "title_ru": "Три медведя",
+          "first_published": 1875,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Lion and the Little Dog",
+          "title_ru": "Лев и собачка",
+          "first_published": 1875,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Fables",
+          "title_ru": "Басни",
+          "first_published": 1872,
+          "form": "fables",
+          "length_class": "short",
+          "us_pd_expected": true
+        }
+      ]
+    },
+    {
+      "popularity_rank": 2,
+      "name_en": "Dmitry Mamin-Sibiryak",
+      "name_ru": "Дмитрий Мамин-Сибиряк",
+      "born": 1852,
+      "died": 1912,
+      "eu_pd_expected": true,
+      "works": [
+        {
+          "title_en": "Alyonushka's Tales",
+          "title_ru": "Аленушкины сказки",
+          "first_published": 1894,
+          "form": "tales",
+          "length_class": "medium",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Grey Neck",
+          "title_ru": "Серая Шейка",
+          "first_published": 1893,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        }
+      ]
+    },
+    {
+      "popularity_rank": 3,
+      "name_en": "Vsevolod Garshin",
+      "name_ru": "Всеволод Гаршин",
+      "born": 1855,
+      "died": 1888,
+      "eu_pd_expected": true,
+      "works": [
+        {
+          "title_en": "The Frog Traveller",
+          "title_ru": "Лягушка-путешественница",
+          "first_published": 1887,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        }
+      ]
+    },
+    {
+      "popularity_rank": 4,
+      "name_en": "Vladimir Odoevsky",
+      "name_ru": "Владимир Одоевский",
+      "born": 1804,
+      "died": 1869,
+      "eu_pd_expected": true,
+      "works": [
+        {
+          "title_en": "The Town in a Snuffbox",
+          "title_ru": "Городок в табакерке",
+          "first_published": 1834,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Moroz Ivanovich",
+          "title_ru": "Мороз Иванович",
+          "first_published": 1841,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        }
+      ]
+    },
+    {
+      "popularity_rank": 5,
+      "name_en": "Antony Pogorelsky",
+      "name_ru": "Антоний Погорельский",
+      "born": 1787,
+      "died": 1836,
+      "eu_pd_expected": true,
+      "works": [
+        {
+          "title_en": "The Black Hen",
+          "title_ru": "Чёрная курица",
+          "first_published": 1829,
+          "form": "novella",
+          "length_class": "medium",
+          "us_pd_expected": true
+        }
+      ]
+    },
+    {
+      "popularity_rank": 6,
+      "name_en": "Sergey Aksakov",
+      "name_ru": "Сергей Аксаков",
+      "born": 1791,
+      "died": 1859,
+      "eu_pd_expected": true,
+      "works": [
+        {
+          "title_en": "The Scarlet Flower",
+          "title_ru": "Аленький цветочек",
+          "first_published": 1858,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        }
+      ]
+    },
+    {
+      "popularity_rank": 7,
+      "name_en": "Anton Chekhov",
+      "name_ru": "Антон Чехов",
+      "born": 1860,
+      "died": 1904,
+      "eu_pd_expected": true,
+      "works": [
+        {
+          "title_en": "Kashtanka",
+          "title_ru": "Каштанка",
+          "first_published": 1887,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Vanka",
+          "title_ru": "Ванька",
+          "first_published": 1886,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "White-Brow",
+          "title_ru": "Белолобый",
+          "first_published": 1895,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        }
+      ]
+    },
+    {
+      "popularity_rank": 8,
+      "name_en": "Alexander Kuprin",
+      "name_ru": "Александр Куприн",
+      "born": 1870,
+      "died": 1938,
+      "eu_pd_expected": true,
+      "works": [
+        {
+          "title_en": "The White Poodle",
+          "title_ru": "Белый пудель",
+          "first_published": 1903,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Elephant",
+          "title_ru": "Слон",
+          "first_published": 1907,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        }
+      ]
+    },
+    {
+      "popularity_rank": 9,
+      "name_en": "Konstantin Ushinsky",
+      "name_ru": "Константин Ушинский",
+      "born": 1823,
+      "died": 1871,
+      "eu_pd_expected": true,
+      "works": [
+        {
+          "title_en": "The Blind Horse",
+          "title_ru": "Слепая лошадь",
+          "first_published": 1860,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Four Wishes",
+          "title_ru": "Четыре желания",
+          "first_published": 1860,
+          "form": "short story",
+          "length_class": "short",
+          "us_pd_expected": true
+        }
+      ]
+    },
+    {
+      "popularity_rank": 10,
+      "name_en": "Alexander Afanasyev",
+      "name_ru": "Александр Афанасьев",
+      "born": 1826,
+      "died": 1871,
+      "eu_pd_expected": true,
+      "works": [
+        {
+          "title_en": "Russian Folk Tales",
+          "title_ru": "Народные русские сказки",
+          "first_published": 1855,
+          "form": "tales",
+          "length_class": "long",
+          "us_pd_expected": true
+        }
+      ]
+    },
+    {
+      "popularity_rank": 11,
+      "name_en": "Lidia Charskaya",
+      "name_ru": "Лидия Чарская",
+      "born": 1875,
+      "died": 1937,
+      "eu_pd_expected": true,
+      "works": [
+        {
+          "title_en": "Notes of a Schoolgirl",
+          "title_ru": "Записки институтки",
+          "first_published": 1901,
+          "form": "novel",
+          "length_class": "long",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "Princess Dzhavakha",
+          "title_ru": "Княжна Джаваха",
+          "first_published": 1903,
+          "form": "novel",
+          "length_class": "medium",
+          "us_pd_expected": true
+        }
+      ]
+    },
+    {
+      "popularity_rank": 12,
+      "name_en": "Alexander Pushkin",
+      "name_ru": "Александр Пушкин",
+      "born": 1799,
+      "died": 1837,
+      "eu_pd_expected": true,
+      "works": [
+        {
+          "title_en": "The Tale of Tsar Saltan",
+          "title_ru": "Сказка о царе Салтане",
+          "first_published": 1832,
+          "form": "poem",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Tale of the Fisherman and the Fish",
+          "title_ru": "Сказка о рыбаке и рыбке",
+          "first_published": 1835,
+          "form": "poem",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Tale of the Dead Princess",
+          "title_ru": "Сказка о мёртвой царевне и о семи богатырях",
+          "first_published": 1834,
+          "form": "poem",
+          "length_class": "short",
+          "us_pd_expected": true
+        },
+        {
+          "title_en": "The Tale of the Priest and His Workman Balda",
+          "title_ru": "Сказка о попе и о работнике его Балде",
+          "first_published": 1840,
+          "form": "poem",
+          "length_class": "short",
+          "us_pd_expected": true
+        }
+      ]
+    },
+    {
+      "popularity_rank": 13,
+      "name_en": "Pyotr Yershov",
+      "name_ru": "Пётр Ершов",
+      "born": 1815,
+      "died": 1869,
+      "eu_pd_expected": true,
+      "works": [
+        {
+          "title_en": "The Little Humpbacked Horse",
+          "title_ru": "Конёк-Горбунок",
+          "first_published": 1834,
+          "form": "poem",
+          "length_class": "medium",
+          "us_pd_expected": true
+        }
+      ]
+    }
+  ]
+}

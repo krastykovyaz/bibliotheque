@@ -1,0 +1,100 @@
+---
+import '@fontsource-variable/caveat';
+import '@fontsource-variable/nunito';
+import '../styles/global.css';
+import { ui, pageUrl, asset, type UiLang } from '../lib/i18n';
+
+interface Props {
+  lang: UiLang;
+  /** Page path without the language prefix, e.g. "/", "/about/", "/book/<id>/". */
+  path: string;
+  title: string;
+  description: string;
+  image?: string;
+  ogType?: string;
+  noindex?: boolean;
+}
+const { lang, path, title, description, image, ogType = 'website', noindex = false } = Astro.props;
+const t = ui[lang];
+const enUrl = pageUrl('en', path);
+const ruUrl = pageUrl('ru', path);
+const abs = (p: string) => new URL(p, Astro.site).href;
+const canonical = abs(lang === 'ru' ? ruUrl : enUrl);
+
+// Decorative shelf of book spines under the header.
+const spineColors = ['#7a2e22', '#2f4a3a', '#b9824a', '#28405c', '#5a3b26', '#a63d4a'];
+const spineHeights = [30, 24, 32, 20, 28, 34, 22, 30, 26];
+const spines = Array.from({ length: 80 }, (_, i) => ({
+  h: spineHeights[i % 9],
+  c: spineColors[(i * 5 + (i % 3)) % 6],
+  w: i % 7 === 3 ? 18 : 12,
+}));
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex" />}
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang="en" href={abs(enUrl)} />
+    <link rel="alternate" hreflang="ru" href={abs(ruUrl)} />
+    <link rel="alternate" hreflang="x-default" href={abs(enUrl)} />
+    <link rel="icon" type="image/svg+xml" href={asset('/favicon.svg')} />
+    <meta name="theme-color" content="#f6e0d8" />
+    <meta property="og:site_name" content={t.site} />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content={lang === 'ru' ? 'ru_RU' : 'en_US'} />
+    {image && <meta property="og:image" content={abs(image)} />}
+    <meta name="twitter:card" content="summary" />
+    {
+      /* Runs before paint: marks JS as available and honours a shared ?lang=en|ru link
+         by moving to the same page in that interface language. */
+    }
+    <script is:inline define:vars={{ lang, enUrl, ruUrl }}>
+      document.documentElement.classList.add('js');
+      var p = new URLSearchParams(location.search).get('lang');
+      if ((p === 'en' || p === 'ru') && p !== lang) {
+        location.replace((p === 'ru' ? ruUrl : enUrl) + location.search + location.hash);
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#main">{t.skip}</a>
+    <header class="site-header">
+      <div class="wrap header-row">
+        <a class="logo" href={pageUrl(lang, '/')}>{t.site}</a>
+        <nav class="nav" aria-label={t.site}>
+          <a href={pageUrl(lang, '/')}>{t.home}</a>
+          <a href={pageUrl(lang, '/children/')}>{t.children}</a>
+          <a href={pageUrl(lang, '/about/')}>{t.about}</a>
+          <a href={pageUrl(lang, '/settings/')}>{t.settings}</a>
+        </nav>
+        <form class="header-search js-only" role="search" action={pageUrl(lang, '/')} method="get">
+          <label class="visually-hidden" for="book-search">{t.searchLabel}</label>
+          <input id="book-search" type="search" name="q" autocomplete="off" placeholder={t.searchPlaceholder} />
+        </form>
+      </div>
+      <div class="wrap">
+        <div class="shelf" aria-hidden="true">
+          {spines.map((s) => <i style={`height:${s.h}px;width:${s.w}px;background:${s.c}`} />)}
+        </div>
+      </div>
+    </header>
+    <main id="main" class="wrap">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="wrap"><p>{t.footer}</p></div>
+    </footer>
+  <script>
+    import '../scripts/search.ts';
+  </script>
+  </body>
+</html>

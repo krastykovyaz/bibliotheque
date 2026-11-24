@@ -1,0 +1,150 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { ui, pageUrl, asset, langName, fill, type UiLang } from '../lib/i18n';
+import { inLang, authorIn, type Book } from '../lib/books';
+
+interface Props {
+  lang: UiLang;
+  book: Book;
+}
+const { lang, book } = Astro.props;
+const t = ui[lang];
+const codes = Object.keys(book.languages);
+const hasUiLang = codes.includes(lang);
+const active = hasUiLang ? lang : 'en';
+const main = inLang(book, lang);
+const author = authorIn(book, lang);
+const names = Object.fromEntries([...new Set([...codes, 'en', 'ru'])].map((c) => [c, langName(lang, c)]));
+
+const short = (s: string) => (s.length <= 158 ? s : s.slice(0, 155).replace(/\s+\S*$/, '') + '…');
+---
+
+<Layout
+  lang={lang}
+  path={`/book/${book.id}/`}
+  title={`${main.title}, ${author} | ${t.site}`}
+  description={short(main.description)}
+  image={asset(book.cover)}
+  ogType="book"
+>
+  <article
+    class="book"
+    data-book
+    data-ui-lang={lang}
+    data-site={t.site}
+    data-author={author}
+    data-note={t.noVideo}
+    data-names={JSON.stringify(names)}
+    data-player-title={t.playerTitle}
+  >
+    <div class="book-cover">
+      <img
+        src={asset(book.cover)}
+        width={book.coverWidth}
+        height={book.coverHeight}
+        alt={fill(t.coverAlt, { title: main.title, author })}
+        decoding="async"
+        fetchpriority="high"
+      />
+    </div>
+    <div class="book-body">
+      <p class="label" id="audio-lang-label">{t.audioLang}</p>
+      <ul class="chips" aria-labelledby="audio-lang-label">
+        {
+          codes.map((code) => (
+            <li>
+              <a
+                class="chip"
+                href={`#lang-${code}`}
+                data-lang={code}
+                aria-current={code === active ? 'true' : undefined}
+              >
+                {code.toUpperCase()}
+                <span class="visually-hidden">, {langName(lang, code)}</span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+      <p class="note js-only" data-note-box role="status" hidden={hasUiLang}>
+        {fill(t.noVideo, { lang: langName(lang, lang) })}
+      </p>
+
+      {
+        codes.map((code) => {
+          const l = book.languages[code];
+          return (
+            <section
+              class:list={['panel', { 'is-active': code === active }]}
+              id={`lang-${code}`}
+              lang={code}
+              data-panel={code}
+              data-title={l.title}
+            >
+              <h1>{l.title}</h1>
+              <p class="book-meta" lang={lang}>
+                {author} · {book.year}
+              </p>
+              <p class="description">{l.description}</p>
+              <a class="btn" href={l.youtube} target="_blank" rel="noopener noreferrer" lang={lang}>
+                {t.watch} <span aria-hidden="true">↗</span>
+                <span class="visually-hidden">{t.newTab}</span>
+              </a>
+              {/* Preview: an excerpt anyone can read, no registration. */}
+              {l.previewParagraphs && (
+                <details class="preview" lang={lang}>
+                  <summary class="btn btn-secondary">{t.preview}</summary>
+                  <div class="preview-box">
+                    <div class="preview-text" lang={code}>
+                      {l.previewParagraphs.map((para) => <p>{para}</p>)}
+                    </div>
+                  </div>
+                </details>
+              )}
+              {/* Full version: optional PDF. Connecting Grandlivre is offered first and can be skipped. */}
+              {l.pdf && (
+                <div class="download" lang={lang}>
+                  <details>
+                    <summary class="btn btn-secondary">{t.download}</summary>
+                    <div class="download-box">
+                      <p>{t.connectText}</p>
+                      <form method="post" action={asset('/grandlivre/connect')}>
+                        <input type="hidden" name="lang" value={lang} />
+                        <button class="btn" type="submit">{t.glConnect}</button>
+                      </form>
+                      <a class="btn btn-secondary" href={asset(l.pdf)} download>
+                        {l.booklet ? t.dlRead : t.skipBtn}
+                      </a>
+                      {l.booklet && (
+                        <a class="btn btn-secondary" href={asset(l.booklet)} download>
+                          {t.dlBooklet}
+                        </a>
+                      )}
+                    </div>
+                  </details>
+                </div>
+              )}
+              {/* The YouTube player is created only after the visitor clicks (see src/scripts/book.ts). */}
+              <div class="player js-only" data-video={l.videoId} lang={lang}>
+                <button class="btn" type="button" data-play>
+                  <span aria-hidden="true">▶</span> {t.play}
+                </button>
+                <p class="player-hint">{t.playHint}</p>
+              </div>
+            </section>
+          );
+        })
+      }
+
+      <!-- ============================================================
+           FUTURE STORE SLOT: a price and a "Buy" button go here.
+           Put the markup inside the div below. It is hidden while empty.
+           ============================================================ -->
+      <div class="download-slot" data-slot="download"></div>
+    </div>
+  </article>
+</Layout>
+
+<script>
+  import '../scripts/book.ts';
+</script>

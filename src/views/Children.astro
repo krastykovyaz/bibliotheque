@@ -1,0 +1,39 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { ui, fill, type UiLang } from '../lib/i18n';
+import { childAuthors } from '../lib/children';
+
+interface Props {
+  lang: UiLang;
+}
+const { lang } = Astro.props;
+const t = ui[lang];
+---
+
+<Layout lang={lang} path="/children/" title={`${t.childrenTitle} | ${t.site}`} description={t.childrenIntro.slice(0, 155).replace(/\s+\S*$/, '') + '…'}>
+  <h1>{t.childrenTitle}</h1>
+  <p class="lead">{t.childrenIntro}</p>
+  <ul class="authors">
+    {
+      childAuthors.map((a) => (
+        <li class="card author">
+          <h2>{lang === 'ru' ? a.nameRu : a.nameEn}</h2>
+          <p class="card-author">{fill(t.childrenYears, { born: String(a.born), died: String(a.died) })}</p>
+          <ul class="works">
+            {a.works.map((w) => (
+              <li>
+                <span>{lang === 'ru' ? w.titleRu : w.titleEn}</span>
+                {w.url && (
+                  <a href={w.url} target="_blank" rel="noopener noreferrer" lang="ru">
+                    {t.childrenOriginal} <span aria-hidden="true">↗</span>
+                    <span class="visually-hidden">{t.newTab}</span>
+                  </a>
+                )}
+              </li>
+            ))}
+          </ul>
+        </li>
+      ))
+    }
+  </ul>
+</Layout>

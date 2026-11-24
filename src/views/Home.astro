@@ -1,0 +1,94 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { ui, pageUrl, asset, langName, fill, type UiLang } from '../lib/i18n';
+import { books, inLang, authorIn } from '../lib/books';
+import { nextBook } from '../lib/queue';
+import { childAuthors } from '../lib/children';
+
+interface Props {
+  lang: UiLang;
+}
+const { lang } = Astro.props;
+const t = ui[lang];
+// Everything a visitor might type for a book: titles and authors in every language, year, audio language names.
+const haystack = (book: (typeof books)[number]) =>
+  [
+    ...Object.values(book.languages).map((l) => l.title),
+    ...Object.values(book.author),
+    String(book.year),
+    ...Object.keys(book.languages).flatMap((c) => [c, langName('en', c), langName('ru', c)]),
+  ].join(' ');
+// The children's stories are searched too: they are hidden cards in the same grid, shown only when a search matches them.
+const childWorks = childAuthors.flatMap((a) => a.works.map((w) => ({ a, w })));
+const childHaystack = ({ a, w }: (typeof childWorks)[number]) =>
+  [w.titleEn, w.titleRu, a.nameEn, a.nameRu, String(a.born), String(a.died), 'children for children детям дети для детей'].join(' ');
+const { item: next } = nextBook();
+---
+
+<Layout lang={lang} path="/" title={`${t.site}: ${t.tagline}`} description={t.intro}>
+  <h1>{t.tagline}</h1>
+  <p class="lead">{t.intro}</p>
+  <p class="visually-hidden" role="status" data-search-status data-template={t.searchStatus}></p>
+  <p class="note js-only" data-search-empty hidden>{t.searchEmpty}</p>
+  <ul class="grid" data-search-grid>
+    {
+      books.map((book, i) => {
+        const b = inLang(book, lang);
+        const author = authorIn(book, lang);
+        const href = pageUrl(lang, `/book/${book.id}/`);
+        return (
+          <li data-search={haystack(book)}>
+            <article class="card">
+              <a class="card-link" href={href}>
+                <img
+                  src={asset(book.cover)}
+                  width={book.coverWidth}
+                  height={book.coverHeight}
+                  alt={fill(t.coverAlt, { title: b.title, author })}
+                  loading={i === 0 ? 'eager' : 'lazy'}
+                  decoding="async"
+                />
+                <h2>{b.title}</h2>
+                <span class="card-author">{author}</span>
+              </a>
+              <ul class="chips" aria-label={t.audioLang}>
+                {Object.keys(book.languages).map((code) => (
+                  <li>
+                    <a class="chip" href={`${href}?lang=${code}`}>
+                      {code.toUpperCase()}
+                      <span class="visually-hidden">, {fill(t.listenIn, { title: b.title, lang: langName(lang, code) })}</span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </article>
+          </li>
+        );
+      })
+      }
+      {
+        childWorks.map(({ a, w }) => (
+          <li data-search={childHaystack({ a, w })} data-kid hidden>
+            <article class="card">
+              <p class="label">{t.children}</p>
+              <h2>{lang === 'ru' ? w.titleRu : w.titleEn}</h2>
+              <span class="card-author">{lang === 'ru' ? a.nameRu : a.nameEn}</span>
+              {w.url && (
+                <a href={w.url} target="_blank" rel="noopener noreferrer" lang="ru">
+                  {t.childrenOriginal} <span aria-hidden="true">↗</span>
+                  <span class="visually-hidden">{t.newTab}</span>
+                </a>
+              )}
+            </article>
+          </li>
+        ))
+      }
+  </ul>
+  <section class="next" aria-labelledby="next-title">
+    <p class="label" id="next-title">{t.nextTitle}</p>
+    <p class="next-book">
+      <span class="next-name">{lang === 'ru' ? next.title_ru : next.title_en}</span>
+      <span class="card-author">{lang === 'ru' ? next.author_ru : next.author_en}</span>
+    </p>
+  </section>
+</Layout>

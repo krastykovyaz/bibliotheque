@@ -1,0 +1,6 @@
+START 2026-11-24 18:45:18
+Book: Poor Folk (Бедные люди), Dostoevsky, from the announcement list
+Step 0 rights check: done (Dostoevsky d.1881, first published 1846)
+Step 1a: source found on ru.wikisource: 20 subpages, 490,809 bytes of wikitext (about 33,000 Russian words)
+Blockers found: ffmpeg broken (missing x265 library), kokoro-onnx not installed, pdftoppm missing (cannot render PDF pages to images)
+Elapsed so far: 25 seconds

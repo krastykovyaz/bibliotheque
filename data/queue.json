@@ -1,0 +1,798 @@
+{
+  "_note": "Order of the daily 'next on the shelf' announcement: one book per day starting at 'start', then it begins again. Reorder or edit freely; it is announcement only, nothing is prepared or published from it.",
+  "start": "2026-11-24",
+  "items": [
+    {
+      "author_en": "Fyodor Dostoevsky",
+      "author_ru": "Фёдор Достоевский",
+      "title_en": "Poor Folk",
+      "title_ru": "Бедные люди"
+    },
+    {
+      "author_en": "Leo Tolstoy",
+      "author_ru": "Лев Толстой",
+      "title_en": "Childhood",
+      "title_ru": "Детство"
+    },
+    {
+      "author_en": "Anton Chekhov",
+      "author_ru": "Антон Чехов",
+      "title_en": "Vanka",
+      "title_ru": "Ванька"
+    },
+    {
+      "author_en": "Nikolai Gogol",
+      "author_ru": "Николай Гоголь",
+      "title_en": "The Night Before Christmas",
+      "title_ru": "Ночь перед Рождеством"
+    },
+    {
+      "author_en": "Ivan Turgenev",
+      "author_ru": "Иван Тургенев",
+      "title_en": "A Month in the Country",
+      "title_ru": "Месяц в деревне"
+    },
+    {
+      "author_en": "Alexander Pushkin",
+      "author_ru": "Александр Пушкин",
+      "title_en": "Ruslan and Ludmila",
+      "title_ru": "Руслан и Людмила"
+    },
+    {
+      "author_en": "Mikhail Lermontov",
+      "author_ru": "Михаил Лермонтов",
+      "title_en": "Borodino",
+      "title_ru": "Бородино"
+    },
+    {
+      "author_en": "Ivan Goncharov",
+      "author_ru": "Иван Гончаров",
+      "title_en": "A Common Story",
+      "title_ru": "Обыкновенная история"
+    },
+    {
+      "author_en": "Maxim Gorky",
+      "author_ru": "Максим Горький",
+      "title_en": "Makar Chudra",
+      "title_ru": "Макар Чудра"
+    },
+    {
+      "author_en": "Alexander Kuprin",
+      "author_ru": "Александр Куприн",
+      "title_en": "Olesya",
+      "title_ru": "Олеся"
+    },
+    {
+      "author_en": "Yevgeny Zamyatin",
+      "author_ru": "Евгений Замятин",
+      "title_en": "The Islanders",
+      "title_ru": "Островитяне"
+    },
+    {
+      "author_en": "Nikolai Leskov",
+      "author_ru": "Николай Лесков",
+      "title_en": "Lady Macbeth of the Mtsensk District",
+      "title_ru": "Леди Макбет Мценского уезда"
+    },
+    {
+      "author_en": "Leonid Andreyev",
+      "author_ru": "Леонид Андреев",
+      "title_en": "The Abyss",
+      "title_ru": "Бездна"
+    },
+    {
+      "author_en": "Ivan Bunin",
+      "author_ru": "Иван Бунин",
+      "title_en": "The Village",
+      "title_ru": "Деревня"
+    },
+    {
+      "author_en": "Fyodor Dostoevsky",
+      "author_ru": "Фёдор Достоевский",
+      "title_en": "The Double",
+      "title_ru": "Двойник"
+    },
+    {
+      "author_en": "Leo Tolstoy",
+      "author_ru": "Лев Толстой",
+      "title_en": "Sevastopol Sketches",
+      "title_ru": "Севастопольские рассказы"
+    },
+    {
+      "author_en": "Anton Chekhov",
+      "author_ru": "Антон Чехов",
+      "title_en": "Kashtanka",
+      "title_ru": "Каштанка"
+    },
+    {
+      "author_en": "Nikolai Gogol",
+      "author_ru": "Николай Гоголь",
+      "title_en": "Diary of a Madman",
+      "title_ru": "Записки сумасшедшего"
+    },
+    {
+      "author_en": "Ivan Turgenev",
+      "author_ru": "Иван Тургенев",
+      "title_en": "The Diary of a Superfluous Man",
+      "title_ru": "Дневник лишнего человека"
+    },
+    {
+      "author_en": "Alexander Pushkin",
+      "author_ru": "Александр Пушкин",
+      "title_en": "Boris Godunov",
+      "title_ru": "Борис Годунов"
+    },
+    {
+      "author_en": "Mikhail Lermontov",
+      "author_ru": "Михаил Лермонтов",
+      "title_en": "The Song of the Merchant Kalashnikov",
+      "title_ru": "Песня про купца Калашникова"
+    },
+    {
+      "author_en": "Ivan Goncharov",
+      "author_ru": "Иван Гончаров",
+      "title_en": "Oblomov's Dream",
+      "title_ru": "Сон Обломова"
+    },
+    {
+      "author_en": "Maxim Gorky",
+      "author_ru": "Максим Горький",
+      "title_en": "Chelkash",
+      "title_ru": "Челкаш"
+    },
+    {
+      "author_en": "Alexander Kuprin",
+      "author_ru": "Александр Куприн",
+      "title_en": "The Duel",
+      "title_ru": "Поединок"
+    },
+    {
+      "author_en": "Yevgeny Zamyatin",
+      "author_ru": "Евгений Замятин",
+      "title_en": "The Cave",
+      "title_ru": "Пещера"
+    },
+    {
+      "author_en": "Nikolai Leskov",
+      "author_ru": "Николай Лесков",
+      "title_en": "Cathedral Folk",
+      "title_ru": "Соборяне"
+    },
+    {
+      "author_en": "Leonid Andreyev",
+      "author_ru": "Леонид Андреев",
+      "title_en": "The Red Laugh",
+      "title_ru": "Красный смех"
+    },
+    {
+      "author_en": "Ivan Bunin",
+      "author_ru": "Иван Бунин",
+      "title_en": "Sukhodol",
+      "title_ru": "Суходол"
+    },
+    {
+      "author_en": "Fyodor Dostoevsky",
+      "author_ru": "Фёдор Достоевский",
+      "title_en": "White Nights",
+      "title_ru": "Белые ночи"
+    },
+    {
+      "author_en": "Leo Tolstoy",
+      "author_ru": "Лев Толстой",
+      "title_en": "Family Happiness",
+      "title_ru": "Семейное счастие"
+    },
+    {
+      "author_en": "Anton Chekhov",
+      "author_ru": "Антон Чехов",
+      "title_en": "The Kiss",
+      "title_ru": "Поцелуй"
+    },
+    {
+      "author_en": "Nikolai Gogol",
+      "author_ru": "Николай Гоголь",
+      "title_en": "Nevsky Prospect",
+      "title_ru": "Невский проспект"
+    },
+    {
+      "author_en": "Ivan Turgenev",
+      "author_ru": "Иван Тургенев",
+      "title_en": "Bezhin Meadow",
+      "title_ru": "Бежин луг"
+    },
+    {
+      "author_en": "Alexander Pushkin",
+      "author_ru": "Александр Пушкин",
+      "title_en": "The Belkin Tales",
+      "title_ru": "Повести Белкина"
+    },
+    {
+      "author_en": "Mikhail Lermontov",
+      "author_ru": "Михаил Лермонтов",
+      "title_en": "A Hero of Our Time",
+      "title_ru": "Герой нашего времени"
+    },
+    {
+      "author_en": "Ivan Goncharov",
+      "author_ru": "Иван Гончаров",
+      "title_en": "The Frigate Pallada",
+      "title_ru": "Фрегат «Паллада»"
+    },
+    {
+      "author_en": "Maxim Gorky",
+      "author_ru": "Максим Горький",
+      "title_en": "Old Izergil",
+      "title_ru": "Старуха Изергиль"
+    },
+    {
+      "author_en": "Alexander Kuprin",
+      "author_ru": "Александр Куприн",
+      "title_en": "Gambrinus",
+      "title_ru": "Гамбринус"
+    },
+    {
+      "author_en": "Yevgeny Zamyatin",
+      "author_ru": "Евгений Замятин",
+      "title_en": "We (first English translation)",
+      "title_ru": "Мы"
+    },
+    {
+      "author_en": "Nikolai Leskov",
+      "author_ru": "Николай Лесков",
+      "title_en": "The Enchanted Wanderer",
+      "title_ru": "Очарованный странник"
+    },
+    {
+      "author_en": "Leonid Andreyev",
+      "author_ru": "Леонид Андреев",
+      "title_en": "Lazarus",
+      "title_ru": "Елеазар"
+    },
+    {
+      "author_en": "Ivan Bunin",
+      "author_ru": "Иван Бунин",
+      "title_en": "The Gentleman from San Francisco",
+      "title_ru": "Господин из Сан-Франциско"
+    },
+    {
+      "author_en": "Fyodor Dostoevsky",
+      "author_ru": "Фёдор Достоевский",
+      "title_en": "Notes from the House of the Dead",
+      "title_ru": "Записки из Мёртвого дома"
+    },
+    {
+      "author_en": "Leo Tolstoy",
+      "author_ru": "Лев Толстой",
+      "title_en": "The Cossacks",
+      "title_ru": "Казаки"
+    },
+    {
+      "author_en": "Anton Chekhov",
+      "author_ru": "Антон Чехов",
+      "title_en": "The Steppe",
+      "title_ru": "Степь"
+    },
+    {
+      "author_en": "Nikolai Gogol",
+      "author_ru": "Николай Гоголь",
+      "title_en": "Viy",
+      "title_ru": "Вий"
+    },
+    {
+      "author_en": "Ivan Turgenev",
+      "author_ru": "Иван Тургенев",
+      "title_en": "A Sportsman's Sketches",
+      "title_ru": "Записки охотника"
+    },
+    {
+      "author_en": "Alexander Pushkin",
+      "author_ru": "Александр Пушкин",
+      "title_en": "The Stationmaster",
+      "title_ru": "Станционный смотритель"
+    },
+    {
+      "author_en": "Mikhail Lermontov",
+      "author_ru": "Михаил Лермонтов",
+      "title_en": "Mtsyri",
+      "title_ru": "Мцыри"
+    },
+    {
+      "author_en": "Ivan Goncharov",
+      "author_ru": "Иван Гончаров",
+      "title_en": "Oblomov",
+      "title_ru": "Обломов"
+    },
+    {
+      "author_en": "Maxim Gorky",
+      "author_ru": "Максим Горький",
+      "title_en": "Twenty-six Men and a Girl",
+      "title_ru": "Двадцать шесть и одна"
+    },
+    {
+      "author_en": "Alexander Kuprin",
+      "author_ru": "Александр Куприн",
+      "title_en": "The Garnet Bracelet",
+      "title_ru": "Гранатовый браслет"
+    },
+    {
+      "author_en": "Nikolai Leskov",
+      "author_ru": "Николай Лесков",
+      "title_en": "The Sealed Angel",
+      "title_ru": "Запечатлённый ангел"
+    },
+    {
+      "author_en": "Leonid Andreyev",
+      "author_ru": "Леонид Андреев",
+      "title_en": "Judas Iscariot",
+      "title_ru": "Иуда Искариот"
+    },
+    {
+      "author_en": "Ivan Bunin",
+      "author_ru": "Иван Бунин",
+      "title_en": "Mitya's Love",
+      "title_ru": "Митина любовь"
+    },
+    {
+      "author_en": "Fyodor Dostoevsky",
+      "author_ru": "Фёдор Достоевский",
+      "title_en": "Notes from Underground",
+      "title_ru": "Записки из подполья"
+    },
+    {
+      "author_en": "Leo Tolstoy",
+      "author_ru": "Лев Толстой",
+      "title_en": "War and Peace",
+      "title_ru": "Война и мир"
+    },
+    {
+      "author_en": "Anton Chekhov",
+      "author_ru": "Антон Чехов",
+      "title_en": "A Dreary Story",
+      "title_ru": "Скучная история"
+    },
+    {
+      "author_en": "Nikolai Gogol",
+      "author_ru": "Николай Гоголь",
+      "title_en": "Taras Bulba",
+      "title_ru": "Тарас Бульба"
+    },
+    {
+      "author_en": "Ivan Turgenev",
+      "author_ru": "Иван Тургенев",
+      "title_en": "Mumu",
+      "title_ru": "Муму"
+    },
+    {
+      "author_en": "Alexander Pushkin",
+      "author_ru": "Александр Пушкин",
+      "title_en": "The Shot",
+      "title_ru": "Выстрел"
+    },
+    {
+      "author_en": "Mikhail Lermontov",
+      "author_ru": "Михаил Лермонтов",
+      "title_en": "Masquerade",
+      "title_ru": "Маскарад"
+    },
+    {
+      "author_en": "Ivan Goncharov",
+      "author_ru": "Иван Гончаров",
+      "title_en": "The Precipice",
+      "title_ru": "Обрыв"
+    },
+    {
+      "author_en": "Maxim Gorky",
+      "author_ru": "Максим Горький",
+      "title_en": "Foma Gordeyev",
+      "title_ru": "Фома Гордеев"
+    },
+    {
+      "author_en": "Alexander Kuprin",
+      "author_ru": "Александр Куприн",
+      "title_en": "Yama (The Pit)",
+      "title_ru": "Яма"
+    },
+    {
+      "author_en": "Nikolai Leskov",
+      "author_ru": "Николай Лесков",
+      "title_en": "Lefty",
+      "title_ru": "Левша"
+    },
+    {
+      "author_en": "Leonid Andreyev",
+      "author_ru": "Леонид Андреев",
+      "title_en": "The Seven Who Were Hanged",
+      "title_ru": "Семеро повешенных"
+    },
+    {
+      "author_en": "Ivan Bunin",
+      "author_ru": "Иван Бунин",
+      "title_en": "The Life of Arseniev",
+      "title_ru": "Жизнь Арсеньева"
+    },
+    {
+      "author_en": "Fyodor Dostoevsky",
+      "author_ru": "Фёдор Достоевский",
+      "title_en": "Crime and Punishment",
+      "title_ru": "Преступление и наказание"
+    },
+    {
+      "author_en": "Leo Tolstoy",
+      "author_ru": "Лев Толстой",
+      "title_en": "Anna Karenina",
+      "title_ru": "Анна Каренина"
+    },
+    {
+      "author_en": "Anton Chekhov",
+      "author_ru": "Антон Чехов",
+      "title_en": "The Duel",
+      "title_ru": "Дуэль"
+    },
+    {
+      "author_en": "Nikolai Gogol",
+      "author_ru": "Николай Гоголь",
+      "title_en": "Old World Landowners",
+      "title_ru": "Старосветские помещики"
+    },
+    {
+      "author_en": "Ivan Turgenev",
+      "author_ru": "Иван Тургенев",
+      "title_en": "Rudin",
+      "title_ru": "Рудин"
+    },
+    {
+      "author_en": "Alexander Pushkin",
+      "author_ru": "Александр Пушкин",
+      "title_en": "The Blizzard",
+      "title_ru": "Метель"
+    },
+    {
+      "author_en": "Mikhail Lermontov",
+      "author_ru": "Михаил Лермонтов",
+      "title_en": "The Demon",
+      "title_ru": "Демон"
+    },
+    {
+      "author_en": "Maxim Gorky",
+      "author_ru": "Максим Горький",
+      "title_en": "The Lower Depths",
+      "title_ru": "На дне"
+    },
+    {
+      "author_en": "Ivan Bunin",
+      "author_ru": "Иван Бунин",
+      "title_en": "Dark Avenues",
+      "title_ru": "Тёмные аллеи"
+    },
+    {
+      "author_en": "Fyodor Dostoevsky",
+      "author_ru": "Фёдор Достоевский",
+      "title_en": "The Gambler",
+      "title_ru": "Игрок"
+    },
+    {
+      "author_en": "Leo Tolstoy",
+      "author_ru": "Лев Толстой",
+      "title_en": "What Men Live By",
+      "title_ru": "Чем люди живы"
+    },
+    {
+      "author_en": "Anton Chekhov",
+      "author_ru": "Антон Чехов",
+      "title_en": "Ward No. 6",
+      "title_ru": "Палата № 6"
+    },
+    {
+      "author_en": "Nikolai Gogol",
+      "author_ru": "Николай Гоголь",
+      "title_en": "The Portrait",
+      "title_ru": "Портрет"
+    },
+    {
+      "author_en": "Ivan Turgenev",
+      "author_ru": "Иван Тургенев",
+      "title_en": "Asya",
+      "title_ru": "Ася"
+    },
+    {
+      "author_en": "Alexander Pushkin",
+      "author_ru": "Александр Пушкин",
+      "title_en": "The Little Tragedies",
+      "title_ru": "Маленькие трагедии"
+    },
+    {
+      "author_en": "Maxim Gorky",
+      "author_ru": "Максим Горький",
+      "title_en": "Mother",
+      "title_ru": "Мать"
+    },
+    {
+      "author_en": "Fyodor Dostoevsky",
+      "author_ru": "Фёдор Достоевский",
+      "title_en": "The Idiot",
+      "title_ru": "Идиот"
+    },
+    {
+      "author_en": "Leo Tolstoy",
+      "author_ru": "Лев Толстой",
+      "title_en": "The Death of Ivan Ilyich",
+      "title_ru": "Смерть Ивана Ильича"
+    },
+    {
+      "author_en": "Anton Chekhov",
+      "author_ru": "Антон Чехов",
+      "title_en": "The Black Monk",
+      "title_ru": "Чёрный монах"
+    },
+    {
+      "author_en": "Nikolai Gogol",
+      "author_ru": "Николай Гоголь",
+      "title_en": "The Nose",
+      "title_ru": "Нос"
+    },
+    {
+      "author_en": "Ivan Turgenev",
+      "author_ru": "Иван Тургенев",
+      "title_en": "A Nest of Gentlefolk",
+      "title_ru": "Дворянское гнездо"
+    },
+    {
+      "author_en": "Alexander Pushkin",
+      "author_ru": "Александр Пушкин",
+      "title_en": "Eugene Onegin",
+      "title_ru": "Евгений Онегин"
+    },
+    {
+      "author_en": "Maxim Gorky",
+      "author_ru": "Максим Горький",
+      "title_en": "Childhood",
+      "title_ru": "Детство"
+    },
+    {
+      "author_en": "Fyodor Dostoevsky",
+      "author_ru": "Фёдор Достоевский",
+      "title_en": "The Eternal Husband",
+      "title_ru": "Вечный муж"
+    },
+    {
+      "author_en": "Leo Tolstoy",
+      "author_ru": "Лев Толстой",
+      "title_en": "How Much Land Does a Man Need?",
+      "title_ru": "Много ли человеку земли нужно"
+    },
+    {
+      "author_en": "Anton Chekhov",
+      "author_ru": "Антон Чехов",
+      "title_en": "The Student",
+      "title_ru": "Студент"
+    },
+    {
+      "author_en": "Nikolai Gogol",
+      "author_ru": "Николай Гоголь",
+      "title_en": "The Carriage",
+      "title_ru": "Коляска"
+    },
+    {
+      "author_en": "Ivan Turgenev",
+      "author_ru": "Иван Тургенев",
+      "title_en": "On the Eve",
+      "title_ru": "Накануне"
+    },
+    {
+      "author_en": "Alexander Pushkin",
+      "author_ru": "Александр Пушкин",
+      "title_en": "The Bronze Horseman",
+      "title_ru": "Медный всадник"
+    },
+    {
+      "author_en": "Fyodor Dostoevsky",
+      "author_ru": "Фёдор Достоевский",
+      "title_en": "Demons",
+      "title_ru": "Бесы"
+    },
+    {
+      "author_en": "Leo Tolstoy",
+      "author_ru": "Лев Толстой",
+      "title_en": "The Kreutzer Sonata",
+      "title_ru": "Крейцерова соната"
+    },
+    {
+      "author_en": "Anton Chekhov",
+      "author_ru": "Антон Чехов",
+      "title_en": "My Life",
+      "title_ru": "Моя жизнь"
+    },
+    {
+      "author_en": "Nikolai Gogol",
+      "author_ru": "Николай Гоголь",
+      "title_en": "The Government Inspector",
+      "title_ru": "Ревизор"
+    },
+    {
+      "author_en": "Ivan Turgenev",
+      "author_ru": "Иван Тургенев",
+      "title_en": "First Love",
+      "title_ru": "Первая любовь"
+    },
+    {
+      "author_en": "Alexander Pushkin",
+      "author_ru": "Александр Пушкин",
+      "title_en": "The Queen of Spades",
+      "title_ru": "Пиковая дама"
+    },
+    {
+      "author_en": "Fyodor Dostoevsky",
+      "author_ru": "Фёдор Достоевский",
+      "title_en": "Bobok",
+      "title_ru": "Бобок"
+    },
+    {
+      "author_en": "Leo Tolstoy",
+      "author_ru": "Лев Толстой",
+      "title_en": "Master and Man",
+      "title_ru": "Хозяин и работник"
+    },
+    {
+      "author_en": "Anton Chekhov",
+      "author_ru": "Антон Чехов",
+      "title_en": "The Seagull",
+      "title_ru": "Чайка"
+    },
+    {
+      "author_en": "Nikolai Gogol",
+      "author_ru": "Николай Гоголь",
+      "title_en": "The Overcoat",
+      "title_ru": "Шинель"
+    },
+    {
+      "author_en": "Ivan Turgenev",
+      "author_ru": "Иван Тургенев",
+      "title_en": "Fathers and Sons",
+      "title_ru": "Отцы и дети"
+    },
+    {
+      "author_en": "Alexander Pushkin",
+      "author_ru": "Александр Пушкин",
+      "title_en": "The Tale of the Golden Cockerel",
+      "title_ru": "Сказка о золотом петушке"
+    },
+    {
+      "author_en": "Fyodor Dostoevsky",
+      "author_ru": "Фёдор Достоевский",
+      "title_en": "A Gentle Creature",
+      "title_ru": "Кроткая"
+    },
+    {
+      "author_en": "Leo Tolstoy",
+      "author_ru": "Лев Толстой",
+      "title_en": "Resurrection",
+      "title_ru": "Воскресение"
+    },
+    {
+      "author_en": "Anton Chekhov",
+      "author_ru": "Антон Чехов",
+      "title_en": "Uncle Vanya",
+      "title_ru": "Дядя Ваня"
+    },
+    {
+      "author_en": "Nikolai Gogol",
+      "author_ru": "Николай Гоголь",
+      "title_en": "Dead Souls",
+      "title_ru": "Мёртвые души"
+    },
+    {
+      "author_en": "Ivan Turgenev",
+      "author_ru": "Иван Тургенев",
+      "title_en": "Smoke",
+      "title_ru": "Дым"
+    },
+    {
+      "author_en": "Alexander Pushkin",
+      "author_ru": "Александр Пушкин",
+      "title_en": "The Captain's Daughter",
+      "title_ru": "Капитанская дочка"
+    },
+    {
+      "author_en": "Fyodor Dostoevsky",
+      "author_ru": "Фёдор Достоевский",
+      "title_en": "The Dream of a Ridiculous Man",
+      "title_ru": "Сон смешного человека"
+    },
+    {
+      "author_en": "Leo Tolstoy",
+      "author_ru": "Лев Толстой",
+      "title_en": "The Devil",
+      "title_ru": "Дьявол"
+    },
+    {
+      "author_en": "Anton Chekhov",
+      "author_ru": "Антон Чехов",
+      "title_en": "The Man in a Case",
+      "title_ru": "Человек в футляре"
+    },
+    {
+      "author_en": "Ivan Turgenev",
+      "author_ru": "Иван Тургенев",
+      "title_en": "Spring Torrents",
+      "title_ru": "Вешние воды"
+    },
+    {
+      "author_en": "Alexander Pushkin",
+      "author_ru": "Александр Пушкин",
+      "title_en": "Dubrovsky",
+      "title_ru": "Дубровский"
+    },
+    {
+      "author_en": "Fyodor Dostoevsky",
+      "author_ru": "Фёдор Достоевский",
+      "title_en": "The Brothers Karamazov",
+      "title_ru": "Братья Карамазовы"
+    },
+    {
+      "author_en": "Leo Tolstoy",
+      "author_ru": "Лев Толстой",
+      "title_en": "Hadji Murat",
+      "title_ru": "Хаджи-Мурат"
+    },
+    {
+      "author_en": "Anton Chekhov",
+      "author_ru": "Антон Чехов",
+      "title_en": "Gooseberries",
+      "title_ru": "Крыжовник"
+    },
+    {
+      "author_en": "Ivan Turgenev",
+      "author_ru": "Иван Тургенев",
+      "title_en": "Virgin Soil",
+      "title_ru": "Новь"
+    },
+    {
+      "author_en": "Leo Tolstoy",
+      "author_ru": "Лев Толстой",
+      "title_en": "Father Sergius",
+      "title_ru": "Отец Сергий"
+    },
+    {
+      "author_en": "Anton Chekhov",
+      "author_ru": "Антон Чехов",
+      "title_en": "About Love",
+      "title_ru": "О любви"
+    },
+    {
+      "author_en": "Ivan Turgenev",
+      "author_ru": "Иван Тургенев",
+      "title_en": "Poems in Prose",
+      "title_ru": "Стихотворения в прозе"
+    },
+    {
+      "author_en": "Anton Chekhov",
+      "author_ru": "Антон Чехов",
+      "title_en": "The Darling",
+      "title_ru": "Душечка"
+    },
+    {
+      "author_en": "Anton Chekhov",
+      "author_ru": "Антон Чехов",
+      "title_en": "In the Ravine",
+      "title_ru": "В овраге"
+    },
+    {
+      "author_en": "Anton Chekhov",
+      "author_ru": "Антон Чехов",
+      "title_en": "Three Sisters",
+      "title_ru": "Три сестры"
+    },
+    {
+      "author_en": "Anton Chekhov",
+      "author_ru": "Антон Чехов",
+      "title_en": "The Bishop",
+      "title_ru": "Архиерей"
+    },
+    {
+      "author_en": "Anton Chekhov",
+      "author_ru": "Антон Чехов",
+      "title_en": "The Cherry Orchard",
+      "title_ru": "Вишнёвый сад"
+    }
+  ]
+}
