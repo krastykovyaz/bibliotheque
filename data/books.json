@@ -435,5 +435,25 @@
     },
     "kids": true,
     "coverRu": "/covers/dead-princess-and-seven-knights-ru.webp"
+  },
+  {
+    "id": "borodino",
+    "author": {
+      "en": "Mikhail Lermontov",
+      "ru": "Михаил Лермонтов"
+    },
+    "year": 1837,
+    "cover": "/covers/borodino.webp",
+    "languages": {
+      "en": {
+        "title": "Borodino",
+        "description": "“Tell me, uncle, was it not for nothing that Moscow, burned by fire, was given up to the French?” In 1837 Lermontov wrote Borodino as the voice of an old soldier telling a young man about the great battle of 1812: the retreat, the night before, the colonel's call to die before Moscow, and the day of smoke and steel. The audiobook opens with a short introduction to Lermontov and to the real battle of 7 September 1812 and closes with a note on how the poem is read; the poem itself is in a full-cast English rendering made for this edition.",
+        "youtube": "https://www.youtube.com/watch?v=-KroyEyKcCY",
+        "pdf": "/pdf/borodino-en.pdf",
+        "text": "texts/borodino-en.txt",
+        "booklet": "/pdf/borodino-en-booklet.pdf",
+        "textNote": "English prose rendering of the Russian poem by an AI model, a draft that needs a human editor; the rhymes and metre are not kept."
+      }
+    }
   }
 ]
