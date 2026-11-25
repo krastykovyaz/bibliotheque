@@ -285,5 +285,26 @@
       }
     },
     "coverRu": "/covers/the-overcoat-ru.webp"
+  },
+  {
+    "id": "the-girl-snow-maiden",
+    "author": {
+      "en": "Vladimir Dal",
+      "ru": "Владимир Даль"
+    },
+    "year": 1870,
+    "cover": "/covers/the-girl-snow-maiden.webp",
+    "languages": {
+      "en": {
+        "title": "The Girl Snow-Maiden",
+        "description": "An old couple without children makes a wish over a snowball, and the spring sun turns it into a little girl: the Snow-Maiden. She grows up clever and kind, but one summer she goes to the forest to pick berries with her friends and is left behind. A bear, a wolf and a fox each try to coax her down from her tree, and she refuses them all, until she hears her friend Zhuchka the dog bark. Vladimir Dal's retelling of the Russian folk tale, for children and for listening together, in a full-cast English audiobook with many illustrations.",
+        "youtube": "https://www.youtube.com/watch?v=4QnNULDSnFs",
+        "pdf": "/pdf/the-girl-snow-maiden-en.pdf",
+        "text": "texts/the-girl-snow-maiden-en.txt",
+        "booklet": "/pdf/the-girl-snow-maiden-en-booklet.pdf",
+        "textNote": "Machine translation from the Russian into simple English for children, a draft that needs a human editor. A short spoken introduction and a goodnight were added for the audiobook."
+      }
+    },
+    "kids": true
   }
 ]
