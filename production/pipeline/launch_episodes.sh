@@ -16,7 +16,8 @@ if ! $PY -c "import json,sys; sys.exit(0 if json.load(open('book.json')).get('se
   echo "series playlist: $ID"
 fi
 BOOK_DIR=$PWD $PY ../pipeline/make_episode_thumbs.py >/dev/null
-(cd "$ROOT" && node scripts/youtube-playlist-image.mjs "$($PY -c "import json;print(json.load(open('production/$SLUG/book.json'))['series_playlist'])")" "production/$SLUG/${PREFIX}_series_card.png") || echo "could not set the playlist cover"
+$PY ../pipeline/make_series_square.py "${PREFIX}_series_card.png" >/dev/null
+(cd "$ROOT" && node scripts/youtube-playlist-image.mjs "$($PY -c "import json;print(json.load(open('production/$SLUG/book.json'))['series_playlist'])")" "production/$SLUG/${PREFIX}_series_square.png") || echo "could not set the playlist cover"
 N=$($PY -c "import json; print(len(json.load(open('book.json'))['episodes']))")
 for i in $(seq 1 $N); do
   ssh -n -i $K -o IdentitiesOnly=yes root@31.207.7.3 "mkdir -p /srv/bibliotheque-incoming/$SLUG-ep$i && chown deliver:deliver /srv/bibliotheque-incoming/$SLUG-ep$i"
