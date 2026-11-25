@@ -54,97 +54,113 @@
       "author_en": "Alexander Pushkin",
       "author_ru": "Александр Пушкин",
       "title_en": "The Tale of Tsar Saltan",
-      "title_ru": "Сказка о царе Салтане"
+      "title_ru": "Сказка о царе Салтане",
+      "kids": true
     },
     {
       "author_en": "Alexander Pushkin",
       "author_ru": "Александр Пушкин",
       "title_en": "The Tale of the Fisherman and the Fish",
-      "title_ru": "Сказка о рыбаке и рыбке"
+      "title_ru": "Сказка о рыбаке и рыбке",
+      "kids": true
     },
     {
       "author_en": "Alexander Pushkin",
       "author_ru": "Александр Пушкин",
       "title_en": "The Tale of the Dead Princess and the Seven Knights",
-      "title_ru": "Сказка о мёртвой царевне и о семи богатырях"
+      "title_ru": "Сказка о мёртвой царевне и о семи богатырях",
+      "kids": true
     },
     {
       "author_en": "Alexander Pushkin",
       "author_ru": "Александр Пушкин",
       "title_en": "The Tale of the Priest and His Workman Balda",
-      "title_ru": "Сказка о попе и о работнике его Балде"
+      "title_ru": "Сказка о попе и о работнике его Балде",
+      "kids": true
     },
     {
       "author_en": "Pyotr Yershov",
       "author_ru": "Пётр Ершов",
       "title_en": "The Little Humpbacked Horse",
-      "title_ru": "Конёк-Горбунок"
+      "title_ru": "Конёк-Горбунок",
+      "kids": true
     },
     {
       "author_en": "Sergey Aksakov",
       "author_ru": "Сергей Аксаков",
       "title_en": "The Scarlet Flower",
-      "title_ru": "Аленький цветочек"
+      "title_ru": "Аленький цветочек",
+      "kids": true
     },
     {
       "author_en": "Vsevolod Garshin",
       "author_ru": "Всеволод Гаршин",
       "title_en": "The Frog Traveller",
-      "title_ru": "Лягушка-путешественница"
+      "title_ru": "Лягушка-путешественница",
+      "kids": true
     },
     {
       "author_en": "Dmitry Mamin-Sibiryak",
       "author_ru": "Дмитрий Мамин-Сибиряк",
       "title_en": "Grey Neck",
-      "title_ru": "Серая Шейка"
+      "title_ru": "Серая Шейка",
+      "kids": true
     },
     {
       "author_en": "Dmitry Mamin-Sibiryak",
       "author_ru": "Дмитрий Мамин-Сибиряк",
       "title_en": "The Alyonushka Tales",
-      "title_ru": "Алёнушкины сказки"
+      "title_ru": "Алёнушкины сказки",
+      "kids": true
     },
     {
       "author_en": "Vladimir Odoevsky",
       "author_ru": "Владимир Одоевский",
       "title_en": "Moroz Ivanovich",
-      "title_ru": "Мороз Иванович"
+      "title_ru": "Мороз Иванович",
+      "kids": true
     },
     {
       "author_en": "Antony Pogorelsky",
       "author_ru": "Антоний Погорельский",
       "title_en": "The Black Hen, or The Underground Dwellers",
-      "title_ru": "Чёрная курица, или Подземные жители"
+      "title_ru": "Чёрная курица, или Подземные жители",
+      "kids": true
     },
     {
       "author_en": "Ivan Krylov",
       "author_ru": "Иван Крылов",
       "title_en": "Fables",
-      "title_ru": "Басни"
+      "title_ru": "Басни",
+      "kids": true
     },
     {
       "author_en": "Leo Tolstoy",
       "author_ru": "Лев Толстой",
       "title_en": "The Three Bears",
-      "title_ru": "Три медведя"
+      "title_ru": "Три медведя",
+      "kids": true
     },
     {
       "author_en": "Leo Tolstoy",
       "author_ru": "Лев Толстой",
       "title_en": "The Lion and the Little Dog",
-      "title_ru": "Лев и собачка"
+      "title_ru": "Лев и собачка",
+      "kids": true
     },
     {
       "author_en": "Leo Tolstoy",
       "author_ru": "Лев Толстой",
       "title_en": "Filipok",
-      "title_ru": "Филиппок"
+      "title_ru": "Филиппок",
+      "kids": true
     },
     {
       "author_en": "Alexander Kuprin",
       "author_ru": "Александр Куприн",
       "title_en": "White Poodle",
-      "title_ru": "Белый пудель"
+      "title_ru": "Белый пудель",
+      "kids": true
     },
     {
       "author_en": "Anton Chekhov",
@@ -162,25 +178,29 @@
       "author_en": "Konstantin Ushinsky",
       "author_ru": "Константин Ушинский",
       "title_en": "The Stories of Ushinsky",
-      "title_ru": "Рассказы Ушинского"
+      "title_ru": "Рассказы Ушинского",
+      "kids": true
     },
     {
       "author_en": "Ivan Turgenev",
       "author_ru": "Иван Тургенев",
       "title_en": "The Sparrow",
-      "title_ru": "Воробей"
+      "title_ru": "Воробей",
+      "kids": true
     },
     {
       "author_en": "Vasily Zhukovsky",
       "author_ru": "Василий Жуковский",
       "title_en": "The Sleeping Princess",
-      "title_ru": "Спящая царевна"
+      "title_ru": "Спящая царевна",
+      "kids": true
     },
     {
       "author_en": "Vladimir Dal",
       "author_ru": "Владимир Даль",
       "title_en": "The Girl Snow-Maiden",
-      "title_ru": "Девочка Снегурочка"
+      "title_ru": "Девочка Снегурочка",
+      "kids": true
     },
     {
       "author_en": "Nikolai Leskov",
@@ -750,7 +770,8 @@
       "author_en": "Alexander Pushkin",
       "author_ru": "Александр Пушкин",
       "title_en": "The Tale of the Golden Cockerel",
-      "title_ru": "Сказка о золотом петушке"
+      "title_ru": "Сказка о золотом петушке",
+      "kids": true
     },
     {
       "author_en": "Fyodor Dostoevsky",
