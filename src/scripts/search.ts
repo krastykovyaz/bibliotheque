@@ -40,6 +40,7 @@ if (form && input && grid && status && empty) {
       if (match) shown++;
     }
     empty.hidden = shown > 0;
+    grid.dispatchEvent(new Event('cardschange'));
     status.textContent = words.length ? (status.dataset.template ?? '').replace('{n}', String(shown)) : '';
     const url = new URL(location.href);
     if (input.value.trim()) url.searchParams.set('q', input.value.trim());

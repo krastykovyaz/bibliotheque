@@ -1,0 +1,25 @@
+---
+import { ui, type UiLang } from '../lib/i18n';
+interface Props {
+  lang: UiLang;
+}
+const t = ui[(Astro.props as Props).lang];
+---
+
+<div class="sortbar js-only" data-sortbar data-showing={t.showing}>
+  <label class="sort-field">
+    <span>{t.sortLabel}</span>
+    <select data-sort>
+      <option value="shelf">{t.sortShelf}</option>
+      <option value="title">{t.sortTitle}</option>
+      <option value="author">{t.sortAuthor}</option>
+      <option value="year">{t.sortYearOld}</option>
+      <option value="year-desc">{t.sortYearNew}</option>
+    </select>
+  </label>
+  <p class="sort-count" data-count aria-live="polite"></p>
+</div>
+
+<script>
+  import '../scripts/sortbar.ts';
+</script>

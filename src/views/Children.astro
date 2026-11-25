@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import { ui, pageUrl, asset, langName, fill, type UiLang } from '../lib/i18n';
 import { books, inLang, authorIn, coverIn } from '../lib/books';
 import { childAuthors } from '../lib/children';
+import SortBar from '../components/SortBar.astro';
 
 interface Props {
   lang: UiLang;
@@ -19,14 +20,15 @@ const planned = childAuthors.flatMap((a) => a.works.filter((w) => !onShelf.has(n
 <Layout lang={lang} path="/children/" title={`${t.childrenTitle} | ${t.site}`} description={t.childrenIntro.slice(0, 155).replace(/\s+\S*$/, '') + '…'}>
   <h1>{t.childrenTitle}</h1>
   <p class="lead">{t.childrenIntro}</p>
-  <ul class="grid">
+  <SortBar lang={lang} />
+  <ul class="grid" data-sort-grid>
     {
       shelf.map((book, i) => {
         const b = inLang(book, lang);
         const author = authorIn(book, lang);
         const href = pageUrl(lang, `/book/${book.id}/`);
         return (
-          <li>
+          <li data-title={b.title} data-author={author} data-year={book.year}>
             <article class="card">
               <a class="card-link" href={href}>
                 <img
@@ -57,7 +59,7 @@ const planned = childAuthors.flatMap((a) => a.works.filter((w) => !onShelf.has(n
     }
     {
       planned.map(({ a, w }) => (
-        <li>
+        <li data-title={lang === 'ru' ? w.titleRu : w.titleEn} data-author={lang === 'ru' ? a.nameRu : a.nameEn}>
           <article class="card">
             <div class="card-link">
               <div class="cover-soon" role="img" aria-label={`${lang === 'ru' ? w.titleRu : w.titleEn}, ${lang === 'ru' ? a.nameRu : a.nameEn}`}>

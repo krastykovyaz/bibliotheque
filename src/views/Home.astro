@@ -4,6 +4,7 @@ import { ui, pageUrl, asset, langName, fill, type UiLang } from '../lib/i18n';
 import { books, inLang, authorIn, coverIn } from '../lib/books';
 import { nextBook } from '../lib/queue';
 import { childAuthors } from '../lib/children';
+import SortBar from '../components/SortBar.astro';
 
 interface Props {
   lang: UiLang;
@@ -19,7 +20,10 @@ const haystack = (book: (typeof books)[number]) =>
     ...Object.keys(book.languages).flatMap((c) => [c, langName('en', c), langName('ru', c)]),
   ].join(' ');
 // The children's stories are searched too: they are hidden cards in the same grid, shown only when a search matches them.
-const childWorks = childAuthors.flatMap((a) => a.works.map((w) => ({ a, w })));
+const norm = (x: string) => x.toLowerCase().replace(/^the\s+/, '').replace(/[^a-zа-яё0-9]+/g, ' ').trim();
+const onShelf = new Set(books.flatMap((b) => Object.values(b.languages).map((l) => norm(l.title))));
+// a story that is already a book on the shelf is not listed a second time
+const childWorks = childAuthors.flatMap((a) => a.works.filter((w) => !onShelf.has(norm(w.titleEn)) && !onShelf.has(norm(w.titleRu))).map((w) => ({ a, w })));
 const childHaystack = ({ a, w }: (typeof childWorks)[number]) =>
   [w.titleEn, w.titleRu, a.nameEn, a.nameRu, String(a.born), String(a.died), 'children for children детям дети для детей'].join(' ');
 const { item: next } = nextBook();
@@ -30,6 +34,7 @@ const { item: next } = nextBook();
   <p class="lead">{t.intro}</p>
   <p class="visually-hidden" role="status" data-search-status data-template={t.searchStatus}></p>
   <p class="note js-only" data-search-empty hidden>{t.searchEmpty}</p>
+  <SortBar lang={lang} />
   <ul class="grid" data-search-grid>
     {
       books.map((book, i) => {
@@ -37,7 +42,7 @@ const { item: next } = nextBook();
         const author = authorIn(book, lang);
         const href = pageUrl(lang, `/book/${book.id}/`);
         return (
-          <li data-search={haystack(book)}>
+          <li data-search={haystack(book)} data-title={b.title} data-author={author} data-year={book.year}>
             <article class="card">
               <a class="card-link" href={href}>
                 <img
@@ -68,7 +73,7 @@ const { item: next } = nextBook();
       }
       {
         childWorks.map(({ a, w }) => (
-          <li data-search={childHaystack({ a, w })} data-kid hidden>
+          <li data-search={childHaystack({ a, w })} data-title={lang === 'ru' ? w.titleRu : w.titleEn} data-author={lang === 'ru' ? a.nameRu : a.nameEn} data-kid hidden>
             <article class="card">
               <p class="label">{t.children}</p>
               <h2>{lang === 'ru' ? w.titleRu : w.titleEn}</h2>
