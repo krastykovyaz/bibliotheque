@@ -4,19 +4,32 @@ interface Props {
   lang: UiLang;
 }
 const t = ui[(Astro.props as Props).lang];
+const options = [
+  ['shelf', t.sortShelf],
+  ['title', t.sortTitle],
+  ['author', t.sortAuthor],
+  ['year', t.sortYearOld],
+  ['year-desc', t.sortYearNew],
+];
 ---
 
 <div class="sortbar js-only" data-sortbar data-showing={t.showing}>
-  <label class="sort-field">
-    <span>{t.sortLabel}</span>
-    <select data-sort>
-      <option value="shelf">{t.sortShelf}</option>
-      <option value="title">{t.sortTitle}</option>
-      <option value="author">{t.sortAuthor}</option>
-      <option value="year">{t.sortYearOld}</option>
-      <option value="year-desc">{t.sortYearNew}</option>
-    </select>
-  </label>
+  <div class="sort-field">
+    <span id="sort-label">{t.sortLabel}</span>
+    <div class="dd" data-dd>
+      <button type="button" class="dd-btn" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="sort-label sort-current" data-dd-btn>
+        <span id="sort-current" data-dd-current>{t.sortShelf}</span>
+        <svg class="dd-chevron" width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M2.5 5l4.5 4.5L11.5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </button>
+      <ul class="dd-list" role="listbox" tabindex="-1" aria-labelledby="sort-label" hidden data-dd-list>
+        {options.map(([value, label], i) => (
+          <li role="option" id={`sort-opt-${i}`} data-value={value} aria-selected={i === 0 ? 'true' : 'false'}>
+            <span class="dd-check" aria-hidden="true">✓</span>{label}
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
   <p class="sort-count" data-count aria-live="polite"></p>
 </div>
 

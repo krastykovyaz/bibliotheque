@@ -853,23 +853,87 @@ main.wrap {
 .sort-field {
   display: inline-flex;
   align-items: center;
-  gap: 0.6rem;
+  gap: 0.7rem;
   font-weight: 700;
   color: var(--muted);
 }
-.sort-field select {
+.dd {
+  position: relative;
+}
+.dd-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
   font: inherit;
-  font-weight: 400;
+  font-weight: 700;
   color: var(--text);
   background: var(--card);
   border: 2px solid var(--line);
   border-radius: 999px;
-  padding: 0.35rem 0.9rem;
+  padding: 0.4rem 0.95rem 0.4rem 1.1rem;
   cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
 }
-.sort-field select:focus-visible {
+.dd-btn:hover,
+.dd-btn[aria-expanded='true'] {
+  border-color: var(--accent);
+}
+.dd-btn:focus-visible,
+.dd-list:focus-visible {
   outline: 3px solid var(--text);
   outline-offset: 2px;
+}
+.dd-chevron {
+  color: var(--accent);
+  transition: transform 0.15s;
+}
+.dd-btn[aria-expanded='true'] .dd-chevron {
+  transform: rotate(180deg);
+}
+.dd-list {
+  position: absolute;
+  z-index: 20;
+  top: calc(100% + 0.4rem);
+  left: 0;
+  min-width: 100%;
+  width: max-content;
+  max-width: calc(100vw - 2rem);
+  margin: 0;
+  padding: 0.35rem;
+  list-style: none;
+  background: var(--card);
+  border: 2px solid var(--line);
+  border-radius: 14px;
+  box-shadow: 0 10px 28px rgba(60, 30, 25, 0.18);
+}
+.dd-list[hidden] {
+  display: none;
+}
+.dd-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.5rem 0.9rem 0.5rem 0.6rem;
+  border-radius: 9px;
+  color: var(--text);
+  font-weight: 400;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.dd-list li.is-active {
+  background: var(--bg, #f2e0d8);
+}
+.dd-list li[aria-selected='true'] {
+  font-weight: 700;
+  color: var(--accent);
+}
+.dd-check {
+  width: 1em;
+  color: var(--accent);
+  visibility: hidden;
+}
+.dd-list li[aria-selected='true'] .dd-check {
+  visibility: visible;
 }
 .sort-count {
   margin: 0;
