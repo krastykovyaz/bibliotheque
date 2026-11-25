@@ -8,6 +8,20 @@ if (root) {
   const names: Record<string, string> = JSON.parse(root.dataset.names || '{}');
   const has = (code: string) => panels.some((p) => p.dataset.panel === code);
 
+  // A video that was not public when the page was built: ask our own server whether it is now, and show the player if so.
+  root.querySelectorAll<HTMLElement>('.player[hidden]').forEach((player) => {
+    const url = root.dataset.statusUrl;
+    if (!url || !player.dataset.video) return;
+    fetch(`${url}?id=${encodeURIComponent(player.dataset.video)}`)
+      .then((r) => (r.ok ? r.json() : null))
+      .then((j) => {
+        if (!j || !j.public) return;
+        player.hidden = false;
+        player.parentElement?.querySelector<HTMLElement>('[data-soon]')?.setAttribute('hidden', '');
+      })
+      .catch(() => {});
+  });
+
   const stop = (player: HTMLElement) => {
     player.querySelector('iframe')?.remove();
     player.classList.remove('is-playing');
