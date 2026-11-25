@@ -40,9 +40,6 @@ for need in ((A5,) if NOBOOK else (A5, A4)) + ("art/png/cover.png", "source_clea
 # cover, PDFs
 if not RU or not os.path.exists(os.path.join(ROOT, "public/covers", f"{slug}.webp")):
     Image.open(os.path.join(bdir, "art/png/cover.png")).convert("RGB").resize((1000, 1000), Image.LANCZOS).save(os.path.join(ROOT, "public/covers", f"{slug}.webp"), quality=88)
-shutil.copy(os.path.join(bdir, A5), os.path.join(ROOT, "public/pdf", f"{slug}-{lang}.pdf"))
-if not NOBOOK:
-    shutil.copy(os.path.join(bdir, A4), os.path.join(ROOT, "public/pdf", f"{slug}-{lang}-booklet.pdf"))
 
 # full text for the reading pages: "## I · Name" starts a part, blank lines separate paragraphs
 if RU:
@@ -89,6 +86,16 @@ q["items"] = [i for i in q["items"] if i["title_en"].strip().lower() != B["title
 if len(q["items"]) != n:
     json.dump(q, open(qp, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     open(qp, "a").write("\n")
+
+# rebuild the PDFs now: the last page carries the QR code of the video and of the book page, which are known only now
+PIPE = os.path.dirname(os.path.abspath(__file__))
+env = dict(os.environ, BOOK_DIR=bdir, **({"BOOK_LANG": "ru"} if RU else {}))
+subprocess.run([sys.executable, "-W", "ignore", os.path.join(PIPE, "build_pdf.py")], cwd=bdir, env=env, check=True, capture_output=True)
+if not NOBOOK:
+    subprocess.run([sys.executable, os.path.join(PIPE, "make_booklet.py"), os.path.join(bdir, A5), os.path.join(bdir, A4)], check=True, capture_output=True)
+shutil.copy(os.path.join(bdir, A5), os.path.join(ROOT, "public/pdf", f"{slug}-{lang}.pdf"))
+if not NOBOOK:
+    shutil.copy(os.path.join(bdir, A4), os.path.join(ROOT, "public/pdf", f"{slug}-{lang}-booklet.pdf"))
 
 print("validating the site build ...")
 out = sh(["npm", "run", "build"])

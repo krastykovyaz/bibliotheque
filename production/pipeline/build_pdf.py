@@ -6,7 +6,7 @@ import pymupdf
 
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import book
+import book, lastpage
 B, BASE = book.load()
 PIPE = book.PIPE
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
@@ -84,6 +84,13 @@ FS = os.environ.get("BOOK_FS", "10.6")
 LH = os.environ.get("BOOK_LH", "1.54")
 
 
+CREDITS = (R["source_note"] + " Текст находится в общественном достоянии. Набрано шрифтом Lora (SIL Open Font License)." if R else
+           B["source_note"] + " The text is in the public domain. English translation: machine draft. Typeset in Lora (SIL Open Font License).")
+COMPACT = False
+BACK = lastpage.section(LANG, B["slug"], B["title"], GLOSSARY, CREDITS)
+CSS += lastpage.CSS
+
+
 def page_html(page_numbers):
     toc = "".join(
         f'<li><span class="n">{p}</span><span class="t">{html.escape(NAMES[p])}</span><span class="d"></span><span class="p">{page_numbers.get(p, "")}</span></li>'
@@ -112,8 +119,7 @@ def page_html(page_numbers):
 <p class="src">{html.escape(R["source_note"]) if R else "Original: «" + B['title_original'] + "», " + str(B['year']) + ". " + B['source_note']}</p></section>
 <section class="toc"><h2>{R.get("contents", "Contents")}</h2><ol>{toc}</ol></section>
 {''.join(parts)}
-<section class="back"><h2>{R.get("back", "Notes")}</h2><dl>{gloss}</dl>
-<p class="small">{R["small"] if R else "The text of the story is in the public domain. The translation is a machine draft and may contain mistakes. The part titles and the illustrations are original to this edition. Typeset in Lora (SIL Open Font License)."}</p></section>
+{BACK}
 </body></html>"""
 
 
@@ -154,3 +160,20 @@ if pages != pages2 or n1 != n2:
     render(pages2)
     pages3, n3 = find_pages()
     print("pages:", n3, "| parts start on:", pages3, "| stable" if pages3 == pages2 else "| STILL MOVING")
+
+
+def last_page_overflows():
+    """True when the last page (the one with the QR codes and 'Next on the shelf') spills onto a second page."""
+    doc = pymupdf.open(OUT_PDF)
+    key = lastpage.T[LANG]["listen"].upper().replace(" ", "")
+    for i in range(len(doc) - 1, -1, -1):
+        if key in doc[i].get_text().upper().replace(" ", "").replace("\n", ""):
+            return i != len(doc) - 1
+    return False
+
+
+if last_page_overflows():
+    print("the last page spills over: building it again in the tighter layout")
+    BACK = lastpage.section(LANG, B["slug"], B["title"], GLOSSARY, CREDITS, compact=True)
+    render(pages2)
+    print("last page fits now" if not last_page_overflows() else "WARNING: the last page still spills over")
