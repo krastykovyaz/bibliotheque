@@ -423,8 +423,17 @@
         "text": "texts/dead-princess-and-seven-knights-en.txt",
         "booklet": "/pdf/dead-princess-and-seven-knights-en-booklet.pdf",
         "textNote": "English verse written for children from the Russian original, a free rendering that keeps the story and the stanzas but not the rhymes of the original. A draft that needs a human editor."
+      },
+      "ru": {
+        "title": "Сказка о мёртвой царевне и о семи богатырях",
+        "description": "Злая царица спрашивает зеркальце, кто всех милее, и слышит: молодая царевна. Царевна находит в лесу терем семи богатырей. Королевич Елисей ищет невесту и спрашивает солнце, месяц и ветер. Сказка в стихах Александра Пушкина (1833), чтобы слушать вместе с детьми.",
+        "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
+        "pdf": "/pdf/dead-princess-and-seven-knights-ru.pdf",
+        "text": "texts/dead-princess-and-seven-knights-ru.txt",
+        "booklet": "/pdf/dead-princess-and-seven-knights-ru-booklet.pdf"
       }
     },
-    "kids": true
+    "kids": true,
+    "coverRu": "/covers/dead-princess-and-seven-knights-ru.webp"
   }
 ]
