@@ -143,5 +143,25 @@
       }
     },
     "coverRu": "/covers/boy-at-christs-tree-ru.webp"
+  },
+  {
+    "id": "wonderful-doctor",
+    "author": {
+      "en": "Alexander Kuprin",
+      "ru": "Александр Куприн"
+    },
+    "year": 1897,
+    "cover": "/covers/wonderful-doctor.webp",
+    "languages": {
+      "en": {
+        "title": "The Wonderful Doctor",
+        "description": "On Christmas Eve in Kiev, the Merzalovs live in a damp cellar: the father has lost his place, the little girl is burning with fever, and the doors of the rich stay shut. In a snowy garden the father meets an old stranger who asks him to tell everything in order. Kuprin's Christmas story is based, he says, on something that really happened, and the doctor's name is revealed only at the end.",
+        "youtube": "https://www.youtube.com/watch?v=M7fw5qd8_b8",
+        "pdf": "/pdf/wonderful-doctor-en.pdf",
+        "text": "texts/wonderful-doctor-en.txt",
+        "booklet": "/pdf/wonderful-doctor-en-booklet.pdf",
+        "textNote": "Translated from the Russian, a draft that needs a human editor."
+      }
+    }
   }
 ]
