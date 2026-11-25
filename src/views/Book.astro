@@ -21,6 +21,11 @@ const names = Object.fromEntries([...new Set([...codes, 'en', 'ru'])].map((c) =>
 const live: Record<string, boolean> = Object.fromEntries(
   await Promise.all(Object.entries(book.languages).map(async ([c, l]) => [c, l.videoId !== 'PLACEHOLDER' && (await isPublicVideo(l.videoId))]))
 );
+// A series has one video per part; each part appears when it is public.
+const partLive: Record<string, boolean[]> = Object.fromEntries(
+  await Promise.all(Object.entries(book.languages).map(async ([c, l]) => [c, await Promise.all((l.parts ?? []).map((x) => isPublicVideo(x.videoId)))]))
+);
+for (const [c, l] of Object.entries(book.languages)) if (l.parts) live[c] = partLive[c].some(Boolean);
 const short = (s: string) => (s.length <= 158 ? s : s.slice(0, 155).replace(/\s+\S*$/, '') + '…');
 ---
 
@@ -93,7 +98,7 @@ const short = (s: string) => (s.length <= 158 ? s : s.slice(0, 155).replace(/\s+
               </p>
               <p class="description">{l.description}</p>
               {live[code] && (
-                <a class="btn watch-btn" href={l.youtube} target="_blank" rel="noopener noreferrer" lang={lang}>
+                <a class="btn watch-btn" href={l.playlist ?? l.youtube} target="_blank" rel="noopener noreferrer" lang={lang}>
                   {t.watch} <span aria-hidden="true">↗</span>
                   <span class="visually-hidden">{t.newTab}</span>
                 </a>
@@ -143,15 +148,31 @@ const short = (s: string) => (s.length <= 158 ? s : s.slice(0, 155).replace(/\s+
               </div>
               {/* With JavaScript the player below replaces the "Watch on YouTube" button (hidden in CSS); without JavaScript there is no player, so the button stays. */}
               {/* The YouTube player is created only after the visitor clicks (see src/scripts/book.ts). */}
-              {l.videoId !== 'PLACEHOLDER' && (
-                <div class="player js-only" data-video={l.videoId} lang={lang} hidden={!live[code]}>
-                  <button class="btn" type="button" data-play>
-                    <span aria-hidden="true">▶</span> {t.play}
-                  </button>
-                  <p class="player-hint">{t.playHint}</p>
+              {l.parts ? (
+                <div class="parts" lang={lang}>
+                  {l.parts.map((x, k) => (
+                    <div class="player js-only" data-video={x.videoId} lang={lang} hidden={!partLive[code][k]}>
+                      <button class="btn" type="button" data-play>
+                        <span aria-hidden="true">▶</span> {x.title}
+                      </button>
+                      <p class="player-hint">{t.playHint}</p>
+                    </div>
+                  ))}
+                  {!live[code] && <p class="video-soon" data-soon lang={lang}>{t.videoSoon}</p>}
                 </div>
+              ) : (
+                <>
+                  {l.videoId !== 'PLACEHOLDER' && (
+                    <div class="player js-only" data-video={l.videoId} lang={lang} hidden={!live[code]}>
+                      <button class="btn" type="button" data-play>
+                        <span aria-hidden="true">▶</span> {t.play}
+                      </button>
+                      <p class="player-hint">{t.playHint}</p>
+                    </div>
+                  )}
+                  {!live[code] && <p class="video-soon" data-soon lang={lang}>{t.videoSoon}</p>}
+                </>
               )}
-              {!live[code] && <p class="video-soon" data-soon lang={lang}>{t.videoSoon}</p>}
             </section>
           );
         })

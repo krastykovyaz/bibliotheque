@@ -22,6 +22,8 @@ ap = argparse.ArgumentParser()
 ap.add_argument("slug")
 ap.add_argument("--youtube", default="https://www.youtube.com/watch?v=PLACEHOLDER", help="the video link; without it the page says the video is coming soon")
 ap.add_argument("--lang", default=None, help="en (default, the translation) or ru (the Russian original, text and PDFs only)")
+ap.add_argument("--part", action="append", default=[], help='one per part, in order: "Part 1: Title|https://www.youtube.com/watch?v=ID" (a series)')
+ap.add_argument("--playlist", default=None, help="the series playlist link")
 ap.add_argument("--no-deploy", action="store_true")
 a = ap.parse_args()
 
@@ -63,6 +65,11 @@ bp = os.path.join(ROOT, "data/books.json")
 books = json.load(open(bp, encoding="utf-8"))
 entry_lang = {"title": R.get("title", B["title"]), "description": R.get("description", B["site_description"]), "youtube": a.youtube,
               "pdf": f"/pdf/{slug}-{lang}.pdf", "text": f"texts/{slug}-{lang}.txt"}
+if a.part:
+    entry_lang["parts"] = [dict(zip(("title", "youtube"), x.split("|", 1))) for x in a.part]
+    entry_lang["youtube"] = entry_lang["parts"][0]["youtube"]
+if a.playlist:
+    entry_lang["playlist"] = a.playlist
 if not NOBOOK:
     entry_lang["booklet"] = f"/pdf/{slug}-{lang}-booklet.pdf"
 if B.get("text_note") and not RU:

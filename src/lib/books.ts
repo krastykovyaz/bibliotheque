@@ -11,6 +11,10 @@ export interface BookLanguage {
   description: string;
   youtube: string;
   videoId: string;
+  /** Optional series: the video is split into parts, each with its own YouTube video; `youtube` is then part 1. */
+  parts?: { title: string; youtube: string; videoId: string }[];
+  /** Optional YouTube playlist holding all the parts. */
+  playlist?: string;
   /** Optional full-text PDF, e.g. "/pdf/lady-en.pdf". */
   pdf?: string;
   /** Optional A4 print-booklet PDF, offered next to the reading PDF. */
@@ -70,7 +74,7 @@ export const books: Book[] = (raw as any[]).map((b) => {
     const previewParagraphs = l.preview
       ? fs.readFileSync(path.join(publicDir, l.preview), 'utf8').split(/\n\s*\n/).map((x: string) => x.trim()).filter(Boolean)
       : undefined;
-    languages[code] = { ...l, videoId: parseYouTubeId(l.youtube)!, previewParagraphs, readingParts: l.text ? readText(l.text) : undefined };
+    languages[code] = { ...l, videoId: parseYouTubeId(l.youtube)!, parts: l.parts?.map((x: any) => ({ ...x, videoId: parseYouTubeId(x.youtube)! })), previewParagraphs, readingParts: l.text ? readText(l.text) : undefined };
   }
   return { ...b, coverWidth: size.width, coverHeight: size.height, languages };
 });

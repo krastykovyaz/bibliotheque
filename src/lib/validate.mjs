@@ -69,6 +69,14 @@ export function validateBooks(books, publicDir, dataDir) {
         else if (!fs.existsSync(path.join(publicDir, l.preview))) err(`languages.${code}.preview`, `file not found: public${l.preview}`);
       }
       if (l && l.register !== undefined) err(`languages.${code}.register`, 'no longer used, remove it (the download box now offers "Connect Grandlivre")');
+      if (l && l.parts !== undefined) {
+        if (!Array.isArray(l.parts) || !l.parts.length) err(`languages.${code}.parts`, 'must be a list of { "title", "youtube" }');
+        else l.parts.forEach((x, k) => {
+          if (!x || !isStr(x.title)) err(`languages.${code}.parts[${k}].title`, 'missing or empty');
+          if (!x || !isStr(x.youtube) || !parseYouTubeId(x.youtube)) err(`languages.${code}.parts[${k}].youtube`, 'not a valid YouTube video URL');
+        });
+      }
+      if (l && l.playlist !== undefined && (!isStr(l.playlist) || !/^https:\/\/(www\.)?youtube\.com\/playlist\?list=[\w-]+$/.test(l.playlist))) err(`languages.${code}.playlist`, 'must be a link like https://www.youtube.com/playlist?list=...');
       if (l && isStr(l.youtube)) {
         const id = parseYouTubeId(l.youtube);
         if (!id) err(`languages.${code}.youtube`, `not a valid YouTube video URL: ${l.youtube}`);

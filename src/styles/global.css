@@ -786,3 +786,18 @@ main.wrap {
   color: var(--accent);
   font-weight: 700;
 }
+
+/* A series: one compact row per part until it is played */
+.parts .player:not(.is-playing) {
+  aspect-ratio: auto;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0.75rem 1rem;
+  margin-top: 0.75rem;
+}
+.parts .player:not(.is-playing) .player-hint {
+  display: none;
+}
+.parts .player:not(.is-playing) .btn {
+  text-align: left;
+}

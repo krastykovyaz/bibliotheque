@@ -7,7 +7,7 @@ import { isPublicVideo } from '../../lib/youtube-status';
 
 export const prerender = false;
 
-const known = new Set(books.flatMap((b) => Object.values(b.languages).map((l) => l.videoId)));
+const known = new Set(books.flatMap((b) => Object.values(b.languages).flatMap((l) => [l.videoId, ...(l.parts ?? []).map((x) => x.videoId)])));
 const cache = new Map<string, { at: number; ok: boolean }>();
 
 export const GET: APIRoute = async ({ url }) => {

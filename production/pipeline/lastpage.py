@@ -39,7 +39,8 @@ def site_info(slug, lang):
     try:
         for b in json.load(open(os.path.join(ROOT, "data/books.json"), encoding="utf-8")):
             if b["id"] == slug:
-                y = (b["languages"].get(lang) or {}).get("youtube", "")
+                l = b["languages"].get(lang) or {}
+                y = l.get("playlist") or l.get("youtube", "")
                 if y and "PLACEHOLDER" not in y:
                     video = y
     except OSError:
