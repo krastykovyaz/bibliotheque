@@ -28,7 +28,7 @@ def shot(html, png, w, h):
                    check=True, capture_output=True)
 
 
-ARTS = set(B["art"].values()) | {a for pool in B.get("art_pool", {}).values() for a in pool}
+ARTS = set(B["art"].values()) | {a for pool in B.get("art_pool", {}).values() for a in pool} | {sc["art"] for sc in B.get("scenes", [])}
 for n in sorted(ARTS):
     if os.path.exists(os.path.join(OUT, f"art_{n}.png")) and os.path.getmtime(os.path.join(OUT, f"art_{n}.png")) > os.path.getmtime(os.path.join(BASE, "art", f"{n}.svg")):
         continue

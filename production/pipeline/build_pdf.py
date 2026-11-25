@@ -135,7 +135,7 @@ def find_pages():
             for l in b.get("lines", []):
                 for s in l["spans"]:
                     t = s["text"].strip()
-                    if t in PARTS and s["size"] > 18 and t not in found:
+                    if t in PARTS and 18 < s["size"] < 30 and t not in found:
                         found[t] = i + 1
     return found, len(doc)
 

@@ -27,6 +27,7 @@ DEFAULT_FOCUS = [(0.3, 0.5), (0.7, 0.55), (0.5, 0.7)]
 POOL = B.get("art_pool")          # optional: pictures per part; a new picture every SUB_SECONDS and at every letter (see plan_letters)
 FX = B.get("fx", {})              # optional: {"picture name": "rain" | "snow" | "leaves" | "flicker"}
 SUB_SECONDS = 180.0
+SCENES = B.get("scenes")          # optional: [{"id": first voice-script row id of the scene, "art": picture name}, ...] a new picture where the place or the time changes
 
 
 def moves(art, k):
@@ -102,6 +103,40 @@ def plan_letters(timing):
         k = max(1, int(round(nfr / FPS / SHOT_SECONDS))) if s["part"] else 1
         edges = [s["f0"] + int(round(nfr * j / k)) for j in range(k + 1)]
         s["shots"] = [(edges[j], edges[j + 1]) for j in range(k)]
+    return scenes, total_frames
+
+
+def plan_scenes(timing):
+    """Scenes where the story changes place or time (book.json "scenes", by the id of the first voice-script row), plus a scene start at
+    every part so the label under the picture is right. A part start without a listed scene keeps the previous picture."""
+    seg_start = {s["id"]: s["start"] for s in timing["segments"]}
+    rows = json.load(open(f"{B['prefix']}_voice_script.json", encoding="utf-8"))
+    part_of = {r["id"]: r["part"] for r in rows}
+    first_of_part = {}
+    for r in rows:
+        first_of_part.setdefault(r["part"], r["id"])
+    want = {sc["id"]: sc["art"] for sc in SCENES}
+    starts = {}
+    for pid in first_of_part.values():
+        starts[pid] = want.get(pid)
+    for sid, art in want.items():
+        starts[sid] = art
+    order = sorted(starts)
+    scenes = [{"name": "title", "part": None, "f0": 0, "f1": int(round(TITLE_SECONDS * FPS)), "art": None, "strip": None}]
+    total_frames = int(math.ceil(timing["total"] * FPS))
+    cur_art = None
+    for k, sid in enumerate(order):
+        cur_art = starts[sid] or cur_art or ART.get(part_of[sid])
+        t0 = TITLE_SECONDS if k == 0 else max(0.0, seg_start[sid] - LEAD)
+        t1 = timing["total"] if k == len(order) - 1 else max(0.0, seg_start[order[k + 1]] - LEAD)
+        f0 = scenes[0]["f1"] if k == 0 else int(round(t0 * FPS))
+        f1 = total_frames if k == len(order) - 1 else int(round(t1 * FPS))
+        scenes.append({"name": f"s{k + 1:03d}", "part": part_of[sid], "f0": f0, "f1": f1, "art": cur_art, "strip": part_of[sid]})
+    for s_ in scenes:
+        nfr = s_["f1"] - s_["f0"]
+        n = max(1, int(round(nfr / FPS / SHOT_SECONDS))) if s_["part"] else 1
+        edges = [s_["f0"] + int(round(nfr * j / n)) for j in range(n + 1)]
+        s_["shots"] = [(edges[j], edges[j + 1]) for j in range(n)]
     return scenes, total_frames
 
 
@@ -187,7 +222,7 @@ if __name__ == "__main__":
     ap.add_argument("--workers", type=int, default=9)
     a = ap.parse_args()
     timing = json.load(open(a.timing))
-    scenes, total_frames = plan_letters(timing) if POOL else plan(timing)
+    scenes, total_frames = plan_scenes(timing) if SCENES else plan_letters(timing) if POOL else plan(timing)
     for i, s in enumerate(scenes):
         s["part_index"] = i
     for s in scenes[:12] + scenes[-3:]:
@@ -195,7 +230,7 @@ if __name__ == "__main__":
     print("total frames:", total_frames, "=", round(total_frames / FPS, 2), "s | audio:", timing["total"], "s")
     if a.test_frames:
         os.makedirs("test_frames", exist_ok=True)
-        picks = [("title", 20), ("part_I", 2), ("part_V", 5), ("part_VIII", 3), ("part_IX", 4), ("part_IX", 99999)] if not POOL else [("title", 2), ("s001", 3), ("s002", 6), ("s030", 5), ("s060", 9), ("s100", 4)]
+        picks = [("title", 20), ("part_I", 2), ("part_V", 5), ("part_VIII", 3), ("part_IX", 4), ("part_IX", 99999)] if not (POOL or SCENES) else [("title", 2), ("s001", 3), ("s002", 6), ("s030", 5), ("s060", 9), ("s100", 4)]
         for name, off in picks:
             s = next(x for x in scenes if x["name"] == name)
             f = min(s["f0"] + int(off * FPS) if off < 1000 else s["f1"] - 2, s["f1"] - 1)
