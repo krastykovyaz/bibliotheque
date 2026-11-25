@@ -190,7 +190,16 @@
         "text": "texts/the-blizzard-en.txt",
         "booklet": "/pdf/the-blizzard-en-booklet.pdf",
         "textNote": "Machine translation from the Russian, a draft that needs a human editor."
+      },
+      "ru": {
+        "title": "Метель",
+        "description": "Зимой 1811 года семнадцатилетняя Марья Гавриловна тайком уезжает из отцовского дома, чтобы венчаться с бедным прапорщиком. Поднимается метель, жених сбивается с пути, и то, что случилось в ту ночь в маленькой сельской церкви, откроется только спустя годы. Повесть из «Повестей Белкина» Пушкина.",
+        "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
+        "pdf": "/pdf/the-blizzard-ru.pdf",
+        "text": "texts/the-blizzard-ru.txt",
+        "booklet": "/pdf/the-blizzard-ru-booklet.pdf"
       }
-    }
+    },
+    "coverRu": "/covers/the-blizzard-ru.webp"
   }
 ]
