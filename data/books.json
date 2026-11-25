@@ -172,5 +172,25 @@
       }
     },
     "coverRu": "/covers/wonderful-doctor-ru.webp"
+  },
+  {
+    "id": "the-blizzard",
+    "author": {
+      "en": "Alexander Pushkin",
+      "ru": "Александр Пушкин"
+    },
+    "year": 1831,
+    "cover": "/covers/the-blizzard.webp",
+    "languages": {
+      "en": {
+        "title": "The Blizzard",
+        "description": "In the winter of 1811 seventeen-year-old Maria Gavrilovna flees her father's house to be married in secret to the army ensign she loves. A blizzard rises, the bridegroom loses his way, and what happens in a small village church that night will not be explained until years later. Pushkin's Belkin Tale, with all its irony and tenderness, in a full-cast English audiobook.",
+        "youtube": "https://www.youtube.com/watch?v=C0DlY91LZpI",
+        "pdf": "/pdf/the-blizzard-en.pdf",
+        "text": "texts/the-blizzard-en.txt",
+        "booklet": "/pdf/the-blizzard-en-booklet.pdf",
+        "textNote": "Machine translation from the Russian, a draft that needs a human editor."
+      }
+    }
   }
 ]
