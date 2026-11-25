@@ -14,9 +14,9 @@ if ! $PY -c "import json,sys; sys.exit(0 if json.load(open('book.json')).get('se
   [ -n "$ID" ] || { echo "could not create the playlist"; exit 1; }
   $PY -c "import json; b=json.load(open('book.json',encoding='utf-8')); b['series_playlist']='$ID'; json.dump(b,open('book.json','w',encoding='utf-8'),ensure_ascii=False,indent=2)"
   echo "series playlist: $ID"
-  $PY -c "from PIL import Image; Image.open('art/png/cover.png').convert('RGB').resize((1200,1200)).save('/tmp/${SLUG}_pl.png')" && (cd "$ROOT" && node scripts/youtube-playlist-image.mjs "$ID" "/tmp/${SLUG}_pl.png") || echo "could not set the playlist cover"
 fi
 BOOK_DIR=$PWD $PY ../pipeline/make_episode_thumbs.py >/dev/null
+(cd "$ROOT" && node scripts/youtube-playlist-image.mjs "$($PY -c "import json;print(json.load(open('production/$SLUG/book.json'))['series_playlist'])")" "production/$SLUG/${PREFIX}_series_card.png") || echo "could not set the playlist cover"
 N=$($PY -c "import json; print(len(json.load(open('book.json'))['episodes']))")
 for i in $(seq 1 $N); do
   ssh -n -i $K -o IdentitiesOnly=yes root@31.207.7.3 "mkdir -p /srv/bibliotheque-incoming/$SLUG-ep$i && chown deliver:deliver /srv/bibliotheque-incoming/$SLUG-ep$i"

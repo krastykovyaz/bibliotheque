@@ -172,8 +172,10 @@ def last_page_overflows():
     return False
 
 
-if last_page_overflows():
-    print("the last page spills over: building it again in the tighter layout")
-    BACK = lastpage.section(LANG, B["slug"], B["title"], GLOSSARY, CREDITS, compact=True)
+for level in (1, 2):
+    if not last_page_overflows():
+        break
+    print(f"the last page spills over: building it again in the tighter layout (level {level})")
+    BACK = lastpage.section(LANG, B["slug"], B["title"], GLOSSARY, CREDITS, compact=level)
     render(pages2)
     print("last page fits now" if not last_page_overflows() else "WARNING: the last page still spills over")

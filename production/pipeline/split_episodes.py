@@ -46,6 +46,10 @@ for i, ep in enumerate(eps, 1):
         chapters.append(f"{stamp(lstart(n) - t0)} Letter {n}: {head} ({who})")
     ch = ("\nChapters\n" + "\n".join(chapters) + "\n") if len(chapters) >= 3 else ""
     title = f"{B['title']}, Part {i} of {N}: {ep['title']} | {B['author'].split()[-1]} | Full-Cast Audiobook (English)"
+    if len(title) > 100:  # YouTube cuts a title at 100 characters
+        title = title.replace("Full-Cast Audiobook", "Audiobook")
+    if len(title) > 100:
+        raise SystemExit(f"the title of part {i} is {len(title)} characters, over YouTube's 100: shorten the episode title in book.json")
     desc = f"""{B['title']} by {B['author']} ({B['year']}), part {i} of {N}: {ep['title']}. A full-cast audiobook in English, about {int(round(dur / 60))} minutes.
 
 {ep['blurb']}

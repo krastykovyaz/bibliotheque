@@ -33,3 +33,28 @@ html,body{{margin:0}}body{{width:1280px;height:720px;background:#171c3a;position
                     f"--screenshot={out}", "--window-size=1280,720", f"file://{tmp}"], check=True, capture_output=True)
     os.remove(tmp)
     print("wrote", out)
+
+
+# the series card (16:9) for the playlist cover: title, author, number of parts
+art = os.path.join(BASE, "video_assets", f"art_{B['thumb_art']}.png")
+focus = B["focus"].get(B["thumb_art"], [[0.5, 0.5]])[0]
+html = f"""<style>
+@font-face{{font-family:Lora;src:url(file://{PIPE}/fonts/lora-latin-400-normal.woff2) format("woff2");font-weight:400}}
+@font-face{{font-family:Lora;src:url(file://{PIPE}/fonts/lora-latin-700-normal.woff2) format("woff2");font-weight:700}}
+html,body{{margin:0}}body{{width:1280px;height:720px;background:#171c3a;position:relative;overflow:hidden;font-family:Lora,serif}}
+.pic{{position:absolute;right:0;top:0;width:720px;height:720px;object-fit:cover;object-position:{int(focus[0]*100)}% 50%}}
+.shade{{position:absolute;right:560px;top:0;width:160px;height:720px;background:linear-gradient(to right,#171c3a,rgba(23,28,58,0))}}
+.by{{position:absolute;left:64px;top:150px;font-size:25px;letter-spacing:.34em;color:#e3c27a}}
+.ti{{position:absolute;left:64px;top:205px;width:560px;font-size:{76 if len(B["title"]) < 14 else 60}px;line-height:1.1;font-weight:700;color:#f4e8c8}}
+.line{{position:absolute;left:64px;bottom:200px;width:120px;border-top:3px solid #c79a4a}}
+.sub{{position:absolute;left:64px;bottom:90px;font-size:26px;letter-spacing:.26em;color:#e3c27a;line-height:1.7}}</style>
+<img class="pic" src="file://{art}"><div class="shade"></div>
+<div class="by">{B["author"].upper()}</div><div class="ti">{B["title"]}</div><div class="line"></div>
+<div class="sub">FULL-CAST AUDIOBOOK<br>{N} PARTS</div>"""
+tmp = os.path.join(BASE, "_series.html")
+open(tmp, "w", encoding="utf-8").write(html)
+out = os.path.join(BASE, f"{B['prefix']}_series_card.png")
+subprocess.run([CHROME, "--headless=new", "--disable-gpu", "--hide-scrollbars", "--force-device-scale-factor=1", "--virtual-time-budget=8000",
+                f"--screenshot={out}", "--window-size=1280,720", f"file://{tmp}"], check=True, capture_output=True)
+os.remove(tmp)
+print("wrote", out)

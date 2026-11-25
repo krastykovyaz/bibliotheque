@@ -18,7 +18,7 @@ CSS = """
 .listen .row{display:flex;gap:6mm;justify-content:center}.listen .item{text-align:center;width:52mm}
 .listen .item:only-child{width:100%}.listen .item img{width:26mm;height:26mm;display:block;margin:0 auto 1.5mm}
 .listen .item b{display:block;font-size:9pt;color:#1d2340}.listen .item span{font-size:7.4pt;color:#6b5a4a;word-break:break-all}
-.back dl{margin:0;font-size:8.2pt;line-height:1.3;display:grid;grid-template-columns:24mm 1fr;column-gap:2mm;row-gap:1.2mm}.back dt{font-weight:600}.back dd{margin:0}
+.back dl{margin:0;font-size:8.2pt;line-height:1.3;display:grid;grid-template-columns:28mm 1fr;column-gap:2.5mm;row-gap:1.2mm}.back dt{font-weight:600;overflow-wrap:anywhere}.back dd{margin:0}
 .back .credits{margin-top:3mm;font-size:7.6pt;line-height:1.4;color:#6b5a4a;text-align:left}
 .back .next{margin-top:6mm;border-top:.8pt solid #c79a4a;padding-top:4mm;text-align:center}
 .back .next small{display:block;letter-spacing:.2em;font-size:7.6pt;text-transform:uppercase;color:#9c4a2e}
@@ -69,11 +69,14 @@ def section(lang, slug, title_en, glossary, credits, compact=False):
     gl = "".join(f"<dt>{html.escape(k)}</dt><dd>{v}</dd>" for k, v in glossary)
     nb = next_book(title_en, lang)
     nxt = f'<div class="next"><small>{t["next"]}</small><i>{html.escape(nb[0])}</i><em>{html.escape(nb[1])} · biblio.unilu.space</em></div>' if nb else ""
-    return (f'<section class="back{" compact" if compact else ""}"><h2>{t["notes"]}</h2><div class="listen"><h3>{t["listen"]}</h3><div class="row">{row}</div></div>'
+    cls = " compact tight" if compact == 2 else " compact" if compact else ""
+    return (f'<section class="back{cls}"><h2>{t["notes"]}</h2><div class="listen"><h3>{t["listen"]}</h3><div class="row">{row}</div></div>'
             f'<dl>{gl}</dl><p class="credits">{html.escape(credits)}</p>{nxt}</section>')
 
 # when the page still overflows, build_pdf asks for this tighter variant
 CSS += """
 .back.compact h2{margin-bottom:3mm}.back.compact .listen{padding:3mm;margin-bottom:3mm}.back.compact .listen .item img{width:21mm;height:21mm}
 .back.compact dl{font-size:7.4pt;line-height:1.22;row-gap:.8mm}.back.compact .credits{font-size:7pt;margin-top:2mm}.back.compact .next{margin-top:3mm;padding-top:2mm}
+.back.tight h2{margin-bottom:2mm}.back.tight .listen{padding:2mm;margin-bottom:2mm}.back.tight .listen .item img{width:18mm;height:18mm}
+.back.tight dl{font-size:6.8pt;line-height:1.15;row-gap:.4mm}.back.tight .credits{font-size:6.4pt;margin-top:1.5mm}.back.tight .next{margin-top:2mm;padding-top:1.5mm}
 """

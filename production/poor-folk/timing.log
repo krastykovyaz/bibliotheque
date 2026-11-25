@@ -4,3 +4,8 @@ Step 0 rights check: done (Dostoevsky d.1881, first published 1846)
 Step 1a: source found on ru.wikisource: 20 subpages, 490,809 bytes of wikitext (about 33,000 Russian words)
 Blockers found: ffmpeg broken (missing x265 library), kokoro-onnx not installed, pdftoppm missing (cannot render PDF pages to images)
 Elapsed so far: 25 seconds
+2026-11-24 21:55:53 stage check done in 2 s
+2026-11-24 21:56:02 stage check done in 2 s
+2026-11-24 21:56:22 stage assets done in 21 s
+2026-11-24 21:56:34 stage pdf done in 12 s
+2026-11-24 21:57:00 stage pdf done in 13 s
