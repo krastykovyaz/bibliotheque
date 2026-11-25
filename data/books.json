@@ -132,7 +132,16 @@
         "text": "texts/boy-at-christs-tree-en.txt",
         "booklet": "/pdf/boy-at-christs-tree-en-booklet.pdf",
         "textNote": "Machine translation from the Russian, a draft that needs a human editor."
+      },
+      "ru": {
+        "title": "Мальчик у Христа на ёлке",
+        "description": "В канун Рождества в огромном замёрзшем городе маленький мальчик просыпается в подвале рядом с матерью, которая не просыпается. Он выходит искать хлеба и видит только освещённые окна, недоступную ёлку и кукол, как живых. Короткий рождественский рассказ Достоевского из «Дневника писателя» 1876 года о детях, которых никто не считает, и о ёлке, которая их ждёт.",
+        "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
+        "pdf": "/pdf/boy-at-christs-tree-ru.pdf",
+        "text": "texts/boy-at-christs-tree-ru.txt",
+        "booklet": "/pdf/boy-at-christs-tree-ru-booklet.pdf"
       }
-    }
+    },
+    "coverRu": "/covers/boy-at-christs-tree-ru.webp"
   }
 ]
