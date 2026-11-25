@@ -236,5 +236,36 @@
         "textNote": "English translation from the Russian original by an AI model, a draft that needs a human editor."
       }
     }
+  },
+  {
+    "id": "the-overcoat",
+    "author": {
+      "en": "Nikolai Gogol",
+      "ru": "Николай Гоголь"
+    },
+    "year": 1842,
+    "cover": "/covers/the-overcoat.webp",
+    "languages": {
+      "en": {
+        "title": "The Overcoat",
+        "description": "Akaky Akakievich Bashmachkin is a humble copying clerk in St Petersburg, mocked by colleagues and content with his papers, until his old overcoat can no longer be mended. He starves himself to save for a new one, and for a single evening he is happy; then comes a night on an empty square, an Important Person who will not listen, and a ghost. Gogol's 1842 masterpiece of pity, comedy and the supernatural, the story from which, as Russians say, all of their literature came.",
+        "youtube": "https://www.youtube.com/watch?v=dQGIO3aDpyo",
+        "pdf": "/pdf/the-overcoat-en.pdf",
+        "text": "texts/the-overcoat-en.txt",
+        "parts": [
+          {
+            "title": "Part 1: The Clerk and His Overcoat",
+            "youtube": "https://www.youtube.com/watch?v=dQGIO3aDpyo"
+          },
+          {
+            "title": "Part 2: The Party, the Theft and the Ghost",
+            "youtube": "https://www.youtube.com/watch?v=yaSDOex6cMU"
+          }
+        ],
+        "playlist": "https://www.youtube.com/playlist?list=PLZjJ8Oz0nnRE",
+        "booklet": "/pdf/the-overcoat-en-booklet.pdf",
+        "textNote": "Translated from the Russian by an AI, a draft that needs a human editor."
+      }
+    }
   }
 ]
