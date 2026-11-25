@@ -482,7 +482,16 @@
         "text": "texts/makar-chudra-en.txt",
         "booklet": "/pdf/makar-chudra-en-booklet.pdf",
         "textNote": "Machine translation from the Russian, a draft that needs a human editor."
+      },
+      "ru": {
+        "title": "Макар Чудра",
+        "description": "Осенней ночью у моря старый цыган Макар Чудра рассказывает молодому страннику быль о красавице Радде и вольном конокраде и скрипаче Лойко Зобаре, о любви, которая не умела гнуть шею. Первый рассказ Максима Горького, 1892 год.",
+        "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
+        "pdf": "/pdf/makar-chudra-ru.pdf",
+        "text": "texts/makar-chudra-ru.txt",
+        "booklet": "/pdf/makar-chudra-ru-booklet.pdf"
       }
-    }
+    },
+    "coverRu": "/covers/makar-chudra-ru.webp"
   }
 ]
