@@ -88,6 +88,11 @@ open(bp, "a").write("\n")
 # the book is no longer "next on the shelf"
 qp = os.path.join(ROOT, "data/queue.json")
 q = json.load(open(qp, encoding="utf-8"))
+if any(i["title_en"].strip().lower() == B["title"].strip().lower() and i.get("kids") for i in q["items"]):
+    for b_ in books:                      # a children's book: it is also listed on the Children page
+        if b_["id"] == slug: b_["kids"] = True
+    json.dump(books, open(bp, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    open(bp, "a").write("\n")
 n = len(q["items"])
 q["items"] = [i for i in q["items"] if i["title_en"].strip().lower() != B["title"].strip().lower()]
 if len(q["items"]) != n:

@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { ui, fill, type UiLang } from '../lib/i18n';
+import { ui, pageUrl, asset, langName, fill, type UiLang } from '../lib/i18n';
+import { books, inLang, authorIn, coverIn } from '../lib/books';
 import { childAuthors } from '../lib/children';
 
 interface Props {
@@ -8,30 +9,74 @@ interface Props {
 }
 const { lang } = Astro.props;
 const t = ui[lang];
+// The children's books that are on the shelf use the same cards as the home page; the stories that are not made yet follow as plain cards.
+const shelf = books.filter((b) => b.kids);
+const norm = (s: string) => s.toLowerCase().replace(/^the\s+/, '').replace(/[^a-zа-яё0-9]+/g, ' ').trim();
+const onShelf = new Set(shelf.flatMap((b) => Object.values(b.languages).map((l) => norm(l.title))));
+const planned = childAuthors.flatMap((a) => a.works.filter((w) => !onShelf.has(norm(w.titleEn)) && !onShelf.has(norm(w.titleRu))).map((w) => ({ a, w })));
 ---
 
 <Layout lang={lang} path="/children/" title={`${t.childrenTitle} | ${t.site}`} description={t.childrenIntro.slice(0, 155).replace(/\s+\S*$/, '') + '…'}>
   <h1>{t.childrenTitle}</h1>
   <p class="lead">{t.childrenIntro}</p>
-  <ul class="authors">
+  <ul class="grid">
     {
-      childAuthors.map((a) => (
-        <li class="card author">
-          <h2>{lang === 'ru' ? a.nameRu : a.nameEn}</h2>
-          <p class="card-author">{fill(t.childrenYears, { born: String(a.born), died: String(a.died) })}</p>
-          <ul class="works">
-            {a.works.map((w) => (
-              <li>
-                <span>{lang === 'ru' ? w.titleRu : w.titleEn}</span>
-                {w.url && (
-                  <a href={w.url} target="_blank" rel="noopener noreferrer" lang="ru">
-                    {t.childrenOriginal} <span aria-hidden="true">↗</span>
-                    <span class="visually-hidden">{t.newTab}</span>
-                  </a>
-                )}
-              </li>
-            ))}
-          </ul>
+      shelf.map((book, i) => {
+        const b = inLang(book, lang);
+        const author = authorIn(book, lang);
+        const href = pageUrl(lang, `/book/${book.id}/`);
+        return (
+          <li>
+            <article class="card">
+              <a class="card-link" href={href}>
+                <img
+                  src={asset(coverIn(book, lang))}
+                  width={book.coverWidth}
+                  height={book.coverHeight}
+                  alt={fill(t.coverAlt, { title: b.title, author })}
+                  loading={i === 0 ? 'eager' : 'lazy'}
+                  decoding="async"
+                />
+                <h2>{b.title}</h2>
+                <span class="card-author">{author}</span>
+              </a>
+              <ul class="chips" aria-label={t.audioLang}>
+                {Object.keys(book.languages).map((code) => (
+                  <li>
+                    <a class="chip" href={`${href}?lang=${code}`}>
+                      {code.toUpperCase()}
+                      <span class="visually-hidden">, {fill(t.listenIn, { title: b.title, lang: langName(lang, code) })}</span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </article>
+          </li>
+        );
+      })
+    }
+    {
+      planned.map(({ a, w }) => (
+        <li>
+          <article class="card">
+            <div class="card-link">
+              <div class="cover-soon" role="img" aria-label={`${lang === 'ru' ? w.titleRu : w.titleEn}, ${lang === 'ru' ? a.nameRu : a.nameEn}`}>
+                <span class="cs-author">{lang === 'ru' ? a.nameRu : a.nameEn}</span>
+                <span class="cs-title">{lang === 'ru' ? w.titleRu : w.titleEn}</span>
+              </div>
+              <h2>{lang === 'ru' ? w.titleRu : w.titleEn}</h2>
+              <span class="card-author">{lang === 'ru' ? a.nameRu : a.nameEn}</span>
+            </div>
+            <p class="soon-row">
+              <span class="chip soon-chip">{t.childrenSoon}</span>
+              {w.url && (
+                <a href={w.url} target="_blank" rel="noopener noreferrer" lang="ru">
+                  {t.childrenOriginal} <span aria-hidden="true">↗</span>
+                  <span class="visually-hidden">{t.newTab}</span>
+                </a>
+              )}
+            </p>
+          </article>
         </li>
       ))
     }

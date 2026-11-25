@@ -801,3 +801,42 @@ main.wrap {
 .parts .player:not(.is-playing) .btn {
   text-align: left;
 }
+
+/* Children page: a story that is not on the shelf yet gets a card of the same shape as the books */
+.cover-soon {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 1.2rem;
+  text-align: center;
+  color: #f6e7c4;
+  background: linear-gradient(160deg, #2b2a58 0%, #5b3f6b 55%, #b07a6a 100%);
+}
+.cover-soon .cs-author {
+  font-size: 0.8rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  opacity: 0.85;
+}
+.cover-soon .cs-title {
+  font-family: var(--font-head, inherit);
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+.soon-row {
+  margin: auto 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.9rem;
+}
+.soon-chip {
+  cursor: default;
+  opacity: 0.8;
+}

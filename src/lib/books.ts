@@ -42,6 +42,8 @@ export interface Book {
   coverWidth: number;
   coverHeight: number;
   languages: Record<string, BookLanguage>;
+  /** A children's book: also listed on the Children page (same cards as the shelf). */
+  kids?: boolean;
 }
 
 const publicDir = path.join(process.cwd(), 'public');
