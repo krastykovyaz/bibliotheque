@@ -363,8 +363,17 @@
         "text": "texts/moroz-ivanovich-en.txt",
         "booklet": "/pdf/moroz-ivanovich-en-booklet.pdf",
         "textNote": "Machine translation from the Russian into simple English for children, a draft that needs a human editor."
+      },
+      "ru": {
+        "title": "Мороз Иванович",
+        "description": "Рукодельница и Ленивица живут с нянюшкой. Когда у Рукодельницы падает в колодец ведро, она спускается за ним и попадает к самому Морозу Ивановичу. Зимняя сказка Владимира Одоевского (1841), чтобы слушать вместе с детьми.",
+        "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
+        "pdf": "/pdf/moroz-ivanovich-ru.pdf",
+        "text": "texts/moroz-ivanovich-ru.txt",
+        "booklet": "/pdf/moroz-ivanovich-ru-booklet.pdf"
       }
     },
-    "kids": true
+    "kids": true,
+    "coverRu": "/covers/moroz-ivanovich-ru.webp"
   }
 ]
