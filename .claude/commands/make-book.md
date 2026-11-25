@@ -15,6 +15,13 @@ If the argument is NEXT, take the first item of `data/queue.json`.
 5. Upload and publish: the upload goes to the main server's incoming folder with a READY marker (`touch READY` there); its 2-minute timer uploads PRIVATE into the playlist and deletes the files, and the result link is in /root/bibliotheque-uploaded/<slug>.txt. Then publish to the site at once, without waiting for the video to be public: `... publish_to_site.py <slug> --youtube <link>` (and `--lang ru` for the Russian text and PDFs; build the Russian PDF first with `BOOK_LANG=ru build_pdf.py` and `make_booklet.py`). The book page asks our own server whether the video is public and shows the player by itself as soon as the user makes it public. After the upload ask the user to set the video Public and tick the AI-voice disclosure; add the book-page link to the YouTube description with `scripts/youtube-set-description.mjs`.
 5b. Children's books: when the book's item in `data/queue.json` has `"kids": true` (or the user says it is for children), right after the private upload mark every video of the book as made for kids: `node scripts/youtube-made-for-kids.mjs <video id> [...]` (`--check` only shows the setting). YouTube then turns off comments, personalised ads and notifications for them. Tell the user. Books that are about children but meant for adults (Chekhov's Children, The Blind Musician) are not marked.
 
+## Children's books (queue items with `"kids": true`)
+
+More pictures, and suitable ones:
+- Video: one scene per 1-1.5 minutes of audio (not 2-4), 3-4 shots per picture, a friendly character on screen whenever one speaks; where the tale has weather use `fx`.
+- PDF: a picture on every part opening and about one more per 300-400 words, so a child sees a picture on almost every spread; frame and a short italic caption under each.
+- Suitable: soft bright colours, rounded friendly shapes, no frightening or violent imagery (villains and sad moments are shown gently, as the tale tells them), simple clear English a child can follow, a warm unhurried narrator, child-friendly glossary. The description says it is a tale for children and for listening together. After the private upload mark the videos as made for kids (5b).
+
 ## Rules for pictures, scenes and animation (from the user)
 
 Video:
