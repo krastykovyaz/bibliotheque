@@ -405,5 +405,26 @@
     },
     "kids": true,
     "coverRu": "/covers/grey-neck-ru.webp"
+  },
+  {
+    "id": "dead-princess-and-seven-knights",
+    "author": {
+      "en": "Alexander Pushkin",
+      "ru": "Александр Пушкин"
+    },
+    "year": 1833,
+    "cover": "/covers/dead-princess-and-seven-knights.webp",
+    "languages": {
+      "en": {
+        "title": "The Tale of the Dead Princess and the Seven Knights",
+        "description": "A queen asks her magic mirror who is the fairest in the world, and the mirror says: the young princess. Sent away to the forest, the princess finds a house where seven knights live, and she keeps it for them like a sister. But the queen finds her out and sends a golden apple. Meanwhile Prince Yelisey rides across the world and asks the sun, the moon and the wind where his bride is. Alexander Pushkin's fairy tale in verse of 1833, in simple English verse for children and for listening together, as a full-cast audiobook with many illustrations.",
+        "youtube": "https://www.youtube.com/watch?v=WI7wr4eINd8",
+        "pdf": "/pdf/dead-princess-and-seven-knights-en.pdf",
+        "text": "texts/dead-princess-and-seven-knights-en.txt",
+        "booklet": "/pdf/dead-princess-and-seven-knights-en-booklet.pdf",
+        "textNote": "English verse written for children from the Russian original, a free rendering that keeps the story and the stanzas but not the rhymes of the original. A draft that needs a human editor."
+      }
+    },
+    "kids": true
   }
 ]
