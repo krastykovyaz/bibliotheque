@@ -333,8 +333,17 @@
         "text": "texts/the-sleeping-princess-en.txt",
         "booklet": "/pdf/the-sleeping-princess-en-booklet.pdf",
         "textNote": "Free English verse rendering from the Russian, written for children: a draft that needs a human editor."
+      },
+      "ru": {
+        "title": "Спящая царевна",
+        "description": "У доброго царя Матвея и его царицы родилась дочка, но старая чародейка, которую не позвали на пир, заколдовала её: на шестнадцатом году царевна уколется веретеном и уснёт на триста лет. Сказка в стихах Василия Жуковского, вольный пересказ «Спящей красавицы», чтобы слушать вместе с детьми.",
+        "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
+        "pdf": "/pdf/the-sleeping-princess-ru.pdf",
+        "text": "texts/the-sleeping-princess-ru.txt",
+        "booklet": "/pdf/the-sleeping-princess-ru-booklet.pdf"
       }
     },
-    "kids": true
+    "kids": true,
+    "coverRu": "/covers/the-sleeping-princess-ru.webp"
   }
 ]
