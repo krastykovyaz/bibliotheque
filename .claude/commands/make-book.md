@@ -19,7 +19,7 @@ If the argument is NEXT, take the first item of `data/queue.json`.
 
 More pictures, and suitable ones:
 - Video: one scene per 1-1.5 minutes of audio (not 2-4), 3-4 shots per picture, a friendly character on screen whenever one speaks; where the tale has weather use `fx`.
-- PDF: a picture on every part opening and about one more per 300-400 words, so a child sees a picture on almost every spread; frame and a short italic caption under each.
+- PDF: a picture on every part opening and about one more per 300-400 words, so a child sees a picture on almost every spread; frame and a short italic caption under each. build_pdf.py supports this: in book.json `"figures": [{"part": "I", "after": 3, "art": "<name of art/png/<name>.png>", "caption": "...", "caption_ru": "..."}]` puts the picture, framed and with an italic caption, after the 3rd paragraph of that part. The video scenes can use the same pictures.
 - Suitable: soft bright colours, rounded friendly shapes, no frightening or violent imagery (villains and sad moments are shown gently, as the tale tells them), simple clear English a child can follow, a warm unhurried narrator, child-friendly glossary. The description says it is a tale for children and for listening together. After the private upload mark the videos as made for kids (5b).
 
 ## Rules for pictures, scenes and animation (from the user)

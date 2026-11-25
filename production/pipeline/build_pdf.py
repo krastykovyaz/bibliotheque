@@ -58,6 +58,9 @@ body{margin:0}
 .part:not(.start){margin-top:9mm}
 figure{margin:0 0 7mm;break-inside:avoid}
 figure img{display:block;width:100%;height:auto}
+figure.inline{margin:5mm 0;padding:1.5mm;border:.35mm solid #d9c9a8;border-radius:1mm}
+figure.inline img{border-radius:.6mm}
+figure.inline figcaption{font-style:italic;font-size:8.5pt;line-height:1.25;text-align:center;color:#6b5a4a;margin:1.6mm 1mm 0}
 .part h2{margin:0 0 5mm;text-align:center;break-after:avoid;font-weight:400}
 .part h2 .num{display:block;font-size:22pt;line-height:1;color:#9c4a2e;font-weight:600;letter-spacing:.06em}
 .part h2 .name{display:block;font-size:9.5pt;letter-spacing:.2em;text-transform:uppercase;color:#6b5a4a;margin-top:2mm}
@@ -99,12 +102,23 @@ def page_html(page_numbers):
     for p in PARTS:
         start = p in ART
         fig = (f'<figure><img src="art/png/{ART[p]}.png" alt="{html.escape(ALT[ART[p]])}"></figure>' if start else "")
-        ps, seen = [], False
+        ps, seen, n = [], False, 0
+        # book.json "figures": [{"part": "I", "after": 3, "art": "name", "caption": "...", "caption_ru": "..."}] puts art/png/<name>.png, framed and captioned,
+        # after the 3rd paragraph of that part (children's books want a picture about every 300-400 words)
+        figs = {}
+        for f in B.get("figures", []):
+            if f["part"] == p:
+                figs.setdefault(f["after"], []).append(f)
         for t in T[p]:
             if t.startswith("§ "):       # a letter heading (its date) or a section marker
                 ps.append(f'<p class="lh">{html.escape(t[2:])}</p>')
             else:
                 ps.append(f'<p class="{"" if seen else "first"}">{html.escape(t)}</p>'); seen = True
+                n += 1
+                for f in figs.get(n, []):
+                    cap = (f.get("caption_ru") if LANG == "ru" else None) or f.get("caption", "")
+                    alt = html.escape(ALT.get(f["art"], cap))
+                    ps.append(f'<figure class="inline"><img src="art/png/{f["art"]}.png" alt="{alt}">' + (f"<figcaption>{html.escape(cap)}</figcaption>" if cap else "") + "</figure>")
         k = next(i for i, x in enumerate(ps) if "lh" not in x[:12])        # the opening block: heading, and the paragraph that follows the letter heading
         first, rest = "".join(ps[:k + 1]), "".join(ps[k + 1:])
         head = f'<h2><span class="num">{p}</span><span class="name">{html.escape(NAMES[p])}</span></h2>'
