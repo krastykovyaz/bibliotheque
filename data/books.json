@@ -234,8 +234,17 @@
         "playlist": "https://www.youtube.com/playlist?list=PLMps_WU02rY0",
         "booklet": "/pdf/night-before-christmas-en-booklet.pdf",
         "textNote": "English translation from the Russian original by an AI model, a draft that needs a human editor."
+      },
+      "ru": {
+        "title": "Ночь перед Рождеством",
+        "description": "В последнюю ночь перед Рождеством чёрт крадёт месяц, чтобы отомстить кузнецу Вакуле, а гордая красавица Оксана согласна выйти за него, только если он достанет черевики самой царицы. Весёлая и добрая рождественская повесть Гоголя из «Вечеров на хуторе близ Диканьки».",
+        "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
+        "pdf": "/pdf/night-before-christmas-ru.pdf",
+        "text": "texts/night-before-christmas-ru.txt",
+        "booklet": "/pdf/night-before-christmas-ru-booklet.pdf"
       }
-    }
+    },
+    "coverRu": "/covers/night-before-christmas-ru.webp"
   },
   {
     "id": "the-overcoat",
