@@ -303,8 +303,17 @@
         "text": "texts/the-girl-snow-maiden-en.txt",
         "booklet": "/pdf/the-girl-snow-maiden-en-booklet.pdf",
         "textNote": "Machine translation from the Russian into simple English for children, a draft that needs a human editor. A short spoken introduction and a goodnight were added for the audiobook."
+      },
+      "ru": {
+        "title": "Девочка Снегурочка",
+        "description": "У старика со старухой не было детей. Старик принёс домой снежный комочек, а солнышко превратило его в девочку Снегурочку. Но однажды в лесу Снегурочка потерялась. Зимняя сказка Владимира Даля, чтобы слушать вместе с детьми.",
+        "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
+        "pdf": "/pdf/the-girl-snow-maiden-ru.pdf",
+        "text": "texts/the-girl-snow-maiden-ru.txt",
+        "booklet": "/pdf/the-girl-snow-maiden-ru-booklet.pdf"
       }
     },
-    "kids": true
+    "kids": true,
+    "coverRu": "/covers/the-girl-snow-maiden-ru.webp"
   }
 ]
