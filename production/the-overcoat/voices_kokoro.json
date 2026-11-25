@@ -1,0 +1,37 @@
+{
+ "NARRATOR": {
+  "voice": "bm_george",
+  "speed": 0.95,
+  "lang": "en-gb"
+ },
+ "AKAKY": {
+  "voice": "bm_lewis",
+  "speed": 0.95,
+  "lang": "en-gb"
+ },
+ "PETROVICH": {
+  "voice": "bm_fable",
+  "speed": 0.98,
+  "lang": "en-gb"
+ },
+ "IMPORTANT PERSON": {
+  "voice": "bm_daniel",
+  "speed": 0.92,
+  "lang": "en-gb"
+ },
+ "WOMAN": {
+  "voice": "bf_emma",
+  "speed": 1.0,
+  "lang": "en-gb"
+ },
+ "MINOR": {
+  "voice": "bm_daniel",
+  "speed": 1.08,
+  "lang": "en-gb"
+ },
+ "GHOST": {
+  "voice": "bm_lewis",
+  "speed": 0.82,
+  "lang": "en-gb"
+ }
+}

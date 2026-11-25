@@ -1,0 +1,188 @@
+{
+  "slug": "wonderful-doctor",
+  "prefix": "Wonderful_Doctor",
+  "lang": "en",
+  "title": "The Wonderful Doctor",
+  "author": "Alexander Kuprin",
+  "author_ru": "Александр Куприн",
+  "year": 1897,
+  "title_original": "Чудесный доктор",
+  "publication_note": "first published in 1897",
+  "source_note": "Text from ru.wikisource.org, after A. I. Kuprin, Collected Works in 9 volumes (Moscow, 1971).",
+  "translated_from": "the Russian original",
+  "parts": [
+    "I",
+    "II",
+    "III",
+    "IV",
+    "V"
+  ],
+  "names": {
+    "I": "The Shop Window",
+    "II": "The Cellar",
+    "III": "The Garden",
+    "IV": "The Doctor",
+    "V": "The Name"
+  },
+  "art": {
+    "I": "1_shop_window",
+    "II": "2_cellar",
+    "III": "3_garden",
+    "IV": "4_doctor",
+    "V": "5_saucer"
+  },
+  "art_alt": {
+    "1_shop_window": "Two small boys in the snow looking into a brightly lit delicatessen window with oranges, hams, sausages and a piglet",
+    "2_cellar": "A damp cellar room by candlelight: a sick girl in bed, a cradle hung from the ceiling, a mother kneeling, two boys at the table",
+    "3_garden": "A snowy avenue of lime trees at night, two men on a bench, one slumped, one old with a glowing cigar",
+    "4_doctor": "The cellar warmed by a stove and a samovar, an old doctor writing a prescription at the table, a father and two boys",
+    "5_saucer": "Banknotes under a tea saucer beside a medicine bottle and a candle, a dark corridor beyond the door"
+  },
+  "focus": {
+    "1_shop_window": [
+      [
+        0.62,
+        0.45
+      ],
+      [
+        0.3,
+        0.8
+      ],
+      [
+        0.82,
+        0.3
+      ]
+    ],
+    "2_cellar": [
+      [
+        0.15,
+        0.62
+      ],
+      [
+        0.55,
+        0.45
+      ],
+      [
+        0.75,
+        0.78
+      ]
+    ],
+    "3_garden": [
+      [
+        0.5,
+        0.72
+      ],
+      [
+        0.6,
+        0.7
+      ],
+      [
+        0.25,
+        0.45
+      ]
+    ],
+    "4_doctor": [
+      [
+        0.48,
+        0.5
+      ],
+      [
+        0.15,
+        0.55
+      ],
+      [
+        0.75,
+        0.55
+      ]
+    ],
+    "5_saucer": [
+      [
+        0.35,
+        0.7
+      ],
+      [
+        0.55,
+        0.7
+      ],
+      [
+        0.82,
+        0.4
+      ]
+    ]
+  },
+  "fx": {
+    "1_shop_window": "snow",
+    "2_cellar": "flicker",
+    "3_garden": "snow",
+    "4_doctor": "flicker",
+    "5_saucer": "flicker"
+  },
+  "glossary": [
+    [
+      "borscht",
+      "a beetroot-and-cabbage soup, the daily food of poor Russian families."
+    ],
+    [
+      "samovar",
+      "a metal urn with a tube of burning charcoal inside, used to boil water for tea."
+    ],
+    [
+      "rouble",
+      "the Russian unit of money; a hundred kopecks make a rouble. Twenty-five roubles a month was a small wage."
+    ],
+    [
+      "steward",
+      "a man employed to manage a rich owner's house and its rents."
+    ],
+    [
+      "porter",
+      "a doorkeeper at a rich man's house."
+    ],
+    [
+      "Pirogov",
+      "Nikolai Pirogov (1810-1881), the great Russian surgeon; he died on his estate of Vishnya."
+    ]
+  ],
+  "thumb_art": "3_garden",
+  "thumb_position": "50% 60%",
+  "thumb_sub": "A SHORT STORY<br>FULL-CAST AUDIOBOOK",
+  "cover_bg": [
+    "#10163a",
+    "#e0e6f4"
+  ],
+  "summary": "On Christmas Eve in Kiev, a ruined family sits in a cellar with a dying child, and the father, at the end of his strength, meets a stranger in a snowy garden. A true story of a kindness that changed a family's life.",
+  "site_description": "On Christmas Eve in Kiev, the Merzalovs live in a damp cellar: the father has lost his place, the little girl is burning with fever, and the doors of the rich stay shut. In a snowy garden the father meets an old stranger who asks him to tell everything in order. Kuprin's Christmas story is based, he says, on something that really happened, and the doctor's name is revealed only at the end.",
+  "tags": [
+    "Kuprin",
+    "Alexander Kuprin",
+    "The Wonderful Doctor",
+    "audiobook",
+    "full cast audiobook",
+    "short story",
+    "Christmas story",
+    "classic literature",
+    "Russian literature",
+    "public domain",
+    "English audiobook"
+  ],
+  "hashtags": "#Kuprin #audiobook #classicliterature #shortstory #publicdomain",
+  "playlist": "PLVuswr3XMg9E",
+  "text_note": "Translated from the Russian, a draft that needs a human editor.",
+  "ru": {
+    "title": "Чудесный доктор",
+    "author": "Александр Куприн",
+    "names": {
+      "I": "Витрина",
+      "II": "Подвал",
+      "III": "Сад",
+      "IV": "Доктор",
+      "V": "Имя"
+    },
+    "note": "Рассказ в издании для чтения с оригинальными иллюстрациями.",
+    "source_note": "Текст с ru.wikisource.org, по изданию: А. И. Куприн, Собрание сочинений в 9 томах (М., 1971).",
+    "contents": "Содержание",
+    "back": "О тексте",
+    "small": "Текст рассказа находится в общественном достоянии. Названия частей и иллюстрации сделаны для этого издания. Набрано шрифтом Lora (SIL Open Font License).",
+    "description": "В сочельник в Киеве семья Мерцаловых живёт в сыром подвале: отец потерял место, маленькая дочь горит в жару, а двери богатых домов закрыты. В заснеженном саду отчаявшийся отец встречает старого незнакомца, который просит рассказать всё по порядку. Рождественский рассказ Куприна основан, по его словам, на действительном случае; имя доктора мы узнаём лишь в конце."
+  }
+}

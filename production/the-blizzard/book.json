@@ -1,0 +1,241 @@
+{
+  "slug": "the-blizzard",
+  "prefix": "The_Blizzard",
+  "lang": "en",
+  "title": "The Blizzard",
+  "author": "Alexander Pushkin",
+  "author_ru": "Александр Пушкин",
+  "year": 1831,
+  "title_original": "Метель",
+  "publication_note": "from «The Tales of the Late Ivan Petrovich Belkin», 1831",
+  "source_note": "Text from ru.wikisource.org, after A. S. Pushkin, Complete Works in 10 volumes, vol. 6.",
+  "translated_from": "the Russian original",
+  "parts": [
+    "I",
+    "II",
+    "III",
+    "IV",
+    "V",
+    "VI",
+    "VII"
+  ],
+  "names": {
+    "I": "The Lovers",
+    "II": "The Eve",
+    "III": "The Blizzard",
+    "IV": "The Fever",
+    "V": "The Return of the Regiments",
+    "VI": "The Garden",
+    "VII": "The Church"
+  },
+  "art": {
+    "I": "1_chapel",
+    "II": "2_flight",
+    "III": "3_field",
+    "IV": "4_sickroom",
+    "V": "5_regiments",
+    "VI": "6_pond",
+    "VII": "7_church"
+  },
+  "art_alt": {
+    "1_chapel": "Two young people meeting by an old chapel among snowy pines at dusk",
+    "2_flight": "A dark country house at night, a young woman by the garden gate, a sleigh and horses waiting in the storm",
+    "3_field": "A lone sleigh and horse lost in a white field in a blizzard, a dark grove far away",
+    "4_sickroom": "A sickroom by candlelight, a girl in bed and her mother keeping watch",
+    "5_regiments": "Soldiers on horseback with a banner riding home along a country road, villagers throwing their caps in the air",
+    "6_pond": "A girl in white with a book under a willow by a pond, an officer standing near",
+    "7_church": "A wooden church with lit windows in a snowstorm, sleighs at the fence and people on the porch"
+  },
+  "focus": {
+    "1_chapel": [
+      [
+        0.5,
+        0.62
+      ],
+      [
+        0.4,
+        0.85
+      ],
+      [
+        0.7,
+        0.45
+      ]
+    ],
+    "2_flight": [
+      [
+        0.5,
+        0.75
+      ],
+      [
+        0.8,
+        0.85
+      ],
+      [
+        0.25,
+        0.5
+      ]
+    ],
+    "3_field": [
+      [
+        0.3,
+        0.82
+      ],
+      [
+        0.8,
+        0.6
+      ],
+      [
+        0.5,
+        0.5
+      ]
+    ],
+    "4_sickroom": [
+      [
+        0.45,
+        0.6
+      ],
+      [
+        0.65,
+        0.8
+      ],
+      [
+        0.7,
+        0.5
+      ]
+    ],
+    "5_regiments": [
+      [
+        0.4,
+        0.7
+      ],
+      [
+        0.65,
+        0.55
+      ],
+      [
+        0.75,
+        0.8
+      ]
+    ],
+    "6_pond": [
+      [
+        0.75,
+        0.7
+      ],
+      [
+        0.5,
+        0.82
+      ],
+      [
+        0.3,
+        0.6
+      ]
+    ],
+    "7_church": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.5,
+        0.2
+      ],
+      [
+        0.4,
+        0.85
+      ]
+    ]
+  },
+  "fx": {
+    "1_chapel": "snow",
+    "2_flight": "snow",
+    "3_field": "snow",
+    "4_sickroom": "flicker",
+    "5_regiments": "leaves",
+    "6_pond": "leaves",
+    "7_church": "snow"
+  },
+  "glossary": [
+    [
+      "boston",
+      "a card game for small stakes, popular among the gentry."
+    ],
+    [
+      "verst",
+      "a Russian measure of distance, a little over a kilometre."
+    ],
+    [
+      "ensign",
+      "the lowest officer rank in the army."
+    ],
+    [
+      "cornet",
+      "a junior cavalry officer."
+    ],
+    [
+      "troika",
+      "a carriage or sleigh drawn by three horses."
+    ],
+    [
+      "kibitka",
+      "a covered sleigh or cart used for long journeys."
+    ],
+    [
+      "Borodino",
+      "the great battle of 1812 fought before Moscow against Napoleon's army."
+    ],
+    [
+      "Order of St George",
+      "a high Russian military decoration, worn at the buttonhole."
+    ],
+    [
+      "Artemisia",
+      "a queen of ancient times, a symbol of a widow's faithfulness."
+    ]
+  ],
+  "thumb_art": "7_church",
+  "thumb_position": "50% 50%",
+  "thumb_sub": "A SHORT STORY<br>FULL-CAST AUDIOBOOK",
+  "cover_bg": [
+    "#10163a",
+    "#dce2f0"
+  ],
+  "summary": "On a winter night in 1811 a girl slips away from her father's house to marry her poor sweetheart in secret, and a sudden blizzard sends everything astray. One of Pushkin's Belkin Tales, a story of love, chance and fate.",
+  "site_description": "In the winter of 1811 seventeen-year-old Maria Gavrilovna flees her father's house to be married in secret to the army ensign she loves. A blizzard rises, the bridegroom loses his way, and what happens in a small village church that night will not be explained until years later. Pushkin's Belkin Tale, with all its irony and tenderness, in a full-cast English audiobook.",
+  "tags": [
+    "Pushkin",
+    "Alexander Pushkin",
+    "The Blizzard",
+    "Belkin Tales",
+    "audiobook",
+    "full cast audiobook",
+    "short story",
+    "winter story",
+    "classic literature",
+    "Russian literature",
+    "public domain",
+    "English audiobook"
+  ],
+  "hashtags": "#Pushkin #audiobook #classicliterature #shortstory #publicdomain",
+  "playlist": "PLVuswr3XMg9E",
+  "text_note": "Machine translation from the Russian, a draft that needs a human editor.",
+  "ru": {
+    "title": "Метель",
+    "author": "Александр Пушкин",
+    "names": {
+      "I": "Влюблённые",
+      "II": "Канун",
+      "III": "Метель",
+      "IV": "Горячка",
+      "V": "Возвращение полков",
+      "VI": "Сад",
+      "VII": "Церковь"
+    },
+    "note": "Повесть в издании для чтения с оригинальными иллюстрациями.",
+    "source_note": "Текст с ru.wikisource.org, по изданию: А. С. Пушкин, Полное собрание сочинений в 10 томах, т. 6.",
+    "contents": "Содержание",
+    "back": "О тексте",
+    "small": "Текст повести находится в общественном достоянии. Названия частей и иллюстрации сделаны для этого издания. Набрано шрифтом Lora (SIL Open Font License).",
+    "description": "Зимой 1811 года семнадцатилетняя Марья Гавриловна тайком уезжает из отцовского дома, чтобы венчаться с бедным прапорщиком. Поднимается метель, жених сбивается с пути, и то, что случилось в ту ночь в маленькой сельской церкви, откроется только спустя годы. Повесть из «Повестей Белкина» Пушкина."
+  }
+}

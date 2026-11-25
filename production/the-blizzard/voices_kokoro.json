@@ -1,0 +1,17 @@
+{
+ "NARRATOR": {
+  "voice": "bm_george",
+  "speed": 0.95,
+  "lang": "en-gb"
+ },
+ "MARIA": {
+  "voice": "bf_emma",
+  "speed": 1.0,
+  "lang": "en-gb"
+ },
+ "BURMIN": {
+  "voice": "bm_lewis",
+  "speed": 0.97,
+  "lang": "en-gb"
+ }
+}

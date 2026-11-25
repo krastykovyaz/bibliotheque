@@ -1,0 +1,37 @@
+{
+ "NARRATOR": {
+  "voice": "bm_george",
+  "speed": 0.95,
+  "lang": "en-gb"
+ },
+ "GRISHA": {
+  "voice": "bm_daniel",
+  "speed": 1.06,
+  "lang": "en-gb"
+ },
+ "VOLODYA": {
+  "voice": "bm_daniel",
+  "speed": 1.14,
+  "lang": "en-gb"
+ },
+ "MOTHER": {
+  "voice": "bf_emma",
+  "speed": 0.95,
+  "lang": "en-gb"
+ },
+ "MERZALOV": {
+  "voice": "bm_lewis",
+  "speed": 0.97,
+  "lang": "en-gb"
+ },
+ "GRIGORY": {
+  "voice": "bm_lewis",
+  "speed": 0.93,
+  "lang": "en-gb"
+ },
+ "DOCTOR": {
+  "voice": "bm_fable",
+  "speed": 0.9,
+  "lang": "en-gb"
+ }
+}

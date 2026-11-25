@@ -1,0 +1,187 @@
+{
+  "slug": "boy-at-christs-tree",
+  "prefix": "Boy_at_Christs_Tree",
+  "lang": "en",
+  "title": "The Boy at Christ's Christmas Tree",
+  "author": "Fyodor Dostoevsky",
+  "author_ru": "Фёдор Достоевский",
+  "year": 1876,
+  "title_original": "Мальчик у Христа на ёлке",
+  "publication_note": "first published in «Дневник писателя», January 1876",
+  "source_note": "Text from ru.wikisource.org, after F. M. Dostoevsky, Diary of a Writer, 1876.",
+  "translated_from": "the Russian original",
+  "parts": [
+    "I",
+    "II",
+    "III",
+    "IV",
+    "V"
+  ],
+  "names": {
+    "I": "The Boy with His Hand Out",
+    "II": "The Cellar",
+    "III": "The City",
+    "IV": "Christ's Tree",
+    "V": "The Writer's Word"
+  },
+  "art": {
+    "I": "1_hand_out",
+    "II": "2_cellar",
+    "III": "3_shop_windows",
+    "IV": "4_christs_tree",
+    "V": "5_yard"
+  },
+  "art_alt": {
+    "1_hand_out": "A street corner on a frosty evening, a small boy in a thin smock holding out his hand to passers-by under a lamp",
+    "2_cellar": "A dark cellar with a small high window, a bunk with a still shape, a small boy on a chest breathing white steam, an old woman in a corner",
+    "3_shop_windows": "Lit shop windows at night, one with a Christmas tree and children, one with three little fiddling dolls, a small boy at the glass in the snow",
+    "4_christs_tree": "A great tree of golden lights in a deep blue sky, bright children flying round it, mothers standing to one side",
+    "5_yard": "A snowy back yard at dawn, a woodpile by a gateway, a small shape in the snow and a yard-keeper with a broom coming"
+  },
+  "focus": {
+    "1_hand_out": [
+      [
+        0.52,
+        0.85
+      ],
+      [
+        0.17,
+        0.85
+      ],
+      [
+        0.48,
+        0.4
+      ]
+    ],
+    "2_cellar": [
+      [
+        0.23,
+        0.65
+      ],
+      [
+        0.8,
+        0.6
+      ],
+      [
+        0.42,
+        0.2
+      ]
+    ],
+    "3_shop_windows": [
+      [
+        0.62,
+        0.85
+      ],
+      [
+        0.27,
+        0.5
+      ],
+      [
+        0.9,
+        0.55
+      ]
+    ],
+    "4_christs_tree": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.5,
+        0.15
+      ],
+      [
+        0.85,
+        0.7
+      ]
+    ],
+    "5_yard": [
+      [
+        0.48,
+        0.88
+      ],
+      [
+        0.7,
+        0.88
+      ],
+      [
+        0.75,
+        0.55
+      ]
+    ]
+  },
+  "fx": {
+    "1_hand_out": "snow",
+    "3_shop_windows": "snow",
+    "4_christs_tree": "flicker",
+    "5_yard": "snow"
+  },
+  "glossary": [
+    [
+      "kopeck",
+      "a hundredth of a rouble; the smallest coin, given to beggars."
+    ],
+    [
+      "with his hand out",
+      "street slang of the time for begging, which the boys themselves invented."
+    ],
+    [
+      "yard-keeper",
+      "a servant who looked after a building's yard and gate, swept the snow and watched the entrance."
+    ],
+    [
+      "foundling hospital",
+      "an institution for abandoned babies, which sent them out to be nursed by peasant women for pay."
+    ],
+    [
+      "Samara famine",
+      "the hunger of 1873-74 in the Samara region on the Volga, in which many people died."
+    ],
+    [
+      "Christ's tree",
+      "the Christmas tree of the heavenly children; in Russia a decorated tree was the great festival of childhood."
+    ]
+  ],
+  "thumb_art": "4_christs_tree",
+  "thumb_position": "50% 50%",
+  "thumb_sub": "A SHORT STORY<br>FULL-CAST AUDIOBOOK",
+  "cover_bg": [
+    "#0d1236",
+    "#dfe6f6"
+  ],
+  "summary": "On the eve of Christmas, a little boy who has lost his mother in a freezing city looks through shop windows at trees and dolls he cannot touch. Dostoevsky's short Christmas story, a few pages that never leave the reader.",
+  "site_description": "On the eve of Christmas, in an enormous freezing city, a small boy wakes in a cellar beside his mother, who will not wake. He goes out to look for bread and finds only lit windows, a tree he cannot reach and dolls that seem alive. Dostoevsky's brief Christmas story, written for his Diary of a Writer in 1876, is about the children nobody counts and the tree that waits for them.",
+  "tags": [
+    "Dostoevsky",
+    "Fyodor Dostoevsky",
+    "The Boy at Christ's Christmas Tree",
+    "audiobook",
+    "full cast audiobook",
+    "short story",
+    "Christmas story",
+    "classic literature",
+    "Russian literature",
+    "public domain",
+    "English audiobook"
+  ],
+  "hashtags": "#Dostoevsky #audiobook #classicliterature #shortstory #publicdomain",
+  "playlist": "PLVuswr3XMg9E",
+  "text_note": "Machine translation from the Russian, a draft that needs a human editor.",
+  "ru": {
+    "title": "Мальчик у Христа на ёлке",
+    "author": "Фёдор Достоевский",
+    "names": {
+      "I": "Мальчик с ручкой",
+      "II": "Подвал",
+      "III": "Город",
+      "IV": "Христова ёлка",
+      "V": "Слово писателя"
+    },
+    "note": "Рассказ в издании для чтения с оригинальными иллюстрациями.",
+    "source_note": "Текст с ru.wikisource.org, по изданию: Ф. М. Достоевский, «Дневник писателя», 1876.",
+    "contents": "Содержание",
+    "back": "О тексте",
+    "small": "Текст рассказа находится в общественном достоянии. Названия частей и иллюстрации сделаны для этого издания. Набрано шрифтом Lora (SIL Open Font License).",
+    "description": "В канун Рождества в огромном замёрзшем городе маленький мальчик просыпается в подвале рядом с матерью, которая не просыпается. Он выходит искать хлеба и видит только освещённые окна, недоступную ёлку и кукол, как живых. Короткий рождественский рассказ Достоевского из «Дневника писателя» 1876 года о детях, которых никто не считает, и о ёлке, которая их ждёт."
+  }
+}

@@ -1,0 +1,189 @@
+{
+ "sample_rate": 24000,
+ "total": 742.791,
+ "segments": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 106.802
+  },
+  {
+   "id": 2,
+   "start": 107.552,
+   "end": 111.632
+  },
+  {
+   "id": 3,
+   "start": 112.382,
+   "end": 176.25
+  },
+  {
+   "id": 4,
+   "start": 178.75,
+   "end": 197.133
+  },
+  {
+   "id": 5,
+   "start": 197.883,
+   "end": 318.36
+  },
+  {
+   "id": 6,
+   "start": 320.86,
+   "end": 371.504
+  },
+  {
+   "id": 7,
+   "start": 372.254,
+   "end": 538.807
+  },
+  {
+   "id": 8,
+   "start": 541.307,
+   "end": 577.047
+  },
+  {
+   "id": 9,
+   "start": 577.797,
+   "end": 583.17
+  },
+  {
+   "id": 10,
+   "start": 583.92,
+   "end": 622.563
+  },
+  {
+   "id": 11,
+   "start": 623.313,
+   "end": 634.38
+  },
+  {
+   "id": 12,
+   "start": 635.13,
+   "end": 699.3
+  },
+  {
+   "id": 13,
+   "start": 701.8,
+   "end": 716.693
+  },
+  {
+   "id": 14,
+   "start": 717.443,
+   "end": 742.791
+  }
+ ],
+ "paragraphs": [
+  {
+   "part": "I",
+   "paragraph": 1,
+   "start": 0.0,
+   "end": 106.802
+  },
+  {
+   "part": "I",
+   "paragraph": 2,
+   "start": 107.552,
+   "end": 111.632
+  },
+  {
+   "part": "I",
+   "paragraph": 3,
+   "start": 112.382,
+   "end": 176.25
+  },
+  {
+   "part": "II",
+   "paragraph": 1,
+   "start": 178.75,
+   "end": 197.133
+  },
+  {
+   "part": "II",
+   "paragraph": 2,
+   "start": 197.883,
+   "end": 318.36
+  },
+  {
+   "part": "III",
+   "paragraph": 1,
+   "start": 320.86,
+   "end": 371.504
+  },
+  {
+   "part": "III",
+   "paragraph": 2,
+   "start": 372.254,
+   "end": 538.807
+  },
+  {
+   "part": "IV",
+   "paragraph": 1,
+   "start": 541.307,
+   "end": 577.047
+  },
+  {
+   "part": "IV",
+   "paragraph": 2,
+   "start": 577.797,
+   "end": 583.17
+  },
+  {
+   "part": "IV",
+   "paragraph": 3,
+   "start": 583.92,
+   "end": 622.563
+  },
+  {
+   "part": "IV",
+   "paragraph": 4,
+   "start": 623.313,
+   "end": 634.38
+  },
+  {
+   "part": "IV",
+   "paragraph": 5,
+   "start": 635.13,
+   "end": 699.3
+  },
+  {
+   "part": "V",
+   "paragraph": 1,
+   "start": 701.8,
+   "end": 716.693
+  },
+  {
+   "part": "V",
+   "paragraph": 2,
+   "start": 717.443,
+   "end": 742.791
+  }
+ ],
+ "parts": [
+  {
+   "part": "I",
+   "start": 0.0,
+   "end": 176.25
+  },
+  {
+   "part": "II",
+   "start": 178.75,
+   "end": 318.36
+  },
+  {
+   "part": "III",
+   "start": 320.86,
+   "end": 538.807
+  },
+  {
+   "part": "IV",
+   "start": 541.307,
+   "end": 699.3
+  },
+  {
+   "part": "V",
+   "start": 701.8,
+   "end": 742.791
+  }
+ ]
+}

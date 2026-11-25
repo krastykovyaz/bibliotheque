@@ -1,0 +1,881 @@
+{
+  "slug": "the-overcoat",
+  "prefix": "The_Overcoat",
+  "lang": "en",
+  "title": "The Overcoat",
+  "author": "Nikolai Gogol",
+  "author_ru": "Николай Гоголь",
+  "year": 1842,
+  "title_original": "Шинель",
+  "publication_note": "first published in «Сочинения Николая Гоголя», vol. 3, St Petersburg, 1842",
+  "source_note": "Text from ru.wikisource.org, after N. V. Gogol, Complete Works (1937–1952), vol. 3.",
+  "translated_from": "the Russian original",
+  "parts": [
+    "I",
+    "II",
+    "III",
+    "IV",
+    "V",
+    "VI",
+    "VII",
+    "VIII",
+    "IX",
+    "X"
+  ],
+  "names": {
+    "I": "A Certain Clerk",
+    "II": "The Copyist",
+    "III": "The Frost and the Tailor",
+    "IV": "The Savings",
+    "V": "The New Overcoat",
+    "VI": "The Party",
+    "VII": "The Empty Square",
+    "VIII": "The Important Person",
+    "IX": "The Fever",
+    "X": "The Ghost"
+  },
+  "art": {
+    "I": "1_office",
+    "II": "2_lamp_desk",
+    "III": "3_frost",
+    "IV": "4_box",
+    "V": "5_new_coat",
+    "VI": "6_lit_window",
+    "VII": "7_square",
+    "VIII": "8_study",
+    "IX": "9_sickbed",
+    "X": "10_ghost_lamp"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "art": "1_office"
+    },
+    {
+      "id": 3,
+      "art": "1b_names"
+    },
+    {
+      "id": 17,
+      "art": "1c_snow_paper"
+    },
+    {
+      "id": 24,
+      "art": "2_lamp_desk"
+    },
+    {
+      "id": 28,
+      "art": "2b_rubbish"
+    },
+    {
+      "id": 32,
+      "art": "2c_evening_windows"
+    },
+    {
+      "id": 34,
+      "art": "3_frost"
+    },
+    {
+      "id": 35,
+      "art": "3b_old_coat"
+    },
+    {
+      "id": 40,
+      "art": "3d_tailor"
+    },
+    {
+      "id": 54,
+      "art": "3e_snuffbox"
+    },
+    {
+      "id": 104,
+      "art": "3f_sunday"
+    },
+    {
+      "id": 117,
+      "art": "4_box"
+    },
+    {
+      "id": 122,
+      "art": "4b_candle_work"
+    },
+    {
+      "id": 127,
+      "art": "4c_cloth_shop"
+    },
+    {
+      "id": 129,
+      "art": "5b_fitting"
+    },
+    {
+      "id": 132,
+      "art": "5c_porter"
+    },
+    {
+      "id": 136,
+      "art": "5_new_coat"
+    },
+    {
+      "id": 137,
+      "art": "6b_shop_picture"
+    },
+    {
+      "id": 139,
+      "art": "6_lit_window"
+    },
+    {
+      "id": 142,
+      "art": "6c_hall"
+    },
+    {
+      "id": 143,
+      "art": "6d_whist"
+    },
+    {
+      "id": 146,
+      "art": "7_square"
+    },
+    {
+      "id": 150,
+      "art": "7b_robbed"
+    },
+    {
+      "id": 157,
+      "art": "7c_police"
+    },
+    {
+      "id": 160,
+      "art": "8_study"
+    },
+    {
+      "id": 167,
+      "art": "8b_anteroom"
+    },
+    {
+      "id": 178,
+      "art": "8d_shouting"
+    },
+    {
+      "id": 193,
+      "art": "8c_blizzard"
+    },
+    {
+      "id": 194,
+      "art": "9_sickbed"
+    },
+    {
+      "id": 198,
+      "art": "9b_empty_room"
+    },
+    {
+      "id": 200,
+      "art": "9c_new_clerk"
+    },
+    {
+      "id": 203,
+      "art": "10b_bridge"
+    },
+    {
+      "id": 214,
+      "art": "10c_sleigh"
+    },
+    {
+      "id": 217,
+      "art": "10_ghost_lamp"
+    },
+    {
+      "id": 226,
+      "art": "10e_obukhov"
+    }
+  ],
+  "art_alt": {
+    "1_office": "A government office: clerks bent over slanted desks under tall windows, one small bald clerk by a candle at the end of the row",
+    "1b_names": "A christening scene by candlelight: an open calendar on a table, two godparents standing, a mother in bed",
+    "1c_snow_paper": "Young clerks jeering at a lone copyist while scraps of paper fall on his head like snow",
+    "2_lamp_desk": "A hunched man copying papers at a table by one candle, a frosted window behind him",
+    "2b_rubbish": "A man in a hat walking under a lit window just as melon rinds and rubbish are thrown out",
+    "2c_evening_windows": "A tenement at night with card-players in many lit windows, and one dark window; a lone man walks home",
+    "3_frost": "Clerks in thin overcoats hurrying through a frosty morning street, breath steaming, snow falling",
+    "3b_old_coat": "A threadbare overcoat on a hook, worn through at the shoulders and back, a candle on a stool",
+    "3c_stairs": "A steep back staircase wet with slops, smoke pouring from a kitchen door at the top, a man climbing",
+    "3d_tailor": "A one-eyed tailor sitting cross-legged on a wide table with thread round his neck, a window glowing behind",
+    "3e_snuffbox": "A round snuffbox with a general's portrait whose face is pasted over with a square of paper, an old coat behind",
+    "3f_sunday": "A snowy lane on a Sunday morning, a man in an old coat at the tailor's door with a coin in his hand",
+    "4_box": "A small locked savings box with a slit in the lid, copper and silver coins on a table, a candle",
+    "4b_candle_work": "A man copying papers by the light of his landlady's candle, a warm stove behind",
+    "4c_cloth_shop": "A cloth shop: bolts of cloth on shelves, a tailor and a customer choosing green cloth at the counter",
+    "5_new_coat": "A new dark-green overcoat with a pale collar hanging on a hook, bathed in lamplight",
+    "5b_fitting": "A tailor draping the new green overcoat over a clerk's shoulders",
+    "5c_porter": "The porter's lodge of the department: rows of coats on hooks, the new green one in the middle, clerks gathering",
+    "6_lit_window": "A tall house at night with a brightly lit window full of guests, a man in a new green overcoat in the snowy street",
+    "6b_shop_picture": "A man in a green overcoat stopping before a lit shop window with a picture of a woman taking off her shoe",
+    "6c_hall": "A hall with coats on every wall, rows of galoshes on the floor and a steaming samovar",
+    "6d_whist": "Clerks playing cards by candlelight at a green table, a tea glass steaming at the side",
+    "7_square": "A vast empty snowy square at night, a single sentry-box light far away, a small man in a green overcoat crossing it",
+    "7b_robbed": "A man lying in the snow while two big dark figures walk away, one carrying a green overcoat",
+    "7c_police": "A snowy police station with lit windows, a man in an old coat at the door, hat in hand",
+    "8_study": "A general's study: a stern man at a great desk with an old friend, and a small clerk waiting by the wall",
+    "8d_shouting": "A general in a green coat stamping his foot and raising an arm over a small trembling clerk, a friend looking on",
+    "8b_anteroom": "An anteroom with rows of empty chairs and a door ajar to a lit study, a secretary with papers",
+    "8c_blizzard": "A man staggering through a blizzard between lamp-lit houses, wind and snow all around",
+    "9_sickbed": "A sick man in bed by a candle, an old landlady and a doctor standing by",
+    "9b_empty_room": "A bare room after a death: an old dressing gown on a hook, a few quills and paper on a table, three socks",
+    "9c_new_clerk": "The office again, a new taller clerk sitting in the old place and writing in a slanting hand",
+    "10_ghost_lamp": "A pale ghost of a clerk under a gas lamp, hand at the collar of a man in a fine coat, snow falling",
+    "10b_bridge": "An arched bridge over a dark canal at night, gas lamps and fog, a pale figure on the bridge",
+    "10c_sleigh": "A night sleigh racing through snow, a man in a fur-collared coat and a ghost grasping his collar",
+    "10d_watchman": "A watchman with a halberd and snuff horn, a ghost looming behind him in the snow",
+    "10e_obukhov": "A huge pale ghost with great moustaches walking towards a bridge in the dark"
+  },
+  "focus": {
+    "1_office": [
+      [
+        0.85,
+        0.6
+      ],
+      [
+        0.3,
+        0.55
+      ],
+      [
+        0.5,
+        0.3
+      ]
+    ],
+    "1b_names": [
+      [
+        0.42,
+        0.65
+      ],
+      [
+        0.75,
+        0.6
+      ],
+      [
+        0.2,
+        0.45
+      ]
+    ],
+    "1c_snow_paper": [
+      [
+        0.42,
+        0.5
+      ],
+      [
+        0.25,
+        0.5
+      ],
+      [
+        0.6,
+        0.45
+      ]
+    ],
+    "2_lamp_desk": [
+      [
+        0.38,
+        0.65
+      ],
+      [
+        0.5,
+        0.7
+      ],
+      [
+        0.75,
+        0.4
+      ]
+    ],
+    "2b_rubbish": [
+      [
+        0.22,
+        0.4
+      ],
+      [
+        0.35,
+        0.8
+      ],
+      [
+        0.7,
+        0.55
+      ]
+    ],
+    "2c_evening_windows": [
+      [
+        0.5,
+        0.4
+      ],
+      [
+        0.85,
+        0.75
+      ],
+      [
+        0.2,
+        0.65
+      ]
+    ],
+    "3_frost": [
+      [
+        0.45,
+        0.85
+      ],
+      [
+        0.3,
+        0.9
+      ],
+      [
+        0.7,
+        0.45
+      ]
+    ],
+    "3b_old_coat": [
+      [
+        0.5,
+        0.45
+      ],
+      [
+        0.5,
+        0.7
+      ],
+      [
+        0.8,
+        0.75
+      ]
+    ],
+    "3c_stairs": [
+      [
+        0.4,
+        0.7
+      ],
+      [
+        0.88,
+        0.2
+      ],
+      [
+        0.2,
+        0.9
+      ]
+    ],
+    "3d_tailor": [
+      [
+        0.42,
+        0.58
+      ],
+      [
+        0.7,
+        0.4
+      ],
+      [
+        0.1,
+        0.2
+      ]
+    ],
+    "3e_snuffbox": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.85,
+        0.7
+      ]
+    ],
+    "3f_sunday": [
+      [
+        0.4,
+        0.85
+      ],
+      [
+        0.52,
+        0.55
+      ],
+      [
+        0.8,
+        0.3
+      ]
+    ],
+    "4_box": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.2,
+        0.65
+      ],
+      [
+        0.75,
+        0.8
+      ]
+    ],
+    "4b_candle_work": [
+      [
+        0.4,
+        0.6
+      ],
+      [
+        0.7,
+        0.45
+      ],
+      [
+        0.2,
+        0.85
+      ]
+    ],
+    "4c_cloth_shop": [
+      [
+        0.7,
+        0.7
+      ],
+      [
+        0.2,
+        0.3
+      ],
+      [
+        0.4,
+        0.85
+      ]
+    ],
+    "5_new_coat": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.5,
+        0.3
+      ],
+      [
+        0.75,
+        0.4
+      ]
+    ],
+    "5b_fitting": [
+      [
+        0.45,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ],
+      [
+        0.8,
+        0.4
+      ]
+    ],
+    "5c_porter": [
+      [
+        0.5,
+        0.45
+      ],
+      [
+        0.3,
+        0.5
+      ],
+      [
+        0.8,
+        0.75
+      ]
+    ],
+    "6_lit_window": [
+      [
+        0.45,
+        0.5
+      ],
+      [
+        0.62,
+        0.9
+      ],
+      [
+        0.8,
+        0.5
+      ]
+    ],
+    "6b_shop_picture": [
+      [
+        0.5,
+        0.4
+      ],
+      [
+        0.12,
+        0.9
+      ],
+      [
+        0.7,
+        0.5
+      ]
+    ],
+    "6c_hall": [
+      [
+        0.56,
+        0.75
+      ],
+      [
+        0.3,
+        0.3
+      ],
+      [
+        0.8,
+        0.3
+      ]
+    ],
+    "6d_whist": [
+      [
+        0.5,
+        0.65
+      ],
+      [
+        0.3,
+        0.5
+      ],
+      [
+        0.82,
+        0.7
+      ]
+    ],
+    "7_square": [
+      [
+        0.32,
+        0.88
+      ],
+      [
+        0.66,
+        0.6
+      ],
+      [
+        0.5,
+        0.5
+      ]
+    ],
+    "7b_robbed": [
+      [
+        0.35,
+        0.9
+      ],
+      [
+        0.65,
+        0.6
+      ],
+      [
+        0.85,
+        0.7
+      ]
+    ],
+    "7c_police": [
+      [
+        0.4,
+        0.85
+      ],
+      [
+        0.55,
+        0.5
+      ],
+      [
+        0.85,
+        0.8
+      ]
+    ],
+    "8_study": [
+      [
+        0.5,
+        0.4
+      ],
+      [
+        0.35,
+        0.45
+      ],
+      [
+        0.12,
+        0.9
+      ]
+    ],
+    "8d_shouting": [
+      [
+        0.4,
+        0.4
+      ],
+      [
+        0.17,
+        0.9
+      ],
+      [
+        0.7,
+        0.5
+      ]
+    ],
+    "8b_anteroom": [
+      [
+        0.6,
+        0.5
+      ],
+      [
+        0.8,
+        0.85
+      ],
+      [
+        0.2,
+        0.9
+      ]
+    ],
+    "8c_blizzard": [
+      [
+        0.5,
+        0.85
+      ],
+      [
+        0.35,
+        0.5
+      ],
+      [
+        0.7,
+        0.5
+      ]
+    ],
+    "9_sickbed": [
+      [
+        0.35,
+        0.6
+      ],
+      [
+        0.63,
+        0.55
+      ],
+      [
+        0.9,
+        0.6
+      ]
+    ],
+    "9b_empty_room": [
+      [
+        0.5,
+        0.4
+      ],
+      [
+        0.3,
+        0.72
+      ],
+      [
+        0.75,
+        0.9
+      ]
+    ],
+    "9c_new_clerk": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.5,
+        0.45
+      ],
+      [
+        0.15,
+        0.7
+      ]
+    ],
+    "10_ghost_lamp": [
+      [
+        0.42,
+        0.8
+      ],
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.65,
+        0.88
+      ]
+    ],
+    "10b_bridge": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.3,
+        0.5
+      ],
+      [
+        0.7,
+        0.55
+      ]
+    ],
+    "10c_sleigh": [
+      [
+        0.4,
+        0.7
+      ],
+      [
+        0.52,
+        0.7
+      ],
+      [
+        0.75,
+        0.75
+      ]
+    ],
+    "10d_watchman": [
+      [
+        0.33,
+        0.85
+      ],
+      [
+        0.62,
+        0.9
+      ],
+      [
+        0.5,
+        0.45
+      ]
+    ],
+    "10e_obukhov": [
+      [
+        0.44,
+        0.8
+      ],
+      [
+        0.7,
+        0.7
+      ],
+      [
+        0.3,
+        0.5
+      ]
+    ]
+  },
+  "fx": {
+    "2b_rubbish": "snow",
+    "2c_evening_windows": "snow",
+    "3_frost": "snow",
+    "3f_sunday": "snow",
+    "6_lit_window": "snow",
+    "6b_shop_picture": "snow",
+    "7_square": "snow",
+    "7b_robbed": "snow",
+    "7c_police": "snow",
+    "8c_blizzard": "snow",
+    "10_ghost_lamp": "snow",
+    "10b_bridge": "snow",
+    "10c_sleigh": "snow",
+    "10d_watchman": "snow",
+    "10e_obukhov": "snow",
+    "8d_shouting": "flicker",
+    "1_office": "flicker",
+    "1b_names": "flicker",
+    "2_lamp_desk": "flicker",
+    "3b_old_coat": "flicker",
+    "3c_stairs": "flicker",
+    "3d_tailor": "flicker",
+    "3e_snuffbox": "flicker",
+    "4_box": "flicker",
+    "4b_candle_work": "flicker",
+    "5_new_coat": "flicker",
+    "6c_hall": "flicker",
+    "6d_whist": "flicker",
+    "8_study": "flicker",
+    "9_sickbed": "flicker",
+    "9b_empty_room": "flicker"
+  },
+  "episodes": [
+    {
+      "title": "The Clerk and His Overcoat",
+      "from_part": "I",
+      "to_part": "V",
+      "thumb_art": "5_new_coat",
+      "blurb": "Akaky Akakievich Bashmachkin, the humblest copying clerk in St Petersburg, is mocked by his colleagues and loves only his work, until the frost and a tailor named Petrovich teach him he needs a new overcoat."
+    },
+    {
+      "title": "The Party, the Theft and the Ghost",
+      "from_part": "VI",
+      "to_part": "X",
+      "thumb_art": "10_ghost_lamp",
+      "blurb": "The new overcoat brings one happy evening and a night on an empty square. Then come a policeman, an Important Person who shouts, a fever, and a ghost who walks the streets of St Petersburg."
+    }
+  ],
+  "glossary": [
+    [
+      "titular councillor",
+      "a low civil-service rank (ninth of fourteen); a “perpetual” one never rose any higher."
+    ],
+    [
+      "kopeck",
+      "a hundredth of a rouble; a ten-kopeck piece was a small tip."
+    ],
+    [
+      "marten",
+      "a costly fur used for coat collars; cat fur was the cheap imitation."
+    ],
+    [
+      "whist",
+      "a card game for four, a favourite pastime of clerks."
+    ],
+    [
+      "watchman",
+      "a street policeman who stood in a sentry box with a halberd."
+    ],
+    [
+      "district superintendent",
+      "the police chief of a city district."
+    ],
+    [
+      "Falconet monument",
+      "the Bronze Horseman, the statue of Peter the Great in St Petersburg."
+    ],
+    [
+      "Your Excellency",
+      "the form of address for a general or an official of high rank."
+    ]
+  ],
+  "thumb_art": "10_ghost_lamp",
+  "thumb_position": "50% 50%",
+  "thumb_sub": "A NOVELLA<br>FULL-CAST AUDIOBOOK",
+  "cover_bg": [
+    "#0e1226",
+    "#e0e6f4"
+  ],
+  "summary": "Akaky Akakievich is a poor copying clerk in St Petersburg whom everyone mocks and whose only joy is his work. When his old overcoat falls apart, he saves for months to buy a new one, and for one evening he is happy. One of the most influential stories in Russian literature.",
+  "site_description": "Akaky Akakievich Bashmachkin is a humble copying clerk in St Petersburg, mocked by colleagues and content with his papers, until his old overcoat can no longer be mended. He starves himself to save for a new one, and for a single evening he is happy; then comes a night on an empty square, an Important Person who will not listen, and a ghost. Gogol's 1842 masterpiece of pity, comedy and the supernatural, the story from which, as Russians say, all of their literature came.",
+  "tags": [
+    "Gogol",
+    "Nikolai Gogol",
+    "The Overcoat",
+    "audiobook",
+    "full cast audiobook",
+    "novella",
+    "ghost story",
+    "classic literature",
+    "Russian literature",
+    "St Petersburg",
+    "public domain",
+    "English audiobook"
+  ],
+  "hashtags": "#Gogol #audiobook #classicliterature #russianliterature #publicdomain",
+  "playlist": "PLVuswr3XMg9E",
+  "text_note": "Translated from the Russian by an AI, a draft that needs a human editor.",
+  "ru": {
+    "title": "Шинель",
+    "author": "Николай Гоголь",
+    "names": {
+      "I": "Один чиновник",
+      "II": "Переписчик",
+      "III": "Мороз и портной",
+      "IV": "Копилка",
+      "V": "Новая шинель",
+      "VI": "Вечер",
+      "VII": "Пустая площадь",
+      "VIII": "Значительное лицо",
+      "IX": "Горячка",
+      "X": "Привидение"
+    },
+    "note": "Повесть в издании для чтения с оригинальными иллюстрациями.",
+    "source_note": "Текст с ru.wikisource.org, по изданию: Н. В. Гоголь, Полное собрание сочинений (1937–1952), т. 3.",
+    "contents": "Содержание",
+    "back": "О тексте",
+    "small": "Текст повести находится в общественном достоянии. Крупные абзацы автора разбиты на более короткие. Названия частей и иллюстрации сделаны для этого издания. Набрано шрифтом Lora (SIL Open Font License).",
+    "description": "Акакий Акакиевич Башмачкин, бедный петербургский переписчик, которого все обижают и которому дорога только его работа, копит на новую шинель и один вечер бывает счастлив. Потом пустая площадь, значительное лицо, не пожелавшее выслушать, и привидение. Повесть Гоголя 1842 года."
+  }
+}

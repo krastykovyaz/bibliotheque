@@ -1,0 +1,1172 @@
+{
+  "slug": "night-before-christmas",
+  "prefix": "Night_Before_Christmas",
+  "lang": "en",
+  "title": "The Night Before Christmas",
+  "author": "Nikolai Gogol",
+  "author_ru": "Николай Гоголь",
+  "year": 1832,
+  "title_original": "Ночь перед Рождеством",
+  "publication_note": "first published in «Вечера на хуторе близ Диканьки» (Evenings on a Farm near Dikanka), part 2, 1832",
+  "source_note": "Text from ru.wikisource.org, after N. V. Gogol, Complete Works and Letters in twenty-three volumes, vol. 1 (Moscow: IMLI RAN, Nasledie, 2001). The author's own footnotes are left out.",
+  "translated_from": "the Russian original",
+  "parts": [
+    "I",
+    "II",
+    "III",
+    "IV",
+    "V",
+    "VI",
+    "VII",
+    "VIII"
+  ],
+  "names": {
+    "I": "The Stolen Moon",
+    "II": "Oksana and Solokha",
+    "III": "The Blizzard",
+    "IV": "Solokha's Visitors",
+    "V": "The Devil's Bargain",
+    "VI": "The Sacks",
+    "VII": "To Petersburg",
+    "VIII": "Christmas Morning"
+  },
+  "art": {
+    "I": "1_village_night",
+    "II": "5_oksana_mirror",
+    "III": "9_blizzard",
+    "IV": "12_solokha_hut",
+    "V": "15_carollers",
+    "VI": "19_sledge",
+    "VII": "23_flight",
+    "VIII": "27_dawn"
+  },
+  "art_alt": {
+    "1_village_night": "A snowy village under stars and a full moon, smoke rising from chimneys, a witch on a broom flying over the roofs",
+    "2_witch_stars": "A witch on a broom with a handful of stars, and a small devil approaching across the night sky",
+    "3_devil_moon": "A devil with a pig's snout and horns, the moon in his hands, in a dark sky",
+    "4_chub_road": "Two Cossacks in sheepskin coats in front of a hut on a dark, moonless night, one lit window",
+    "5_oksana_mirror": "A beautiful girl with red ribbons admiring herself in a small mirror in a candlelit hut",
+    "6_chest": "A blacksmith and a girl beside a chest painted with red, yellow and blue flowers",
+    "7_solokha_stove": "A hut with a big whitewashed stove, pots in the fire, a woman, and a small devil in the corner",
+    "8_forge_board": "A forge with a glowing furnace and a painted board of a saint driving a devil out of hell",
+    "9_blizzard": "Two men struggling through a whirling blizzard towards a hut, a devil flying above",
+    "10_chub_door": "A man in a fur cap at a lit doorway in the snow, a big blacksmith's silhouette in the door",
+    "11_moon_returns": "The moon rising again over a silver village, carollers with sacks walking between the huts",
+    "12_solokha_hut": "A hut interior: a woman, a man in a Cossack coat, a table with a bottle, big sacks on the floor",
+    "13_sacks_floor": "Three big sacks in a dim hut and a blacksmith lost in thought, a candle burning",
+    "14_vakula_sacks": "A blacksmith carrying sacks through the frosty night, a little devil trotting at his feet",
+    "15_carollers": "Carollers under the moon: lads and girls in a row on a snowy street, a bright star carried above them",
+    "16_patsyuk": "A huge man in red sitting on the floor, dumplings flying through the air into his mouth",
+    "17_devil_tail": "A blacksmith holding a devil by the tail and raising a golden cross against him",
+    "19_sledge": "Girls pulling a sledge with a huge sack across the snow in the moonlight",
+    "20_poker": "A woman with a poker in a lit doorway, two men and a sack in front of her",
+    "21_chub_sack": "A man in a fur cap climbing out of a sack while the girls watch in surprise",
+    "22_chub_hut": "A hut interior with girls, a table with sausage and bread, a stove and a sack in the corner",
+    "23_flight": "A man riding a devil through the night sky above the clouds, a full moon, a witch far away",
+    "24_petersburg": "A snowy city street of tall houses with festival lights, a sleigh in the middle",
+    "25_palace_stairs": "A great palace staircase with ironwork banisters and lamps, tiny figures climbing",
+    "26_great_hall": "A palace hall with golden chandeliers, kneeling Cossacks and a small figure on a throne",
+    "27_dawn": "A village at Christmas dawn: pink sky, snow, smoking chimneys and a church with a blue dome",
+    "28_church": "Inside a village church: candles, an icon screen, and the backs of the congregation",
+    "29_hay": "A man asleep in the hay in morning light, a cock crowing and a devil running away",
+    "30_chub_whip": "A young man kneeling before an old Cossack with a whip in a hut",
+    "31_shoes": "A young couple in a hut with a pair of small red shoes on the floor between them",
+    "32_painted_hut": "A freshly painted hut with red-framed windows, a woman at the door, a carriage and church behind",
+    "34_dark_embrace": "In total darkness a devil leans close to a witch on her broom, whispering",
+    "35_chub_farm": "A snowy farmyard: stacks of grain, two oxen, a goat on the roof of a hut",
+    "36_tavern_sack": "A man staring at a big sack lying in the road in front of a lit tavern",
+    "37_odarka_shoes": "Girls in a hut, one showing off new red shoes, a blacksmith watching from the side",
+    "38_deacon_arm": "A thin church clerk reaching toward a woman by the stove, a bottle on the table",
+    "39_farewell": "A blacksmith running away into the night with a sack, lads and girls calling after him",
+    "40_devil_neck": "A small devil perched on a man's neck, whispering in his ear on a moonlit night",
+    "41_oksana_gate": "A girl at her garden gate in the moonlight, thinking, friends standing apart",
+    "42_two_men_carry": "Two men carrying a heavy sack on sticks through a moonlit village",
+    "43_zaporozhian_room": "Cossacks in bright coats smoking on red silk sofas, a visitor bowing at the door",
+    "44_painting_hall": "A young man in green gazing up at a great gilded painting in a palace hall",
+    "45_empress_shoes": "The Empress in a pale gown, a Cossack kneeling with a pair of shoes, courtiers behind",
+    "46_women_street": "A knot of village women arguing in the street at dawn",
+    "47_oksana_bed": "A girl lying awake in bed, moonlight through the window, a candle on the floor",
+    "48_patsyuk_door": "A man with a sack bowing at the lit door of a hut at night",
+    "49_varenik": "A dumpling leaping from a bowl towards the wide open mouth of a big man",
+    "50_bench_talk": "A blacksmith and a girl with a mirror side by side in a candlelit hut",
+    "51_chub_dream": "A man lying on the warm stove-bench with a pipe, dreaming of carols outside",
+    "52_potemkin": "A tall nobleman in a blue coat entering a palace hall, generals bowing on both sides"
+  },
+  "focus": {
+    "1_village_night": [
+      [
+        0.35,
+        0.38
+      ],
+      [
+        0.6,
+        0.72
+      ],
+      [
+        0.77,
+        0.2
+      ]
+    ],
+    "2_witch_stars": [
+      [
+        0.33,
+        0.35
+      ],
+      [
+        0.74,
+        0.42
+      ],
+      [
+        0.5,
+        0.6
+      ]
+    ],
+    "3_devil_moon": [
+      [
+        0.8,
+        0.53
+      ],
+      [
+        0.65,
+        0.4
+      ],
+      [
+        0.5,
+        0.7
+      ]
+    ],
+    "4_chub_road": [
+      [
+        0.38,
+        0.8
+      ],
+      [
+        0.82,
+        0.78
+      ],
+      [
+        0.5,
+        0.4
+      ]
+    ],
+    "5_oksana_mirror": [
+      [
+        0.4,
+        0.7
+      ],
+      [
+        0.4,
+        0.4
+      ],
+      [
+        0.85,
+        0.3
+      ]
+    ],
+    "6_chest": [
+      [
+        0.75,
+        0.75
+      ],
+      [
+        0.5,
+        0.65
+      ],
+      [
+        0.3,
+        0.7
+      ]
+    ],
+    "7_solokha_stove": [
+      [
+        0.35,
+        0.8
+      ],
+      [
+        0.66,
+        0.6
+      ],
+      [
+        0.9,
+        0.85
+      ]
+    ],
+    "8_forge_board": [
+      [
+        0.44,
+        0.7
+      ],
+      [
+        0.77,
+        0.4
+      ],
+      [
+        0.22,
+        0.6
+      ]
+    ],
+    "9_blizzard": [
+      [
+        0.28,
+        0.85
+      ],
+      [
+        0.75,
+        0.75
+      ],
+      [
+        0.6,
+        0.35
+      ]
+    ],
+    "10_chub_door": [
+      [
+        0.52,
+        0.7
+      ],
+      [
+        0.19,
+        0.88
+      ],
+      [
+        0.5,
+        0.4
+      ]
+    ],
+    "11_moon_returns": [
+      [
+        0.5,
+        0.2
+      ],
+      [
+        0.5,
+        0.88
+      ],
+      [
+        0.2,
+        0.75
+      ]
+    ],
+    "12_solokha_hut": [
+      [
+        0.45,
+        0.75
+      ],
+      [
+        0.2,
+        0.65
+      ],
+      [
+        0.75,
+        0.78
+      ]
+    ],
+    "13_sacks_floor": [
+      [
+        0.19,
+        0.75
+      ],
+      [
+        0.45,
+        0.8
+      ],
+      [
+        0.65,
+        0.88
+      ]
+    ],
+    "14_vakula_sacks": [
+      [
+        0.5,
+        0.85
+      ],
+      [
+        0.25,
+        0.7
+      ],
+      [
+        0.75,
+        0.65
+      ]
+    ],
+    "15_carollers": [
+      [
+        0.5,
+        0.85
+      ],
+      [
+        0.8,
+        0.7
+      ],
+      [
+        0.8,
+        0.15
+      ]
+    ],
+    "16_patsyuk": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.6,
+        0.4
+      ],
+      [
+        0.2,
+        0.8
+      ]
+    ],
+    "17_devil_tail": [
+      [
+        0.35,
+        0.85
+      ],
+      [
+        0.63,
+        0.85
+      ],
+      [
+        0.7,
+        0.5
+      ]
+    ],
+    "19_sledge": [
+      [
+        0.3,
+        0.9
+      ],
+      [
+        0.5,
+        0.83
+      ],
+      [
+        0.75,
+        0.8
+      ]
+    ],
+    "20_poker": [
+      [
+        0.7,
+        0.65
+      ],
+      [
+        0.4,
+        0.85
+      ],
+      [
+        0.25,
+        0.8
+      ]
+    ],
+    "21_chub_sack": [
+      [
+        0.5,
+        0.7
+      ],
+      [
+        0.5,
+        0.4
+      ],
+      [
+        0.28,
+        0.9
+      ]
+    ],
+    "22_chub_hut": [
+      [
+        0.3,
+        0.75
+      ],
+      [
+        0.65,
+        0.75
+      ],
+      [
+        0.8,
+        0.6
+      ]
+    ],
+    "23_flight": [
+      [
+        0.45,
+        0.55
+      ],
+      [
+        0.5,
+        0.4
+      ],
+      [
+        0.78,
+        0.22
+      ]
+    ],
+    "24_petersburg": [
+      [
+        0.5,
+        0.8
+      ],
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.2,
+        0.6
+      ]
+    ],
+    "25_palace_stairs": [
+      [
+        0.48,
+        0.55
+      ],
+      [
+        0.5,
+        0.15
+      ],
+      [
+        0.15,
+        0.55
+      ]
+    ],
+    "26_great_hall": [
+      [
+        0.5,
+        0.45
+      ],
+      [
+        0.5,
+        0.85
+      ],
+      [
+        0.3,
+        0.85
+      ]
+    ],
+    "27_dawn": [
+      [
+        0.5,
+        0.7
+      ],
+      [
+        0.75,
+        0.6
+      ],
+      [
+        0.2,
+        0.8
+      ]
+    ],
+    "28_church": [
+      [
+        0.35,
+        0.25
+      ],
+      [
+        0.5,
+        0.9
+      ],
+      [
+        0.75,
+        0.5
+      ]
+    ],
+    "29_hay": [
+      [
+        0.35,
+        0.8
+      ],
+      [
+        0.8,
+        0.2
+      ],
+      [
+        0.78,
+        0.85
+      ]
+    ],
+    "30_chub_whip": [
+      [
+        0.5,
+        0.85
+      ],
+      [
+        0.48,
+        0.5
+      ],
+      [
+        0.85,
+        0.6
+      ]
+    ],
+    "31_shoes": [
+      [
+        0.35,
+        0.75
+      ],
+      [
+        0.62,
+        0.8
+      ],
+      [
+        0.47,
+        0.92
+      ]
+    ],
+    "32_painted_hut": [
+      [
+        0.45,
+        0.5
+      ],
+      [
+        0.65,
+        0.8
+      ],
+      [
+        0.9,
+        0.7
+      ]
+    ],
+    "34_dark_embrace": [
+      [
+        0.4,
+        0.55
+      ],
+      [
+        0.65,
+        0.45
+      ],
+      [
+        0.5,
+        0.8
+      ]
+    ],
+    "35_chub_farm": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.2,
+        0.75
+      ],
+      [
+        0.85,
+        0.75
+      ]
+    ],
+    "36_tavern_sack": [
+      [
+        0.35,
+        0.8
+      ],
+      [
+        0.7,
+        0.7
+      ],
+      [
+        0.5,
+        0.4
+      ]
+    ],
+    "37_odarka_shoes": [
+      [
+        0.4,
+        0.8
+      ],
+      [
+        0.8,
+        0.8
+      ],
+      [
+        0.15,
+        0.2
+      ]
+    ],
+    "38_deacon_arm": [
+      [
+        0.5,
+        0.75
+      ],
+      [
+        0.2,
+        0.65
+      ],
+      [
+        0.65,
+        0.65
+      ]
+    ],
+    "39_farewell": [
+      [
+        0.45,
+        0.8
+      ],
+      [
+        0.2,
+        0.8
+      ],
+      [
+        0.82,
+        0.2
+      ]
+    ],
+    "40_devil_neck": [
+      [
+        0.44,
+        0.45
+      ],
+      [
+        0.44,
+        0.85
+      ],
+      [
+        0.85,
+        0.7
+      ]
+    ],
+    "41_oksana_gate": [
+      [
+        0.32,
+        0.85
+      ],
+      [
+        0.6,
+        0.7
+      ],
+      [
+        0.2,
+        0.2
+      ]
+    ],
+    "42_two_men_carry": [
+      [
+        0.46,
+        0.65
+      ],
+      [
+        0.5,
+        0.9
+      ],
+      [
+        0.2,
+        0.7
+      ]
+    ],
+    "43_zaporozhian_room": [
+      [
+        0.6,
+        0.65
+      ],
+      [
+        0.1,
+        0.85
+      ],
+      [
+        0.5,
+        0.25
+      ]
+    ],
+    "44_painting_hall": [
+      [
+        0.5,
+        0.35
+      ],
+      [
+        0.22,
+        0.8
+      ],
+      [
+        0.8,
+        0.5
+      ]
+    ],
+    "45_empress_shoes": [
+      [
+        0.6,
+        0.6
+      ],
+      [
+        0.35,
+        0.9
+      ],
+      [
+        0.8,
+        0.8
+      ]
+    ],
+    "46_women_street": [
+      [
+        0.5,
+        0.85
+      ],
+      [
+        0.3,
+        0.7
+      ],
+      [
+        0.8,
+        0.7
+      ]
+    ],
+    "47_oksana_bed": [
+      [
+        0.45,
+        0.7
+      ],
+      [
+        0.15,
+        0.3
+      ],
+      [
+        0.9,
+        0.85
+      ]
+    ],
+    "48_patsyuk_door": [
+      [
+        0.3,
+        0.85
+      ],
+      [
+        0.55,
+        0.7
+      ],
+      [
+        0.75,
+        0.15
+      ]
+    ],
+    "49_varenik": [
+      [
+        0.65,
+        0.4
+      ],
+      [
+        0.45,
+        0.45
+      ],
+      [
+        0.35,
+        0.85
+      ]
+    ],
+    "50_bench_talk": [
+      [
+        0.4,
+        0.75
+      ],
+      [
+        0.62,
+        0.7
+      ],
+      [
+        0.8,
+        0.15
+      ]
+    ],
+    "51_chub_dream": [
+      [
+        0.2,
+        0.4
+      ],
+      [
+        0.2,
+        0.8
+      ],
+      [
+        0.75,
+        0.35
+      ]
+    ],
+    "52_potemkin": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.25,
+        0.8
+      ],
+      [
+        0.75,
+        0.8
+      ]
+    ]
+  },
+  "fx": {
+    "4_chub_road": "snow",
+    "9_blizzard": "snow",
+    "10_chub_door": "snow",
+    "11_moon_returns": "snow",
+    "14_vakula_sacks": "snow",
+    "15_carollers": "snow",
+    "17_devil_tail": "snow",
+    "19_sledge": "snow",
+    "24_petersburg": "snow",
+    "27_dawn": "snow",
+    "32_painted_hut": "snow",
+    "1_village_night": "snow",
+    "5_oksana_mirror": "flicker",
+    "6_chest": "flicker",
+    "7_solokha_stove": "flicker",
+    "8_forge_board": "flicker",
+    "12_solokha_hut": "flicker",
+    "13_sacks_floor": "flicker",
+    "16_patsyuk": "flicker",
+    "20_poker": "flicker",
+    "21_chub_sack": "flicker",
+    "22_chub_hut": "flicker",
+    "26_great_hall": "flicker",
+    "28_church": "flicker",
+    "30_chub_whip": "flicker",
+    "31_shoes": "flicker",
+    "35_chub_farm": "snow",
+    "36_tavern_sack": "snow",
+    "39_farewell": "snow",
+    "40_devil_neck": "snow",
+    "41_oksana_gate": "snow",
+    "42_two_men_carry": "snow",
+    "46_women_street": "snow",
+    "48_patsyuk_door": "snow",
+    "37_odarka_shoes": "flicker",
+    "38_deacon_arm": "flicker",
+    "43_zaporozhian_room": "flicker",
+    "45_empress_shoes": "flicker",
+    "47_oksana_bed": "flicker",
+    "49_varenik": "flicker",
+    "50_bench_talk": "flicker",
+    "51_chub_dream": "flicker",
+    "52_potemkin": "flicker",
+    "44_painting_hall": "flicker"
+  },
+  "episodes": [
+    {
+      "title": "The Stolen Moon",
+      "blurb": "The devil steals the moon, Oksana sets a price on her hand, and a blizzard drives Chub back to Solokha's door.",
+      "from_part": "I",
+      "to_part": "III",
+      "thumb_art": "3_devil_moon"
+    },
+    {
+      "title": "The Devil's Bargain",
+      "blurb": "Solokha's admirers hide in sacks, Vakula visits the strange Patsyuk and makes the devil carry him off.",
+      "from_part": "IV",
+      "to_part": "VI",
+      "thumb_art": "16_patsyuk"
+    },
+    {
+      "title": "To Petersburg and Back",
+      "blurb": "A blacksmith flies to the Empress for a pair of shoes, and Dikanka wakes to Christmas morning.",
+      "from_part": "VII",
+      "to_part": "VIII",
+      "thumb_art": "26_great_hall"
+    }
+  ],
+  "glossary": [
+    [
+      "carolling",
+      "on Christmas Eve young people go from house to house singing carols (kolyadki) and are given sausage, bread or a coin for their sacks."
+    ],
+    [
+      "kutya",
+      "the meatless dish of boiled wheat, honey and poppy seed eaten on Christmas Eve."
+    ],
+    [
+      "varenukha",
+      "a hot drink of vodka boiled with spices, fruit and honey."
+    ],
+    [
+      "vareniki",
+      "dumplings, here with sour cream; a meat or dairy dish was forbidden on a fast day."
+    ],
+    [
+      "the Headman",
+      "the elected head of a Cossack village."
+    ],
+    [
+      "the deacon",
+      "here a church clerk who reads and sings in the choir; he is not a priest."
+    ],
+    [
+      "the Sorochintsy assessor",
+      "a district police official, feared by the villagers."
+    ],
+    [
+      "plakhta",
+      "a Ukrainian woman's wrapped skirt, worn with an apron (zapaska)."
+    ],
+    [
+      "kuntush",
+      "an old-fashioned long coat of the Cossack gentry."
+    ],
+    [
+      "the Zaporozhians",
+      "free Cossacks of the lower Dnieper; their camp was called the Sich. The Empress broke up their Host in 1775."
+    ],
+    [
+      "Potemkin",
+      "Prince Grigory Potemkin, Catherine the Great's chief minister."
+    ],
+    [
+      "the man with pearl buttons",
+      "the playwright Denis Fonvizin, author of the comedy The Brigadier."
+    ]
+  ],
+  "thumb_art": "3_devil_moon",
+  "thumb_position": "50% 50%",
+  "thumb_sub": "A CHRISTMAS TALE<br>FULL-CAST AUDIOBOOK",
+  "cover_bg": [
+    "#0a0f2e",
+    "#e8eefc"
+  ],
+  "summary": "On the last night before Christmas a devil steals the moon, a witch rides a broom, and the blacksmith Vakula, mocked by the proud Oksana, goes to the Empress in Petersburg for her own shoes. Gogol's funniest, warmest Christmas story.",
+  "site_description": "On the last night before Christmas in the Ukrainian village of Dikanka, a devil steals the moon to get back at the blacksmith Vakula, who has painted him in hell on the church wall. The vain beauty Oksana will marry Vakula only if he brings her the shoes of the Empress. A full-cast audiobook of Nikolai Gogol's 1832 comic fairy tale, with Cossacks, witches, sacks full of lovers, and a flight to Petersburg.",
+  "tags": [
+    "Gogol",
+    "Nikolai Gogol",
+    "The Night Before Christmas",
+    "Evenings on a Farm near Dikanka",
+    "audiobook",
+    "full cast audiobook",
+    "Christmas story",
+    "classic literature",
+    "Russian literature",
+    "Ukrainian folklore",
+    "public domain",
+    "English audiobook"
+  ],
+  "hashtags": "#Gogol #audiobook #classicliterature #Christmasstory #publicdomain",
+  "playlist": "PLVuswr3XMg9E",
+  "text_note": "English translation from the Russian original by an AI model, a draft that needs a human editor.",
+  "ru": {
+    "title": "Ночь перед Рождеством",
+    "author": "Николай Гоголь",
+    "names": {
+      "I": "Украденный месяц",
+      "II": "Оксана и Солоха",
+      "III": "Метель",
+      "IV": "Гости Солохи",
+      "V": "Договор с чертом",
+      "VI": "Мешки",
+      "VII": "В Петербург",
+      "VIII": "Утро Рождества"
+    },
+    "note": "Повесть в издании для чтения с оригинальными иллюстрациями.",
+    "source_note": "Текст с ru.wikisource.org, по изданию: Н. В. Гоголь, Полное собрание сочинений и писем в двадцати трёх томах, т. 1 (М.: ИМЛИ РАН, «Наследие», 2001). Примечания автора опущены.",
+    "contents": "Содержание",
+    "back": "О тексте",
+    "small": "Текст повести находится в общественном достоянии. Названия частей и иллюстрации сделаны для этого издания. Набрано шрифтом Lora (SIL Open Font License).",
+    "description": "В последнюю ночь перед Рождеством чёрт крадёт месяц, чтобы отомстить кузнецу Вакуле, а гордая красавица Оксана согласна выйти за него, только если он достанет черевики самой царицы. Весёлая и добрая рождественская повесть Гоголя из «Вечеров на хуторе близ Диканьки»."
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "art": "1_village_night"
+    },
+    {
+      "id": 3,
+      "art": "2_witch_stars"
+    },
+    {
+      "id": 5,
+      "art": "3_devil_moon"
+    },
+    {
+      "id": 6,
+      "art": "8_forge_board"
+    },
+    {
+      "id": 9,
+      "art": "34_dark_embrace"
+    },
+    {
+      "id": 11,
+      "art": "4_chub_road"
+    },
+    {
+      "id": 29,
+      "art": "51_chub_dream"
+    },
+    {
+      "id": 46,
+      "art": "5_oksana_mirror"
+    },
+    {
+      "id": 66,
+      "art": "6_chest"
+    },
+    {
+      "id": 83,
+      "art": "50_bench_talk"
+    },
+    {
+      "id": 99,
+      "art": "7_solokha_stove"
+    },
+    {
+      "id": 103,
+      "art": "35_chub_farm"
+    },
+    {
+      "id": 107,
+      "art": "9_blizzard"
+    },
+    {
+      "id": 111,
+      "art": "36_tavern_sack"
+    },
+    {
+      "id": 112,
+      "art": "10_chub_door"
+    },
+    {
+      "id": 147,
+      "art": "11_moon_returns"
+    },
+    {
+      "id": 149,
+      "art": "37_odarka_shoes"
+    },
+    {
+      "id": 171,
+      "art": "12_solokha_hut"
+    },
+    {
+      "id": 177,
+      "art": "38_deacon_arm"
+    },
+    {
+      "id": 218,
+      "art": "13_sacks_floor"
+    },
+    {
+      "id": 233,
+      "art": "15_carollers"
+    },
+    {
+      "id": 241,
+      "art": "39_farewell"
+    },
+    {
+      "id": 259,
+      "art": "14_vakula_sacks"
+    },
+    {
+      "id": 264,
+      "art": "48_patsyuk_door"
+    },
+    {
+      "id": 266,
+      "art": "16_patsyuk"
+    },
+    {
+      "id": 295,
+      "art": "49_varenik"
+    },
+    {
+      "id": 304,
+      "art": "40_devil_neck"
+    },
+    {
+      "id": 328,
+      "art": "17_devil_tail"
+    },
+    {
+      "id": 344,
+      "art": "41_oksana_gate"
+    },
+    {
+      "id": 360,
+      "art": "36_tavern_sack"
+    },
+    {
+      "id": 376,
+      "art": "42_two_men_carry"
+    },
+    {
+      "id": 385,
+      "art": "20_poker"
+    },
+    {
+      "id": 423,
+      "art": "21_chub_sack"
+    },
+    {
+      "id": 443,
+      "art": "19_sledge"
+    },
+    {
+      "id": 446,
+      "art": "22_chub_hut"
+    },
+    {
+      "id": 487,
+      "art": "23_flight"
+    },
+    {
+      "id": 489,
+      "art": "24_petersburg"
+    },
+    {
+      "id": 499,
+      "art": "43_zaporozhian_room"
+    },
+    {
+      "id": 539,
+      "art": "25_palace_stairs"
+    },
+    {
+      "id": 544,
+      "art": "44_painting_hall"
+    },
+    {
+      "id": 551,
+      "art": "52_potemkin"
+    },
+    {
+      "id": 563,
+      "art": "26_great_hall"
+    },
+    {
+      "id": 584,
+      "art": "45_empress_shoes"
+    },
+    {
+      "id": 611,
+      "art": "23_flight"
+    },
+    {
+      "id": 614,
+      "art": "46_women_street"
+    },
+    {
+      "id": 650,
+      "art": "47_oksana_bed"
+    },
+    {
+      "id": 652,
+      "art": "28_church"
+    },
+    {
+      "id": 654,
+      "art": "27_dawn"
+    },
+    {
+      "id": 659,
+      "art": "29_hay"
+    },
+    {
+      "id": 662,
+      "art": "30_chub_whip"
+    },
+    {
+      "id": 667,
+      "art": "31_shoes"
+    },
+    {
+      "id": 679,
+      "art": "32_painted_hut"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+ "NARRATOR": {
+  "voice": "bm_george",
+  "speed": 0.95,
+  "lang": "en-gb"
+ },
+ "BOY": {
+  "voice": "bm_daniel",
+  "speed": 1.1,
+  "lang": "en-gb"
+ },
+ "VOICE": {
+  "voice": "bm_lewis",
+  "speed": 0.88,
+  "lang": "en-gb"
+ }
+}
