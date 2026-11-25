@@ -161,7 +161,16 @@
         "text": "texts/wonderful-doctor-en.txt",
         "booklet": "/pdf/wonderful-doctor-en-booklet.pdf",
         "textNote": "Translated from the Russian, a draft that needs a human editor."
+      },
+      "ru": {
+        "title": "Чудесный доктор",
+        "description": "В сочельник в Киеве семья Мерцаловых живёт в сыром подвале: отец потерял место, маленькая дочь горит в жару, а двери богатых домов закрыты. В заснеженном саду отчаявшийся отец встречает старого незнакомца, который просит рассказать всё по порядку. Рождественский рассказ Куприна основан, по его словам, на действительном случае; имя доктора мы узнаём лишь в конце.",
+        "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
+        "pdf": "/pdf/wonderful-doctor-ru.pdf",
+        "text": "texts/wonderful-doctor-ru.txt",
+        "booklet": "/pdf/wonderful-doctor-ru-booklet.pdf"
       }
-    }
+    },
+    "coverRu": "/covers/wonderful-doctor-ru.webp"
   }
 ]
