@@ -85,5 +85,25 @@
       }
     },
     "coverRu": "/covers/poor-folk-ru.webp"
+  },
+  {
+    "id": "vanka",
+    "author": {
+      "en": "Anton Chekhov",
+      "ru": "Антон Чехов"
+    },
+    "year": 1886,
+    "cover": "/covers/vanka.webp",
+    "languages": {
+      "en": {
+        "title": "Vanka",
+        "description": "On Christmas Eve, nine-year-old Vanka Zhukov, apprenticed to a Moscow shoemaker, waits until the household has gone to church and secretly writes a letter to the only person he has left: his grandfather in the village. One of Chekhov's most loved short stories, about hunger, homesickness and a hope that has no address.",
+        "youtube": "https://www.youtube.com/watch?v=V7AF8rIL3Ng",
+        "pdf": "/pdf/vanka-en.pdf",
+        "text": "texts/vanka-en.txt",
+        "booklet": "/pdf/vanka-en-booklet.pdf",
+        "textNote": "Machine translation from the Russian, a draft that needs a human editor."
+      }
+    }
   }
 ]
