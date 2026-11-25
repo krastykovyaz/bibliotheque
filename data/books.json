@@ -453,7 +453,16 @@
         "text": "texts/borodino-en.txt",
         "booklet": "/pdf/borodino-en-booklet.pdf",
         "textNote": "English prose rendering of the Russian poem by an AI model, a draft that needs a human editor; the rhymes and metre are not kept."
+      },
+      "ru": {
+        "title": "Бородино",
+        "description": "«Скажи-ка, дядя, ведь недаром Москва, спаленная пожаром, французу отдана?» В 1837 году, к двадцатипятилетию войны 1812 года, Лермонтов написал голосом старого солдата рассказ о Бородинском сражении: отступление, ночь перед боем, призыв полковника умереть под Москвой и день дыма и стали.",
+        "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
+        "pdf": "/pdf/borodino-ru.pdf",
+        "text": "texts/borodino-ru.txt",
+        "booklet": "/pdf/borodino-ru-booklet.pdf"
       }
-    }
+    },
+    "coverRu": "/covers/borodino-ru.webp"
   }
 ]
