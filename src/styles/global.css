@@ -959,3 +959,8 @@ main.wrap {
 .js .sortbar {
   display: flex;
 }
+.sort-foot {
+  display: flex;
+  justify-content: flex-end;
+  margin: 1.25rem 0 0;
+}

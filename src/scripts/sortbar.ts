@@ -74,6 +74,11 @@ function dropdown(root: HTMLElement, initial: string, onChange: (value: string) 
 }
 
 if (bar && grid && count) {
+  // the count goes under the cards, on the right
+  const foot = document.createElement('div');
+  foot.className = 'sort-foot';
+  foot.append(count);
+  grid.after(foot);
   const lang = document.documentElement.lang || 'en';
   const items: Item[] = [...grid.children].map((el, i) => ({
     el: el as HTMLElement,
