@@ -338,5 +338,62 @@
     "30_samovar": "flicker",
     "20_church": "flicker"
   },
-  "no_booklet": true
+  "no_booklet": true,
+  "series_playlist": "PLWkd9KserCCA",
+  "episodes": [
+    {
+      "title": "April and May",
+      "letters": [
+        1,
+        7
+      ],
+      "thumb_art": "1_window",
+      "blurb": "The first letters: a curtain pinned back as a signal, a gift of sweets, and the first quarrels about money."
+    },
+    {
+      "title": "Varenka's Notebook",
+      "letters": [
+        8,
+        8
+      ],
+      "thumb_art": "3_notebook",
+      "blurb": "Varenka sends Makar her notebook: her childhood in the country, the Pokrovskys, and how she came to the city."
+    },
+    {
+      "title": "June and early July",
+      "letters": [
+        9,
+        22
+      ],
+      "thumb_art": "4_island",
+      "blurb": "A walk to the islands, Ratazyayev's literary evenings, Gogol's Overcoat, and Makar's growing debts."
+    },
+    {
+      "title": "Late July and early August",
+      "letters": [
+        23,
+        33
+      ],
+      "thumb_art": "6_office",
+      "blurb": "Rising troubles at the office, gossip in the lodgings, and Makar's pride against his poverty."
+    },
+    {
+      "title": "The Button",
+      "letters": [
+        34,
+        42
+      ],
+      "thumb_art": "7_rain",
+      "blurb": "Rain, shame and a button that rolls to his Excellency's feet."
+    },
+    {
+      "title": "The Last Letters",
+      "letters": [
+        43,
+        55
+      ],
+      "thumb_art": "9_road",
+      "blurb": "Bykov's proposal, the wedding preparations, and the farewell."
+    }
+  ]
 }
