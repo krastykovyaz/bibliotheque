@@ -53,8 +53,8 @@
         "description": "Крестьянин Пахом думает: был бы только у него достаточно земли, и он не побоялся бы даже самого дьявола. А дьявол берёт его на слове. Один из самых известных рассказов Толстого о жадности, о достаточном и о том, что человеку нужно на самом деле.",
         "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
         "pdf": "/pdf/how-much-land-ru.pdf",
-        "booklet": "/pdf/how-much-land-ru-booklet.pdf",
-        "text": "texts/how-much-land-ru.txt"
+        "text": "texts/how-much-land-ru.txt",
+        "booklet": "/pdf/how-much-land-ru-booklet.pdf"
       }
     },
     "coverRu": "/covers/how-much-land-ru.webp"
