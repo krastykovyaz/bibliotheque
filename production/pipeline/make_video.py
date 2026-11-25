@@ -230,7 +230,11 @@ if __name__ == "__main__":
     print("total frames:", total_frames, "=", round(total_frames / FPS, 2), "s | audio:", timing["total"], "s")
     if a.test_frames:
         os.makedirs("test_frames", exist_ok=True)
-        picks = [("title", 20), ("part_I", 2), ("part_V", 5), ("part_VIII", 3), ("part_IX", 4), ("part_IX", 99999)] if not (POOL or SCENES) else [("title", 2), ("s001", 3), ("s002", 6), ("s030", 5), ("s060", 9), ("s100", 4)]
+        real = [x["name"] for x in scenes if x["part"]]
+        if POOL or SCENES:
+            picks = [("title", 2)] + [(real[min(len(real) - 1, int(len(real) * q))], 5) for q in (0, .2, .45, .7, .99)]
+        else:
+            picks = [("title", 20), ("part_I", 2), ("part_V", 5), ("part_VIII", 3), ("part_IX", 4), ("part_IX", 99999)]
         for name, off in picks:
             s = next(x for x in scenes if x["name"] == name)
             f = min(s["f0"] + int(off * FPS) if off < 1000 else s["f1"] - 2, s["f1"] - 1)

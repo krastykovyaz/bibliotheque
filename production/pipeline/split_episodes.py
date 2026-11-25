@@ -13,25 +13,40 @@ seg = {s["id"]: s["start"] for s in timing["segments"]}
 rows = json.load(open(os.path.join(BASE, f"{P}_voice_script.json"), encoding="utf-8"))
 letters = [(r["id"], r["text"]) for r in rows if r["speaker"] == "NARRATOR"]
 def lstart(n): return 0.0 if n == 1 else max(0.0, seg[letters[n - 1][0]] - LEAD)
+# episodes defined by parts ("from_part"/"to_part"): cut at part starts
+parts_order = list(dict.fromkeys(r["part"] for r in rows))
+first_row = {}
+for r in rows:
+    first_row.setdefault(r["part"], r["id"])
+def pstart(part): return 0.0 if part == parts_order[0] else max(0.0, seg[first_row[part]] - LEAD)
 def stamp(t):
     t = int(t); h, r = divmod(t, 3600); m, s = divmod(r, 60)
     return f"{h}:{m:02d}:{s:02d}" if h else f"{m:02d}:{s:02d}"
 eps, N = B["episodes"], len(B["episodes"])
 for i, ep in enumerate(eps, 1):
-    a, b = ep["letters"]
-    t0 = lstart(a); t1 = lstart(b + 1) if b < len(letters) else timing["total"]
+    if "from_part" in ep:
+        pa, pb = parts_order.index(ep["from_part"]), parts_order.index(ep["to_part"])
+        t0 = pstart(parts_order[pa]); t1 = pstart(parts_order[pb + 1]) if pb + 1 < len(parts_order) else timing["total"]
+        pnames = B["names"]
+    else:
+        a, b = ep["letters"]
+        t0 = lstart(a); t1 = lstart(b + 1) if b < len(letters) else timing["total"]
     out = os.path.join(BASE, f"{P}_EP{i}.mp4")
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{t0:.3f}", "-to", f"{t1:.3f}", "-i", os.path.join(BASE, f"{P}_YouTube.mp4"),
                     "-c", "copy", "-avoid_negative_ts", "make_zero", "-movflags", "+faststart", out], check=True)
     dur = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", out]))
     chapters = []
-    for n in range(a, b + 1):
+    if "from_part" in ep:
+        for q in range(pa, pb + 1):
+            chapters.append(f"{stamp(pstart(parts_order[q]) - t0)} Part {parts_order[q]}: {pnames[parts_order[q]]}")
+    else:
+      for n in range(a, b + 1):
         head = letters[n - 1][1].split(".")[0]
         who = "Makar" if "Makar" in letters[n - 1][1] else "Varenka"
         chapters.append(f"{stamp(lstart(n) - t0)} Letter {n}: {head} ({who})")
     ch = ("\nChapters\n" + "\n".join(chapters) + "\n") if len(chapters) >= 3 else ""
-    title = f"Poor Folk, Part {i} of {N}: {ep['title']} | Dostoevsky | Full-Cast Audiobook (English)"
-    desc = f"""Poor Folk by Fyodor Dostoevsky (1846), part {i} of {N}: {ep['title']}. A full-cast audiobook in English, about {int(round(dur / 60))} minutes.
+    title = f"{B['title']}, Part {i} of {N}: {ep['title']} | {B['author'].split()[-1]} | Full-Cast Audiobook (English)"
+    desc = f"""{B['title']} by {B['author']} ({B['year']}), part {i} of {N}: {ep['title']}. A full-cast audiobook in English, about {int(round(dur / 60))} minutes.
 
 {ep['blurb']}
 
