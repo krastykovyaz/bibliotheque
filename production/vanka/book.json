@@ -1,0 +1,204 @@
+{
+  "slug": "vanka",
+  "prefix": "Vanka",
+  "lang": "en",
+  "title": "Vanka",
+  "author": "Anton Chekhov",
+  "author_ru": "Антон Чехов",
+  "year": 1886,
+  "title_original": "Ванька",
+  "publication_note": "first published in «Петербургская газета», 25 December 1886",
+  "source_note": "Text from ru.wikisource.org, after A. P. Chekhov, Complete Works, vol. 5.",
+  "translated_from": "the Russian original",
+  "parts": [
+    "I",
+    "II",
+    "III",
+    "IV",
+    "V",
+    "VI"
+  ],
+  "names": {
+    "I": "Christmas Eve",
+    "II": "The Village",
+    "III": "The Letter",
+    "IV": "The Christmas Tree",
+    "V": "The Post Box",
+    "VI": "The Dream"
+  },
+  "art": {
+    "I": "1_workshop",
+    "II": "2_village",
+    "III": "3_shop_window",
+    "IV": "4_forest",
+    "V": "5_post_box",
+    "VI": "6_stove"
+  },
+  "art_alt": {
+    "1_workshop": "A boy kneeling at a shoemaker's bench by a candle, shelves of lasts and a dark icon",
+    "2_village": "A village on Christmas night under stars, a church with red windows, a watchman and two dogs",
+    "3_shop_window": "A Moscow shop window with fish hooks, a gun and game birds, snow falling",
+    "4_forest": "A frosty forest, an old man and a boy, a hare running over the snow",
+    "5_post_box": "A red post box on a snowy Moscow corner at dawn, a small figure in a shirt",
+    "6_stove": "A stove with a grandfather reading a letter, a little dog wagging its tail"
+  },
+  "focus": {
+    "1_workshop": [
+      [
+        0.4,
+        0.62
+      ],
+      [
+        0.57,
+        0.6
+      ],
+      [
+        0.3,
+        0.35
+      ]
+    ],
+    "2_village": [
+      [
+        0.55,
+        0.55
+      ],
+      [
+        0.65,
+        0.85
+      ],
+      [
+        0.2,
+        0.5
+      ]
+    ],
+    "3_shop_window": [
+      [
+        0.5,
+        0.4
+      ],
+      [
+        0.7,
+        0.55
+      ],
+      [
+        0.25,
+        0.35
+      ]
+    ],
+    "4_forest": [
+      [
+        0.35,
+        0.85
+      ],
+      [
+        0.75,
+        0.85
+      ],
+      [
+        0.5,
+        0.5
+      ]
+    ],
+    "5_post_box": [
+      [
+        0.45,
+        0.55
+      ],
+      [
+        0.55,
+        0.8
+      ],
+      [
+        0.3,
+        0.45
+      ]
+    ],
+    "6_stove": [
+      [
+        0.4,
+        0.68
+      ],
+      [
+        0.55,
+        0.32
+      ],
+      [
+        0.8,
+        0.85
+      ]
+    ]
+  },
+  "fx": {
+    "1_workshop": "flicker",
+    "2_village": "snow",
+    "3_shop_window": "snow",
+    "4_forest": "snow",
+    "5_post_box": "snow",
+    "6_stove": "flicker"
+  },
+  "glossary": [
+    [
+      "kopeck",
+      "a hundredth of a rouble; an envelope cost one."
+    ],
+    [
+      "last",
+      "a wooden foot-shaped form on which a shoemaker builds a shoe."
+    ],
+    [
+      "troika",
+      "a Russian carriage drawn by three horses; mail went by troika."
+    ],
+    [
+      "the star",
+      "at Christmas children carried a paper star from house to house, singing carols."
+    ],
+    [
+      "quadrille",
+      "a dance for four couples."
+    ]
+  ],
+  "thumb_art": "2_village",
+  "thumb_position": "50% 50%",
+  "thumb_sub": "A SHORT STORY<br>FULL-CAST AUDIOBOOK",
+  "cover_bg": [
+    "#10163a",
+    "#e0e6f4"
+  ],
+  "summary": "On Christmas Eve, a nine-year-old boy apprenticed to a Moscow shoemaker secretly writes a letter to the only person he has left: his grandfather in the village. One of Chekhov's most loved short stories.",
+  "site_description": "On Christmas Eve, nine-year-old Vanka Zhukov, apprenticed to a Moscow shoemaker, waits until the household has gone to church and secretly writes a letter to the only person he has left: his grandfather in the village. One of Chekhov's most loved short stories, about hunger, homesickness and a hope that has no address.",
+  "tags": [
+    "Chekhov",
+    "Anton Chekhov",
+    "Vanka",
+    "audiobook",
+    "full cast audiobook",
+    "short story",
+    "Christmas story",
+    "classic literature",
+    "Russian literature",
+    "public domain",
+    "English audiobook"
+  ],
+  "hashtags": "#Chekhov #audiobook #classicliterature #shortstory #publicdomain",
+  "playlist": "PLVuswr3XMg9E",
+  "text_note": "Machine translation from the Russian, a draft that needs a human editor.",
+  "ru": {
+    "title": "Ванька",
+    "author": "Антон Чехов",
+    "names": {
+      "I": "Сочельник",
+      "II": "Деревня",
+      "III": "Письмо",
+      "IV": "Ёлка",
+      "V": "Почтовый ящик",
+      "VI": "Сон"
+    },
+    "note": "Рассказ в издании для чтения с оригинальными иллюстрациями.",
+    "source_note": "Текст с ru.wikisource.org, по изданию: А. П. Чехов, Полное собрание сочинений, т. 5.",
+    "contents": "Содержание",
+    "back": "О тексте",
+    "small": "Текст рассказа находится в общественном достоянии. Названия частей и иллюстрации сделаны для этого издания. Набрано шрифтом Lora (SIL Open Font License).",
+    "description": "В ночь под Рождество девятилетний Ванька Жуков, отданный в ученье к московскому сапожнику, украдкой пишет письмо единственному человеку, который у него остался: деду в деревню. Один из самых любимых рассказов Чехова о голоде, тоске по дому и надежде без адреса."
+  }
+}

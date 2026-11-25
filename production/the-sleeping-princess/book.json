@@ -1,0 +1,465 @@
+{
+  "slug": "the-sleeping-princess",
+  "prefix": "The_Sleeping_Princess",
+  "lang": "en",
+  "title": "The Sleeping Princess",
+  "author": "Vasily Zhukovsky",
+  "author_ru": "Василий Жуковский",
+  "year": 1831,
+  "title_original": "Спящая царевна",
+  "publication_note": "a verse fairy tale written in 1831, first printed in 1832 under the title «Tale of the Sleeping Princess»",
+  "source_note": "Text from ru.wikisource.org, after V. A. Zhukovsky, Collected Works in four volumes, vol. 3 (Moscow–Leningrad, 1960).",
+  "translated_from": "the Russian original",
+  "parts": [
+    "I",
+    "II",
+    "III",
+    "IV",
+    "V"
+  ],
+  "names": {
+    "I": "The Princess Is Born",
+    "II": "The Spell",
+    "III": "The Long Sleep",
+    "IV": "The Prince and the Old Man",
+    "V": "The Waking"
+  },
+  "art": {
+    "I": "1_brook",
+    "II": "3_witch",
+    "III": "7_asleep",
+    "IV": "9_old_man",
+    "V": "12_bedroom"
+  },
+  "art_alt": {
+    "1_brook": "The sad Queen sits by a brook, and a friendly red crab comes up the bank to tell her good news",
+    "2_feast": "King Matthew's feast: the King and Queen, the baby princess in her cradle, and eleven fairies with their wands",
+    "3_witch": "The grumbling old fairy leans over the cradle, while the young fairy in blue and the King look on",
+    "4_decree": "The King announces his law: no spindles in the kingdom, while the Queen and the little princess listen",
+    "5_tower": "The princess climbs the winding stair of the tower and finds an old woman spinning thread beside a wheel",
+    "7_asleep": "The whole palace sleeps: the King and Queen on the steps, the guards, the cook, the dog and the horse",
+    "8_thorns": "A hundred years later: the palace hidden behind a great leafy hedge under the moon and stars",
+    "9_old_man": "The Prince on his white horse talks with a kind old man at the edge of the wood",
+    "10_roses": "The Prince gallops into the wood where the hedge has turned into blooming roses, with butterflies all around",
+    "11_courtyard": "The Prince in the palace courtyard, where everyone stands or sits fast asleep, and the King sleeps on the steps",
+    "12_bedroom": "The Princess lies asleep in her bed in the tower room, and the Prince stands at the door",
+    "13_awake": "The Prince and the Princess smile in a golden light, while the King and Queen wake up and cheer",
+    "14_wedding": "The wedding feast: the Prince and the Princess with the King, the Queen, three fairies and a wedding cake"
+  },
+  "focus": {
+    "1_brook": [
+      [
+        0.34,
+        0.6
+      ],
+      [
+        0.72,
+        0.85
+      ],
+      [
+        0.5,
+        0.3
+      ]
+    ],
+    "2_feast": [
+      [
+        0.2,
+        0.65
+      ],
+      [
+        0.5,
+        0.78
+      ],
+      [
+        0.85,
+        0.7
+      ]
+    ],
+    "3_witch": [
+      [
+        0.33,
+        0.55
+      ],
+      [
+        0.5,
+        0.85
+      ],
+      [
+        0.8,
+        0.55
+      ]
+    ],
+    "4_decree": [
+      [
+        0.13,
+        0.55
+      ],
+      [
+        0.7,
+        0.6
+      ],
+      [
+        0.9,
+        0.8
+      ]
+    ],
+    "5_tower": [
+      [
+        0.2,
+        0.6
+      ],
+      [
+        0.8,
+        0.65
+      ],
+      [
+        0.55,
+        0.25
+      ]
+    ],
+    "7_asleep": [
+      [
+        0.5,
+        0.8
+      ],
+      [
+        0.2,
+        0.8
+      ],
+      [
+        0.5,
+        0.3
+      ]
+    ],
+    "8_thorns": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.2,
+        0.3
+      ],
+      [
+        0.82,
+        0.2
+      ]
+    ],
+    "9_old_man": [
+      [
+        0.19,
+        0.55
+      ],
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.78,
+        0.6
+      ]
+    ],
+    "10_roses": [
+      [
+        0.5,
+        0.45
+      ],
+      [
+        0.18,
+        0.85
+      ],
+      [
+        0.85,
+        0.8
+      ]
+    ],
+    "11_courtyard": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.1,
+        0.9
+      ],
+      [
+        0.9,
+        0.9
+      ]
+    ],
+    "12_bedroom": [
+      [
+        0.27,
+        0.8
+      ],
+      [
+        0.8,
+        0.7
+      ],
+      [
+        0.5,
+        0.3
+      ]
+    ],
+    "13_awake": [
+      [
+        0.6,
+        0.55
+      ],
+      [
+        0.12,
+        0.7
+      ],
+      [
+        0.9,
+        0.7
+      ]
+    ],
+    "14_wedding": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.2,
+        0.7
+      ],
+      [
+        0.85,
+        0.7
+      ]
+    ]
+  },
+  "fx": {},
+  "scenes": [
+    {
+      "id": 1,
+      "art": "1_brook"
+    },
+    {
+      "id": 9,
+      "art": "2_feast"
+    },
+    {
+      "id": 18,
+      "art": "3_witch"
+    },
+    {
+      "id": 23,
+      "art": "4_decree"
+    },
+    {
+      "id": 28,
+      "art": "5_tower"
+    },
+    {
+      "id": 31,
+      "art": "7_asleep"
+    },
+    {
+      "id": 34,
+      "art": "8_thorns"
+    },
+    {
+      "id": 39,
+      "art": "9_old_man"
+    },
+    {
+      "id": 45,
+      "art": "10_roses"
+    },
+    {
+      "id": 49,
+      "art": "11_courtyard"
+    },
+    {
+      "id": 57,
+      "art": "12_bedroom"
+    },
+    {
+      "id": 61,
+      "art": "13_awake"
+    },
+    {
+      "id": 64,
+      "art": "14_wedding"
+    }
+  ],
+  "figures": [
+    {
+      "part": "I",
+      "after": 6,
+      "art": "2_feast",
+      "caption": "King Matthew gives a splendid feast for the baby princess.",
+      "caption_ru": "Царь Матвей даёт пир в честь царевны."
+    },
+    {
+      "part": "II",
+      "after": 5,
+      "art": "4_decree",
+      "caption": "The King makes a law: no spindles in the whole kingdom.",
+      "caption_ru": "Царь издаёт указ: во всём царстве не должно быть веретён."
+    },
+    {
+      "part": "II",
+      "after": 8,
+      "art": "5_tower",
+      "caption": "The princess climbs the winding stair and finds an old woman spinning.",
+      "caption_ru": "Царевна поднимается по винтовой лестнице и видит старушку-пряху."
+    },
+    {
+      "part": "III",
+      "after": 4,
+      "art": "8_thorns",
+      "caption": "A great hedge grows round the sleeping palace.",
+      "caption_ru": "Вокруг спящего дворца вырастает густой бор."
+    },
+    {
+      "part": "IV",
+      "after": 6,
+      "art": "10_roses",
+      "caption": "The hedge of thorns turns into roses, and lets the Prince through.",
+      "caption_ru": "Терновник превращается в розы и пропускает царевича."
+    },
+    {
+      "part": "IV",
+      "after": 9,
+      "art": "11_courtyard",
+      "caption": "In the courtyard, everyone is fast asleep.",
+      "caption_ru": "Во дворе все крепко спят."
+    },
+    {
+      "part": "V",
+      "after": 5,
+      "art": "13_awake",
+      "caption": "The Princess wakes, and the whole palace wakes with her.",
+      "caption_ru": "Царевна просыпается, а с ней просыпается весь дворец."
+    },
+    {
+      "part": "V",
+      "after": 9,
+      "art": "14_wedding",
+      "caption": "A wedding, and a feast for everyone.",
+      "caption_ru": "Свадьба и пир на весь мир."
+    }
+  ],
+  "glossary": [
+    [
+      "King Matthew",
+      "the good King of the tale. In Russian he is Tsar Matvey."
+    ],
+    [
+      "crab",
+      "a little animal with claws that lives in streams. In this tale the crab is wise and knows what will happen."
+    ],
+    [
+      "fairy",
+      "a magical woman who can give gifts, and make spells. The Russian poem calls them “charodeyki”, enchantresses."
+    ],
+    [
+      "the Uninvited One",
+      "the twelfth, old fairy, whom the King forgot to ask to the feast."
+    ],
+    [
+      "spindle",
+      "a thin wooden stick, pointed at one end, used long ago to twist wool or flax into thread."
+    ],
+    [
+      "flax",
+      "a plant with blue flowers, whose stalks are made into linen thread."
+    ],
+    [
+      "spinner",
+      "a person who makes thread, by spinning wool or flax."
+    ],
+    [
+      "courtiers",
+      "the people who live at the King's court and wait on him."
+    ],
+    [
+      "standard-bearer",
+      "a soldier who carries the flag."
+    ],
+    [
+      "hedge of thorns",
+      "a thick, tangled wall of bushes with sharp little thorns."
+    ],
+    [
+      "huntsmen",
+      "people who ride out to hunt in the woods and fields."
+    ],
+    [
+      "spurs",
+      "little pointed wheels on a rider's boots, used to ask the horse to go faster."
+    ],
+    [
+      "three hundred years",
+      "very, very long: longer than ten grandmothers, one after another, could remember."
+    ]
+  ],
+  "thumb_art": "13_awake",
+  "thumb_position": "50% 50%",
+  "thumb_sub": "A VERSE TALE FOR CHILDREN<br>FULL-CAST AUDIOBOOK",
+  "cover_bg": [
+    "#a8c8ff",
+    "#fdeef4"
+  ],
+  "kids": true,
+  "summary": "A good King and Queen have a baby princess, but an old fairy who was not asked to the feast puts a spell on her: when she is sixteen, a spindle will make her sleep for three hundred years. A fairy tale in verse for children, a free retelling of Sleeping Beauty by Vasily Zhukovsky, to be listened to together.",
+  "site_description": "A King and a Queen long for a child, and a wise crab tells them a princess will be born. But at the feast the twelfth fairy, whom nobody asked, makes a spell: a spindle will send the princess to sleep for three hundred years. The whole palace sleeps behind a wall of thorns, until a young Prince hears the old man's story. Vasily Zhukovsky's gentle retelling of Sleeping Beauty (1831), a fairy tale in verse for children and for listening together, in a full-cast English audiobook with many illustrations.",
+  "tags": [
+    "Zhukovsky",
+    "Vasily Zhukovsky",
+    "The Sleeping Princess",
+    "Sleeping Beauty",
+    "fairy tale",
+    "fairy tale in verse",
+    "poem for children",
+    "bedtime story",
+    "Christmas story",
+    "children's audiobook",
+    "audiobook",
+    "full cast audiobook",
+    "Russian fairy tale",
+    "Russian literature",
+    "public domain",
+    "English audiobook"
+  ],
+  "hashtags": "#fairytale #bedtimestory #audiobook #SleepingBeauty #Zhukovsky #publicdomain",
+  "playlist": "PLVuswr3XMg9E",
+  "text_note": "Free English verse rendering from the Russian, written for children: a draft that needs a human editor.",
+  "ru": {
+    "title": "Спящая царевна",
+    "author": "Василий Жуковский",
+    "names": {
+      "I": "Рождение царевны",
+      "II": "Заклятие",
+      "III": "Долгий сон",
+      "IV": "Царевич и старик",
+      "V": "Пробуждение"
+    },
+    "note": "Сказка в стихах в издании для чтения с оригинальными иллюстрациями.",
+    "source_note": "Текст с ru.wikisource.org, по изданию: В. А. Жуковский. Собрание сочинений в 4 томах, т. 3 (М.; Л., 1960).",
+    "contents": "Содержание",
+    "back": "О тексте",
+    "small": "Текст сказки находится в общественном достоянии. Названия частей и иллюстрации сделаны для этого издания. Набрано шрифтом Lora (SIL Open Font License).",
+    "description": "У доброго царя Матвея и его царицы родилась дочка, но старая чародейка, которую не позвали на пир, заколдовала её: на шестнадцатом году царевна уколется веретеном и уснёт на триста лет. Сказка в стихах Василия Жуковского, вольный пересказ «Спящей красавицы», чтобы слушать вместе с детьми.",
+    "hashtags": "#сказка #аудиокнига #длядетей #Жуковский #сказкавстихах #русскиесказки",
+    "thumb_sub": "СКАЗКА В СТИХАХ<br>АУДИОКНИГА",
+    "tags": [
+      "Жуковский",
+      "Василий Жуковский",
+      "Спящая царевна",
+      "Спящая красавица",
+      "сказка в стихах",
+      "стихи для детей",
+      "сказка на ночь",
+      "аудиокнига для детей",
+      "аудиосказка",
+      "сказки для детей",
+      "слушать сказку",
+      "русская сказка"
+    ]
+  },
+  "shot_seconds": 15
+}

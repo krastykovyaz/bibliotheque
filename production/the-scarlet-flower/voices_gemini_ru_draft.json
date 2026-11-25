@@ -1,0 +1,34 @@
+{
+ "NARRATOR": {
+  "voice": "Sulafat",
+  "style": "Warm, calm storyteller for children; unhurried fairy-tale pace, gentle smile in the voice, clear Russian."
+ },
+ "MERCHANT": {
+  "voice": "Achird",
+  "style": "Kind, caring father; warm and friendly, a little worried and tender when speaking to his daughters."
+ },
+ "ELDEST": {
+  "voice": "Callirrhoe",
+  "style": "Proud, confident elder sister; bright, slightly spoiled and demanding tone."
+ },
+ "MIDDLE": {
+  "voice": "Despina",
+  "style": "Smooth, vain middle sister; light and sweet, a little capricious."
+ },
+ "YOUNGEST": {
+  "voice": "Leda",
+  "style": "Gentle, sincere youngest daughter; soft, youthful and kind, brave and affectionate."
+ },
+ "BEAST": {
+  "voice": "Charon",
+  "style": "Deep, slow, rumbling but gentle voice; sad and tender, never frightening for children; at first sternly, then warmly."
+ },
+ "VOICES": {
+  "voice": "Fenrir",
+  "style": "Eerie chorus of wild forest voices, loud and menacing but fairy-tale playful, not scary for children."
+ },
+ "PRINCE": {
+  "voice": "Puck",
+  "style": "Young, bright and joyful prince; warm, noble, grateful, with relief and happiness."
+ }
+}

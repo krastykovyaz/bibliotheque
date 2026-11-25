@@ -1,0 +1,1471 @@
+{
+  "parts": [
+    "I",
+    "II",
+    "III",
+    "IV",
+    "V",
+    "VI",
+    "VII",
+    "VIII",
+    "IX",
+    "X",
+    "XI",
+    "XII",
+    "XIII",
+    "XIV",
+    "XV",
+    "XVI",
+    "XVII",
+    "XVIII",
+    "XIX",
+    "XX"
+  ],
+  "names": {
+    "I": "The Parting of Anna Pavlovna",
+    "II": "Farewell at the Grove",
+    "III": "A Man in His Prime",
+    "IV": "The Provincial in Petersburg",
+    "V": "The Truth Dictated",
+    "VI": "The Man Who Came Back",
+    "VII": "The Reducing Glass",
+    "VIII": "Two Halves of a Day",
+    "IX": "The Poet’s Private World",
+    "X": "Riders at the Gate",
+    "XI": "Yes or No",
+    "XII": "Midnight Visitor",
+    "XIII": "The Magic Circle",
+    "XIV": "A Lesson in Friendship",
+    "XV": "The Burnt Manuscript",
+    "XVI": "The Widow and the Vases",
+    "XVII": "The Lying Sofa and the Pike",
+    "XVIII": "The Concert and the Fireside",
+    "XIX": "Home at Grachi",
+    "XX": "The Epilogue: A Common Story"
+  },
+  "art": {
+    "I": "packing_room",
+    "II": "grove_road",
+    "III": "uncle_study",
+    "IV": "petersburg_street",
+    "V": "department_hall",
+    "VI": "nevsky_walk",
+    "VII": "uncle_study_shards",
+    "VIII": "dacha_garden_gate",
+    "IX": "alexander_room",
+    "X": "dacha_courtyard_riders",
+    "XI": "lyubetsky_drawing_room",
+    "XII": "uncle_study_night",
+    "XIII": "corridor_door",
+    "XIV": "uncle_drawing_room",
+    "XV": "alexander_fireplace",
+    "XVI": "tafaeva_salon",
+    "XVII": "river_fishing",
+    "XVIII": "uncle_drawing_room",
+    "XIX": "grachi_lake_balcony",
+    "XX": "uncle_study_doctor"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "art": "grachi_yard_dawn"
+    },
+    {
+      "id": 5,
+      "art": "agrafena_room"
+    },
+    {
+      "id": 69,
+      "art": "grachi_yard_dawn"
+    },
+    {
+      "id": 77,
+      "art": "packing_room"
+    },
+    {
+      "id": 112,
+      "art": "grachi_lake_balcony"
+    },
+    {
+      "id": 134,
+      "art": "packing_room"
+    },
+    {
+      "id": 196,
+      "art": "grachi_porch"
+    },
+    {
+      "id": 234,
+      "art": "breakfast_table"
+    },
+    {
+      "id": 261,
+      "art": "grachi_yard_dawn"
+    },
+    {
+      "id": 308,
+      "art": "grove_road"
+    },
+    {
+      "id": 374,
+      "art": "evening_parlor"
+    },
+    {
+      "id": 394,
+      "art": "uncle_study"
+    },
+    {
+      "id": 419,
+      "art": "uncle_study"
+    },
+    {
+      "id": 463,
+      "art": "uncle_study"
+    },
+    {
+      "id": 485,
+      "art": "uncle_study"
+    },
+    {
+      "id": 528,
+      "art": "alexander_room"
+    },
+    {
+      "id": 536,
+      "art": "petersburg_street"
+    },
+    {
+      "id": 540,
+      "art": "petersburg_street"
+    },
+    {
+      "id": 546,
+      "art": "bronze_horseman"
+    },
+    {
+      "id": 547,
+      "art": "uncle_study"
+    },
+    {
+      "id": 630,
+      "art": "alexander_room"
+    },
+    {
+      "id": 636,
+      "art": "uncle_study"
+    },
+    {
+      "id": 645,
+      "art": "alexander_room"
+    },
+    {
+      "id": 650,
+      "art": "alexander_room"
+    },
+    {
+      "id": 756,
+      "art": "alexander_room"
+    },
+    {
+      "id": 794,
+      "art": "alexander_room"
+    },
+    {
+      "id": 870,
+      "art": "alexander_room"
+    },
+    {
+      "id": 896,
+      "art": "alexander_room"
+    },
+    {
+      "id": 948,
+      "art": "department_hall"
+    },
+    {
+      "id": 971,
+      "art": "office_desk"
+    },
+    {
+      "id": 976,
+      "art": "uncle_study"
+    },
+    {
+      "id": 1005,
+      "art": "alexander_room"
+    },
+    {
+      "id": 1023,
+      "art": "nevsky_walk"
+    },
+    {
+      "id": 1030,
+      "art": "night_bedroom"
+    },
+    {
+      "id": 1033,
+      "art": "uncle_study"
+    },
+    {
+      "id": 1081,
+      "art": "office_desk"
+    },
+    {
+      "id": 1083,
+      "art": "uncle_study"
+    },
+    {
+      "id": 1142,
+      "art": "uncle_study_shards"
+    },
+    {
+      "id": 1194,
+      "art": "uncle_study"
+    },
+    {
+      "id": 1237,
+      "art": "uncle_study_shards"
+    },
+    {
+      "id": 1272,
+      "art": "uncle_study"
+    },
+    {
+      "id": 1321,
+      "art": "uncle_study_shards"
+    },
+    {
+      "id": 1387,
+      "art": "uncle_study"
+    },
+    {
+      "id": 1413,
+      "art": "office_desk"
+    },
+    {
+      "id": 1418,
+      "art": "restaurant_counter"
+    },
+    {
+      "id": 1426,
+      "art": "river_boat"
+    },
+    {
+      "id": 1439,
+      "art": "dacha_garden_gate"
+    },
+    {
+      "id": 1522,
+      "art": "lyubetsky_drawing_room"
+    },
+    {
+      "id": 1619,
+      "art": "riverbank_twilight"
+    },
+    {
+      "id": 1713,
+      "art": "lyubetsky_drawing_room"
+    },
+    {
+      "id": 1721,
+      "art": "river_boat"
+    },
+    {
+      "id": 1728,
+      "art": "alexander_room"
+    },
+    {
+      "id": 1773,
+      "art": "uncle_study"
+    },
+    {
+      "id": 1799,
+      "art": "dacha_garden_gate"
+    },
+    {
+      "id": 1829,
+      "art": "lyubetsky_drawing_room"
+    },
+    {
+      "id": 1876,
+      "art": "dacha_garden_gate"
+    },
+    {
+      "id": 1893,
+      "art": "river_boat"
+    },
+    {
+      "id": 1915,
+      "art": "alexander_room"
+    },
+    {
+      "id": 1923,
+      "art": "dacha_courtyard_riders"
+    },
+    {
+      "id": 1954,
+      "art": "lyubetsky_drawing_room"
+    },
+    {
+      "id": 2018,
+      "art": "dacha_garden_gate"
+    },
+    {
+      "id": 2057,
+      "art": "lyubetsky_drawing_room"
+    },
+    {
+      "id": 2063,
+      "art": "dacha_garden_gate"
+    },
+    {
+      "id": 2167,
+      "art": "petersburg_street"
+    },
+    {
+      "id": 2187,
+      "art": "lyubetsky_drawing_room"
+    },
+    {
+      "id": 2293,
+      "art": "stair_porter"
+    },
+    {
+      "id": 2328,
+      "art": "uncle_study_night"
+    },
+    {
+      "id": 2408,
+      "art": "supper_table"
+    },
+    {
+      "id": 2455,
+      "art": "uncle_study_night"
+    },
+    {
+      "id": 2493,
+      "art": "uncle_study_night"
+    },
+    {
+      "id": 2533,
+      "art": "supper_table"
+    },
+    {
+      "id": 2556,
+      "art": "uncle_study_night"
+    },
+    {
+      "id": 2606,
+      "art": "corridor_door"
+    },
+    {
+      "id": 2632,
+      "art": "uncle_study_night"
+    },
+    {
+      "id": 2678,
+      "art": "supper_table"
+    },
+    {
+      "id": 2707,
+      "art": "uncle_study_night"
+    },
+    {
+      "id": 2727,
+      "art": "corridor_door"
+    },
+    {
+      "id": 2748,
+      "art": "uncle_study_night"
+    },
+    {
+      "id": 2753,
+      "art": "uncle_drawing_room"
+    },
+    {
+      "id": 2770,
+      "art": "uncle_study"
+    },
+    {
+      "id": 2776,
+      "art": "dining_table"
+    },
+    {
+      "id": 2778,
+      "art": "uncle_drawing_room"
+    },
+    {
+      "id": 2885,
+      "art": "night_bedroom"
+    },
+    {
+      "id": 2887,
+      "art": "uncle_drawing_room"
+    },
+    {
+      "id": 2892,
+      "art": "night_bedroom"
+    },
+    {
+      "id": 2908,
+      "art": "alexander_fireplace"
+    },
+    {
+      "id": 2925,
+      "art": "uncle_drawing_room"
+    },
+    {
+      "id": 2938,
+      "art": "tafaeva_salon"
+    },
+    {
+      "id": 2967,
+      "art": "uncle_drawing_room"
+    },
+    {
+      "id": 2996,
+      "art": "tafaeva_boudoir"
+    },
+    {
+      "id": 3005,
+      "art": "tafaeva_boudoir"
+    },
+    {
+      "id": 3023,
+      "art": "petersburg_street"
+    },
+    {
+      "id": 3027,
+      "art": "tafaeva_boudoir"
+    },
+    {
+      "id": 3041,
+      "art": "alexander_room"
+    },
+    {
+      "id": 3088,
+      "art": "uncle_drawing_room"
+    },
+    {
+      "id": 3103,
+      "art": "alexander_room"
+    },
+    {
+      "id": 3132,
+      "art": "river_fishing"
+    },
+    {
+      "id": 3212,
+      "art": "garden_arbour_dusk"
+    },
+    {
+      "id": 3225,
+      "art": "autumn_riverbank"
+    },
+    {
+      "id": 3237,
+      "art": "alexander_room"
+    },
+    {
+      "id": 3239,
+      "art": "concert_hall"
+    },
+    {
+      "id": 3241,
+      "art": "uncle_drawing_room"
+    },
+    {
+      "id": 3285,
+      "art": "farewell_hall"
+    },
+    {
+      "id": 3295,
+      "art": "diligence_road"
+    },
+    {
+      "id": 3303,
+      "art": "grachi_lake_balcony"
+    },
+    {
+      "id": 3308,
+      "art": "breakfast_table"
+    },
+    {
+      "id": 3314,
+      "art": "grachi_porch"
+    },
+    {
+      "id": 3335,
+      "art": "evening_parlor"
+    },
+    {
+      "id": 3357,
+      "art": "breakfast_table"
+    },
+    {
+      "id": 3359,
+      "art": "evening_parlor"
+    },
+    {
+      "id": 3381,
+      "art": "grachi_bedroom"
+    },
+    {
+      "id": 3401,
+      "art": "lime_garden_summer"
+    },
+    {
+      "id": 3407,
+      "art": "night_bedroom"
+    },
+    {
+      "id": 3410,
+      "art": "uncle_study_doctor"
+    },
+    {
+      "id": 3460,
+      "art": "uncle_drawing_room"
+    },
+    {
+      "id": 3560,
+      "art": "boudoir_fireplace"
+    },
+    {
+      "id": 3570,
+      "art": "uncle_drawing_room"
+    },
+    {
+      "id": 3626,
+      "art": "alexander_arrives"
+    },
+    {
+      "id": 3703,
+      "art": "boudoir_fireplace"
+    },
+    {
+      "id": 3789,
+      "art": "uncle_study_doctor"
+    },
+    {
+      "id": 3839,
+      "art": "study_embrace"
+    }
+  ],
+  "glossary": [
+    [
+      "verst",
+      "a Russian measure of distance, a little more than a kilometre"
+    ],
+    [
+      "souls",
+      "In old Russia an estate was counted in souls, meaning male serfs; a hundred souls was a modest property."
+    ],
+    [
+      "Bronze Horseman",
+      "The famous statue of Peter the Great in Petersburg, the subject of Pushkin’s poem about the poor clerk Yevgeny."
+    ],
+    [
+      "head of a section",
+      "A senior official in a government department, above the heads of desks, who are the clerks directly in charge of the paperwork."
+    ],
+    [
+      "assessor",
+      "a middle civil-service rank, collegiate assessor, a step up the official ladder"
+    ],
+    [
+      "cross",
+      "a decoration, a state order worn on the breast by officials"
+    ],
+    [
+      "Leyden jar",
+      "an early electrical capacitor that stores a charge and is discharged by a spark"
+    ],
+    [
+      "fathom",
+      "an old Russian measure of length, about two metres"
+    ],
+    [
+      "kopeck",
+      "a hundredth of a rouble; fifty kopecks was a generous tip"
+    ],
+    [
+      "opodeldoc",
+      "a camphor and soap liniment, a common household remedy rubbed on the chest"
+    ],
+    [
+      "ringing in the ear",
+      "a Russian superstition: if an ear rings, someone is talking about you, and the left and right ear mean different things"
+    ],
+    [
+      "pood",
+      "an old Russian measure of weight, about thirty-six pounds"
+    ],
+    [
+      "Lafite",
+      "a fine, expensive red Bordeaux wine"
+    ],
+    [
+      "the Kirghiz steppe",
+      "the wild Central Asian plains, a byword for lawless country"
+    ]
+  ],
+  "ru": {
+    "title": "Обыкновенная история",
+    "author": "Иван Гончаров",
+    "note": "Роман в сокращённом издании для чтения: первая часть и эпилог целиком, вторая часть сокращена, между отрывками стоят краткие пересказы.",
+    "source_note": "Текст с ru.wikisource.org, по изданию: И. А. Гончаров, Собрание сочинений в восьми томах, т. 1 (М.: Гослитиздат, 1952). Первая часть романа (части I–XIII здесь) и эпилог даны полностью; вторая часть (части XIV–XIX здесь) сокращена примерно до четверти, между выбранными отрывками стоят краткие пересказы.",
+    "contents": "Содержание",
+    "back": "О тексте",
+    "small": "Текст романа находится в общественном достоянии. Названия частей и иллюстрации сделаны для этого издания. Набрано шрифтом Lora (SIL Open Font License).",
+    "description": "Молодой романтик Александр Адуев уезжает от матери из деревни Грачи в Петербург, где его сухой и деловитый дядя Пётр Иваныч берётся излечить его от мечтательности, дружбы, любви и стихов. Первый роман Гончарова, смешной и горький одновременно.",
+    "names": {
+      "I": "Сборы Анны Павловны",
+      "II": "Прощание у рощи",
+      "III": "Мужчина в самой поре",
+      "IV": "Провинциал в Петербурге",
+      "V": "Продиктованная истина",
+      "VI": "Возмужавший провинциал",
+      "VII": "Уменьшительное стекло",
+      "VIII": "Две половины дня",
+      "IX": "Мир поэта",
+      "X": "Всадники у ворот",
+      "XI": "Да или нет",
+      "XII": "Полуночный гость",
+      "XIII": "Магический круг",
+      "XIV": "Урок дружбы",
+      "XV": "Сожжённая рукопись",
+      "XVI": "Вдова и вазы",
+      "XVII": "Диван и щука",
+      "XVIII": "Концерт и камин",
+      "XIX": "Возвращение в Грачи",
+      "XX": "Эпилог: Обыкновенная история"
+    }
+  },
+  "art_desc": {
+    "grachi_yard_dawn": "The yard of a modest country manor in the village of Grachi at dawn: a troika of horses with a bell and a travelling cart by a shed, servants hurrying with bundles, a chained watchdog, lime trees and a low house with lit windows, pale pink early light.",
+    "agrafena_room": "A cramped warm housekeeper's room behind a big whitewashed stove: a small table with a samovar, cups and bread with ham, a stout scowling woman in a kerchief and a tall lazy valet sitting close beside her, a cupboard, a worn pack of cards, morning light from a small window.",
+    "packing_room": "A country house bedroom in morning light: an open travelling trunk with neatly folded linen on a bed and sofa, an elderly mother in a cap and shawl with a hand on the shoulder of her fair young son in a dressing gown, an open balcony door in the background, a tearful, tender mood.",
+    "grachi_lake_balcony": "View from a balcony over an old manor garden of lime trees, lilac and wild rose, a lake half golden and half dark blue, ripening fields rising like an amphitheatre to a dark forest, a road winding like a snake between the fields toward the horizon, two silhouetted figures on the balcony, bright summer morning.",
+    "grachi_porch": "The front porch of a small manor house on a summer morning: a plump cheerful gentleman in an old frock coat greeting a lady in a cap, a priest approaching along the path, a little wooden bridge at the gate, a gig by the fence, village houses and birches behind.",
+    "breakfast_table": "A heavy farewell breakfast in a country dining room: a table crowded with pies, decanters of cordial and mushrooms, a stout guest eating heartily, a priest, a weeping mother with a handkerchief, a plump rosy girl with tear-filled eyes, a young man in a travelling coat, daylight through white curtains.",
+    "grove_road": "A dusty country road at the edge of a birch grove at midday: a troika with a young man in the cart and a valet on the box beginning to move off, a crowd of servants and villagers standing silent in the dust, an old woman with an apron over her face, a lone stout woman apart from the others, a mother waving, the road running into the forest.",
+    "evening_parlor": "A quiet parlor of a country house at evening: a lonely elderly woman in a dark dress at a table with playing cards for fortune-telling, a candle and a samovar, a stout guest eating at the end of the table, an empty chair, soft dusk in the window, sorrowful mood.",
+    "uncle_study": "A bachelor’s apartment in Petersburg on a winter morning, 1840s: a handsome dark-haired man in a dressing gown sits at a table with a tea glass, a cigar and three opened letters, a bead basket on the wall, a servant in the doorway, pale light through tall windows.",
+    "alexander_room": "A small plain rented room in Petersburg, narrow window facing a brick wall and chimneys, a young man in a blue frock coat sitting on a narrow bed with a letter and a pen, a bundle of papers on the chest of drawers, an old servant tidying, candle and grey light.",
+    "petersburg_street": "A busy grey Petersburg street under a heavy sky, endless rows of identical stone houses with four rows of windows, hurried silhouetted pedestrians hardly looking at each other, a lone young provincial in a blue coat standing lost in the crowd, cobbles and a rattling bridge.",
+    "bronze_horseman": "Senate Square in Petersburg at the end of a day, the bronze rider on his rock silhouetted against a glowing sky, the Neva and Admiralty spire in the distance, a young man standing small and rapt before the statue with his hat in his hand, ships on the river.",
+    "department_hall": "A huge government office hall in Petersburg, rows of desks with scratching clerks in worn frock coats, towering stacks of papers and cupboards, a stout important chief in the middle like a thundering Jupiter, a timid young man waiting beside a petitioner, grey daylight through high windows.",
+    "office_desk": "A clerk’s desk in a crowded government office, a young man bent over a mountain of paper copying with a quill, a candle, tears glittering on his lashes, rows of anonymous clerks in the background, dusty light, mood of weary resignation.",
+    "nevsky_walk": "A spring afternoon on a broad Petersburg avenue: a tall young man with side-whiskers, in a fashionable frock coat and top hat, strolls confidently past pale pastel facades and carriages, passers-by glancing at him, soft golden light, mood of newly acquired polish and a touch of pensiveness.",
+    "night_bedroom": "A small bachelor bedroom in Petersburg at night: a young man in a nightshirt tossing awake on a narrow bed hugging a pillow, a candle burning low, a half-open window with distant glow of a ballroom's lights and faint silhouettes of waltzing couples dissolving on the wall like a dream, feverish romantic mood.",
+    "uncle_study_shards": "The same Petersburg study, a few moments after a small disaster: a toppled shelf-stand and the shattered pieces of a white alabaster bust on the floor, the uncle in a dressing gown holding a fragment with a rueful frown, the young nephew standing beside the desk with arms spread in rapture, the uncle's inkstand and clock pulled protectively close, warm light.",
+    "restaurant_counter": "A cramped restaurant in Petersburg at about four in the afternoon: a hurried young man in a uniform coat at a table, a bewildered waiter with a napkin over his arm, dishes in steam, awnings drawn against the heat.",
+    "river_boat": "A rowing boat on the broad Neva on a hot summer evening: two oarsmen straining at the oars, a young man standing eagerly in the bow looking toward a far green bank with a small figure in a light dress waving a handkerchief at a garden railing.",
+    "dacha_garden_gate": "A garden by the river at a country house on a Petersburg island, a summer evening: iron railing, gravel path, acacia and lilac, a girl in a light dress with a cup of milk and a young man in a dark coat meeting by the path, a boat drawn up at the bank behind them.",
+    "lyubetsky_drawing_room": "A cosy, tastefully furnished country drawing room in summer evening light: an elderly lady dozing in an armchair with an unfinished scarf and a French novel, a parrot in a cage among flowers by the window, a young girl and a young man standing by her, a plate of berries and a piano in the background.",
+    "riverbank_twilight": "The bank of the Neva in the white-night half-light: a young couple leaning on a railing looking at the still silvery water, dark arching trees, a distant bridge, small lights in country houses on the far shore, a book lying in the grass.",
+    "dacha_courtyard_riders": "The yard of a dacha in sunlight: two grooms in livery holding saddle horses, a young woman in a dark riding habit and green-veiled hat sitting on a restless horse, an elegant gentleman mounting beside her, a stout lady on the porch with hands raised, and a pale young man in the doorway watching.",
+    "stair_porter": "A stone stairwell at night: a young man sitting on the bottom step with a handkerchief over his face, and in a low doorway a porter in a sheepskin coat and his wife crouching with a small lantern, searching the floor; lantern light on bare stone.",
+    "uncle_study_night": "Pyotr Ivanych’s study late at night: a tidy desk with an inkstand and paperweight, a candle burning, leather armchairs; the stern uncle in a dressing gown facing his pale, exhausted young nephew. Deep shadows, warm candlelight, tense mood.",
+    "supper_table": "A small table laid for a late supper in the study: cold turkey, cutlets, a bottle of Lafite with a green seal, glasses; the uncle in his dressing gown eats calmly while the nephew sits untouched across from him. Lamplight, wry comic mood.",
+    "corridor_door": "The study door ajar onto a dark corridor, a lit lamp inside; a faint female silhouette and a trail of dress hem vanishing in the shadow, the two men frozen and turned toward the door. Night, suspense with humour.",
+    "uncle_drawing_room": "Lizaveta Alexandrovna's elegant boudoir in the afternoon: she sits with embroidery by a window, and young Alexander in a dark frock coat stands before her with a theatrically gloomy pose; velvet curtains, rich furniture, small ornaments, soft grey Petersburg light.",
+    "dining_table": "A well-set dinner table in the Aduyevs' dining room after the meal: crystal decanters, bottles, plates, a silent young man in a dark coat rolling bread pellets at one end, the uncle and aunt seated across; candles, evening mood.",
+    "alexander_fireplace": "A dim room lit by the glow of a fireplace: a young man with tongs standing helplessly over a burning thick notebook, an older man in an armchair calmly pushing it deeper into the coals with a cane; flames, smoke, black ash, drawn curtains.",
+    "tafaeva_salon": "Evening reception in a widow's elegant Petersburg drawing room: a dozen guests in groups, a bearded foreigner, an officer, a dandy with a cane and a huge tie-pin, a pale young woman at the centre, candlelight, a tall window overlooking a house opposite, mood of comic rivalry.",
+    "tafaeva_boudoir": "A pale young woman's boudoir in Petersburg: sofa, shawl, a fireplace, piano, a clock on the wall, a young man and a languid woman sitting together, tender lamplight, a feeling of closeness turning to oppression.",
+    "river_fishing": "A summer riverbank with willows, an old angler in a leather cap with a battery of fishing rods and a young man leaning on a tree, a large pike thrashing in the water, a tall girl with a parasol and her elderly father watching from behind, afternoon sun.",
+    "garden_arbour_dusk": "A garden summerhouse at dusk in August, an old man in a white blouse sitting in the dark corner and a young man in a coat frozen in the doorway, lanterns not yet lit, shadows of trees.",
+    "autumn_riverbank": "A bleak autumn riverbank, bare trees, yellow leaves on the ground, a lead-grey river and sky, a girl in a short jacket with a kerchief on a bench, her father in a greatcoat reaching out to lead her home, a rowing boat drawn up on the shore.",
+    "concert_hall": "A crowded Petersburg concert hall by chandelier light, a thin German violinist on the platform with raised bow, rows of silhouetted listeners, a young man pale and bowed beside a pillar, a lady beside him.",
+    "farewell_hall": "The uncle's hall by day, a young man in a travelling coat taking leave, a weeping woman with a handkerchief, a stern gentleman holding the young man's hands, a trunk by the door, grey light from a window.",
+    "diligence_road": "A lumbering coach leaving the city at dawn, a young man leaning from the window with his arms spread towards open fields, a servant on the box, grey rooftops behind, pale golden sky ahead.",
+    "grachi_bedroom": "A young man's bedroom in a country house at early morning light, a pale young man sitting up in bed in alarm, a hunched old woman in a white kerchief slipping out of the door, herbs scattered on the pillow, a lace curtain at the window.",
+    "lime_garden_summer": "A country garden in summer with old lime trees and a balcony, a plump contented young man in a loose dressing gown sitting beside his mother, the lake sparkling behind, a village with hens and a cart in the distance, golden calm.",
+    "uncle_study_doctor": "A grand Petersburg study in the morning: a grey-whiskered, slightly stooping gentleman in a frock coat paces by a large desk and heavy curtains, while a short stout doctor in a buttoned frock coat with a cross on his neck sits in an armchair, one leg crossed over the other; muted, sober light.",
+    "boudoir_fireplace": "The same boudoir: the gentleman leans on the mantelpiece of a marble fireplace, gazing in anguish at his silent, listless wife on the sofa; a cold hearth, a ticking clock, shadows heavy on the walls.",
+    "alexander_arrives": "A cheerful stout, balding man with a small round belly and an order at his neck bursts into the boudoir, radiant, kissing the lady's hand while the grey-whiskered uncle looks on with a raised eyebrow; bright morning sun at last in the room.",
+    "study_embrace": "In the study the two men, uncle and nephew, embrace awkwardly in the middle of the room, an open ledger and pen on the desk, a coin and a banknote glinting; warm gold light, a gentle satirical mood."
+  },
+  "slug": "a-common-story",
+  "prefix": "A_Common_Story",
+  "lang": "en",
+  "title": "A Common Story",
+  "author": "Ivan Goncharov",
+  "author_ru": "Иван Гончаров",
+  "year": 1847,
+  "title_original": "Обыкновенная история",
+  "publication_note": "first published in «Современник» (The Contemporary), 1847",
+  "source_note": "Text from ru.wikisource.org, after I. A. Goncharov, Collected Works in eight volumes, vol. 1 (Moscow: Goslitizdat, 1952). Abridged edition: Parts I to XIII (the whole of Part One of the novel) and the Epilogue are complete; Part Two of the novel (Parts XIV to XIX here) is shortened to about a quarter, with short summaries between the chosen passages.",
+  "translated_from": "the Russian original",
+  "thumb_art": "petersburg_street",
+  "thumb_position": "50% 50%",
+  "thumb_sub": "A NOVEL<br>FULL-CAST AUDIOBOOK",
+  "cover_bg": [
+    "#171c3a",
+    "#c9b48a"
+  ],
+  "summary": "A romantic young man leaves his mother's country estate for Petersburg, where his dry, practical uncle sets out to cure him of dreams, love and poetry. Goncharov's first novel, funny and bitter at once.",
+  "site_description": "Alexander Aduyev, twenty and full of poetry, leaves his doting mother in the village of Grachi for Petersburg, where his uncle Pyotr Ivanych, a cool man of business, tries to cure him of friendship, love and verse. Goncharov's 1847 novel, in an abridged full-cast audiobook in English: Part One and the Epilogue complete, Part Two shortened.",
+  "tags": [
+    "Goncharov",
+    "Ivan Goncharov",
+    "A Common Story",
+    "An Ordinary Story",
+    "Oblomov author",
+    "audiobook",
+    "full cast audiobook",
+    "classic literature",
+    "Russian literature",
+    "19th century novel",
+    "public domain",
+    "English audiobook"
+  ],
+  "hashtags": "#Goncharov #audiobook #classicliterature #Russianliterature #publicdomain",
+  "playlist": "PLVuswr3XMg9E",
+  "text_note": "English translation from the Russian original by an AI model, a draft that needs a human editor. Abridged edition: Part One of the novel and the Epilogue are complete; Part Two of the novel (here Parts XIV to XIX) is cut to about a quarter, keeping its main scenes, with short summaries between them.",
+  "art_alt": {
+    "grachi_yard_dawn": "T",
+    "agrafena_room": "A",
+    "packing_room": "A",
+    "grachi_lake_balcony": "V",
+    "grachi_porch": "T",
+    "breakfast_table": "A",
+    "grove_road": "A",
+    "evening_parlor": "A",
+    "uncle_study": "A",
+    "alexander_room": "A",
+    "petersburg_street": "A",
+    "bronze_horseman": "S",
+    "department_hall": "A",
+    "office_desk": "A",
+    "nevsky_walk": "A",
+    "night_bedroom": "A",
+    "uncle_study_shards": "T",
+    "restaurant_counter": "A",
+    "river_boat": "A",
+    "dacha_garden_gate": "A",
+    "lyubetsky_drawing_room": "A",
+    "riverbank_twilight": "T",
+    "dacha_courtyard_riders": "T",
+    "stair_porter": "A",
+    "uncle_study_night": "P",
+    "supper_table": "A",
+    "corridor_door": "T",
+    "uncle_drawing_room": "L",
+    "dining_table": "A",
+    "alexander_fireplace": "A",
+    "tafaeva_salon": "E",
+    "tafaeva_boudoir": "A",
+    "river_fishing": "A",
+    "garden_arbour_dusk": "A",
+    "autumn_riverbank": "A",
+    "concert_hall": "A",
+    "farewell_hall": "T",
+    "diligence_road": "A",
+    "grachi_bedroom": "A",
+    "lime_garden_summer": "A",
+    "uncle_study_doctor": "A",
+    "boudoir_fireplace": "T",
+    "alexander_arrives": "A",
+    "study_embrace": "I"
+  },
+  "focus": {
+    "agrafena_room": [
+      [
+        0.3,
+        0.55
+      ],
+      [
+        0.72,
+        0.5
+      ],
+      [
+        0.5,
+        0.72
+      ]
+    ],
+    "alexander_arrives": [
+      [
+        0.68,
+        0.55
+      ],
+      [
+        0.3,
+        0.5
+      ],
+      [
+        0.5,
+        0.7
+      ]
+    ],
+    "alexander_fireplace": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.2,
+        0.45
+      ],
+      [
+        0.8,
+        0.5
+      ]
+    ],
+    "alexander_room": [
+      [
+        0.38,
+        0.7
+      ],
+      [
+        0.75,
+        0.6
+      ],
+      [
+        0.55,
+        0.4
+      ]
+    ],
+    "autumn_riverbank": [
+      [
+        0.3,
+        0.55
+      ],
+      [
+        0.72,
+        0.5
+      ],
+      [
+        0.5,
+        0.72
+      ]
+    ],
+    "boudoir_fireplace": [
+      [
+        0.68,
+        0.55
+      ],
+      [
+        0.3,
+        0.5
+      ],
+      [
+        0.5,
+        0.7
+      ]
+    ],
+    "breakfast_table": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.2,
+        0.45
+      ],
+      [
+        0.8,
+        0.5
+      ]
+    ],
+    "bronze_horseman": [
+      [
+        0.38,
+        0.7
+      ],
+      [
+        0.75,
+        0.6
+      ],
+      [
+        0.55,
+        0.4
+      ]
+    ],
+    "concert_hall": [
+      [
+        0.3,
+        0.55
+      ],
+      [
+        0.72,
+        0.5
+      ],
+      [
+        0.5,
+        0.72
+      ]
+    ],
+    "corridor_door": [
+      [
+        0.68,
+        0.55
+      ],
+      [
+        0.3,
+        0.5
+      ],
+      [
+        0.5,
+        0.7
+      ]
+    ],
+    "dacha_courtyard_riders": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.2,
+        0.45
+      ],
+      [
+        0.8,
+        0.5
+      ]
+    ],
+    "dacha_garden_gate": [
+      [
+        0.38,
+        0.7
+      ],
+      [
+        0.75,
+        0.6
+      ],
+      [
+        0.55,
+        0.4
+      ]
+    ],
+    "department_hall": [
+      [
+        0.3,
+        0.55
+      ],
+      [
+        0.72,
+        0.5
+      ],
+      [
+        0.5,
+        0.72
+      ]
+    ],
+    "diligence_road": [
+      [
+        0.68,
+        0.55
+      ],
+      [
+        0.3,
+        0.5
+      ],
+      [
+        0.5,
+        0.7
+      ]
+    ],
+    "dining_table": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.2,
+        0.45
+      ],
+      [
+        0.8,
+        0.5
+      ]
+    ],
+    "evening_parlor": [
+      [
+        0.38,
+        0.7
+      ],
+      [
+        0.75,
+        0.6
+      ],
+      [
+        0.55,
+        0.4
+      ]
+    ],
+    "farewell_hall": [
+      [
+        0.3,
+        0.55
+      ],
+      [
+        0.72,
+        0.5
+      ],
+      [
+        0.5,
+        0.72
+      ]
+    ],
+    "garden_arbour_dusk": [
+      [
+        0.68,
+        0.55
+      ],
+      [
+        0.3,
+        0.5
+      ],
+      [
+        0.5,
+        0.7
+      ]
+    ],
+    "grachi_bedroom": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.2,
+        0.45
+      ],
+      [
+        0.8,
+        0.5
+      ]
+    ],
+    "grachi_lake_balcony": [
+      [
+        0.38,
+        0.7
+      ],
+      [
+        0.75,
+        0.6
+      ],
+      [
+        0.55,
+        0.4
+      ]
+    ],
+    "grachi_porch": [
+      [
+        0.3,
+        0.55
+      ],
+      [
+        0.72,
+        0.5
+      ],
+      [
+        0.5,
+        0.72
+      ]
+    ],
+    "grachi_yard_dawn": [
+      [
+        0.68,
+        0.55
+      ],
+      [
+        0.3,
+        0.5
+      ],
+      [
+        0.5,
+        0.7
+      ]
+    ],
+    "grove_road": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.2,
+        0.45
+      ],
+      [
+        0.8,
+        0.5
+      ]
+    ],
+    "lime_garden_summer": [
+      [
+        0.38,
+        0.7
+      ],
+      [
+        0.75,
+        0.6
+      ],
+      [
+        0.55,
+        0.4
+      ]
+    ],
+    "lyubetsky_drawing_room": [
+      [
+        0.3,
+        0.55
+      ],
+      [
+        0.72,
+        0.5
+      ],
+      [
+        0.5,
+        0.72
+      ]
+    ],
+    "nevsky_walk": [
+      [
+        0.68,
+        0.55
+      ],
+      [
+        0.3,
+        0.5
+      ],
+      [
+        0.5,
+        0.7
+      ]
+    ],
+    "night_bedroom": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.2,
+        0.45
+      ],
+      [
+        0.8,
+        0.5
+      ]
+    ],
+    "office_desk": [
+      [
+        0.38,
+        0.7
+      ],
+      [
+        0.75,
+        0.6
+      ],
+      [
+        0.55,
+        0.4
+      ]
+    ],
+    "packing_room": [
+      [
+        0.3,
+        0.55
+      ],
+      [
+        0.72,
+        0.5
+      ],
+      [
+        0.5,
+        0.72
+      ]
+    ],
+    "petersburg_street": [
+      [
+        0.68,
+        0.55
+      ],
+      [
+        0.3,
+        0.5
+      ],
+      [
+        0.5,
+        0.7
+      ]
+    ],
+    "restaurant_counter": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.2,
+        0.45
+      ],
+      [
+        0.8,
+        0.5
+      ]
+    ],
+    "river_boat": [
+      [
+        0.38,
+        0.7
+      ],
+      [
+        0.75,
+        0.6
+      ],
+      [
+        0.55,
+        0.4
+      ]
+    ],
+    "river_fishing": [
+      [
+        0.3,
+        0.55
+      ],
+      [
+        0.72,
+        0.5
+      ],
+      [
+        0.5,
+        0.72
+      ]
+    ],
+    "riverbank_twilight": [
+      [
+        0.68,
+        0.55
+      ],
+      [
+        0.3,
+        0.5
+      ],
+      [
+        0.5,
+        0.7
+      ]
+    ],
+    "stair_porter": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.2,
+        0.45
+      ],
+      [
+        0.8,
+        0.5
+      ]
+    ],
+    "study_embrace": [
+      [
+        0.38,
+        0.7
+      ],
+      [
+        0.75,
+        0.6
+      ],
+      [
+        0.55,
+        0.4
+      ]
+    ],
+    "supper_table": [
+      [
+        0.3,
+        0.55
+      ],
+      [
+        0.72,
+        0.5
+      ],
+      [
+        0.5,
+        0.72
+      ]
+    ],
+    "tafaeva_boudoir": [
+      [
+        0.68,
+        0.55
+      ],
+      [
+        0.3,
+        0.5
+      ],
+      [
+        0.5,
+        0.7
+      ]
+    ],
+    "tafaeva_salon": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.2,
+        0.45
+      ],
+      [
+        0.8,
+        0.5
+      ]
+    ],
+    "uncle_drawing_room": [
+      [
+        0.38,
+        0.7
+      ],
+      [
+        0.75,
+        0.6
+      ],
+      [
+        0.55,
+        0.4
+      ]
+    ],
+    "uncle_study": [
+      [
+        0.3,
+        0.55
+      ],
+      [
+        0.72,
+        0.5
+      ],
+      [
+        0.5,
+        0.72
+      ]
+    ],
+    "uncle_study_doctor": [
+      [
+        0.68,
+        0.55
+      ],
+      [
+        0.3,
+        0.5
+      ],
+      [
+        0.5,
+        0.7
+      ]
+    ],
+    "uncle_study_night": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.2,
+        0.45
+      ],
+      [
+        0.8,
+        0.5
+      ]
+    ],
+    "uncle_study_shards": [
+      [
+        0.38,
+        0.7
+      ],
+      [
+        0.75,
+        0.6
+      ],
+      [
+        0.55,
+        0.4
+      ]
+    ]
+  },
+  "fx": {
+    "night_bedroom": "flicker",
+    "uncle_study_night": "flicker",
+    "alexander_fireplace": "flicker",
+    "boudoir_fireplace": "flicker",
+    "tafaeva_boudoir": "flicker",
+    "supper_table": "flicker",
+    "evening_parlor": "flicker",
+    "agrafena_room": "flicker",
+    "uncle_study_shards": "flicker",
+    "lyubetsky_drawing_room": "flicker",
+    "autumn_riverbank": "leaves"
+  },
+  "episodes": [
+    {
+      "title": "The Last Morning at Grachi",
+      "blurb": "Anna Pavlovna sees her only son off to Petersburg: the packing, the tearful breakfast and the farewell at the birch grove.",
+      "from_part": "I",
+      "to_part": "II",
+      "thumb_art": "grove_road"
+    },
+    {
+      "title": "The Uncle and the Nephew",
+      "blurb": "Alexander arrives in Petersburg with letters, poems and plans, and finds an uncle who has no use for any of them.",
+      "from_part": "III",
+      "to_part": "IV",
+      "thumb_art": "uncle_study"
+    },
+    {
+      "title": "The Truth Dictated",
+      "blurb": "The uncle puts his nephew to work, and the young man meets the office, the letters home and the first lessons in reality.",
+      "from_part": "V",
+      "to_part": "VI",
+      "thumb_art": "department_hall"
+    },
+    {
+      "title": "The Reducing Glass",
+      "blurb": "Alexander, fresh from his first disenchantments, is taken in hand again and finds a summer house on the Neva where a girl is waiting.",
+      "from_part": "VII",
+      "to_part": "VIII",
+      "thumb_art": "dacha_garden_gate"
+    },
+    {
+      "title": "The Poet's Private World",
+      "blurb": "Alexander in love: moonlight, verses, rowing on the river and a new, glittering rival at the gate.",
+      "from_part": "IX",
+      "to_part": "X",
+      "thumb_art": "river_boat"
+    },
+    {
+      "title": "Yes or No",
+      "blurb": "A love that cannot be settled, a bitter night of questions, and the uncle's midnight supper.",
+      "from_part": "XI",
+      "to_part": "XII",
+      "thumb_art": "uncle_study_night"
+    },
+    {
+      "title": "The Magic Circle",
+      "blurb": "The aunt's gentle intervention, and the uncle's lesson in friendship begins.",
+      "from_part": "XIII",
+      "to_part": "XIV",
+      "thumb_art": "uncle_drawing_room"
+    },
+    {
+      "title": "Ashes and Illusions",
+      "blurb": "The abridged second part of the novel: a burnt manuscript, a charming widow, a day of fishing and a concert, told through its best scenes.",
+      "from_part": "XV",
+      "to_part": "XVIII",
+      "thumb_art": "alexander_fireplace"
+    },
+    {
+      "title": "Home to Grachi, and the Epilogue",
+      "blurb": "Alexander goes back to his mother's house, and years later the two men meet again in Petersburg.",
+      "from_part": "XIX",
+      "to_part": "XX",
+      "thumb_art": "uncle_study_doctor"
+    }
+  ],
+  "no_booklet": true,
+  "series_playlist": "PLMqS3SdirikY"
+}

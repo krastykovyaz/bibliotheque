@@ -1,0 +1,419 @@
+{
+  "slug": "the-girl-snow-maiden",
+  "prefix": "The_Girl_Snow_Maiden",
+  "lang": "en",
+  "title": "The Girl Snow-Maiden",
+  "author": "Vladimir Dal",
+  "author_ru": "Владимир Даль",
+  "year": 1870,
+  "title_original": "Девочка Снегурочка",
+  "publication_note": "a folk tale retold by Vladimir Dal; first printed in «Pervaya pervinka», 1870",
+  "source_note": "Text of Dal's retelling from nukadeti.ru (Wikisource does not have it), after V. I. Dal, Russian tales.",
+  "translated_from": "the Russian original",
+  "parts": [
+    "I",
+    "II",
+    "III",
+    "IV",
+    "V",
+    "VI",
+    "VII"
+  ],
+  "names": {
+    "I": "The Snowball",
+    "II": "The Snow-Maiden",
+    "III": "Zhuchka and the Fox",
+    "IV": "The Berries",
+    "V": "Up in the Tree",
+    "VI": "Zhuchka Comes",
+    "VII": "Home Again"
+  },
+  "art": {
+    "I": "2_village",
+    "II": "4_girl",
+    "III": "5_fox_door",
+    "IV": "6_berries",
+    "V": "8_bear",
+    "VI": "9_zhuchka",
+    "VII": "10_home"
+  },
+  "art_alt": {
+    "1_fireside": "A cosy room at night: two children under a blue blanket beside a glowing stove, a candle burning, and snow-sparkled stars in the window",
+    "2_village": "A snowy village on a holiday: the old man holds a snowball at the gate beside the old woman, while children play with snowballs near a cosy cottage",
+    "3_pot": "A little pot with a cloth on the sunny window sill, with the old man and the old woman leaning in to listen to the squeak",
+    "4_girl": "The old man rocks the little Snow-Maiden wrapped in a soft towel while the old woman sews her a pink dress by the warm stove",
+    "5_fox_door": "A fox with a bandaged head begs little dog Zhuchka at the shed door, with two hens peeping out in the snowy yard",
+    "6_berries": "A sunny summer forest where three girls and the Snow-Maiden in her pale-blue dress pick red berries with their baskets",
+    "7_tree": "The little Snow-Maiden sits high in a tree in the forest and cries, because she is lost",
+    "8_bear": "A big friendly brown bear stands under the tree and looks up at the Snow-Maiden, who shakes her head",
+    "8b_wolf": "A grey wolf walks under the tree while the bear walks away, and the Snow-Maiden watches from the branch",
+    "8c_fox": "A fox walks round and round the tree and looks up, while the Snow-Maiden stays safely on her branch",
+    "9_zhuchka": "Zhuchka the dog barks and licks the Snow-Maiden's face while the fox runs away and the bear hides behind a stump",
+    "10_home": "At home the Snow-Maiden sleeps under a blue blanket, the old man and old woman smile with happy tears, and Zhuchka sits with a bowl of milk"
+  },
+  "focus": {
+    "1_fireside": [
+      [
+        0.3,
+        0.62
+      ],
+      [
+        0.55,
+        0.8
+      ],
+      [
+        0.72,
+        0.25
+      ]
+    ],
+    "2_village": [
+      [
+        0.75,
+        0.5
+      ],
+      [
+        0.82,
+        0.85
+      ],
+      [
+        0.2,
+        0.55
+      ]
+    ],
+    "3_pot": [
+      [
+        0.52,
+        0.55
+      ],
+      [
+        0.2,
+        0.7
+      ],
+      [
+        0.82,
+        0.75
+      ]
+    ],
+    "4_girl": [
+      [
+        0.4,
+        0.65
+      ],
+      [
+        0.7,
+        0.75
+      ],
+      [
+        0.3,
+        0.6
+      ]
+    ],
+    "5_fox_door": [
+      [
+        0.3,
+        0.78
+      ],
+      [
+        0.65,
+        0.55
+      ],
+      [
+        0.12,
+        0.78
+      ]
+    ],
+    "6_berries": [
+      [
+        0.55,
+        0.85
+      ],
+      [
+        0.32,
+        0.85
+      ],
+      [
+        0.72,
+        0.82
+      ]
+    ],
+    "7_tree": [
+      [
+        0.62,
+        0.62
+      ],
+      [
+        0.5,
+        0.3
+      ],
+      [
+        0.2,
+        0.85
+      ]
+    ],
+    "8_bear": [
+      [
+        0.38,
+        0.62
+      ],
+      [
+        0.74,
+        0.65
+      ],
+      [
+        0.5,
+        0.35
+      ]
+    ],
+    "8b_wolf": [
+      [
+        0.6,
+        0.75
+      ],
+      [
+        0.74,
+        0.65
+      ],
+      [
+        0.1,
+        0.85
+      ]
+    ],
+    "8c_fox": [
+      [
+        0.58,
+        0.75
+      ],
+      [
+        0.74,
+        0.65
+      ],
+      [
+        0.3,
+        0.6
+      ]
+    ],
+    "9_zhuchka": [
+      [
+        0.4,
+        0.7
+      ],
+      [
+        0.62,
+        0.85
+      ],
+      [
+        0.1,
+        0.85
+      ]
+    ],
+    "10_home": [
+      [
+        0.48,
+        0.65
+      ],
+      [
+        0.88,
+        0.6
+      ],
+      [
+        0.3,
+        0.75
+      ]
+    ]
+  },
+  "fx": {
+    "2_village": "snow",
+    "5_fox_door": "snow",
+    "1_fireside": "flicker",
+    "4_girl": "flicker",
+    "10_home": "flicker",
+    "7_tree": "leaves",
+    "6_berries": "leaves"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "art": "1_fireside"
+    },
+    {
+      "id": 3,
+      "art": "2_village"
+    },
+    {
+      "id": 7,
+      "art": "3_pot"
+    },
+    {
+      "id": 8,
+      "art": "4_girl"
+    },
+    {
+      "id": 14,
+      "art": "5_fox_door"
+    },
+    {
+      "id": 21,
+      "art": "6_berries"
+    },
+    {
+      "id": 23,
+      "art": "7_tree"
+    },
+    {
+      "id": 25,
+      "art": "8_bear"
+    },
+    {
+      "id": 30,
+      "art": "8b_wolf"
+    },
+    {
+      "id": 35,
+      "art": "8c_fox"
+    },
+    {
+      "id": 41,
+      "art": "9_zhuchka"
+    },
+    {
+      "id": 49,
+      "art": "10_home"
+    }
+  ],
+  "glossary": [
+    [
+      "Snow-Maiden",
+      "in Russian, Snegurochka (say sneh-goo-ROCH-ka): a girl made of snow who comes to life; “sneg” means snow."
+    ],
+    [
+      "Zhuchka",
+      "a common name for a little dog in Russia (say ZHOOCH-ka); it comes from “zhuk”, a beetle or bug."
+    ],
+    [
+      "pot",
+      "a small clay pot, the kind used in a Russian cottage for porridge and soup."
+    ],
+    [
+      "window sill",
+      "the shelf under a window, where the pot stood in the sun."
+    ],
+    [
+      "cake",
+      "in the lullaby, a “kokurochka”: a sweet, soft little bun, a loving name for a dear child."
+    ],
+    [
+      "Mistress Fox",
+      "in Russian tales the fox is often called Lisa Patrikeevna, a clever and sly lady."
+    ],
+    [
+      "spring snow",
+      "the last soft snow of spring, which melts quickly in the sun."
+    ],
+    [
+      "Hallo-o",
+      "the long call people used in the forest to find one another when they were lost (in Russian, “Au!”)."
+    ]
+  ],
+  "thumb_art": "9_zhuchka",
+  "thumb_position": "48% 50%",
+  "thumb_sub": "A WINTER TALE FOR CHILDREN<br>FULL-CAST AUDIOBOOK",
+  "cover_bg": [
+    "#9fd4ff",
+    "#f8f4ec"
+  ],
+  "kids": true,
+  "summary": "An old man and an old woman have no children. One winter day the old man brings a snowball home and puts it in a pot on the window sill, and the sun turns it into a little girl, the Snow-Maiden. Then she gets lost in the forest, and a bear, a wolf and a fox try to lure her down from her tree. A gentle tale for children, to be listened to together, with a happy ending.",
+  "site_description": "An old couple without children makes a wish over a snowball, and the spring sun turns it into a little girl: the Snow-Maiden. She grows up clever and kind, but one summer she goes to the forest to pick berries with her friends and is left behind. A bear, a wolf and a fox each try to coax her down from her tree, and she refuses them all, until she hears her friend Zhuchka the dog bark. Vladimir Dal's retelling of the Russian folk tale, for children and for listening together, in a full-cast English audiobook with many illustrations.",
+  "tags": [
+    "Dal",
+    "Vladimir Dal",
+    "Snow-Maiden",
+    "Snegurochka",
+    "fairy tale",
+    "bedtime story",
+    "Christmas story",
+    "winter story",
+    "children's audiobook",
+    "audiobook",
+    "full cast audiobook",
+    "Russian fairy tale",
+    "Russian literature",
+    "public domain",
+    "English audiobook"
+  ],
+  "hashtags": "#fairytale #bedtimestory #audiobook #Snegurochka #publicdomain",
+  "playlist": "PLVuswr3XMg9E",
+  "text_note": "Machine translation from the Russian into simple English for children, a draft that needs a human editor. A short spoken introduction and a goodnight were added for the audiobook.",
+  "ru": {
+    "title": "Девочка Снегурочка",
+    "author": "Владимир Даль",
+    "names": {
+      "I": "Снежный комочек",
+      "II": "Снегурочка",
+      "III": "Жучка и лиса",
+      "IV": "Ягоды",
+      "V": "На дереве",
+      "VI": "Жучка идёт на помощь",
+      "VII": "Снова дома"
+    },
+    "note": "Сказка в издании для чтения с оригинальными иллюстрациями.",
+    "source_note": "Текст сказки в пересказе В. И. Даля, по сайту nukadeti.ru (на Викитеке этого текста нет).",
+    "contents": "Содержание",
+    "back": "О тексте",
+    "small": "Текст сказки находится в общественном достоянии (В. И. Даль умер в 1872 году). Названия частей и иллюстрации сделаны для этого издания. Набрано шрифтом Lora (SIL Open Font License).",
+    "description": "У старика со старухой не было детей. Старик принёс домой снежный комочек, а солнышко превратило его в девочку Снегурочку. Но однажды в лесу Снегурочка потерялась. Зимняя сказка Владимира Даля, чтобы слушать вместе с детьми.",
+    "hashtags": "#сказка #аудиокнига #длядетей #Снегурочка #Даль #русскиесказки",
+    "thumb_sub": "СКАЗКА ДЛЯ ДЕТЕЙ<br>АУДИОКНИГА",
+    "tags": [
+      "Даль",
+      "Владимир Даль",
+      "Снегурочка",
+      "Девочка Снегурочка",
+      "русская сказка",
+      "сказка на ночь",
+      "аудиокнига для детей",
+      "аудиосказка",
+      "новогодняя сказка",
+      "зимняя сказка",
+      "сказки для детей",
+      "слушать сказку"
+    ]
+  },
+  "figures": [
+    {
+      "part": "I",
+      "after": 4,
+      "art": "3_pot",
+      "caption": "The warm sun melts the snowball, and what is that squeaking in the pot?",
+      "caption_ru": "Тёплое солнышко топит снежный комочек, а кто это пищит в горшочке?"
+    },
+    {
+      "part": "III",
+      "after": 5,
+      "art": "12_zhuchka_goes",
+      "caption": "Poor Zhuchka leaves the yard, and the Snow-Maiden is sorry to see her go.",
+      "caption_ru": "Бедная Жучка уходит со двора, и Снегурочке её жалко."
+    },
+    {
+      "part": "IV",
+      "after": 3,
+      "art": "7_tree",
+      "caption": "Lost in the forest, the Snow-Maiden climbs a tree and calls: Hallo-o!",
+      "caption_ru": "Потерялась Снегурочка в лесу, залезла на дерево и кричит: «Ау!»"
+    },
+    {
+      "part": "V",
+      "after": 9,
+      "art": "8b_wolf",
+      "caption": "The grey wolf comes, but the Snow-Maiden does not trust him.",
+      "caption_ru": "Пришёл серый волк, но Снегурочка ему не верит."
+    },
+    {
+      "part": "V",
+      "after": 15,
+      "art": "8c_fox",
+      "caption": "The sly fox walks round and round the tree, but the girl will not come down.",
+      "caption_ru": "Хитрая лиса ходит вокруг дерева, а девочка не слезает."
+    }
+  ]
+}

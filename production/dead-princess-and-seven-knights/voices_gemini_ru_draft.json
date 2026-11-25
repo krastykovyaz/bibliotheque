@@ -1,0 +1,46 @@
+{
+ "NARRATOR": {
+  "voice": "Sulafat",
+  "style": "Warm, gentle storyteller reading Pushkin's verse for children: lilting, unhurried, clear rhythm and rhyme, soft pauses at line ends."
+ },
+ "QUEEN": {
+  "voice": "Callirrhoe",
+  "style": "Proud, vain and haughty stepmother; sweet and flattering when she talks to the mirror, sharp and furious in anger; still child-friendly, not scary."
+ },
+ "MIRROR": {
+  "voice": "Charon",
+  "style": "Calm, deep, formal magic voice, slow and measured, a little mysterious."
+ },
+ "PRINCESS": {
+  "voice": "Aoede",
+  "style": "Young, gentle, sweet and kind girl; modest, sincere, a little frightened when in danger."
+ },
+ "KNIGHT": {
+  "voice": "Orus",
+  "style": "Hearty, friendly, strong elder brother; warm and honest, speaks with respect and kindness."
+ },
+ "YELISEY": {
+  "voice": "Puck",
+  "style": "Young, earnest prince, hopeful and pleading, with sorrow and determination."
+ },
+ "SUN": {
+  "voice": "Algieba",
+  "style": "Kind, warm, majestic and slow, like a radiant old friend."
+ },
+ "MOON": {
+  "voice": "Vindemiatrix",
+  "style": "Soft, quiet, serene night voice, gentle and a little sleepy."
+ },
+ "WIND": {
+  "voice": "Fenrir",
+  "style": "Wild, strong and fast, breezy and blustery, but friendly."
+ },
+ "CHERNAVKA": {
+  "voice": "Kore",
+  "style": "Kind-hearted maidservant, quiet and sympathetic, a little fearful of the queen."
+ },
+ "NUN": {
+  "voice": "Despina",
+  "style": "Old, crooked, wheedling beggar woman, sugary and croaky voice, slightly sly."
+ }
+}

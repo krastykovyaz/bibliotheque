@@ -1,0 +1,1552 @@
+{
+  "slug": "olesya",
+  "prefix": "Olesya",
+  "lang": "en",
+  "title": "Olesya",
+  "author": "Alexander Kuprin",
+  "author_ru": "Александр Куприн",
+  "year": 1898,
+  "title_original": "Олеся",
+  "publication_note": "first published in the newspaper «Киевлянин» (Kyiv), 1898, with the subtitle «From memories of Volhynia»; first separate edition 1905",
+  "source_note": "Text from ru.wikisource.org, after A. I. Kuprin, Complete Works (St Petersburg: A. F. Marx, 1912), vol. 5.",
+  "translated_from": "the Russian original",
+  "parts": [
+    "I",
+    "II",
+    "III",
+    "IV",
+    "V",
+    "VI",
+    "VII",
+    "VIII",
+    "IX",
+    "X",
+    "XI",
+    "XII",
+    "XIII",
+    "XIV"
+  ],
+  "names": {
+    "I": "The Forester's Lessons",
+    "II": "The Witch of the Marsh",
+    "III": "The Cabin on Hen's Legs",
+    "IV": "The Cards",
+    "V": "The Charm",
+    "VI": "Evenings in the Forest",
+    "VII": "Notice to Quit",
+    "VIII": "The Constable and the Gun",
+    "IX": "The Fever",
+    "X": "The Moonlit Clearing",
+    "XI": "A Proposal",
+    "XII": "Trinity Day",
+    "XIII": "The Hare and the Wolf",
+    "XIV": "The Hail"
+  },
+  "art": {
+    "I": "1d_lesson",
+    "II": "2_empty_house",
+    "III": "3e_hut_ext",
+    "IV": "4d_cards_olesya",
+    "V": "5b_forest_road",
+    "VI": "6_evening_path",
+    "VII": "7_dejected",
+    "VIII": "8b_cart",
+    "IX": "9c_fever_bed",
+    "X": "10d_moonlit",
+    "XI": "11b_hawthorn",
+    "XII": "12e_church_crowd",
+    "XIII": "13e_hare_wolf",
+    "XIV": "14d_beads"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "art": "1_stove"
+    },
+    {
+      "id": 7,
+      "art": "1b_village"
+    },
+    {
+      "id": 11,
+      "art": "1c_patient"
+    },
+    {
+      "id": 23,
+      "art": "1d_lesson"
+    },
+    {
+      "id": 43,
+      "art": "1e_pen"
+    },
+    {
+      "id": 64,
+      "art": "2_empty_house"
+    },
+    {
+      "id": 69,
+      "art": "2b_stove_talk"
+    },
+    {
+      "id": 88,
+      "art": "2c_witch_driven"
+    },
+    {
+      "id": 126,
+      "art": "3_morning_guns"
+    },
+    {
+      "id": 131,
+      "art": "3b_snow_forest"
+    },
+    {
+      "id": 147,
+      "art": "3d_lost_marsh"
+    },
+    {
+      "id": 151,
+      "art": "3e_hut_ext"
+    },
+    {
+      "id": 154,
+      "art": "3f_hut_int"
+    },
+    {
+      "id": 175,
+      "art": "3g_cards"
+    },
+    {
+      "id": 196,
+      "art": "3h_olesya_enters"
+    },
+    {
+      "id": 207,
+      "art": "3i_path_fence"
+    },
+    {
+      "id": 240,
+      "art": "3k_olesya_close"
+    },
+    {
+      "id": 259,
+      "art": "3j_red_skirt"
+    },
+    {
+      "id": 270,
+      "art": "4_spring_village"
+    },
+    {
+      "id": 274,
+      "art": "4c_spinning"
+    },
+    {
+      "id": 308,
+      "art": "4h_exile"
+    },
+    {
+      "id": 325,
+      "art": "4d_cards_olesya"
+    },
+    {
+      "id": 353,
+      "art": "4e_mill"
+    },
+    {
+      "id": 358,
+      "art": "4g_horror"
+    },
+    {
+      "id": 362,
+      "art": "5_supper"
+    },
+    {
+      "id": 368,
+      "art": "5b_forest_road"
+    },
+    {
+      "id": 401,
+      "art": "5c_knife"
+    },
+    {
+      "id": 412,
+      "art": "5d_fall"
+    },
+    {
+      "id": 434,
+      "art": "5e_medusa"
+    },
+    {
+      "id": 452,
+      "art": "6_evening_path"
+    },
+    {
+      "id": 459,
+      "art": "6b_tall_house"
+    },
+    {
+      "id": 491,
+      "art": "6c_church_far"
+    },
+    {
+      "id": 508,
+      "art": "6d_yarmola_gloom"
+    },
+    {
+      "id": 512,
+      "art": "7_dejected"
+    },
+    {
+      "id": 529,
+      "art": "7b_notice"
+    },
+    {
+      "id": 545,
+      "art": "8_rain_garden"
+    },
+    {
+      "id": 553,
+      "art": "8b_cart"
+    },
+    {
+      "id": 576,
+      "art": "8c_vodka_table"
+    },
+    {
+      "id": 599,
+      "art": "8d_book"
+    },
+    {
+      "id": 615,
+      "art": "8e_gun_gift"
+    },
+    {
+      "id": 636,
+      "art": "9_silent"
+    },
+    {
+      "id": 643,
+      "art": "9c_fever_bed"
+    },
+    {
+      "id": 644,
+      "art": "9d_fever_dreams"
+    },
+    {
+      "id": 649,
+      "art": "10_threshold"
+    },
+    {
+      "id": 662,
+      "art": "10b_leaving"
+    },
+    {
+      "id": 693,
+      "art": "10c_clearing"
+    },
+    {
+      "id": 710,
+      "art": "10d_moonlit"
+    },
+    {
+      "id": 720,
+      "art": "10e_moon_face"
+    },
+    {
+      "id": 726,
+      "art": "11_june"
+    },
+    {
+      "id": 732,
+      "art": "11b_hawthorn"
+    },
+    {
+      "id": 755,
+      "art": "11d_pale_tree"
+    },
+    {
+      "id": 780,
+      "art": "6c_church_far"
+    },
+    {
+      "id": 786,
+      "art": "11e_scuffle"
+    },
+    {
+      "id": 787,
+      "art": "11f_young_moon"
+    },
+    {
+      "id": 809,
+      "art": "12_ride"
+    },
+    {
+      "id": 813,
+      "art": "12b_square"
+    },
+    {
+      "id": 814,
+      "art": "12c_lyre"
+    },
+    {
+      "id": 828,
+      "art": "12d_clerk"
+    },
+    {
+      "id": 847,
+      "art": "12e_church_crowd"
+    },
+    {
+      "id": 850,
+      "art": "12f_running"
+    },
+    {
+      "id": 854,
+      "art": "13_gallop"
+    },
+    {
+      "id": 857,
+      "art": "13b_bed"
+    },
+    {
+      "id": 885,
+      "art": "13d_arm"
+    },
+    {
+      "id": 913,
+      "art": "13b_bed"
+    },
+    {
+      "id": 945,
+      "art": "13e_hare_wolf"
+    },
+    {
+      "id": 948,
+      "art": "13f_farewell"
+    },
+    {
+      "id": 971,
+      "art": "13g_black_cloud"
+    },
+    {
+      "id": 975,
+      "art": "14_hail"
+    },
+    {
+      "id": 979,
+      "art": "14b_yarmola_bed"
+    },
+    {
+      "id": 994,
+      "art": "14c_empty_hut"
+    },
+    {
+      "id": 997,
+      "art": "14d_beads"
+    }
+  ],
+  "art_alt": {
+    "1_stove": "A dark manor room in a blizzard: a forester squatting at an open stove with a bundle of firewood, a young gentleman standing by",
+    "1b_village": "A snowy Polesye village of low thatched huts, three peasants in sheepskins standing in the road with their caps off",
+    "1c_patient": "A table with bottles of medicine and two eggs, an old peasant woman standing by while the young gentleman looks on",
+    "1d_lesson": "A forester with a black beard bent over a table by a candle, slowly drawing letters with a pen",
+    "2_empty_house": "A big old manor house in a snowstorm, one lit window among dark ones, pines bent by the wind",
+    "2b_stove_talk": "A room by lamplight with a green shade, a bearded forester at the glowing stove and the master pacing",
+    "2c_witch_driven": "An old woman and a little girl driven out into the snowy forest by village lads with sticks, a broken hut behind them",
+    "3_morning_guns": "A thaw-morning room: a single-barrelled gun on the table and a forester cleaning it by the bright window",
+    "3b_snow_forest": "A pink winter morning in a pine forest, a hunter with a gun and a hare bounding across the snow",
+    "3d_lost_marsh": "A hunter wading through a snowy marsh among hummocks, a small hut far away between the trees",
+    "3e_hut_ext": "A hut on piles in a marsh, one side sunk so it looks lame, rags stuffed in its windows, snow on the thatch",
+    "3f_hut_int": "Inside the hut: an old woman on the floor stripping feathers, a huge stove, two starlings on the ledge, a stranger at the door",
+    "3g_cards": "An old woman laying worn cards in an eight-pointed star on a table, a hunter watching",
+    "3h_olesya_enters": "A tall girl in a red skirt flinging open the door, holding up her apron with three tiny finches",
+    "3i_path_fence": "A girl in a red skirt showing a hunter the path through the pines, a wattle fence beside them",
+    "3j_red_skirt": "A hunter on a hillock looking back: far off, the hut with a red spot on its porch against the snow",
+    "4_spring_village": "Early spring: brown streams in the village street, sparrows on the willows, white clouds in a blue sky",
+    "4c_spinning": "Olesya spinning flax on a high bench, her granny at the stove, the guest on a low stool",
+    "4d_cards_olesya": "Olesya with a red bead necklace sitting at the table with the cards, telling the guest his fortune",
+    "4e_mill": "A water mill by a dark pond under the moon, one lit window and the wheel turning",
+    "4h_exile": "A line of convicts in grey coats walking in chains along a snowy road, guarded by soldiers",
+    "1e_pen": "A big rough hand drawing a wobbly letter with a pen on paper under a candle",
+    "3k_olesya_close": "Olesya close up in the snow, proud and laughing, a red bead necklace at her throat",
+    "8d_book": "The constable pushing out a thick finger as he counts the points of a police book on the table",
+    "4g_horror": "Olesya's face with wide, fixed eyes, as if she saw something that is not there; red beads at her throat",
+    "5_supper": "Supper in the hut: a steaming pot on an embroidered cloth, granny eating greedily, Olesya serving",
+    "5b_forest_road": "A forest road at sunset with puddles and the first bluebells, a man and a girl in a red skirt walking",
+    "5c_knife": "A small knife and a thin red cut on a forearm, three drops of blood falling",
+    "5d_fall": "A man lying flat on the forest road, a girl laughing and clapping her hands behind him",
+    "5e_medusa": "Olesya's stare, huge and dark blue, like a Medusa's head, a man recoiling at the edge",
+    "6_evening_path": "Two figures walking slowly along the forest edge in the evening light, birches and pines",
+    "6b_tall_house": "A seven-storey city house beside a tall pine of the same height, Olesya and the guest looking up",
+    "6c_church_far": "A small village church with a green dome across the fields, Olesya and the guest standing apart",
+    "6d_yarmola_gloom": "A forester at the gate of the manor turning away with a dark look, his dog at his feet, the master watching",
+    "7_dejected": "The hut in gloom: granny rocking with her head in her hands, Olesya silent, the guest standing",
+    "7b_notice": "A huge constable in a grey greatcoat in the hut doorway holding up a paper, the old woman cowering",
+    "8_rain_garden": "A window onto a rainy garden of lilacs, a plan of a forest tract drawn on the table",
+    "8b_cart": "A long chocolate-coloured horse with a drooping lip drawing a wicker cart whose one shaft is a rope; the constable driving",
+    "8c_vodka_table": "A table with old bottles, red radishes and fresh butter; the master and the constable in a large coat",
+    "8e_gun_gift": "A fine old gun held out across the table to the constable, who smiles",
+    "9_silent": "The hut in an awkward silence: Olesya with her hands dropped, looking at the floor, the guest on his stool",
+    "9c_fever_bed": "A sick man in bed at night, a lamp with a green shade, and a bright circle on the ceiling",
+    "9d_fever_dreams": "A fever dream: many coloured boxes and a garland of grimacing and smiling faces",
+    "10_threshold": "Olesya turning with a pale, radiant face as the guest stands in the doorway, granny shuffling aside",
+    "10b_leaving": "Dusk by the hut: Olesya with a grey shawl walking out with the guest, granny watching",
+    "10c_clearing": "A long straight forest clearing under a crimson sunset, two small figures at its foot",
+    "10d_moonlit": "A moonlit pine and birch forest, a silver path of light and two figures walking arm in arm",
+    "10e_moon_face": "Two faces close together in the moonlight, her red beads at her throat",
+    "11_june": "A June meadow with lilies of the valley and tall pines, a man and a girl in a red skirt",
+    "11b_hawthorn": "A forest path between bushes of flowering hawthorn, a man waiting at its turning",
+    "11d_pale_tree": "Olesya, pale, leaning against a tree trunk while the man holds her hands",
+    "11e_scuffle": "Two figures laughing and tumbling in the grass among hawthorn petals, a red kerchief flung in the air",
+    "11f_young_moon": "A thin young moon over pines, Olesya with tears in her eyes holding the man's hands",
+    "12_ride": "A man on a grey mottled horse riding across a green meadow, a white church ahead",
+    "12b_square": "A village square full of carts and drunken, crowding peasants in the heat, the tavern at the right",
+    "12c_lyre": "A blind lyre-player on a stool in the shade of a fence, villagers sitting around him",
+    "12d_clerk": "A young estate clerk in a loud checked jacket and red tie laughing, the master angry",
+    "12e_church_crowd": "Olesya in her red skirt at the church fence, ringed by hostile village women",
+    "12f_running": "Olesya running down the road in torn clothes, stones flying after her, the crowd far behind",
+    "13_gallop": "A rider on a foaming grey horse under a black thunder cloud, the road through the pines",
+    "13b_bed": "Olesya lying on the bed with her face to the wall, granny beside her, the man at the door",
+    "13d_arm": "A girl's arm with two dark bruises held in a man's hands",
+    "13e_hare_wolf": "A wolf and a small hare face to face in a forest clearing, the story Olesya tells",
+    "13f_farewell": "Olesya sitting up in bed and holding the man by the shoulders, saying goodbye",
+    "13g_black_cloud": "A black cloud over half the sky, the hut under it, granny pointing, the man listening",
+    "14_hail": "A night of hail and lightning: a house with stripped branches of the mulberry tree, great hailstones falling",
+    "14b_yarmola_bed": "Morning sun streaming through shutter cracks, the bearded forester standing over the master's bed",
+    "14c_empty_hut": "The empty hut after a hasty departure: bed frame, rags and rubbish on the floor, the door wide open",
+    "14d_beads": "A string of cheap red beads hung on a window frame, the forest beyond"
+  },
+  "focus": {
+    "1_stove": [
+      [
+        0.21,
+        0.62
+      ],
+      [
+        0.56,
+        0.62
+      ],
+      [
+        0.2,
+        0.5
+      ]
+    ],
+    "1b_village": [
+      [
+        0.45,
+        0.88
+      ],
+      [
+        0.2,
+        0.6
+      ],
+      [
+        0.7,
+        0.6
+      ]
+    ],
+    "1c_patient": [
+      [
+        0.79,
+        0.78
+      ],
+      [
+        0.26,
+        0.8
+      ],
+      [
+        0.5,
+        0.56
+      ]
+    ],
+    "1d_lesson": [
+      [
+        0.55,
+        0.55
+      ],
+      [
+        0.27,
+        0.82
+      ],
+      [
+        0.56,
+        0.66
+      ]
+    ],
+    "2_empty_house": [
+      [
+        0.43,
+        0.67
+      ],
+      [
+        0.5,
+        0.45
+      ],
+      [
+        0.08,
+        0.6
+      ]
+    ],
+    "2b_stove_talk": [
+      [
+        0.64,
+        0.75
+      ],
+      [
+        0.37,
+        0.85
+      ],
+      [
+        0.19,
+        0.55
+      ]
+    ],
+    "2c_witch_driven": [
+      [
+        0.62,
+        0.8
+      ],
+      [
+        0.3,
+        0.85
+      ],
+      [
+        0.16,
+        0.78
+      ]
+    ],
+    "3_morning_guns": [
+      [
+        0.62,
+        0.82
+      ],
+      [
+        0.45,
+        0.6
+      ],
+      [
+        0.8,
+        0.2
+      ]
+    ],
+    "3b_snow_forest": [
+      [
+        0.74,
+        0.86
+      ],
+      [
+        0.22,
+        0.85
+      ],
+      [
+        0.5,
+        0.4
+      ]
+    ],
+    "3d_lost_marsh": [
+      [
+        0.33,
+        0.82
+      ],
+      [
+        0.78,
+        0.6
+      ],
+      [
+        0.55,
+        0.9
+      ]
+    ],
+    "3e_hut_ext": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.5,
+        0.78
+      ],
+      [
+        0.43,
+        0.45
+      ]
+    ],
+    "3f_hut_int": [
+      [
+        0.4,
+        0.82
+      ],
+      [
+        0.22,
+        0.27
+      ],
+      [
+        0.74,
+        0.9
+      ]
+    ],
+    "3g_cards": [
+      [
+        0.55,
+        0.58
+      ],
+      [
+        0.33,
+        0.85
+      ],
+      [
+        0.78,
+        0.85
+      ]
+    ],
+    "3h_olesya_enters": [
+      [
+        0.57,
+        0.6
+      ],
+      [
+        0.57,
+        0.65
+      ],
+      [
+        0.2,
+        0.88
+      ]
+    ],
+    "3i_path_fence": [
+      [
+        0.4,
+        0.7
+      ],
+      [
+        0.66,
+        0.75
+      ],
+      [
+        0.2,
+        0.8
+      ]
+    ],
+    "3j_red_skirt": [
+      [
+        0.49,
+        0.62
+      ],
+      [
+        0.19,
+        0.88
+      ],
+      [
+        0.8,
+        0.7
+      ]
+    ],
+    "4_spring_village": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.5,
+        0.88
+      ],
+      [
+        0.06,
+        0.5
+      ]
+    ],
+    "4c_spinning": [
+      [
+        0.53,
+        0.4
+      ],
+      [
+        0.69,
+        0.86
+      ],
+      [
+        0.39,
+        0.9
+      ]
+    ],
+    "4d_cards_olesya": [
+      [
+        0.48,
+        0.5
+      ],
+      [
+        0.74,
+        0.86
+      ],
+      [
+        0.45,
+        0.7
+      ]
+    ],
+    "4e_mill": [
+      [
+        0.4,
+        0.55
+      ],
+      [
+        0.62,
+        0.63
+      ],
+      [
+        0.78,
+        0.18
+      ]
+    ],
+    "4h_exile": [
+      [
+        0.4,
+        0.8
+      ],
+      [
+        0.65,
+        0.75
+      ],
+      [
+        0.2,
+        0.85
+      ]
+    ],
+    "1e_pen": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.7,
+        0.5
+      ],
+      [
+        0.3,
+        0.55
+      ]
+    ],
+    "3k_olesya_close": [
+      [
+        0.5,
+        0.45
+      ],
+      [
+        0.5,
+        0.7
+      ],
+      [
+        0.3,
+        0.6
+      ]
+    ],
+    "8d_book": [
+      [
+        0.45,
+        0.65
+      ],
+      [
+        0.7,
+        0.85
+      ],
+      [
+        0.2,
+        0.85
+      ]
+    ],
+    "4g_horror": [
+      [
+        0.5,
+        0.58
+      ],
+      [
+        0.5,
+        0.85
+      ],
+      [
+        0.3,
+        0.7
+      ]
+    ],
+    "5_supper": [
+      [
+        0.47,
+        0.55
+      ],
+      [
+        0.35,
+        0.8
+      ],
+      [
+        0.75,
+        0.85
+      ]
+    ],
+    "5b_forest_road": [
+      [
+        0.6,
+        0.78
+      ],
+      [
+        0.48,
+        0.8
+      ],
+      [
+        0.2,
+        0.88
+      ]
+    ],
+    "5c_knife": [
+      [
+        0.52,
+        0.6
+      ],
+      [
+        0.55,
+        0.82
+      ],
+      [
+        0.3,
+        0.45
+      ]
+    ],
+    "5d_fall": [
+      [
+        0.35,
+        0.78
+      ],
+      [
+        0.6,
+        0.9
+      ],
+      [
+        0.5,
+        0.6
+      ]
+    ],
+    "5e_medusa": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.16,
+        0.9
+      ],
+      [
+        0.7,
+        0.5
+      ]
+    ],
+    "6_evening_path": [
+      [
+        0.52,
+        0.85
+      ],
+      [
+        0.13,
+        0.65
+      ],
+      [
+        0.5,
+        0.4
+      ]
+    ],
+    "6b_tall_house": [
+      [
+        0.52,
+        0.5
+      ],
+      [
+        0.19,
+        0.5
+      ],
+      [
+        0.86,
+        0.9
+      ]
+    ],
+    "6c_church_far": [
+      [
+        0.63,
+        0.55
+      ],
+      [
+        0.45,
+        0.9
+      ],
+      [
+        0.11,
+        0.6
+      ]
+    ],
+    "6d_yarmola_gloom": [
+      [
+        0.69,
+        0.85
+      ],
+      [
+        0.3,
+        0.85
+      ],
+      [
+        0.8,
+        0.95
+      ]
+    ],
+    "7_dejected": [
+      [
+        0.53,
+        0.62
+      ],
+      [
+        0.82,
+        0.85
+      ],
+      [
+        0.16,
+        0.85
+      ]
+    ],
+    "7b_notice": [
+      [
+        0.54,
+        0.7
+      ],
+      [
+        0.72,
+        0.5
+      ],
+      [
+        0.19,
+        0.92
+      ]
+    ],
+    "8_rain_garden": [
+      [
+        0.4,
+        0.45
+      ],
+      [
+        0.22,
+        0.88
+      ],
+      [
+        0.7,
+        0.3
+      ]
+    ],
+    "8b_cart": [
+      [
+        0.33,
+        0.8
+      ],
+      [
+        0.55,
+        0.85
+      ],
+      [
+        0.85,
+        0.5
+      ]
+    ],
+    "8c_vodka_table": [
+      [
+        0.4,
+        0.58
+      ],
+      [
+        0.19,
+        0.88
+      ],
+      [
+        0.78,
+        0.9
+      ]
+    ],
+    "8e_gun_gift": [
+      [
+        0.5,
+        0.45
+      ],
+      [
+        0.19,
+        0.9
+      ],
+      [
+        0.79,
+        0.85
+      ]
+    ],
+    "9_silent": [
+      [
+        0.47,
+        0.5
+      ],
+      [
+        0.71,
+        0.8
+      ],
+      [
+        0.86,
+        0.9
+      ]
+    ],
+    "9c_fever_bed": [
+      [
+        0.5,
+        0.2
+      ],
+      [
+        0.3,
+        0.6
+      ],
+      [
+        0.8,
+        0.55
+      ]
+    ],
+    "9d_fever_dreams": [
+      [
+        0.2,
+        0.3
+      ],
+      [
+        0.6,
+        0.5
+      ],
+      [
+        0.9,
+        0.4
+      ]
+    ],
+    "10_threshold": [
+      [
+        0.44,
+        0.55
+      ],
+      [
+        0.77,
+        0.75
+      ],
+      [
+        0.19,
+        0.9
+      ]
+    ],
+    "10b_leaving": [
+      [
+        0.56,
+        0.8
+      ],
+      [
+        0.3,
+        0.65
+      ],
+      [
+        0.69,
+        0.85
+      ]
+    ],
+    "10c_clearing": [
+      [
+        0.5,
+        0.9
+      ],
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.8,
+        0.5
+      ]
+    ],
+    "10d_moonlit": [
+      [
+        0.52,
+        0.9
+      ],
+      [
+        0.74,
+        0.15
+      ],
+      [
+        0.3,
+        0.6
+      ]
+    ],
+    "10e_moon_face": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.81,
+        0.2
+      ],
+      [
+        0.6,
+        0.8
+      ]
+    ],
+    "11_june": [
+      [
+        0.47,
+        0.87
+      ],
+      [
+        0.2,
+        0.85
+      ],
+      [
+        0.82,
+        0.2
+      ]
+    ],
+    "11b_hawthorn": [
+      [
+        0.51,
+        0.9
+      ],
+      [
+        0.14,
+        0.65
+      ],
+      [
+        0.82,
+        0.65
+      ]
+    ],
+    "11d_pale_tree": [
+      [
+        0.44,
+        0.7
+      ],
+      [
+        0.63,
+        0.85
+      ],
+      [
+        0.53,
+        0.15
+      ]
+    ],
+    "11e_scuffle": [
+      [
+        0.5,
+        0.78
+      ],
+      [
+        0.78,
+        0.4
+      ],
+      [
+        0.2,
+        0.8
+      ]
+    ],
+    "11f_young_moon": [
+      [
+        0.44,
+        0.78
+      ],
+      [
+        0.8,
+        0.2
+      ],
+      [
+        0.62,
+        0.88
+      ]
+    ],
+    "12_ride": [
+      [
+        0.42,
+        0.85
+      ],
+      [
+        0.74,
+        0.65
+      ],
+      [
+        0.1,
+        0.55
+      ]
+    ],
+    "12b_square": [
+      [
+        0.4,
+        0.8
+      ],
+      [
+        0.95,
+        0.5
+      ],
+      [
+        0.7,
+        0.9
+      ]
+    ],
+    "12c_lyre": [
+      [
+        0.5,
+        0.75
+      ],
+      [
+        0.28,
+        0.9
+      ],
+      [
+        0.75,
+        0.9
+      ]
+    ],
+    "12d_clerk": [
+      [
+        0.7,
+        0.8
+      ],
+      [
+        0.3,
+        0.85
+      ],
+      [
+        0.8,
+        0.3
+      ]
+    ],
+    "12e_church_crowd": [
+      [
+        0.49,
+        0.85
+      ],
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.7,
+        0.88
+      ]
+    ],
+    "12f_running": [
+      [
+        0.35,
+        0.88
+      ],
+      [
+        0.2,
+        0.8
+      ],
+      [
+        0.75,
+        0.9
+      ]
+    ],
+    "13_gallop": [
+      [
+        0.49,
+        0.8
+      ],
+      [
+        0.6,
+        0.2
+      ],
+      [
+        0.8,
+        0.6
+      ]
+    ],
+    "13b_bed": [
+      [
+        0.6,
+        0.7
+      ],
+      [
+        0.24,
+        0.92
+      ],
+      [
+        0.93,
+        0.92
+      ]
+    ],
+    "13d_arm": [
+      [
+        0.3,
+        0.72
+      ],
+      [
+        0.73,
+        0.58
+      ],
+      [
+        0.54,
+        0.62
+      ]
+    ],
+    "13e_hare_wolf": [
+      [
+        0.36,
+        0.9
+      ],
+      [
+        0.72,
+        0.92
+      ],
+      [
+        0.55,
+        0.5
+      ]
+    ],
+    "13f_farewell": [
+      [
+        0.56,
+        0.6
+      ],
+      [
+        0.79,
+        0.9
+      ],
+      [
+        0.2,
+        0.6
+      ]
+    ],
+    "13g_black_cloud": [
+      [
+        0.5,
+        0.2
+      ],
+      [
+        0.62,
+        0.78
+      ],
+      [
+        0.3,
+        0.95
+      ]
+    ],
+    "14_hail": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.82,
+        0.7
+      ],
+      [
+        0.46,
+        0.25
+      ]
+    ],
+    "14b_yarmola_bed": [
+      [
+        0.7,
+        0.88
+      ],
+      [
+        0.4,
+        0.3
+      ],
+      [
+        0.3,
+        0.65
+      ]
+    ],
+    "14c_empty_hut": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.82,
+        0.75
+      ],
+      [
+        0.5,
+        0.9
+      ]
+    ],
+    "14d_beads": [
+      [
+        0.74,
+        0.4
+      ],
+      [
+        0.8,
+        0.5
+      ],
+      [
+        0.3,
+        0.7
+      ]
+    ]
+  },
+  "fx": {
+    "1b_village": "snow",
+    "2_empty_house": "snow",
+    "2c_witch_driven": "snow",
+    "3b_snow_forest": "snow",
+    "3d_lost_marsh": "snow",
+    "3e_hut_ext": "snow",
+    "3i_path_fence": "snow",
+    "3j_red_skirt": "snow",
+    "3k_olesya_close": "snow",
+    "4h_exile": "snow",
+    "8_rain_garden": "rain",
+    "14_hail": "rain",
+    "8b_cart": "rain",
+    "1_stove": "flicker",
+    "1c_patient": "flicker",
+    "1d_lesson": "flicker",
+    "1e_pen": "flicker",
+    "2b_stove_talk": "flicker",
+    "3f_hut_int": "flicker",
+    "3g_cards": "flicker",
+    "3h_olesya_enters": "flicker",
+    "4c_spinning": "flicker",
+    "4d_cards_olesya": "flicker",
+    "5_supper": "flicker",
+    "7_dejected": "flicker",
+    "7b_notice": "flicker",
+    "8c_vodka_table": "flicker",
+    "8d_book": "flicker",
+    "8e_gun_gift": "flicker",
+    "9_silent": "flicker",
+    "9c_fever_bed": "flicker",
+    "10_threshold": "flicker",
+    "13b_bed": "flicker",
+    "13f_farewell": "flicker",
+    "14c_empty_hut": "flicker"
+  },
+  "episodes": [
+    {
+      "title": "The Witch of the Marsh",
+      "from_part": "I",
+      "to_part": "III",
+      "thumb_art": "3h_olesya_enters",
+      "blurb": "A bored young writer snowed in at a Polesye village, a forester who cannot learn to read, a rumour of a witch in the marsh, and a girl with three finches in her apron."
+    },
+    {
+      "title": "The Cards and the Charm",
+      "from_part": "IV",
+      "to_part": "VII",
+      "thumb_art": "5b_forest_road",
+      "blurb": "Spring comes. Olesya will not read the cards twice, shows him a charm on a forest road, and then the constable orders the two women out of the forest."
+    },
+    {
+      "title": "Moonlight in the Pine Forest",
+      "from_part": "VIII",
+      "to_part": "XI",
+      "thumb_art": "10d_moonlit",
+      "blurb": "A gun for the constable, a fever, a night in the moonlit pines, and a June evening when Ivan Timofeyevich asks Olesya to be his wife."
+    },
+    {
+      "title": "Trinity Day",
+      "from_part": "XII",
+      "to_part": "XIV",
+      "thumb_art": "12e_church_crowd",
+      "blurb": "Olesya goes to church for him. What the village does to her, the tale of the hare and the wolf, a storm of hail, and a string of red beads."
+    }
+  ],
+  "glossary": [
+    [
+      "Polesye",
+      "a vast region of forest and marsh in the north of Ukraine and the south of Belarus; in Kuprin's time part of the Russian Empire."
+    ],
+    [
+      "Volhynia",
+      "a province of the Russian Empire (now north-western Ukraine) in which the story is set."
+    ],
+    [
+      "verst",
+      "a Russian measure of distance, a little over a kilometre (about two thirds of a mile)."
+    ],
+    [
+      "arshin",
+      "an old Russian measure of length, about 71 centimetres."
+    ],
+    [
+      "constable (uryadnik)",
+      "the lowest rank of rural police officer in the Russian Empire, in charge of a district."
+    ],
+    [
+      "zlot, kopeck",
+      "small coins: a zlot was fifteen kopecks, a kopeck a hundredth of a rouble."
+    ],
+    [
+      "krupnik",
+      "a thick pottage of groats (here buckwheat) with bacon, onion and potatoes."
+    ],
+    [
+      "Trinity Day",
+      "the feast of Pentecost, a great church holiday and a day of fairs and heavy drinking in the village."
+    ],
+    [
+      "lyre-player (lirnik)",
+      "a blind wandering singer who accompanied old ballads (dumas) on a hurdy-gurdy-like lyre."
+    ],
+    [
+      "Pochaev",
+      "a famous monastery in Volhynia, defended in the legend against the Turks."
+    ],
+    [
+      "tar",
+      "in Ukraine, to smear a girl's gate with tar was to brand her as dishonoured."
+    ]
+  ],
+  "thumb_art": "3h_olesya_enters",
+  "thumb_position": "50% 50%",
+  "thumb_sub": "A NOVELLA<br>FULL-CAST AUDIOBOOK",
+  "cover_bg": [
+    "#0a1224",
+    "#2a3e44"
+  ],
+  "summary": "A young writer posted to a Polesye village goes looking for a witch in the marsh and finds Olesya, a free, proud forest girl who reads the cards, loves the birds, and will not be told what to fear. Kuprin's most tender story of first love and the cruelty of a village.",
+  "site_description": "Ivan Timofeyevich, a city writer stranded for the winter in a village in Polesye, hears of a witch who lives in the marsh and goes to see her. In the cabin on hen's legs he meets her granddaughter Olesya, who tells fortunes, charms blood and does not fear anything but her fate. A story of a spring and summer in the forest, of love, of what a village does to the one who is different, and of a string of red beads. Kuprin's novella of 1898, one of the best loved in Russian.",
+  "tags": [
+    "Kuprin",
+    "Alexander Kuprin",
+    "Olesya",
+    "audiobook",
+    "full cast audiobook",
+    "novella",
+    "love story",
+    "classic literature",
+    "Russian literature",
+    "Polesye",
+    "public domain",
+    "English audiobook"
+  ],
+  "hashtags": "#Kuprin #audiobook #classicliterature #russianliterature #publicdomain",
+  "playlist": "PLVuswr3XMg9E",
+  "text_note": "Translated from the Russian by an AI, a draft that needs a human editor.",
+  "ru": {
+    "title": "Олеся",
+    "author": "Александр Куприн",
+    "names": {
+      "I": "Уроки лесника",
+      "II": "Ведьма из болота",
+      "III": "Избушка на курьих ножках",
+      "IV": "Карты",
+      "V": "Колдовство",
+      "VI": "Вечера в лесу",
+      "VII": "Приказ выселяться",
+      "VIII": "Урядник и ружьё",
+      "IX": "Лихорадка",
+      "X": "Лунная просека",
+      "XI": "Предложение",
+      "XII": "Троицын день",
+      "XIII": "Заяц и волк",
+      "XIV": "Град"
+    },
+    "note": "Повесть в издании для чтения с оригинальными иллюстрациями.",
+    "source_note": "Текст с ru.wikisource.org, по изданию: А. И. Куприн, Полное собрание сочинений (СПб.: Т-во А. Ф. Маркс, 1912), т. 5.",
+    "contents": "Содержание",
+    "back": "О тексте",
+    "small": "Текст повести находится в общественном достоянии. Строки стихов и обрывки фраз, разорванные при публикации, соединены. Названия глав и иллюстрации сделаны для этого издания. Набрано шрифтом Lora (SIL Open Font License).",
+    "description": "Иван Тимофеевич, городской литератор, проводит зиму в глухой деревне на Полесье и идёт посмотреть на ведьму, которая живёт в болоте. В избушке на курьих ножках он встречает Олесю, гадалку и лесную девушку, которая ничего не боится, кроме своей судьбы. Повесть Куприна 1898 года о весне, любви и жестокости деревни."
+  },
+  "series_playlist": "PLb5qT1huvOu0"
+}

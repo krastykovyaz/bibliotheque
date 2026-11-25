@@ -1,0 +1,34 @@
+{
+ "NARRATOR": {
+  "voice": "Sulafat",
+  "style": ""
+ },
+ "MERCHANT": {
+  "voice": "Achird",
+  "style": ""
+ },
+ "ELDEST": {
+  "voice": "Callirrhoe",
+  "style": ""
+ },
+ "MIDDLE": {
+  "voice": "Despina",
+  "style": ""
+ },
+ "YOUNGEST": {
+  "voice": "Leda",
+  "style": ""
+ },
+ "BEAST": {
+  "voice": "Charon",
+  "style": ""
+ },
+ "VOICES": {
+  "voice": "Fenrir",
+  "style": ""
+ },
+ "PRINCE": {
+  "voice": "Puck",
+  "style": ""
+ }
+}

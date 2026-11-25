@@ -1,0 +1,665 @@
+{
+  "slug": "dead-princess-and-seven-knights",
+  "prefix": "The_Dead_Princess",
+  "lang": "en",
+  "title": "The Tale of the Dead Princess and the Seven Knights",
+  "author": "Alexander Pushkin",
+  "author_ru": "Александр Пушкин",
+  "year": 1833,
+  "title_original": "Сказка о мёртвой царевне и о семи богатырях",
+  "publication_note": "a fairy tale in verse, written in Boldino in autumn 1833, first published in 1834",
+  "source_note": "Text from ru.wikisource.org, after A. S. Pushkin, Complete Works in 10 volumes (Leningrad, Nauka, 1977-1979), vol. 4.",
+  "translated_from": "the Russian original",
+  "parts": [
+    "I",
+    "II",
+    "III",
+    "IV",
+    "V",
+    "VI",
+    "VII",
+    "VIII"
+  ],
+  "names": {
+    "I": "The Queen and the Mirror",
+    "II": "Into the Forest",
+    "III": "The House in the Wood",
+    "IV": "The Seven Brothers",
+    "V": "The Old Beggar-Woman",
+    "VI": "The Crystal Coffin",
+    "VII": "The Sun, the Moon and the Wind",
+    "VIII": "The Wedding"
+  },
+  "art": {
+    "I": "1_window",
+    "II": "4_shatter",
+    "III": "8_house",
+    "IV": "11_days",
+    "V": "13_beggar",
+    "VI": "15_asleep",
+    "VII": "17_sun",
+    "VIII": "20_cave"
+  },
+  "art_alt": {
+    "1_window": "The queen sits sadly at a window, watching the snow fall, with a candle glowing beside her",
+    "2_mirror": "The queen in a purple dress and golden crown smiles at her magic mirror, which has a friendly glowing face",
+    "3_betrothed": "The young princess in a white dress and red headdress meets Prince Yelisey, who rides up on a white horse",
+    "4_shatter": "The angry queen stamps her foot and throws up her arms, while the mirror shows the lovely princess",
+    "5_forest": "Chernavka the maid in a blue dress leads the princess by the hand through the green forest",
+    "6_letgo": "Chernavka sets the princess free and waves her on her way as the sun rises among the trees",
+    "7_yelisey": "Prince Yelisey rides his white horse along a road at sunrise, looking for his bride",
+    "8_house": "The princess comes to a little house in the forest, and a white dog runs happily to meet her",
+    "9_inside": "Inside the cosy house the princess sweeps the floor, with a glowing tiled stove and the dog beside her",
+    "10_welcome": "Seven bearded knights in bright coats come into the room, and the princess welcomes them beside a table with a pie",
+    "11_days": "At sunrise the seven brothers ride away over the meadow while the princess waves from the porch with the dog",
+    "12_proposal": "The seven knights stand in a circle round the princess, who shakes her head gently and smiles",
+    "13_beggar": "An old nun with a staff stands at the gate while the dog barks, and the princess looks out of the window",
+    "14_apple": "The princess holds a golden apple, and the dog looks up at her, worried",
+    "15_asleep": "The princess lies asleep on a bench, and the knights stand quietly round her with bowed heads",
+    "16_coffin": "In a cave of the mountain a crystal coffin hangs on chains between pillars, and the seven knights bow to the sleeping princess",
+    "17_sun": "Prince Yelisey on his white horse asks the big smiling sun for help",
+    "18_moon": "Prince Yelisey on his white horse asks the smiling moon in the starry night",
+    "19_wind": "Prince Yelisey asks the wind, a round cloud with a face, who blows swirls across the sky and the sea",
+    "20_cave": "In the cave the crystal coffin has broken, the princess wakes, and Prince Yelisey holds her hand",
+    "21_wedding": "The wedding feast: the princess and the prince at a long table with the seven knights and the dog"
+  },
+  "focus": {
+    "1_window": [
+      [
+        0.55,
+        0.62
+      ],
+      [
+        0.5,
+        0.35
+      ],
+      [
+        0.84,
+        0.6
+      ]
+    ],
+    "2_mirror": [
+      [
+        0.32,
+        0.55
+      ],
+      [
+        0.66,
+        0.4
+      ],
+      [
+        0.5,
+        0.8
+      ]
+    ],
+    "3_betrothed": [
+      [
+        0.33,
+        0.6
+      ],
+      [
+        0.72,
+        0.6
+      ],
+      [
+        0.5,
+        0.3
+      ]
+    ],
+    "4_shatter": [
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.69,
+        0.4
+      ],
+      [
+        0.5,
+        0.85
+      ]
+    ],
+    "5_forest": [
+      [
+        0.41,
+        0.72
+      ],
+      [
+        0.59,
+        0.72
+      ],
+      [
+        0.5,
+        0.4
+      ]
+    ],
+    "6_letgo": [
+      [
+        0.35,
+        0.72
+      ],
+      [
+        0.56,
+        0.72
+      ],
+      [
+        0.74,
+        0.45
+      ]
+    ],
+    "7_yelisey": [
+      [
+        0.4,
+        0.65
+      ],
+      [
+        0.78,
+        0.5
+      ],
+      [
+        0.2,
+        0.3
+      ]
+    ],
+    "8_house": [
+      [
+        0.27,
+        0.7
+      ],
+      [
+        0.49,
+        0.75
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "9_inside": [
+      [
+        0.18,
+        0.6
+      ],
+      [
+        0.56,
+        0.7
+      ],
+      [
+        0.77,
+        0.8
+      ]
+    ],
+    "10_welcome": [
+      [
+        0.24,
+        0.7
+      ],
+      [
+        0.53,
+        0.6
+      ],
+      [
+        0.78,
+        0.75
+      ]
+    ],
+    "11_days": [
+      [
+        0.2,
+        0.75
+      ],
+      [
+        0.72,
+        0.75
+      ],
+      [
+        0.16,
+        0.5
+      ]
+    ],
+    "12_proposal": [
+      [
+        0.5,
+        0.65
+      ],
+      [
+        0.2,
+        0.8
+      ],
+      [
+        0.78,
+        0.8
+      ]
+    ],
+    "13_beggar": [
+      [
+        0.21,
+        0.75
+      ],
+      [
+        0.57,
+        0.62
+      ],
+      [
+        0.4,
+        0.85
+      ]
+    ],
+    "14_apple": [
+      [
+        0.5,
+        0.65
+      ],
+      [
+        0.2,
+        0.85
+      ],
+      [
+        0.8,
+        0.3
+      ]
+    ],
+    "15_asleep": [
+      [
+        0.2,
+        0.55
+      ],
+      [
+        0.12,
+        0.85
+      ],
+      [
+        0.85,
+        0.9
+      ]
+    ],
+    "16_coffin": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.5,
+        0.9
+      ],
+      [
+        0.5,
+        0.15
+      ]
+    ],
+    "17_sun": [
+      [
+        0.33,
+        0.7
+      ],
+      [
+        0.66,
+        0.35
+      ],
+      [
+        0.8,
+        0.8
+      ]
+    ],
+    "18_moon": [
+      [
+        0.35,
+        0.75
+      ],
+      [
+        0.69,
+        0.31
+      ],
+      [
+        0.2,
+        0.2
+      ]
+    ],
+    "19_wind": [
+      [
+        0.21,
+        0.75
+      ],
+      [
+        0.66,
+        0.45
+      ],
+      [
+        0.5,
+        0.9
+      ]
+    ],
+    "20_cave": [
+      [
+        0.49,
+        0.7
+      ],
+      [
+        0.66,
+        0.8
+      ],
+      [
+        0.4,
+        0.65
+      ]
+    ],
+    "21_wedding": [
+      [
+        0.5,
+        0.7
+      ],
+      [
+        0.15,
+        0.85
+      ],
+      [
+        0.8,
+        0.8
+      ]
+    ]
+  },
+  "fx": {
+    "1_window": "snow",
+    "5_forest": "leaves",
+    "6_letgo": "leaves",
+    "8_house": "leaves",
+    "13_beggar": "leaves",
+    "9_inside": "flicker",
+    "10_welcome": "flicker",
+    "14_apple": "flicker",
+    "16_coffin": "flicker",
+    "20_cave": "flicker",
+    "21_wedding": "flicker"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "art": "1_window"
+    },
+    {
+      "id": 5,
+      "art": "2_mirror"
+    },
+    {
+      "id": 10,
+      "art": "4_shatter"
+    },
+    {
+      "id": 19,
+      "art": "5_forest"
+    },
+    {
+      "id": 26,
+      "art": "7_yelisey"
+    },
+    {
+      "id": 27,
+      "art": "8_house"
+    },
+    {
+      "id": 29,
+      "art": "10_welcome"
+    },
+    {
+      "id": 32,
+      "art": "11_days"
+    },
+    {
+      "id": 33,
+      "art": "12_proposal"
+    },
+    {
+      "id": 41,
+      "art": "2_mirror"
+    },
+    {
+      "id": 47,
+      "art": "13_beggar"
+    },
+    {
+      "id": 58,
+      "art": "14_apple"
+    },
+    {
+      "id": 61,
+      "art": "15_asleep"
+    },
+    {
+      "id": 63,
+      "art": "16_coffin"
+    },
+    {
+      "id": 65,
+      "art": "2_mirror"
+    },
+    {
+      "id": 69,
+      "art": "17_sun"
+    },
+    {
+      "id": 73,
+      "art": "18_moon"
+    },
+    {
+      "id": 79,
+      "art": "19_wind"
+    },
+    {
+      "id": 83,
+      "art": "20_cave"
+    },
+    {
+      "id": 85,
+      "art": "4_shatter"
+    },
+    {
+      "id": 90,
+      "art": "21_wedding"
+    }
+  ],
+  "figures": [
+    {
+      "part": "I",
+      "after": 4,
+      "art": "2_mirror",
+      "caption": "The queen and her talking mirror.",
+      "caption_ru": "Царица и её говорящее зеркальце."
+    },
+    {
+      "part": "I",
+      "after": 6,
+      "art": "3_betrothed",
+      "caption": "The princess grows up, and Prince Yelisey comes to ask for her hand.",
+      "caption_ru": "Царевна подросла, и королевич Елисей приходит просить её руки."
+    },
+    {
+      "part": "II",
+      "after": 5,
+      "art": "5_forest",
+      "caption": "Chernavka leads the princess into the green forest.",
+      "caption_ru": "Чернавка ведёт царевну в зелёный лес."
+    },
+    {
+      "part": "II",
+      "after": 6,
+      "art": "6_letgo",
+      "caption": "Kind Chernavka lets the princess go.",
+      "caption_ru": "Добрая Чернавка отпускает царевну."
+    },
+    {
+      "part": "III",
+      "after": 2,
+      "art": "9_inside",
+      "caption": "The princess tidies the little house and lights the stove.",
+      "caption_ru": "Царевна прибирает терем и топит печку."
+    },
+    {
+      "part": "III",
+      "after": 3,
+      "art": "10_welcome",
+      "caption": "The seven knights come home and find a guest.",
+      "caption_ru": "Семь богатырей возвращаются домой и находят гостью."
+    },
+    {
+      "part": "IV",
+      "after": 2,
+      "art": "12_proposal",
+      "caption": "The brothers ask the princess to be a wife to one of them, and she answers kindly.",
+      "caption_ru": "Братья просят царевну стать женой одного из них, и она отвечает им ласково."
+    },
+    {
+      "part": "V",
+      "after": 5,
+      "art": "14_apple",
+      "caption": "The golden apple, and Sokolko, who tries to warn her.",
+      "caption_ru": "Золотое яблочко и Соколко, который хочет её предостеречь."
+    },
+    {
+      "part": "VI",
+      "after": 3,
+      "art": "16_coffin",
+      "caption": "The brothers lay their sister to rest in a crystal coffin in the mountain.",
+      "caption_ru": "Братья кладут сестру в хрустальный гроб в горе."
+    },
+    {
+      "part": "VII",
+      "after": 3,
+      "art": "18_moon",
+      "caption": "Yelisey asks the moon for help.",
+      "caption_ru": "Елисей просит помощи у месяца."
+    },
+    {
+      "part": "VII",
+      "after": 4,
+      "art": "19_wind",
+      "caption": "The wind knows where the princess is.",
+      "caption_ru": "Ветер знает, где царевна."
+    },
+    {
+      "part": "VIII",
+      "after": 4,
+      "art": "21_wedding",
+      "caption": "A wedding feast such as the world has never seen.",
+      "caption_ru": "Свадебный пир, какого свет не видывал."
+    }
+  ],
+  "glossary": [
+    [
+      "Tsar",
+      "the king of old Russia. His wife is the tsaritsa, or queen, and his daughter is the tsarevna, or princess."
+    ],
+    [
+      "Chernavka",
+      "the queen's maid; her name comes from a word for “dark”, because of her dark hair (say chair-NAHV-ka)."
+    ],
+    [
+      "Yelisey",
+      "the prince, a king's son, who loves the princess (say yeh-lee-SAY)."
+    ],
+    [
+      "Sokolko",
+      "the faithful dog of the seven knights; his name means “little falcon” (say so-KOL-ko)."
+    ],
+    [
+      "knight",
+      "a brave horseman and defender of the land; in the Russian tale they are called bogatyrs, the strong heroes of old stories."
+    ],
+    [
+      "mirror",
+      "a piece of polished glass in which you see yourself. This one is magic and can talk."
+    ],
+    [
+      "icons",
+      "holy pictures that hung in the corner of every Russian house, where people lit a candle and prayed."
+    ],
+    [
+      "stove",
+      "the big tiled stove that kept a Russian house warm and cooked the food."
+    ],
+    [
+      "nun",
+      "a woman who lives in a convent and has given her life to prayer; she wears long dark clothes."
+    ],
+    [
+      "spinning",
+      "making thread from wool or flax on a spinning wheel; girls did it by the window, waiting and thinking."
+    ],
+    [
+      "crystal coffin",
+      "a coffin of clear glass-like stone, so that she could be seen as if she were only sleeping."
+    ],
+    [
+      "mead",
+      "a sweet drink made from honey; people drank it at weddings and feasts."
+    ]
+  ],
+  "thumb_art": "20_cave",
+  "thumb_position": "50% 60%",
+  "thumb_sub": "A FAIRY TALE IN VERSE FOR CHILDREN<br>FULL-CAST AUDIOBOOK",
+  "cover_bg": [
+    "#2c3a78",
+    "#8a9ad8"
+  ],
+  "kids": true,
+  "summary": "A wicked queen, a magic mirror, a golden apple, seven kind brothers and a faithful dog: Pushkin's fairy tale in verse about a princess, and the prince who asks the sun, the moon and the wind to find her. For children, and for listening together.",
+  "site_description": "A queen asks her magic mirror who is the fairest in the world, and the mirror says: the young princess. Sent away to the forest, the princess finds a house where seven knights live, and she keeps it for them like a sister. But the queen finds her out and sends a golden apple. Meanwhile Prince Yelisey rides across the world and asks the sun, the moon and the wind where his bride is. Alexander Pushkin's fairy tale in verse of 1833, in simple English verse for children and for listening together, as a full-cast audiobook with many illustrations.",
+  "tags": [
+    "Pushkin",
+    "Alexander Pushkin",
+    "Dead Princess",
+    "Seven Knights",
+    "Snow White",
+    "fairy tale",
+    "fairy tale in verse",
+    "bedtime story",
+    "Christmas story",
+    "children's audiobook",
+    "audiobook",
+    "full cast audiobook",
+    "Russian fairy tale",
+    "Russian literature",
+    "public domain",
+    "English audiobook"
+  ],
+  "hashtags": "#fairytale #bedtimestory #audiobook #Pushkin #publicdomain",
+  "playlist": "PLVuswr3XMg9E",
+  "text_note": "English verse written for children from the Russian original, a free rendering that keeps the story and the stanzas but not the rhymes of the original. A draft that needs a human editor.",
+  "ru": {
+    "title": "Сказка о мёртвой царевне и о семи богатырях",
+    "author": "Александр Пушкин",
+    "names": {
+      "I": "Царица и зеркальце",
+      "II": "В лес",
+      "III": "Дом в лесу",
+      "IV": "Семь братьев",
+      "V": "Старая нищенка",
+      "VI": "Хрустальный гроб",
+      "VII": "Солнце, месяц и ветер",
+      "VIII": "Свадьба"
+    },
+    "note": "Сказка в стихах в издании для чтения с иллюстрациями.",
+    "source_note": "Текст с ru.wikisource.org, по изданию: А. С. Пушкин, Полное собрание сочинений в 10 томах (Л.: Наука, 1977—1979), т. 4.",
+    "contents": "Содержание",
+    "back": "О тексте",
+    "small": "Текст сказки находится в общественном достоянии. Названия частей и иллюстрации сделаны для этого издания. Набрано шрифтом Lora (SIL Open Font License).",
+    "description": "Злая царица спрашивает зеркальце, кто всех милее, и слышит: молодая царевна. Царевна находит в лесу терем семи богатырей. Королевич Елисей ищет невесту и спрашивает солнце, месяц и ветер. Сказка в стихах Александра Пушкина (1833), чтобы слушать вместе с детьми.",
+    "hashtags": "#сказка #аудиокнига #длядетей #Пушкин #сказкавстихах #русскиесказки",
+    "thumb_sub": "СКАЗКА В СТИХАХ<br>АУДИОКНИГА",
+    "tags": [
+      "Пушкин",
+      "Александр Пушкин",
+      "Сказка о мёртвой царевне",
+      "Мёртвая царевна и семь богатырей",
+      "сказка в стихах",
+      "сказки Пушкина",
+      "сказка на ночь",
+      "аудиокнига для детей",
+      "аудиосказка",
+      "сказки для детей",
+      "слушать сказку",
+      "русская сказка"
+    ]
+  },
+  "shot_seconds": 15
+}

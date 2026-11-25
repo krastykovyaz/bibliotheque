@@ -1,0 +1,1013 @@
+{
+  "slug": "the-scarlet-flower",
+  "prefix": "The_Scarlet_Flower",
+  "lang": "en",
+  "title": "The Scarlet Flower",
+  "author": "Sergey Aksakov",
+  "author_ru": "Сергей Аксаков",
+  "year": 1858,
+  "title_original": "Аленький цветочек",
+  "publication_note": "from «The Childhood Years of Bagrov the Grandson», 1858: the tale of the housekeeper Pelageya",
+  "source_note": "Text from ru.wikisource.org, after «Skazki russkikh pisateley» (Moscow, Detskaya literatura, 1980), from S. T. Aksakov's tale as told by the housekeeper Pelageya.",
+  "translated_from": "the Russian original",
+  "parts": [
+    "I",
+    "II",
+    "III",
+    "IV",
+    "V",
+    "VI",
+    "VII",
+    "VIII",
+    "IX"
+  ],
+  "names": {
+    "I": "The Three Gifts",
+    "II": "The Shining Palace",
+    "III": "The Scarlet Flower",
+    "IV": "The Youngest Daughter",
+    "V": "A New Home",
+    "VI": "The Voice in the Garden",
+    "VII": "The Beast Shows Himself",
+    "VIII": "Three Days at Home",
+    "IX": "The Spell Is Broken"
+  },
+  "art": {
+    "I": "1_house",
+    "II": "9_palace",
+    "III": "13_flower",
+    "IV": "16_home",
+    "V": "21_waking",
+    "VI": "26_arbor",
+    "VII": "28_dusk",
+    "VIII": "31_home",
+    "IX": "33_return"
+  },
+  "art_alt": {
+    "1_house": "The merchant stands with his three daughters in front of their carved wooden house on a sunny summer day",
+    "2_crown": "The eldest daughter in a purple dress asks her father for a golden crown that shines in the dark, drawn in a thought bubble",
+    "3_mirror": "The middle daughter in a teal dress asks for a crystal mirror in which she can see all the beauty under the sky, drawn in a thought bubble",
+    "4_flower_ask": "The youngest daughter in a scarlet dress asks her father for a little scarlet flower, drawn glowing in a thought bubble",
+    "5_ship": "The merchant sails over the blue sea on a big ship with white sails, under gulls and a bright sun",
+    "6_market": "At a market in a far country the merchant holds the golden crown and the crystal mirror, but cannot find the scarlet flower among the stalls",
+    "7_forest_run": "The merchant runs into the dark green forest while his wagons wait on the road far behind him, and little riders come over the hill",
+    "8_path": "A bright golden path winds through the dark forest at night; the trees step aside for the merchant, and a glow shines at the end",
+    "9_palace": "A shining golden palace with fountains stands in a forest clearing at night, glowing like the sun, with a small merchant in front of it",
+    "10_table": "In a splendid empty hall a golden table has appeared with dishes for the hungry merchant, and music notes float in the air",
+    "11_bed": "The merchant sleeps in a golden bed with a silver curtain and dreams of his three daughters in a bubble above him",
+    "12_garden": "In the morning sun the merchant walks in the palace garden among fountains, fruit trees, bright flowers and singing birds",
+    "13_flower": "On a little green hill the merchant finds the glowing scarlet flower and cries out with joy, with fountains and trees behind him",
+    "14_beast": "The merchant kneels with the scarlet flower in his hand while the big shaggy Beast of the forest stands over him and little woodland creatures peek out from the bushes",
+    "15_ring": "The Beast holds out his golden ring to the kneeling merchant who has promised to come back, in the green garden with the scarlet flower glowing nearby",
+    "16_home": "The merchant is home at last: his daughters run out of the carved wooden house to hug him while his wagons roll in through the gate",
+    "17_gifts": "In the warm room the merchant opens his travelling chest: the eldest daughter tries on the golden crown, the middle one holds the crystal mirror, and the youngest gazes at her scarlet flower with tears",
+    "18_refuse": "The two elder sisters turn their backs and shake their heads, saying no, while the worried merchant sits with his hands open",
+    "19_kneel": "The youngest daughter kneels in front of her father and asks for his blessing, ready to go to the Beast of the forest",
+    "20_farewell": "At the farewell the merchant puts the Beast's golden ring on his youngest daughter's finger, and the sisters weep beside them",
+    "21_waking": "The youngest daughter wakes in a golden bed in the beast's palace, in a room with walls of mirror, gold, silver and ivory, with her scarlet flower on a green table and music in the air",
+    "22_replant": "In the garden the girl lets go of the scarlet flower and it flies by itself back onto its stem on the green hill, while the trees bow to her",
+    "23_fire": "In a white marble hall glowing words of fire appear on the wall for the girl, and on a table lie paper, a golden pen and an inkwell for her letter",
+    "24_maid": "At night in her bedroom the girl and her maid sit close together on the bed, whispering and hugging by candlelight, with the moon in the window",
+    "25_carriage": "The girl rides in a golden carriage that drives itself without horses through the green forest, which opens a wide smooth road for her, while music plays",
+    "26_arbor": "The girl sits in her favourite arbour woven of leaves and flowers; a big shaggy paw holds a small flower out from behind it, and a soft golden glow shines through the leaves",
+    "27_wish": "The girl begs with folded hands to see her friend; behind a big tree the kind eyes of the shy Beast peek out from the shadow",
+    "28_dusk": "At sunset the girl puts her hands to her face as the big shaggy Beast steps shyly across the garden path far away, looking sad and gentle",
+    "29_friends": "The girl and the Beast walk side by side through the evening garden, as good friends, with the scarlet flower glowing behind them",
+    "30_dream": "At night the girl sits up in bed crying after a bad dream about her father, who lies ill in a dream bubble, while the kind Beast stands at the door with a worried face",
+    "31_home": "The girl arrives in a rich royal dress at her father's house; the servants cheer, her sisters stare in wonder, and her father opens his arms",
+    "32_clocks": "The two sisters secretly turn back the hands of the big clock, whispering and giggling, while their little sister chats with her father in the corner of the room",
+    "33_return": "Back in the beast's palace the girl cups her hands and calls into a silent garden where the fountains, birds and music have all stopped",
+    "34_hill": "On the green hill the girl kneels and hugs the sleeping Beast's shaggy head, with tears on her cheeks, as he lies still beside the scarlet flower",
+    "35_prince": "In a white marble hall a handsome young prince with a golden crown holds the girl in his arms after the spell is broken, while her father, her sisters and a crowd of servants bow around them",
+    "36_wedding": "A merry wedding feast in the garden: the prince and the bride sit at a long table with the merchant, the sisters and the guests, under garlands of flowers and lanterns, with musicians playing"
+  },
+  "focus": {
+    "1_house": [
+      [
+        0.4,
+        0.6
+      ],
+      [
+        0.72,
+        0.6
+      ],
+      [
+        0.58,
+        0.78
+      ]
+    ],
+    "2_crown": [
+      [
+        0.3,
+        0.3
+      ],
+      [
+        0.6,
+        0.75
+      ],
+      [
+        0.75,
+        0.75
+      ]
+    ],
+    "3_mirror": [
+      [
+        0.3,
+        0.3
+      ],
+      [
+        0.6,
+        0.75
+      ],
+      [
+        0.75,
+        0.75
+      ]
+    ],
+    "4_flower_ask": [
+      [
+        0.3,
+        0.3
+      ],
+      [
+        0.6,
+        0.75
+      ],
+      [
+        0.75,
+        0.75
+      ]
+    ],
+    "5_ship": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.3,
+        0.8
+      ],
+      [
+        0.8,
+        0.3
+      ]
+    ],
+    "6_market": [
+      [
+        0.35,
+        0.6
+      ],
+      [
+        0.75,
+        0.5
+      ],
+      [
+        0.55,
+        0.85
+      ]
+    ],
+    "7_forest_run": [
+      [
+        0.35,
+        0.7
+      ],
+      [
+        0.85,
+        0.55
+      ],
+      [
+        0.18,
+        0.65
+      ]
+    ],
+    "8_path": [
+      [
+        0.3,
+        0.78
+      ],
+      [
+        0.75,
+        0.5
+      ],
+      [
+        0.5,
+        0.3
+      ]
+    ],
+    "9_palace": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.25,
+        0.8
+      ],
+      [
+        0.72,
+        0.8
+      ]
+    ],
+    "10_table": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.78,
+        0.6
+      ],
+      [
+        0.3,
+        0.3
+      ]
+    ],
+    "11_bed": [
+      [
+        0.5,
+        0.7
+      ],
+      [
+        0.5,
+        0.3
+      ],
+      [
+        0.85,
+        0.55
+      ]
+    ],
+    "12_garden": [
+      [
+        0.3,
+        0.75
+      ],
+      [
+        0.7,
+        0.45
+      ],
+      [
+        0.5,
+        0.85
+      ]
+    ],
+    "13_flower": [
+      [
+        0.62,
+        0.62
+      ],
+      [
+        0.3,
+        0.75
+      ],
+      [
+        0.5,
+        0.3
+      ]
+    ],
+    "14_beast": [
+      [
+        0.62,
+        0.5
+      ],
+      [
+        0.32,
+        0.75
+      ],
+      [
+        0.85,
+        0.8
+      ]
+    ],
+    "15_ring": [
+      [
+        0.7,
+        0.6
+      ],
+      [
+        0.35,
+        0.8
+      ],
+      [
+        0.52,
+        0.35
+      ]
+    ],
+    "16_home": [
+      [
+        0.45,
+        0.7
+      ],
+      [
+        0.78,
+        0.6
+      ],
+      [
+        0.2,
+        0.75
+      ]
+    ],
+    "17_gifts": [
+      [
+        0.25,
+        0.6
+      ],
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.78,
+        0.6
+      ]
+    ],
+    "18_refuse": [
+      [
+        0.3,
+        0.6
+      ],
+      [
+        0.7,
+        0.55
+      ],
+      [
+        0.5,
+        0.8
+      ]
+    ],
+    "19_kneel": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.7,
+        0.6
+      ],
+      [
+        0.4,
+        0.75
+      ]
+    ],
+    "20_farewell": [
+      [
+        0.52,
+        0.6
+      ],
+      [
+        0.2,
+        0.65
+      ],
+      [
+        0.85,
+        0.65
+      ]
+    ],
+    "21_waking": [
+      [
+        0.4,
+        0.65
+      ],
+      [
+        0.75,
+        0.55
+      ],
+      [
+        0.3,
+        0.25
+      ]
+    ],
+    "22_replant": [
+      [
+        0.42,
+        0.65
+      ],
+      [
+        0.75,
+        0.6
+      ],
+      [
+        0.2,
+        0.45
+      ]
+    ],
+    "23_fire": [
+      [
+        0.3,
+        0.3
+      ],
+      [
+        0.45,
+        0.75
+      ],
+      [
+        0.8,
+        0.65
+      ]
+    ],
+    "24_maid": [
+      [
+        0.45,
+        0.65
+      ],
+      [
+        0.8,
+        0.4
+      ],
+      [
+        0.25,
+        0.45
+      ]
+    ],
+    "25_carriage": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.25,
+        0.45
+      ],
+      [
+        0.85,
+        0.5
+      ]
+    ],
+    "26_arbor": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.78,
+        0.55
+      ],
+      [
+        0.3,
+        0.35
+      ]
+    ],
+    "27_wish": [
+      [
+        0.3,
+        0.65
+      ],
+      [
+        0.75,
+        0.45
+      ],
+      [
+        0.55,
+        0.8
+      ]
+    ],
+    "28_dusk": [
+      [
+        0.3,
+        0.7
+      ],
+      [
+        0.78,
+        0.55
+      ],
+      [
+        0.55,
+        0.3
+      ]
+    ],
+    "29_friends": [
+      [
+        0.45,
+        0.6
+      ],
+      [
+        0.75,
+        0.45
+      ],
+      [
+        0.2,
+        0.75
+      ]
+    ],
+    "30_dream": [
+      [
+        0.4,
+        0.6
+      ],
+      [
+        0.55,
+        0.25
+      ],
+      [
+        0.88,
+        0.7
+      ]
+    ],
+    "31_home": [
+      [
+        0.62,
+        0.6
+      ],
+      [
+        0.28,
+        0.6
+      ],
+      [
+        0.82,
+        0.5
+      ]
+    ],
+    "32_clocks": [
+      [
+        0.4,
+        0.45
+      ],
+      [
+        0.2,
+        0.7
+      ],
+      [
+        0.82,
+        0.65
+      ]
+    ],
+    "33_return": [
+      [
+        0.3,
+        0.65
+      ],
+      [
+        0.7,
+        0.5
+      ],
+      [
+        0.55,
+        0.85
+      ]
+    ],
+    "34_hill": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.75,
+        0.55
+      ],
+      [
+        0.28,
+        0.6
+      ]
+    ],
+    "35_prince": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.2,
+        0.65
+      ],
+      [
+        0.85,
+        0.6
+      ]
+    ],
+    "36_wedding": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.15,
+        0.65
+      ],
+      [
+        0.85,
+        0.65
+      ]
+    ]
+  },
+  "fx": {
+    "1_house": "leaves",
+    "5_ship": "leaves",
+    "7_forest_run": "leaves",
+    "8_path": "flicker",
+    "9_palace": "flicker",
+    "10_table": "flicker",
+    "11_bed": "flicker",
+    "12_garden": "leaves",
+    "13_flower": "leaves",
+    "14_beast": "flicker",
+    "15_ring": "leaves",
+    "16_home": "leaves",
+    "17_gifts": "flicker",
+    "19_kneel": "flicker",
+    "20_farewell": "flicker",
+    "21_waking": "flicker",
+    "22_replant": "leaves",
+    "23_fire": "flicker",
+    "24_maid": "flicker",
+    "25_carriage": "leaves",
+    "26_arbor": "leaves",
+    "27_wish": "leaves",
+    "28_dusk": "leaves",
+    "29_friends": "leaves",
+    "30_dream": "flicker",
+    "31_home": "leaves",
+    "32_clocks": "flicker",
+    "33_return": "leaves",
+    "34_hill": "leaves",
+    "35_prince": "flicker",
+    "36_wedding": "leaves"
+  },
+  "scenes": [
+    {
+      "id": 6,
+      "art": "2_crown"
+    },
+    {
+      "id": 10,
+      "art": "3_mirror"
+    },
+    {
+      "id": 14,
+      "art": "4_flower_ask"
+    },
+    {
+      "id": 18,
+      "art": "5_ship"
+    },
+    {
+      "id": 19,
+      "art": "6_market"
+    },
+    {
+      "id": 20,
+      "art": "7_forest_run"
+    },
+    {
+      "id": 21,
+      "art": "8_path"
+    },
+    {
+      "id": 23,
+      "art": "9_palace"
+    },
+    {
+      "id": 25,
+      "art": "10_table"
+    },
+    {
+      "id": 26,
+      "art": "11_bed"
+    },
+    {
+      "id": 29,
+      "art": "12_garden"
+    },
+    {
+      "id": 31,
+      "art": "13_flower"
+    },
+    {
+      "id": 33,
+      "art": "14_beast"
+    },
+    {
+      "id": 41,
+      "art": "15_ring"
+    },
+    {
+      "id": 46,
+      "art": "16_home"
+    },
+    {
+      "id": 50,
+      "art": "17_gifts"
+    },
+    {
+      "id": 54,
+      "art": "18_refuse"
+    },
+    {
+      "id": 58,
+      "art": "19_kneel"
+    },
+    {
+      "id": 66,
+      "art": "20_farewell"
+    },
+    {
+      "id": 67,
+      "art": "21_waking"
+    },
+    {
+      "id": 69,
+      "art": "22_replant"
+    },
+    {
+      "id": 70,
+      "art": "23_fire"
+    },
+    {
+      "id": 82,
+      "art": "24_maid"
+    },
+    {
+      "id": 83,
+      "art": "25_carriage"
+    },
+    {
+      "id": 85,
+      "art": "26_arbor"
+    },
+    {
+      "id": 95,
+      "art": "27_wish"
+    },
+    {
+      "id": 101,
+      "art": "28_dusk"
+    },
+    {
+      "id": 104,
+      "art": "29_friends"
+    },
+    {
+      "id": 107,
+      "art": "30_dream"
+    },
+    {
+      "id": 109,
+      "art": "31_home"
+    },
+    {
+      "id": 113,
+      "art": "32_clocks"
+    },
+    {
+      "id": 114,
+      "art": "33_return"
+    },
+    {
+      "id": 116,
+      "art": "34_hill"
+    },
+    {
+      "id": 119,
+      "art": "35_prince"
+    },
+    {
+      "id": 121,
+      "art": "36_wedding"
+    }
+  ],
+  "figures": [
+    {
+      "part": "I",
+      "after": 8,
+      "art": "2_crown",
+      "caption": "The eldest daughter wants a golden crown that shines in the dark.",
+      "caption_ru": "Старшая дочь просит золотой венец, который светит в темноте."
+    },
+    {
+      "part": "I",
+      "after": 15,
+      "art": "4_flower_ask",
+      "caption": "The youngest asks for only a little scarlet flower.",
+      "caption_ru": "Младшая просит только аленький цветочек."
+    },
+    {
+      "part": "II",
+      "after": 3,
+      "art": "8_path",
+      "caption": "The forest opens a shining path for the merchant.",
+      "caption_ru": "Лес открывает купцу светлую тропинку."
+    },
+    {
+      "part": "II",
+      "after": 9,
+      "art": "11_bed",
+      "caption": "The merchant sleeps in a golden bed and dreams of his daughters.",
+      "caption_ru": "Купец спит на золотой кровати и видит во сне дочерей."
+    },
+    {
+      "part": "III",
+      "after": 6,
+      "art": "14_beast",
+      "caption": "The Beast of the forest is sad about his flower.",
+      "caption_ru": "Лесной зверь огорчён из-за своего цветка."
+    },
+    {
+      "part": "III",
+      "after": 13,
+      "art": "15_ring",
+      "caption": "The Beast gives the merchant a golden ring.",
+      "caption_ru": "Зверь дарит купцу золотой перстень."
+    },
+    {
+      "part": "IV",
+      "after": 6,
+      "art": "17_gifts",
+      "caption": "The gifts are opened: a crown, a mirror and a scarlet flower.",
+      "caption_ru": "Подарки открыты: венец, зеркало и аленький цветочек."
+    },
+    {
+      "part": "IV",
+      "after": 14,
+      "art": "19_kneel",
+      "caption": "“Give me your blessing, father. I will go.”",
+      "caption_ru": "«Благослови меня, батюшка. Я поеду»."
+    },
+    {
+      "part": "IV",
+      "after": 21,
+      "art": "20_farewell",
+      "caption": "The merchant puts the golden ring on his daughter's finger.",
+      "caption_ru": "Отец надевает дочери на пальчик золотой перстень."
+    },
+    {
+      "part": "V",
+      "after": 3,
+      "art": "22_replant",
+      "caption": "The scarlet flower flies back to its stem and blooms even lovelier.",
+      "caption_ru": "Аленький цветочек сам возвращается на стебелёк и цветёт ещё краше."
+    },
+    {
+      "part": "V",
+      "after": 8,
+      "art": "23_fire",
+      "caption": "Words of fire appear on the white marble wall.",
+      "caption_ru": "На белой мраморной стене появляются огненные слова."
+    },
+    {
+      "part": "V",
+      "after": 15,
+      "art": "24_maid",
+      "caption": "The girl and her maid talk until dawn.",
+      "caption_ru": "Девушка и её горничная разговаривают до самой зари."
+    },
+    {
+      "part": "V",
+      "after": 18,
+      "art": "25_carriage",
+      "caption": "A carriage without horses rides through the forest.",
+      "caption_ru": "Карета без лошадей катит по лесу."
+    },
+    {
+      "part": "VI",
+      "after": 11,
+      "art": "27_wish",
+      "caption": "She begs to see her friend, who hides behind a tree.",
+      "caption_ru": "Она просит показаться её друга, а он прячется за деревом."
+    },
+    {
+      "part": "VII",
+      "after": 6,
+      "art": "29_friends",
+      "caption": "Now they walk through the garden as good friends.",
+      "caption_ru": "Теперь они гуляют по саду как добрые друзья."
+    },
+    {
+      "part": "VIII",
+      "after": 5,
+      "art": "32_clocks",
+      "caption": "The sisters secretly turn the clock back.",
+      "caption_ru": "Сёстры тайком переводят часы назад."
+    },
+    {
+      "part": "IX",
+      "after": 3,
+      "art": "34_hill",
+      "caption": "“Wake up, my dear friend! I love you!”",
+      "caption_ru": "«Проснись, мой сердечный друг! Я люблю тебя!»"
+    },
+    {
+      "part": "IX",
+      "after": 7,
+      "art": "35_prince",
+      "caption": "The spell is broken, and the Beast is a prince again.",
+      "caption_ru": "Колдовство кончилось, и зверь снова стал принцем."
+    },
+    {
+      "part": "IX",
+      "after": 8,
+      "art": "36_wedding",
+      "caption": "A merry wedding feast for everyone.",
+      "caption_ru": "Весёлая свадьба для всех."
+    }
+  ],
+  "glossary": [
+    [
+      "scarlet",
+      "a bright, glowing red colour; in the tale it is the colour of the magic flower."
+    ],
+    [
+      "merchant",
+      "a man who buys and sells goods, often travelling far over land and sea."
+    ],
+    [
+      "Beast of the forest",
+      "the strange master of the enchanted palace; in the Russian tale he is called “the wonder of the sea”, a creature nobody has seen before."
+    ],
+    [
+      "crystal",
+      "very clear, shining glass-like stone; a crystal mirror is the finest kind."
+    ],
+    [
+      "Persia",
+      "the old name of the country now called Iran."
+    ],
+    [
+      "word of honour",
+      "a solemn promise that an honest person keeps."
+    ],
+    [
+      "blessing",
+      "kind wishes and a prayer said over someone dear, especially before a long journey."
+    ],
+    [
+      "arbour",
+      "a shady little shelter in a garden, woven from leaves, branches and flowers."
+    ],
+    [
+      "spell",
+      "magic put on someone by a wicked witch; a kind deed can break it."
+    ],
+    [
+      "mead",
+      "an old drink made from honey, which people drank at feasts."
+    ],
+    [
+      "Pelageya",
+      "the housekeeper at the Aksakov family home, who told the tale to little Sergey; he wrote it down when he was grown up."
+    ]
+  ],
+  "thumb_art": "29_friends",
+  "thumb_position": "50% 50%",
+  "thumb_sub": "A FAIRY TALE FOR CHILDREN<br>FULL-CAST AUDIOBOOK",
+  "cover_bg": [
+    "#ffd0d8",
+    "#fff4d8"
+  ],
+  "kids": true,
+  "summary": "A merchant's youngest daughter asks her father for only a little scarlet flower. He finds it in an enchanted garden, and its shaggy master, the Beast of the forest, asks for one daughter in return. A gentle tale about kindness that sees beyond looks, for children and for listening together.",
+  "site_description": "A merchant promises his three daughters gifts from over the sea: a golden crown, a crystal mirror, and, for the youngest, a little scarlet flower. He finds the flower in a magic garden, but the shaggy Beast of the forest who owns it will let him go only if one of his daughters comes to live in the palace. The youngest goes of her own free will. Sergey Aksakov's fairy tale of 1858, told to him as a child by the housekeeper Pelageya, for children and for listening together, in a full-cast English audiobook with many illustrations.",
+  "tags": [
+    "Aksakov",
+    "Sergey Aksakov",
+    "The Scarlet Flower",
+    "Beauty and the Beast",
+    "fairy tale",
+    "bedtime story",
+    "Christmas story",
+    "children's audiobook",
+    "audiobook",
+    "full cast audiobook",
+    "Russian fairy tale",
+    "Russian literature",
+    "public domain",
+    "English audiobook"
+  ],
+  "hashtags": "#fairytale #bedtimestory #audiobook #Aksakov #publicdomain",
+  "playlist": "PLVuswr3XMg9E",
+  "text_note": "Machine translation from the Russian into simple English for children, a draft that needs a human editor.",
+  "ru": {
+    "title": "Аленький цветочек",
+    "author": "Сергей Аксаков",
+    "names": {
+      "I": "Три подарка",
+      "II": "Волшебный дворец",
+      "III": "Аленький цветочек",
+      "IV": "Младшая дочь",
+      "V": "Новый дом",
+      "VI": "Голос в саду",
+      "VII": "Лесной зверь показывается",
+      "VIII": "Три дня дома",
+      "IX": "Колдовство кончилось"
+    },
+    "note": "Сказка ключницы Пелагеи в издании для чтения вслух, с иллюстрациями.",
+    "source_note": "Текст с ru.wikisource.org, по изданию: «Сказки русских писателей» (М.: Детская литература, 1980).",
+    "contents": "Содержание",
+    "back": "О тексте",
+    "small": "Текст сказки находится в общественном достоянии. Названия частей и иллюстрации сделаны для этого издания. Набрано шрифтом Lora (SIL Open Font License).",
+    "description": "Младшая дочь купца просит у отца только аленький цветочек. Отец находит его в волшебном саду, но хозяин сада, лесной зверь, чудо морское, отпускает его лишь за обещание прислать одну из дочерей. Сказка Сергея Аксакова (1858), чтобы слушать вместе с детьми.",
+    "hashtags": "#сказка #аудиокнига #длядетей #Аленькийцветочек #Аксаков #русскиесказки",
+    "thumb_sub": "СКАЗКА ДЛЯ ДЕТЕЙ<br>АУДИОКНИГА",
+    "tags": [
+      "Аксаков",
+      "Сергей Аксаков",
+      "Аленький цветочек",
+      "Красавица и чудовище",
+      "сказки русских писателей",
+      "сказка про любовь",
+      "сказка на ночь",
+      "аудиокнига для детей",
+      "аудиосказка",
+      "сказки для детей",
+      "слушать сказку",
+      "русская сказка"
+    ]
+  },
+  "shot_seconds": 15
+}

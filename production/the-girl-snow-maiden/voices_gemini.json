@@ -1,0 +1,42 @@
+{
+ "NARRATOR": {
+  "voice": "Sulafat",
+  "style": "",
+  "about": "a warm, kind storyteller reading a fairy tale to young children at bedtime, unhurried and gentle, with clear Russian stress"
+ },
+ "OLDMAN": {
+  "voice": "Umbriel",
+  "style": "",
+  "about": "a kind, gentle, slightly slow old grandfather in a fairy tale, softly and lovingly"
+ },
+ "OLDWOMAN": {
+  "voice": "Vindemiatrix",
+  "style": "",
+  "about": "a kind, soft-spoken old grandmother in a fairy tale, a little sad and sensible"
+ },
+ "SNOW": {
+  "voice": "Leda",
+  "style": "",
+  "about": "a sweet, bright little girl in a fairy tale, clear and childlike, politely firm when she refuses"
+ },
+ "FOX": {
+  "voice": "Despina",
+  "style": "",
+  "about": "a sly, honey-sweet fox in a fairy tale, flattering and playful, never scary"
+ },
+ "BEAR": {
+  "voice": "Algenib",
+  "style": "",
+  "about": "a big, slow, gruff but friendly bear in a fairy tale, never scary"
+ },
+ "WOLF": {
+  "voice": "Alnilam",
+  "style": "",
+  "about": "a gruff, grey wolf in a children's fairy tale, firm but friendly, not frightening"
+ },
+ "DOG": {
+  "voice": "Puck",
+  "style": "",
+  "about": "a cheerful little dog barking happily in a children's fairy tale"
+ }
+}

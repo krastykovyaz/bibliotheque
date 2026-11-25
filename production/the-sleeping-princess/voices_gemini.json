@@ -1,0 +1,38 @@
+{
+ "NARRATOR": {
+  "voice": "Sulafat",
+  "style": ""
+ },
+ "KING": {
+  "voice": "Orus",
+  "style": ""
+ },
+ "QUEEN": {
+  "voice": "Aoede",
+  "style": ""
+ },
+ "CRAB": {
+  "voice": "Puck",
+  "style": ""
+ },
+ "GOODFAIRY": {
+  "voice": "Leda",
+  "style": ""
+ },
+ "WITCH": {
+  "voice": "Vindemiatrix",
+  "style": ""
+ },
+ "PRINCE": {
+  "voice": "Achird",
+  "style": ""
+ },
+ "OLDMAN": {
+  "voice": "Charon",
+  "style": ""
+ },
+ "PRINCESS": {
+  "voice": "Kore",
+  "style": ""
+ }
+}

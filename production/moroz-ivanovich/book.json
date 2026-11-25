@@ -1,0 +1,553 @@
+{
+  "slug": "moroz-ivanovich",
+  "prefix": "Moroz_Ivanovich",
+  "lang": "en",
+  "title": "Moroz Ivanovich",
+  "author": "Vladimir Odoevsky",
+  "author_ru": "Владимир Одоевский",
+  "year": 1841,
+  "title_original": "Мороз Иванович",
+  "publication_note": "from «Grandfather Irenei's Tales», 1841",
+  "source_note": "Text from ru.wikisource.org, after V. F. Odoevsky, Pyostrye skazki; Skazki dedushki Irineya (Moscow, Khudozhestvennaya literatura, 1993).",
+  "translated_from": "the Russian original",
+  "parts": [
+    "I",
+    "II",
+    "III",
+    "IV",
+    "V",
+    "VI",
+    "VII",
+    "VIII"
+  ],
+  "names": {
+    "I": "The Two Girls",
+    "II": "The Well",
+    "III": "Moroz Ivanovich",
+    "IV": "The Questions",
+    "V": "Three Days",
+    "VI": "Lenivitsa Goes",
+    "VII": "The Dinner",
+    "VIII": "The Reward"
+  },
+  "art": {
+    "I": "1_house",
+    "II": "3_well",
+    "III": "5_frost",
+    "IV": "7_sprouts",
+    "V": "9_dinner",
+    "VI": "11_refuses",
+    "VII": "13_bed",
+    "VIII": "16_ingot"
+  },
+  "art_alt": {
+    "1_house": "Rukodelnitsa, a cheerful girl in a red coat, with the rooster and the well beside a snowy cottage with a smoking chimney",
+    "2_lazy": "Lenivitsa in a purple dress sits at the window counting flies, while the kind old nurse sits by the stove",
+    "3_well": "Rukodelnitsa looks down the well because her bucket has fallen in, and the nurse stands at the cottage door",
+    "4_magic": "At the bottom of the well: a stove with a smiling pie, a tree with smiling golden apples, and Rukodelnitsa walking between them",
+    "5_frost": "Old Moroz Ivanovich with a long white beard sits on a bench of ice beside Rukodelnitsa, with his ice house and snowy pines behind",
+    "6_palace": "Inside the ice house Rukodelnitsa shakes up a big fluffy snow bed while Moroz Ivanovich watches kindly",
+    "7_sprouts": "Green grass grows under the snow; Moroz Ivanovich explains and Rukodelnitsa listens",
+    "8_window": "Moroz Ivanovich knocks on a warm lit window at dusk, with a snowy cottage and fir trees",
+    "9_dinner": "Rukodelnitsa and Moroz Ivanovich at a long table of ice with three scoops of ice cream",
+    "10_rooster": "The rooster crows on the fence as Rukodelnitsa comes home with a bucket of silver coins, and the nurse looks amazed",
+    "11_refuses": "Lenivitsa walks past the stove with the pie and the tree of golden apples with her nose in the air",
+    "12_lazy_frost": "Lenivitsa stands before Moroz Ivanovich on his ice bench among snowy fir trees",
+    "13_bed": "Moroz Ivanovich sleeps on his snow bed while Lenivitsa tiptoes away and leaves it flat and unshaken",
+    "14_kitchen": "Lenivitsa in the kitchen beside a big pot with vegetables, meat and fish all thrown in together",
+    "15_needle": "Lenivitsa pricks her finger on a needle beside a pile of clothes, while Moroz Ivanovich naps in his armchair",
+    "16_ingot": "Moroz Ivanovich hands Lenivitsa a big silver bar and a big diamond in the ice house",
+    "17_melting": "At home the silver bar has melted into a puddle at Lenivitsa's feet and the rooster crows at the window",
+    "18_grandpa": "Grandfather Irenei by the warm stove tells the tale to three children, with snowy night outside"
+  },
+  "focus": {
+    "1_house": [
+      [
+        0.3,
+        0.65
+      ],
+      [
+        0.74,
+        0.5
+      ],
+      [
+        0.17,
+        0.75
+      ]
+    ],
+    "2_lazy": [
+      [
+        0.7,
+        0.6
+      ],
+      [
+        0.72,
+        0.3
+      ],
+      [
+        0.22,
+        0.78
+      ]
+    ],
+    "3_well": [
+      [
+        0.4,
+        0.65
+      ],
+      [
+        0.5,
+        0.72
+      ],
+      [
+        0.78,
+        0.75
+      ]
+    ],
+    "4_magic": [
+      [
+        0.2,
+        0.7
+      ],
+      [
+        0.72,
+        0.45
+      ],
+      [
+        0.45,
+        0.78
+      ]
+    ],
+    "5_frost": [
+      [
+        0.3,
+        0.65
+      ],
+      [
+        0.72,
+        0.5
+      ],
+      [
+        0.45,
+        0.8
+      ]
+    ],
+    "6_palace": [
+      [
+        0.2,
+        0.7
+      ],
+      [
+        0.62,
+        0.7
+      ],
+      [
+        0.72,
+        0.6
+      ]
+    ],
+    "7_sprouts": [
+      [
+        0.13,
+        0.7
+      ],
+      [
+        0.5,
+        0.65
+      ],
+      [
+        0.74,
+        0.4
+      ]
+    ],
+    "8_window": [
+      [
+        0.36,
+        0.55
+      ],
+      [
+        0.62,
+        0.5
+      ],
+      [
+        0.2,
+        0.7
+      ]
+    ],
+    "9_dinner": [
+      [
+        0.2,
+        0.75
+      ],
+      [
+        0.5,
+        0.65
+      ],
+      [
+        0.85,
+        0.7
+      ]
+    ],
+    "10_rooster": [
+      [
+        0.2,
+        0.55
+      ],
+      [
+        0.5,
+        0.75
+      ],
+      [
+        0.78,
+        0.65
+      ]
+    ],
+    "11_refuses": [
+      [
+        0.15,
+        0.78
+      ],
+      [
+        0.5,
+        0.75
+      ],
+      [
+        0.8,
+        0.6
+      ]
+    ],
+    "12_lazy_frost": [
+      [
+        0.33,
+        0.7
+      ],
+      [
+        0.63,
+        0.75
+      ],
+      [
+        0.12,
+        0.75
+      ]
+    ],
+    "13_bed": [
+      [
+        0.35,
+        0.5
+      ],
+      [
+        0.74,
+        0.65
+      ],
+      [
+        0.2,
+        0.55
+      ]
+    ],
+    "14_kitchen": [
+      [
+        0.33,
+        0.62
+      ],
+      [
+        0.56,
+        0.65
+      ],
+      [
+        0.79,
+        0.65
+      ]
+    ],
+    "15_needle": [
+      [
+        0.3,
+        0.8
+      ],
+      [
+        0.66,
+        0.8
+      ],
+      [
+        0.85,
+        0.7
+      ]
+    ],
+    "16_ingot": [
+      [
+        0.27,
+        0.7
+      ],
+      [
+        0.62,
+        0.78
+      ],
+      [
+        0.78,
+        0.4
+      ]
+    ],
+    "17_melting": [
+      [
+        0.56,
+        0.78
+      ],
+      [
+        0.87,
+        0.5
+      ],
+      [
+        0.15,
+        0.8
+      ]
+    ],
+    "18_grandpa": [
+      [
+        0.51,
+        0.75
+      ],
+      [
+        0.19,
+        0.75
+      ],
+      [
+        0.75,
+        0.9
+      ]
+    ]
+  },
+  "fx": {
+    "1_house": "snow",
+    "3_well": "snow",
+    "5_frost": "snow",
+    "8_window": "snow",
+    "10_rooster": "snow",
+    "12_lazy_frost": "snow",
+    "2_lazy": "flicker",
+    "17_melting": "flicker",
+    "18_grandpa": "flicker"
+  },
+  "scenes": [
+    {
+      "id": 4,
+      "art": "2_lazy"
+    },
+    {
+      "id": 10,
+      "art": "3_well"
+    },
+    {
+      "id": 13,
+      "art": "4_magic"
+    },
+    {
+      "id": 19,
+      "art": "5_frost"
+    },
+    {
+      "id": 25,
+      "art": "6_palace"
+    },
+    {
+      "id": 27,
+      "art": "7_sprouts"
+    },
+    {
+      "id": 32,
+      "art": "8_window"
+    },
+    {
+      "id": 35,
+      "art": "9_dinner"
+    },
+    {
+      "id": 41,
+      "art": "10_rooster"
+    },
+    {
+      "id": 44,
+      "art": "11_refuses"
+    },
+    {
+      "id": 54,
+      "art": "12_lazy_frost"
+    },
+    {
+      "id": 58,
+      "art": "13_bed"
+    },
+    {
+      "id": 61,
+      "art": "14_kitchen"
+    },
+    {
+      "id": 67,
+      "art": "15_needle"
+    },
+    {
+      "id": 71,
+      "art": "16_ingot"
+    },
+    {
+      "id": 77,
+      "art": "17_melting"
+    },
+    {
+      "id": 80,
+      "art": "18_grandpa"
+    }
+  ],
+  "glossary": [
+    [
+      "Moroz Ivanovich",
+      "Old Man Frost, the kind winter spirit of Russian tales; “Moroz” means frost, and Ivanovich is a polite name meaning “son of Ivan”."
+    ],
+    [
+      "Rukodelnitsa",
+      "a girl who is clever with her hands and loves to make and mend things (say roo-ko-DEL-nit-sa)."
+    ],
+    [
+      "Lenivitsa",
+      "a lazy girl, Lazybones (say le-NEE-vit-sa)."
+    ],
+    [
+      "nurse",
+      "in old Russian homes the nanny who looked after the children and the house."
+    ],
+    [
+      "well",
+      "a deep hole in the ground with a rope and a bucket, where people drew their water."
+    ],
+    [
+      "stove",
+      "the big brick stove in a Russian cottage, used for cooking, baking bread and keeping warm."
+    ],
+    [
+      "kvass",
+      "a sour, bubbly drink made from rye bread, and a common cooking ingredient in Russia."
+    ],
+    [
+      "quicksilver",
+      "mercury, a shiny silver metal that is liquid and looks like melted silver."
+    ],
+    [
+      "Grandfather Irenei",
+      "the imaginary storyteller of Odoevsky's children's tales."
+    ]
+  ],
+  "thumb_art": "5_frost",
+  "thumb_position": "22% 50%",
+  "thumb_sub": "A FAIRY TALE FOR CHILDREN<br>FULL-CAST AUDIOBOOK",
+  "cover_bg": [
+    "#9fd4ff",
+    "#f8f4ec"
+  ],
+  "kids": true,
+  "summary": "Two girls go down the well: kind, hard-working Rukodelnitsa and lazy Lenivitsa. At the bottom they meet Moroz Ivanovich, Old Man Frost, and each gets the reward she has earned. A winter tale for children, to be listened to together.",
+  "site_description": "Two girls live with their old nurse: Rukodelnitsa, who loves to work, and Lenivitsa, who never lifts a finger. When Rukodelnitsa's bucket falls into the well, she climbs down after it and finds a pie, a tree of golden apples and old Moroz Ivanovich himself, who lets her serve him for three days. Lenivitsa goes after her, hoping for easy silver. Vladimir Odoevsky's winter fairy tale of 1841, for children and for listening together, in a full-cast English audiobook with many illustrations.",
+  "tags": [
+    "Odoevsky",
+    "Vladimir Odoevsky",
+    "Moroz Ivanovich",
+    "Father Frost",
+    "fairy tale",
+    "bedtime story",
+    "Christmas story",
+    "winter story",
+    "children's audiobook",
+    "audiobook",
+    "full cast audiobook",
+    "Russian fairy tale",
+    "Russian literature",
+    "public domain",
+    "English audiobook"
+  ],
+  "hashtags": "#fairytale #bedtimestory #audiobook #Odoevsky #publicdomain",
+  "playlist": "PLVuswr3XMg9E",
+  "text_note": "Machine translation from the Russian into simple English for children, a draft that needs a human editor.",
+  "ru": {
+    "title": "Мороз Иванович",
+    "author": "Владимир Одоевский",
+    "names": {
+      "I": "Две девочки",
+      "II": "Колодец",
+      "III": "Мороз Иванович",
+      "IV": "Вопросы",
+      "V": "Три дня",
+      "VI": "Ленивица идёт",
+      "VII": "Обед",
+      "VIII": "Награда"
+    },
+    "note": "Сказка в издании для чтения с оригинальными иллюстрациями.",
+    "source_note": "Текст с ru.wikisource.org, по изданию: В. Ф. Одоевский, Пёстрые сказки; Сказки дедушки Иринея (М.: Художественная литература, 1993).",
+    "contents": "Содержание",
+    "back": "О тексте",
+    "small": "Текст сказки находится в общественном достоянии. Названия частей и иллюстрации сделаны для этого издания. Набрано шрифтом Lora (SIL Open Font License).",
+    "description": "Рукодельница и Ленивица живут с нянюшкой. Когда у Рукодельницы падает в колодец ведро, она спускается за ним и попадает к самому Морозу Ивановичу. Зимняя сказка Владимира Одоевского (1841), чтобы слушать вместе с детьми.",
+    "hashtags": "#сказка #аудиокнига #длядетей #МорозИванович #Одоевский #русскиесказки",
+    "thumb_sub": "СКАЗКА ДЛЯ ДЕТЕЙ<br>АУДИОКНИГА",
+    "tags": [
+      "Одоевский",
+      "Владимир Одоевский",
+      "Мороз Иванович",
+      "Дед Мороз",
+      "зимняя сказка",
+      "новогодняя сказка",
+      "сказка на ночь",
+      "аудиокнига для детей",
+      "аудиосказка",
+      "сказки для детей",
+      "слушать сказку",
+      "русская сказка"
+    ]
+  },
+  "figures": [
+    {
+      "part": "II",
+      "after": 5,
+      "art": "4_magic",
+      "caption": "At the bottom of the well: a smiling pie and a tree of golden apples.",
+      "caption_ru": "На дне колодца: румяный пирожок и дерево с золотыми яблочками."
+    },
+    {
+      "part": "V",
+      "after": 7,
+      "art": "10_rooster",
+      "caption": "The rooster crows: the bucket is full of coins!",
+      "caption_ru": "Петух кричит: в ведёрке пятаки!"
+    },
+    {
+      "part": "VI",
+      "after": 11,
+      "art": "12_lazy_frost",
+      "caption": "Lenivitsa comes to Moroz Ivanovich.",
+      "caption_ru": "Ленивица пришла к Морозу Ивановичу."
+    },
+    {
+      "part": "VII",
+      "after": 5,
+      "art": "14_kitchen",
+      "caption": "Everything goes into one big pot.",
+      "caption_ru": "Всё сразу идёт в одну большую кастрюлю."
+    },
+    {
+      "part": "VII",
+      "after": 10,
+      "art": "15_needle",
+      "caption": "Ow! The needle pricks Lenivitsa's finger.",
+      "caption_ru": "Ай! Иголка уколола палец Ленивице."
+    },
+    {
+      "part": "VIII",
+      "after": 7,
+      "art": "17_melting",
+      "caption": "The silver melts into a puddle.",
+      "caption_ru": "Слиток тает и растекается лужицей."
+    },
+    {
+      "part": "VIII",
+      "after": 10,
+      "art": "18_grandpa",
+      "caption": "Grandfather Irenei tells the tale by the stove.",
+      "caption_ru": "Дедушка Ириней рассказывает сказку у печки."
+    }
+  ]
+}

@@ -1,0 +1,980 @@
+{
+  "slug": "ruslan-and-ludmila",
+  "prefix": "Ruslan_and_Ludmila",
+  "lang": "en",
+  "title": "Ruslan and Ludmila",
+  "author": "Alexander Pushkin",
+  "author_ru": "Александр Пушкин",
+  "year": 1820,
+  "title_original": "Руслан и Людмила",
+  "publication_note": "first published in St Petersburg, 1820; final text with the prologue and epilogue, 1828",
+  "source_note": "Text from ru.wikisource.org, after A. S. Pushkin, Complete Works in 10 volumes, vol. 4 (Leningrad: Nauka, 1977), the final text with the prologue and epilogue.",
+  "translated_from": "the Russian original",
+  "parts": [
+    "I",
+    "II",
+    "III",
+    "IV",
+    "V",
+    "VI"
+  ],
+  "names": {
+    "I": "The Feast and the Stolen Bride",
+    "II": "The Rivals and the Magic Garden",
+    "III": "The Cap and the Giant Head",
+    "IV": "The Castle of Maidens",
+    "V": "The Beard and the Treachery",
+    "VI": "The Living Water"
+  },
+  "art": {
+    "I": "1_oak",
+    "II": "2e_garden",
+    "III": "3d_head_sleep",
+    "IV": "4_castle",
+    "V": "5_flight",
+    "VI": "6e_ring"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "art": "1_oak"
+    },
+    {
+      "id": 7,
+      "art": "1b_feast"
+    },
+    {
+      "id": 12,
+      "art": "1c_bedchamber"
+    },
+    {
+      "id": 19,
+      "art": "1d_hall"
+    },
+    {
+      "id": 33,
+      "art": "1e_crossroads"
+    },
+    {
+      "id": 44,
+      "art": "1f_cave"
+    },
+    {
+      "id": 60,
+      "art": "1g_naina_river"
+    },
+    {
+      "id": 71,
+      "art": "1h_hag"
+    },
+    {
+      "id": 84,
+      "art": "1f_cave"
+    },
+    {
+      "id": 90,
+      "art": "2_ditch"
+    },
+    {
+      "id": 106,
+      "art": "2b_old_woman"
+    },
+    {
+      "id": 118,
+      "art": "2c_river"
+    },
+    {
+      "id": 130,
+      "art": "2d_chamber"
+    },
+    {
+      "id": 145,
+      "art": "2e_garden"
+    },
+    {
+      "id": 156,
+      "art": "2f_dwarf_night"
+    },
+    {
+      "id": 161,
+      "art": "2g_duel"
+    },
+    {
+      "id": 168,
+      "art": "3_morning"
+    },
+    {
+      "id": 187,
+      "art": "3b_cap"
+    },
+    {
+      "id": 193,
+      "art": "3c_bones"
+    },
+    {
+      "id": 202,
+      "art": "3d_head_sleep"
+    },
+    {
+      "id": 207,
+      "art": "3e_head_fight"
+    },
+    {
+      "id": 223,
+      "art": "3f_brothers"
+    },
+    {
+      "id": 231,
+      "art": "3g_ground"
+    },
+    {
+      "id": 236,
+      "art": "4_castle"
+    },
+    {
+      "id": 248,
+      "art": "4b_bath"
+    },
+    {
+      "id": 252,
+      "art": "4c_moon_room"
+    },
+    {
+      "id": 256,
+      "art": "4d_mermaids"
+    },
+    {
+      "id": 259,
+      "art": "4e_invisible"
+    },
+    {
+      "id": 267,
+      "art": "4f_net"
+    },
+    {
+      "id": 280,
+      "art": "5_flight"
+    },
+    {
+      "id": 300,
+      "art": "5b_rampage"
+    },
+    {
+      "id": 307,
+      "art": "5c_riding"
+    },
+    {
+      "id": 316,
+      "art": "5d_head_dies"
+    },
+    {
+      "id": 324,
+      "art": "5e_river_hut"
+    },
+    {
+      "id": 329,
+      "art": "5f_two_knights"
+    },
+    {
+      "id": 346,
+      "art": "5g_mound"
+    },
+    {
+      "id": 352,
+      "art": "5h_dream"
+    },
+    {
+      "id": 357,
+      "art": "5g_mound"
+    },
+    {
+      "id": 361,
+      "art": "6_dead_field"
+    },
+    {
+      "id": 369,
+      "art": "6b_palace"
+    },
+    {
+      "id": 382,
+      "art": "6c_living_water"
+    },
+    {
+      "id": 389,
+      "art": "6d_battle"
+    },
+    {
+      "id": 396,
+      "art": "6e_ring"
+    },
+    {
+      "id": 403,
+      "art": "6f_caucasus"
+    }
+  ],
+  "art_alt": {
+    "1_oak": "A green oak on a curved sea shore under the moon with a golden chain round it, a learned black cat on the chain, a mermaid in the branches, a hut on hen's legs and thirty knights rising from the water",
+    "1b_feast": "A wedding feast in Prince Vladimir's high hall: the old prince on his seat, the young couple beside him, guests along the table and three gloomy rivals at the end",
+    "1c_bedchamber": "A dark bedchamber with a canopied bed and a bride, the bridegroom standing by, a candle, and a black whirling shape with a flash of lightning at the window",
+    "1d_hall": "The old prince on his seat in the hall surrounded by knights and courtiers, asking who will ride after his stolen daughter",
+    "1e_crossroads": "Four knights on horseback riding away on four different roads at a crossroads at dusk",
+    "1f_cave": "A cave lit by a lamp where an old white-bearded sorcerer sits over an ancient book, and a knight in a red cloak stands before him",
+    "1g_naina_river": "A young shepherd with a pipe on one bank and a girl weaving a wreath by a sunny river among meadows",
+    "1h_hag": "A dark forest hut with a fire, a cauldron, an old hunchbacked witch with a shaking head and a young sorcerer shrinking from her",
+    "2_ditch": "A boaster knight tumbled head over heels into a muddy spring ditch while his horse leaps clear and an angry rider with a sword raised stops at the edge",
+    "2b_old_woman": "A little old woman with a staff pointing north to a knight standing by his horse on a muddy road",
+    "2c_river": "Two knights on horseback facing each other on a steep river bank at dusk, a spear thrown between them",
+    "2d_chamber": "A magic chamber with a golden bed where a captive princess sits, three maidens in fine dresses bringing her clothes, a window on a snowy plain",
+    "2e_garden": "A magnificent magic garden with palms, pines, fountains and statues, and a small princess on a high bridge over a torrent",
+    "2f_dwarf_night": "A row of dark guards with drawn sabres carrying a great beard on a cushion and a small dwarf in a tall cap, while a frightened princess sits up on her bed",
+    "2g_duel": "A night duel by a river under a full moon: a knight on horseback lifts his enemy from the saddle to throw him into the waves",
+    "3_morning": "A dwarf wizard in bed under his enormous white beard being combed by slaves, with a winged serpent flying in at the window",
+    "3b_cap": "A girl in a blue sarafan trying on a wizard's cap before a tall mirror in which she has disappeared",
+    "3c_bones": "An old battlefield with scattered bones, skulls, rusting spears and a shield, a lone knight on horseback riding through",
+    "3d_head_sleep": "A gigantic sleeping head on a moonlit hill with a plumed helmet and owls flying up from its brows, a tiny knight on horseback at its side",
+    "3e_head_fight": "The giant head blowing a gale with open mouth and wide eyes at a knight whose horse struggles, a spear flying at its tongue",
+    "3f_brothers": "A giant striding over the mountains with a pine club and a small wizard sitting on his shoulder",
+    "3g_ground": "A giant lying with his ear to the ground, a dwarf creeping up behind him with a sword raised and a second sword standing in the earth",
+    "4_castle": "A castle with towers on a hill at sunset, a girl singing on the wall and a knight on horseback riding up",
+    "4b_bath": "A steamy Russian bath with a young khan lying on a bench and girls in white with birch branches",
+    "4c_moon_room": "A moonlit bedchamber with a young khan asleep and a girl in white at the door",
+    "4d_mermaids": "A moonlit autumn forest with mermaids swaying on the branches and a knight riding quietly through the mist",
+    "4e_invisible": "A sunny enchanted garden where golden fruit seems to float, a waterfall splashes by itself, and a dwarf watches from a tower window",
+    "4f_net": "A marble arbour where a princess falls into a net, a pale false knight beside her and a dwarf with a long beard appearing",
+    "5_flight": "A dwarf wizard flying high over the sea among clouds while a knight in a red cloak hangs on his long beard",
+    "5b_rampage": "A knight with a great sword raging through a ruined garden, trees and arbours crashing down",
+    "5c_riding": "A knight in a red cloak riding at sunrise with a sleeping princess laid across the saddle before him",
+    "5d_head_dies": "The giant head dying on its hill, mouth open, and a knight on horseback arriving with the sleeping princess and a bag",
+    "5e_river_hut": "A quiet river with a boat and a fisherman, a girl by a small hut, and a knight on the bank",
+    "5f_two_knights": "Two friends talking on a river bank at night under a moon, a princess asleep under a cloak between them",
+    "5g_mound": "A burial mound under a night sky with a sleeping knight and princess, a horse, a rider approaching with a sword and a cat at the edge",
+    "5h_dream": "A silent hall where the old prince sits among motionless guests, a pale dead knight at the table and a traitor leading a girl by the hand",
+    "6_dead_field": "A knight lying dead in an open field, his horse standing over him, a raven overhead and a bag with a dwarf peeping out",
+    "6b_palace": "A princess asleep on a bier in a great hall, the old prince at her feet, a crowd of nobles and a window showing enemy tents",
+    "6c_living_water": "A moonlit valley with two springs, an old sorcerer sprinkling water over a fallen knight",
+    "6d_battle": "A battle before the walls of Kiev with a knight in a red cloak blowing a horn and riding into enemy horsemen",
+    "6e_ring": "In the great hall a knight touches the sleeping princess's brow with a golden ring, the old prince weeping with joy beside them",
+    "6f_caucasus": "A poet standing before the snowy peaks of the Caucasus at sunset with his lyre"
+  },
+  "focus": {
+    "1_oak": [
+      [
+        0.33,
+        0.58
+      ],
+      [
+        0.12,
+        0.8
+      ],
+      [
+        0.72,
+        0.68
+      ]
+    ],
+    "1b_feast": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.7,
+        0.62
+      ],
+      [
+        0.15,
+        0.72
+      ]
+    ],
+    "1c_bedchamber": [
+      [
+        0.46,
+        0.5
+      ],
+      [
+        0.85,
+        0.3
+      ],
+      [
+        0.53,
+        0.75
+      ]
+    ],
+    "1d_hall": [
+      [
+        0.5,
+        0.62
+      ],
+      [
+        0.28,
+        0.88
+      ],
+      [
+        0.75,
+        0.88
+      ]
+    ],
+    "1e_crossroads": [
+      [
+        0.3,
+        0.7
+      ],
+      [
+        0.66,
+        0.65
+      ],
+      [
+        0.85,
+        0.75
+      ]
+    ],
+    "1f_cave": [
+      [
+        0.45,
+        0.72
+      ],
+      [
+        0.75,
+        0.8
+      ],
+      [
+        0.5,
+        0.4
+      ]
+    ],
+    "1g_naina_river": [
+      [
+        0.64,
+        0.78
+      ],
+      [
+        0.27,
+        0.78
+      ],
+      [
+        0.2,
+        0.88
+      ]
+    ],
+    "1h_hag": [
+      [
+        0.56,
+        0.7
+      ],
+      [
+        0.81,
+        0.72
+      ],
+      [
+        0.16,
+        0.75
+      ]
+    ],
+    "2_ditch": [
+      [
+        0.47,
+        0.78
+      ],
+      [
+        0.26,
+        0.62
+      ],
+      [
+        0.65,
+        0.6
+      ]
+    ],
+    "2b_old_woman": [
+      [
+        0.56,
+        0.75
+      ],
+      [
+        0.24,
+        0.8
+      ],
+      [
+        0.9,
+        0.6
+      ]
+    ],
+    "2c_river": [
+      [
+        0.35,
+        0.58
+      ],
+      [
+        0.74,
+        0.58
+      ],
+      [
+        0.8,
+        0.25
+      ]
+    ],
+    "2d_chamber": [
+      [
+        0.19,
+        0.55
+      ],
+      [
+        0.65,
+        0.85
+      ],
+      [
+        0.62,
+        0.35
+      ]
+    ],
+    "2e_garden": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.1,
+        0.55
+      ],
+      [
+        0.88,
+        0.45
+      ]
+    ],
+    "2f_dwarf_night": [
+      [
+        0.81,
+        0.75
+      ],
+      [
+        0.13,
+        0.5
+      ],
+      [
+        0.5,
+        0.8
+      ]
+    ],
+    "2g_duel": [
+      [
+        0.35,
+        0.5
+      ],
+      [
+        0.15,
+        0.18
+      ],
+      [
+        0.8,
+        0.82
+      ]
+    ],
+    "3_morning": [
+      [
+        0.25,
+        0.55
+      ],
+      [
+        0.72,
+        0.3
+      ],
+      [
+        0.2,
+        0.88
+      ]
+    ],
+    "3b_cap": [
+      [
+        0.3,
+        0.7
+      ],
+      [
+        0.64,
+        0.45
+      ],
+      [
+        0.29,
+        0.5
+      ]
+    ],
+    "3c_bones": [
+      [
+        0.62,
+        0.62
+      ],
+      [
+        0.2,
+        0.8
+      ],
+      [
+        0.8,
+        0.8
+      ]
+    ],
+    "3d_head_sleep": [
+      [
+        0.46,
+        0.58
+      ],
+      [
+        0.85,
+        0.9
+      ],
+      [
+        0.65,
+        0.2
+      ]
+    ],
+    "3e_head_fight": [
+      [
+        0.26,
+        0.62
+      ],
+      [
+        0.75,
+        0.85
+      ],
+      [
+        0.55,
+        0.7
+      ]
+    ],
+    "3f_brothers": [
+      [
+        0.4,
+        0.5
+      ],
+      [
+        0.64,
+        0.25
+      ],
+      [
+        0.2,
+        0.9
+      ]
+    ],
+    "3g_ground": [
+      [
+        0.66,
+        0.75
+      ],
+      [
+        0.25,
+        0.8
+      ],
+      [
+        0.83,
+        0.7
+      ]
+    ],
+    "4_castle": [
+      [
+        0.6,
+        0.45
+      ],
+      [
+        0.19,
+        0.78
+      ],
+      [
+        0.56,
+        0.55
+      ]
+    ],
+    "4b_bath": [
+      [
+        0.37,
+        0.7
+      ],
+      [
+        0.19,
+        0.8
+      ],
+      [
+        0.6,
+        0.3
+      ]
+    ],
+    "4c_moon_room": [
+      [
+        0.42,
+        0.3
+      ],
+      [
+        0.16,
+        0.85
+      ],
+      [
+        0.67,
+        0.62
+      ]
+    ],
+    "4d_mermaids": [
+      [
+        0.35,
+        0.42
+      ],
+      [
+        0.4,
+        0.88
+      ],
+      [
+        0.82,
+        0.18
+      ]
+    ],
+    "4e_invisible": [
+      [
+        0.4,
+        0.7
+      ],
+      [
+        0.62,
+        0.55
+      ],
+      [
+        0.8,
+        0.3
+      ]
+    ],
+    "4f_net": [
+      [
+        0.43,
+        0.8
+      ],
+      [
+        0.77,
+        0.7
+      ],
+      [
+        0.19,
+        0.85
+      ]
+    ],
+    "5_flight": [
+      [
+        0.7,
+        0.3
+      ],
+      [
+        0.24,
+        0.78
+      ],
+      [
+        0.5,
+        0.95
+      ]
+    ],
+    "5b_rampage": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.7,
+        0.45
+      ],
+      [
+        0.15,
+        0.78
+      ]
+    ],
+    "5c_riding": [
+      [
+        0.52,
+        0.65
+      ],
+      [
+        0.25,
+        0.55
+      ],
+      [
+        0.9,
+        0.75
+      ]
+    ],
+    "5d_head_dies": [
+      [
+        0.35,
+        0.65
+      ],
+      [
+        0.77,
+        0.78
+      ],
+      [
+        0.35,
+        0.25
+      ]
+    ],
+    "5e_river_hut": [
+      [
+        0.45,
+        0.8
+      ],
+      [
+        0.8,
+        0.72
+      ],
+      [
+        0.16,
+        0.85
+      ]
+    ],
+    "5f_two_knights": [
+      [
+        0.5,
+        0.78
+      ],
+      [
+        0.78,
+        0.2
+      ],
+      [
+        0.85,
+        0.9
+      ]
+    ],
+    "5g_mound": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.78,
+        0.88
+      ],
+      [
+        0.92,
+        0.9
+      ]
+    ],
+    "5h_dream": [
+      [
+        0.5,
+        0.62
+      ],
+      [
+        0.45,
+        0.92
+      ],
+      [
+        0.62,
+        0.82
+      ]
+    ],
+    "6_dead_field": [
+      [
+        0.44,
+        0.88
+      ],
+      [
+        0.69,
+        0.9
+      ],
+      [
+        0.62,
+        0.55
+      ]
+    ],
+    "6b_palace": [
+      [
+        0.5,
+        0.65
+      ],
+      [
+        0.79,
+        0.9
+      ],
+      [
+        0.88,
+        0.35
+      ]
+    ],
+    "6c_living_water": [
+      [
+        0.62,
+        0.85
+      ],
+      [
+        0.5,
+        0.9
+      ],
+      [
+        0.2,
+        0.9
+      ]
+    ],
+    "6d_battle": [
+      [
+        0.51,
+        0.8
+      ],
+      [
+        0.15,
+        0.5
+      ],
+      [
+        0.8,
+        0.82
+      ]
+    ],
+    "6e_ring": [
+      [
+        0.52,
+        0.62
+      ],
+      [
+        0.62,
+        0.8
+      ],
+      [
+        0.83,
+        0.9
+      ]
+    ],
+    "6f_caucasus": [
+      [
+        0.27,
+        0.88
+      ],
+      [
+        0.4,
+        0.3
+      ],
+      [
+        0.75,
+        0.45
+      ]
+    ]
+  },
+  "fx": {
+    "1c_bedchamber": "flicker",
+    "1f_cave": "flicker",
+    "1h_hag": "flicker",
+    "2f_dwarf_night": "flicker",
+    "4d_mermaids": "leaves",
+    "6c_living_water": "flicker"
+  },
+  "episodes": [
+    {
+      "title": "The Stolen Bride",
+      "from_part": "I",
+      "to_part": "III",
+      "thumb_art": "3d_head_sleep",
+      "blurb": "On the night of his wedding in Kiev, Prince Ruslan sees his bride Ludmila vanish in thunder and smoke. Cantos I to III: the three rival suitors, the sorcerer Finn and his sad love story, the magic garden of the wizard Chernomor, the cap that makes a girl invisible, and a gigantic talking head guarding a sword."
+    },
+    {
+      "title": "The Beard and the Living Water",
+      "from_part": "IV",
+      "to_part": "VI",
+      "thumb_art": "5_flight",
+      "blurb": "Cantos IV to VI: the castle of the twelve maidens, Ludmila hiding invisible in the wizard's garden, the flight over the sea clinging to a magic beard, a faithless friend, and the living and dead water that bring a dead hero back to save Kiev."
+    }
+  ],
+  "glossary": [
+    [
+      "Prince Vladimir",
+      "“Vladimir the Red Sun”, the Grand Prince of Kiev (reigned about 980–1015), the generous ruler of the Russian epic songs; here he is Ludmila's father."
+    ],
+    [
+      "Kiev and the Dnieper",
+      "the old capital of Rus on the Dnieper river, in today's Ukraine."
+    ],
+    [
+      "Bayan",
+      "a legendary bard of ancient Rus who sings to the gusli, a plucked harp-like instrument."
+    ],
+    [
+      "Lel",
+      "the Slavic god of love, as Pushkin names him."
+    ],
+    [
+      "Chernomor",
+      "the dwarf wizard of the northern mountains, whose power lies in his long beard."
+    ],
+    [
+      "Finn",
+      "a sorcerer from the far north. Finland was thought of as the home of the best magicians."
+    ],
+    [
+      "Pechenegs",
+      "a nomad people of the steppe who raided Kiev in the 10th and 11th centuries."
+    ],
+    [
+      "Khazars",
+      "a Turkic people of the steppe north of the Caucasus; Ratmir is a khan of theirs."
+    ],
+    [
+      "Baba Yaga and Koshchei",
+      "the witch in a flying mortar and the deathless miser king of Russian fairy tales."
+    ],
+    [
+      "mead",
+      "a drink of fermented honey, served at feasts in the old halls."
+    ],
+    [
+      "sarafan",
+      "a long sleeveless Russian dress worn over a blouse."
+    ],
+    [
+      "Moors",
+      "the dark-skinned servants and guards of the palace, as the original calls them."
+    ],
+    [
+      "Orlovsky",
+      "Alexander Orlovsky, a Russian painter famous for lively battle and horse scenes."
+    ],
+    [
+      "the northern Orpheus",
+      "Vasily Zhukovsky, Pushkin's older fellow poet, whose ballad about twelve sleeping maidens Pushkin gently mocks."
+    ],
+    [
+      "Armida",
+      "the enchantress whose magic gardens are famous in Tasso's epic."
+    ]
+  ],
+  "thumb_art": "1_oak",
+  "thumb_position": "50% 50%",
+  "thumb_sub": "A POEM<br>FULL-CAST AUDIOBOOK",
+  "cover_bg": [
+    "#0d1830",
+    "#e0e6f4"
+  ],
+  "summary": "On his wedding night the young prince Ruslan loses his bride Ludmila to an evil wizard and rides out to find her, through enchanted forests, a talking giant head, rival knights and a magic beard. Pushkin's first great poem, a fairy tale told with wit.",
+  "site_description": "At the wedding feast of the Kiev prince's daughter Ludmila a clap of thunder puts out the lights, and the bride is gone, carried off by the dwarf wizard Chernomor. Three rivals and the bridegroom Ruslan ride out to find her. Pushkin's first great poem (1820), full of fairy-tale wonders, jokes and tender asides, here read as a full-cast English audiobook in a prose rendering of the Russian verse.",
+  "tags": [
+    "Pushkin",
+    "Alexander Pushkin",
+    "Ruslan and Ludmila",
+    "audiobook",
+    "full cast audiobook",
+    "poem",
+    "fairy tale",
+    "Russian fairy tale",
+    "classic literature",
+    "Russian literature",
+    "public domain",
+    "English audiobook"
+  ],
+  "hashtags": "#Pushkin #audiobook #classicliterature #russianliterature #publicdomain",
+  "playlist": "PLVuswr3XMg9E",
+  "text_note": "Prose rendering of the Russian verse by an AI, a draft that needs a human editor.",
+  "ru": {
+    "title": "Руслан и Людмила",
+    "author": "Александр Пушкин",
+    "names": {
+      "I": "Пир и похищение",
+      "II": "Соперники и волшебный сад",
+      "III": "Шапка и Голова",
+      "IV": "Замок дев",
+      "V": "Борода и измена",
+      "VI": "Живая вода"
+    },
+    "note": "Поэма в издании для чтения с оригинальными иллюстрациями.",
+    "source_note": "Текст с ru.wikisource.org, по изданию: А. С. Пушкин, Полное собрание сочинений в 10 томах, т. 4 (Л.: Наука, 1977), окончательный текст с прологом и эпилогом.",
+    "contents": "Содержание",
+    "back": "О тексте",
+    "small": "Текст поэмы находится в общественном достоянии. Строфы разбиты на более короткие группы строк для удобства чтения. Названия песен и иллюстрации сделаны для этого издания. Набрано шрифтом Lora (SIL Open Font License).",
+    "description": "На свадебном пиру в Киеве гремит гром, гаснет свет, и Людмила исчезает: её похитил злой карлик Черномор. Руслан и три его соперника скачут на поиски. Первая поэма Пушкина (1820), сказка с шуткой и лирическими отступлениями."
+  },
+  "series_playlist": "PLGgqwTe8kDIk"
+}

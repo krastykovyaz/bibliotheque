@@ -1,0 +1,422 @@
+{
+  "slug": "makar-chudra",
+  "prefix": "Makar_Chudra",
+  "lang": "en",
+  "title": "Makar Chudra",
+  "author": "Maxim Gorky",
+  "author_ru": "Максим Горький",
+  "year": 1892,
+  "title_original": "Макар Чудра",
+  "publication_note": "first published in the newspaper «Kavkaz», Tiflis, 1892 (Gorky's first printed story)",
+  "source_note": "Text from ru.wikisource.org, after M. Gorky's Complete Works.",
+  "translated_from": "the Russian original",
+  "parts": [
+    "I",
+    "II",
+    "III",
+    "IV",
+    "V",
+    "VI"
+  ],
+  "names": {
+    "I": "The Old Gypsy",
+    "II": "Radda",
+    "III": "Loiko Zobar",
+    "IV": "The Song and the Whip",
+    "V": "The Ravine",
+    "VI": "The Knife"
+  },
+  "art": {
+    "I": "1_campfire",
+    "II": "2b_magnate",
+    "III": "3_rider",
+    "IV": "4_song",
+    "V": "5b_standoff",
+    "VI": "6b_knife"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "art": "1_campfire"
+    },
+    {
+      "id": 12,
+      "art": "1b_road"
+    },
+    {
+      "id": 15,
+      "art": "1c_camp_nonka"
+    },
+    {
+      "id": 18,
+      "art": "2_loiko_horse"
+    },
+    {
+      "id": 22,
+      "art": "2b_magnate"
+    },
+    {
+      "id": 33,
+      "art": "3_rider"
+    },
+    {
+      "id": 49,
+      "art": "3b_fiddler"
+    },
+    {
+      "id": 51,
+      "art": "4_song"
+    },
+    {
+      "id": 67,
+      "art": "4b_whip"
+    },
+    {
+      "id": 72,
+      "art": "5_ravine"
+    },
+    {
+      "id": 76,
+      "art": "5b_standoff"
+    },
+    {
+      "id": 93,
+      "art": "6_circle"
+    },
+    {
+      "id": 100,
+      "art": "6b_knife"
+    },
+    {
+      "id": 113,
+      "art": "6c_end"
+    },
+    {
+      "id": 116,
+      "art": "6d_vision"
+    }
+  ],
+  "art_alt": {
+    "1_campfire": "Old Makar Chudra with a long pipe by a campfire on the autumn steppe, a young traveller wrapped in a coat lying near, the camp and horses behind, the sea on the right",
+    "1b_road": "A winding road across the steppe to the sea at sunset, a traveller with a bag walking along it, a lone ploughman far away, wild geese in the sky",
+    "1c_camp_nonka": "The Gypsy camp at night with two covered wagons and a tent, proud Nonka in a red dress standing by a small fire, horses by a rail",
+    "2_loiko_horse": "Loiko Zobar galloping away on a white horse under the moon while soldiers guarding the stable sleep around a lantern",
+    "2b_magnate": "Radda in a green dress kicking a purse of gold into the mud, an old magnate on a pale horse looking on, a Gypsy wagon behind",
+    "3_rider": "Loiko Zobar riding out of the dark into the firelight with a fiddle in his hand, the camp sitting round the fire watching him",
+    "3b_fiddler": "Loiko Zobar playing the fiddle alone on a hill in front of a huge full moon, small campfires with listeners on either side below",
+    "4_song": "Loiko singing with his fiddle by the fire, Radda lying on her back looking at the stars, the elders sitting near, wagons behind",
+    "4b_whip": "Loiko thrown flat on his back, Radda smiling with a whip in her hand, the old men watching by the fire",
+    "5_ravine": "A moonlit ravine with a stream, Loiko sitting on a stone, old Makar lying on the bank watching, Radda coming from the distant camp fire",
+    "5b_standoff": "Radda aiming a pistol at Loiko's forehead in the moonlight, his knife lying on the ground between them",
+    "6_circle": "The camp gathered round the fire at dusk, Loiko with lowered eyes, Radda in green pointing to her feet",
+    "6b_knife": "Radda lying dead in a green dress, Loiko lying at her feet, old Danilo holding the knife, the men standing bare-headed by the fire",
+    "6c_end": "A dying fire in the rain, horses standing round in a ring, Makar wrapped in his coat asleep and the young traveller awake",
+    "6d_vision": "In the rainy dark above the steppe the ghostly figures of Radda holding a lock of hair to her wound and Loiko behind her, circling, the sea below"
+  },
+  "focus": {
+    "1_campfire": [
+      [
+        0.87,
+        0.78
+      ],
+      [
+        0.65,
+        0.8
+      ],
+      [
+        0.3,
+        0.65
+      ]
+    ],
+    "1b_road": [
+      [
+        0.5,
+        0.78
+      ],
+      [
+        0.2,
+        0.68
+      ],
+      [
+        0.75,
+        0.65
+      ]
+    ],
+    "1c_camp_nonka": [
+      [
+        0.65,
+        0.8
+      ],
+      [
+        0.2,
+        0.7
+      ],
+      [
+        0.5,
+        0.7
+      ]
+    ],
+    "2_loiko_horse": [
+      [
+        0.65,
+        0.62
+      ],
+      [
+        0.2,
+        0.75
+      ],
+      [
+        0.8,
+        0.22
+      ]
+    ],
+    "2b_magnate": [
+      [
+        0.62,
+        0.8
+      ],
+      [
+        0.2,
+        0.75
+      ],
+      [
+        0.85,
+        0.7
+      ]
+    ],
+    "3_rider": [
+      [
+        0.2,
+        0.65
+      ],
+      [
+        0.55,
+        0.78
+      ],
+      [
+        0.8,
+        0.75
+      ]
+    ],
+    "3b_fiddler": [
+      [
+        0.5,
+        0.65
+      ],
+      [
+        0.5,
+        0.3
+      ],
+      [
+        0.2,
+        0.88
+      ]
+    ],
+    "4_song": [
+      [
+        0.65,
+        0.75
+      ],
+      [
+        0.4,
+        0.88
+      ],
+      [
+        0.85,
+        0.75
+      ]
+    ],
+    "4b_whip": [
+      [
+        0.55,
+        0.78
+      ],
+      [
+        0.75,
+        0.85
+      ],
+      [
+        0.3,
+        0.8
+      ]
+    ],
+    "5_ravine": [
+      [
+        0.5,
+        0.85
+      ],
+      [
+        0.2,
+        0.5
+      ],
+      [
+        0.85,
+        0.4
+      ]
+    ],
+    "5b_standoff": [
+      [
+        0.35,
+        0.75
+      ],
+      [
+        0.7,
+        0.8
+      ],
+      [
+        0.5,
+        0.2
+      ]
+    ],
+    "6_circle": [
+      [
+        0.35,
+        0.8
+      ],
+      [
+        0.7,
+        0.8
+      ],
+      [
+        0.5,
+        0.78
+      ]
+    ],
+    "6b_knife": [
+      [
+        0.5,
+        0.88
+      ],
+      [
+        0.75,
+        0.82
+      ],
+      [
+        0.15,
+        0.82
+      ]
+    ],
+    "6c_end": [
+      [
+        0.45,
+        0.85
+      ],
+      [
+        0.2,
+        0.7
+      ],
+      [
+        0.8,
+        0.8
+      ]
+    ],
+    "6d_vision": [
+      [
+        0.5,
+        0.38
+      ],
+      [
+        0.3,
+        0.45
+      ],
+      [
+        0.85,
+        0.95
+      ]
+    ]
+  },
+  "fx": {
+    "1_campfire": "leaves",
+    "1b_road": "leaves",
+    "1c_camp_nonka": "flicker",
+    "3_rider": "flicker",
+    "3b_fiddler": "flicker",
+    "4_song": "flicker",
+    "4b_whip": "flicker",
+    "6_circle": "flicker",
+    "6b_knife": "flicker",
+    "6c_end": "rain",
+    "6d_vision": "rain"
+  },
+  "glossary": [
+    [
+      "chekmen",
+      "a long, loose coat of coarse cloth worn by men of the steppe and the Caucasus."
+    ],
+    [
+      "falcon",
+      "Makar's pet name for the young man he is talking to."
+    ],
+    [
+      "Gypsy",
+      "the word Gorky uses; the people are today called the Roma."
+    ],
+    [
+      "camp",
+      "a travelling company of Gypsy families with their wagons and horses (Russian: tabor)."
+    ],
+    [
+      "Lajos Kossuth",
+      "the Hungarian leader of the 1848 revolution; Danilo says he fought at his side."
+    ],
+    [
+      "Bukovina, Moravia, Slavonia",
+      "regions of the old Austro-Hungarian lands where the camp wanders."
+    ],
+    [
+      "magnate",
+      "a rich nobleman of Hungary or Moravia."
+    ],
+    [
+      "pood",
+      "an old Russian weight, about 16 kilograms."
+    ],
+    [
+      "Montenegrins",
+      "the mountain people of the Balkans, known for fierce pride and old customs."
+    ]
+  ],
+  "thumb_art": "6d_vision",
+  "thumb_position": "50% 40%",
+  "thumb_sub": "A SHORT STORY<br>FULL-CAST AUDIOBOOK",
+  "cover_bg": [
+    "#070c1c",
+    "#2e2c20"
+  ],
+  "summary": "On an autumn night by the sea an old Gypsy tells a young traveller a legend: the proud beauty Radda, the free horse-thief and fiddler Loiko Zobar, and a love that could not bow. Gorky's first story, 1892.",
+  "site_description": "Beside a campfire on the Black Sea steppe, old Makar Chudra tells a young wanderer about freedom, and about Loiko Zobar, a horse thief who played the fiddle like no one alive, and Radda, the proud Gypsy girl who loved her freedom more than the man she loved. Maxim Gorky's first published story (1892), in a full-cast English audiobook.",
+  "tags": [
+    "Gorky",
+    "Maxim Gorky",
+    "Makar Chudra",
+    "audiobook",
+    "full cast audiobook",
+    "short story",
+    "Gypsy legend",
+    "classic literature",
+    "Russian literature",
+    "public domain",
+    "English audiobook"
+  ],
+  "hashtags": "#Gorky #audiobook #classicliterature #shortstory #publicdomain",
+  "playlist": "PLVuswr3XMg9E",
+  "text_note": "Machine translation from the Russian, a draft that needs a human editor.",
+  "ru": {
+    "title": "Макар Чудра",
+    "author": "Максим Горький",
+    "names": {
+      "I": "Старый цыган",
+      "II": "Радда",
+      "III": "Лойко Зобар",
+      "IV": "Песня и кнут",
+      "V": "Овраг",
+      "VI": "Нож"
+    },
+    "note": "Рассказ в издании для чтения с оригинальными иллюстрациями.",
+    "source_note": "Текст с ru.wikisource.org, по изданию: М. Горький, Собрание сочинений.",
+    "contents": "Содержание",
+    "back": "О тексте",
+    "small": "Текст рассказа находится в общественном достоянии. Названия частей и иллюстрации сделаны для этого издания. Набрано шрифтом Lora (SIL Open Font License).",
+    "description": "Осенней ночью у моря старый цыган Макар Чудра рассказывает молодому страннику быль о красавице Радде и вольном конокраде и скрипаче Лойко Зобаре, о любви, которая не умела гнуть шею. Первый рассказ Максима Горького, 1892 год."
+  }
+}

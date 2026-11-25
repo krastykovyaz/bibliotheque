@@ -1,0 +1,1839 @@
+{
+  "slug": "a-month-in-the-country",
+  "prefix": "A_Month_in_the_Country",
+  "lang": "en",
+  "title": "A Month in the Country",
+  "author": "Ivan Turgenev",
+  "author_ru": "Иван Тургенев",
+  "year": 1855,
+  "title_original": "Месяц в деревне",
+  "publication_note": "a comedy in five acts, written 1848–1850, first printed in «Sovremennik», 1855",
+  "source_note": "Text from ru.wikisource.org (the page «Месяц в деревне»).",
+  "translated_from": "the Russian original",
+  "parts": [
+    "I",
+    "II",
+    "III",
+    "IV",
+    "V"
+  ],
+  "names": {
+    "I": "The Drawing-Room",
+    "II": "The Garden",
+    "III": "The Confession",
+    "IV": "The Stone Hall",
+    "V": "The Parting"
+  },
+  "art": {
+    "I": "1_cards",
+    "II": "2_kite",
+    "III": "3_confidence",
+    "IV": "4_hall",
+    "V": "5_parting"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "art": "i01"
+    },
+    {
+      "id": 48,
+      "art": "i02"
+    },
+    {
+      "id": 81,
+      "art": "i03"
+    },
+    {
+      "id": 120,
+      "art": "i04"
+    },
+    {
+      "id": 151,
+      "art": "i05"
+    },
+    {
+      "id": 171,
+      "art": "i06"
+    },
+    {
+      "id": 207,
+      "art": "i07"
+    },
+    {
+      "id": 244,
+      "art": "i08"
+    },
+    {
+      "id": 279,
+      "art": "i09"
+    },
+    {
+      "id": 321,
+      "art": "i10"
+    },
+    {
+      "id": 356,
+      "art": "i11"
+    },
+    {
+      "id": 387,
+      "art": "i12"
+    },
+    {
+      "id": 415,
+      "art": "i13"
+    },
+    {
+      "id": 433,
+      "art": "i14"
+    },
+    {
+      "id": 476,
+      "art": "i15"
+    },
+    {
+      "id": 482,
+      "art": "ii01"
+    },
+    {
+      "id": 508,
+      "art": "ii02"
+    },
+    {
+      "id": 551,
+      "art": "ii03"
+    },
+    {
+      "id": 598,
+      "art": "ii04"
+    },
+    {
+      "id": 636,
+      "art": "ii05"
+    },
+    {
+      "id": 674,
+      "art": "ii06"
+    },
+    {
+      "id": 706,
+      "art": "ii07"
+    },
+    {
+      "id": 737,
+      "art": "ii08"
+    },
+    {
+      "id": 765,
+      "art": "ii09"
+    },
+    {
+      "id": 782,
+      "art": "ii10"
+    },
+    {
+      "id": 823,
+      "art": "ii11"
+    },
+    {
+      "id": 858,
+      "art": "ii12"
+    },
+    {
+      "id": 896,
+      "art": "ii13"
+    },
+    {
+      "id": 919,
+      "art": "ii14"
+    },
+    {
+      "id": 946,
+      "art": "ii15"
+    },
+    {
+      "id": 960,
+      "art": "ii16"
+    },
+    {
+      "id": 991,
+      "art": "ii17"
+    },
+    {
+      "id": 1001,
+      "art": "iii01"
+    },
+    {
+      "id": 1019,
+      "art": "iii02"
+    },
+    {
+      "id": 1041,
+      "art": "iii03"
+    },
+    {
+      "id": 1079,
+      "art": "iii04"
+    },
+    {
+      "id": 1102,
+      "art": "iii05"
+    },
+    {
+      "id": 1130,
+      "art": "iii06"
+    },
+    {
+      "id": 1157,
+      "art": "iii07"
+    },
+    {
+      "id": 1192,
+      "art": "iii08"
+    },
+    {
+      "id": 1223,
+      "art": "iii09"
+    },
+    {
+      "id": 1248,
+      "art": "iii10"
+    },
+    {
+      "id": 1270,
+      "art": "iii11"
+    },
+    {
+      "id": 1297,
+      "art": "iii12"
+    },
+    {
+      "id": 1320,
+      "art": "iii13"
+    },
+    {
+      "id": 1354,
+      "art": "iii14"
+    },
+    {
+      "id": 1388,
+      "art": "iii15"
+    },
+    {
+      "id": 1409,
+      "art": "iii16"
+    },
+    {
+      "id": 1442,
+      "art": "iii17"
+    },
+    {
+      "id": 1459,
+      "art": "iii18"
+    },
+    {
+      "id": 1477,
+      "art": "iii19"
+    },
+    {
+      "id": 1486,
+      "art": "iv01"
+    },
+    {
+      "id": 1518,
+      "art": "iv02"
+    },
+    {
+      "id": 1532,
+      "art": "iv03"
+    },
+    {
+      "id": 1539,
+      "art": "iv04"
+    },
+    {
+      "id": 1554,
+      "art": "iv05"
+    },
+    {
+      "id": 1574,
+      "art": "iv06"
+    },
+    {
+      "id": 1612,
+      "art": "iv07"
+    },
+    {
+      "id": 1637,
+      "art": "iv08"
+    },
+    {
+      "id": 1667,
+      "art": "iv09"
+    },
+    {
+      "id": 1689,
+      "art": "iv10"
+    },
+    {
+      "id": 1725,
+      "art": "iv11"
+    },
+    {
+      "id": 1739,
+      "art": "iv12"
+    },
+    {
+      "id": 1747,
+      "art": "iv13"
+    },
+    {
+      "id": 1762,
+      "art": "iv14"
+    },
+    {
+      "id": 1800,
+      "art": "iv15"
+    },
+    {
+      "id": 1832,
+      "art": "iv16"
+    },
+    {
+      "id": 1835,
+      "art": "v01"
+    },
+    {
+      "id": 1876,
+      "art": "v02"
+    },
+    {
+      "id": 1909,
+      "art": "v03"
+    },
+    {
+      "id": 1922,
+      "art": "v04"
+    },
+    {
+      "id": 1950,
+      "art": "v05"
+    },
+    {
+      "id": 1990,
+      "art": "v06"
+    },
+    {
+      "id": 2008,
+      "art": "v07"
+    },
+    {
+      "id": 2041,
+      "art": "v08"
+    },
+    {
+      "id": 2069,
+      "art": "v09"
+    },
+    {
+      "id": 2106,
+      "art": "v10"
+    },
+    {
+      "id": 2127,
+      "art": "v11"
+    },
+    {
+      "id": 2142,
+      "art": "v12"
+    },
+    {
+      "id": 2171,
+      "art": "v13"
+    },
+    {
+      "id": 2208,
+      "art": "v14"
+    },
+    {
+      "id": 2242,
+      "art": "v15"
+    },
+    {
+      "id": 2273,
+      "art": "v16"
+    }
+  ],
+  "art_alt": {
+    "i01": "Anna Semyonovna, Schaaf, Natalya Petrovna, Rakitin in the drawing-room",
+    "i02": "Anna Semyonovna, Schaaf, Natalya Petrovna, Rakitin in the drawing-room",
+    "i03": "Anna Semyonovna, Kolya, Natalya Petrovna, Rakitin in the drawing-room",
+    "i04": "Schaaf, Natalya Petrovna, Rakitin, Shpigelsky in the drawing-room",
+    "i05": "Natalya Petrovna, Shpigelsky in the drawing-room",
+    "i06": "Anna Semyonovna, Natalya Petrovna, Rakitin, Shpigelsky in the drawing-room",
+    "i07": "Schaaf, Kolya, Natalya Petrovna, Shpigelsky in the drawing-room",
+    "i08": "Schaaf, Vera, Natalya Petrovna, Shpigelsky in the drawing-room",
+    "i09": "Natalya Petrovna, Rakitin, Shpigelsky in the drawing-room",
+    "i10": "Natalya Petrovna, Rakitin, Islayev in the drawing-room",
+    "i11": "Natalya Petrovna, Rakitin, Belyaev, Islayev in the drawing-room",
+    "i12": "Natalya Petrovna, Belyaev in the drawing-room",
+    "i13": "Natalya Petrovna, Belyaev in the drawing-room",
+    "i14": "Matvei, Vera, Natalya Petrovna, Shpigelsky in the drawing-room",
+    "i15": "Natalya Petrovna, Shpigelsky in the drawing-room",
+    "ii01": "Schaaf, Katya, Matvei in the garden",
+    "ii02": "Schaaf, Katya, Natalya Petrovna, Belyaev in the garden",
+    "ii03": "Vera, Belyaev in the garden",
+    "ii04": "Vera, Belyaev in the garden",
+    "ii05": "Vera, Belyaev in the garden",
+    "ii06": "Natalya Petrovna, Rakitin in the garden",
+    "ii07": "Natalya Petrovna, Rakitin in the garden",
+    "ii08": "Natalya Petrovna, Rakitin in the garden",
+    "ii09": "Rakitin in the garden",
+    "ii10": "Rakitin, Belyaev in the garden",
+    "ii11": "Natalya Petrovna, Rakitin, Belyaev in the garden",
+    "ii12": "Natalya Petrovna, Rakitin, Shpigelsky, Bolshintsov in the garden",
+    "ii13": "Shpigelsky, Bolshintsov in the garden",
+    "ii14": "Shpigelsky, Bolshintsov in the garden",
+    "ii15": "Shpigelsky, Bolshintsov in the garden",
+    "ii16": "Natalya Petrovna, Shpigelsky, Bolshintsov in the garden",
+    "ii17": "Shpigelsky in the garden",
+    "iii01": "Rakitin, Shpigelsky in the drawing-room",
+    "iii02": "Rakitin, Shpigelsky in the drawing-room",
+    "iii03": "Natalya Petrovna, Rakitin in the drawing-room",
+    "iii04": "Natalya Petrovna, Rakitin in the drawing-room",
+    "iii05": "Vera, Natalya Petrovna, Rakitin in the drawing-room",
+    "iii06": "Vera, Natalya Petrovna in the drawing-room",
+    "iii07": "Vera, Natalya Petrovna in the drawing-room",
+    "iii08": "Vera, Natalya Petrovna in the drawing-room",
+    "iii09": "Vera, Natalya Petrovna in the drawing-room",
+    "iii10": "Natalya Petrovna in the drawing-room",
+    "iii11": "Natalya Petrovna, Rakitin in the drawing-room",
+    "iii12": "Natalya Petrovna, Rakitin in the drawing-room",
+    "iii13": "Anna Semyonovna, Natalya Petrovna, Rakitin, Islayev in the drawing-room",
+    "iii14": "Anna Semyonovna, Natalya Petrovna, Rakitin, Islayev in the drawing-room",
+    "iii15": "Natalya Petrovna, Rakitin in the drawing-room",
+    "iii16": "Natalya Petrovna, Belyaev in the drawing-room",
+    "iii17": "Natalya Petrovna, Belyaev in the drawing-room",
+    "iii18": "Natalya Petrovna, Belyaev in the drawing-room",
+    "iii19": "Natalya Petrovna in the drawing-room",
+    "iv01": "Lizaveta Bogdanovna, Katya, Shpigelsky in the stone hall",
+    "iv02": "Lizaveta Bogdanovna, Shpigelsky in the stone hall",
+    "iv03": "Lizaveta Bogdanovna, Shpigelsky in the stone hall",
+    "iv04": "Lizaveta Bogdanovna, Shpigelsky in the stone hall",
+    "iv05": "Lizaveta Bogdanovna, Shpigelsky in the stone hall",
+    "iv06": "Katya, Belyaev in the stone hall",
+    "iv07": "Katya, Vera, Belyaev in the stone hall",
+    "iv08": "Vera, Belyaev in the stone hall",
+    "iv09": "Vera, Belyaev in the stone hall",
+    "iv10": "Vera, Natalya Petrovna, Belyaev in the stone hall",
+    "iv11": "Vera, Natalya Petrovna, Belyaev in the stone hall",
+    "iv12": "Natalya Petrovna, Belyaev in the stone hall",
+    "iv13": "Natalya Petrovna, Belyaev in the stone hall",
+    "iv14": "Natalya Petrovna, Rakitin, Belyaev in the stone hall",
+    "iv15": "Natalya Petrovna, Rakitin, Shpigelsky, Islayev in the stone hall",
+    "iv16": "Rakitin in the stone hall",
+    "v01": "Anna Semyonovna, Matvei, Islayev in the drawing-room",
+    "v02": "Anna Semyonovna, Matvei, Rakitin, Islayev in the drawing-room",
+    "v03": "Rakitin, Islayev in the drawing-room",
+    "v04": "Rakitin, Islayev in the drawing-room",
+    "v05": "Rakitin, Belyaev, Islayev in the drawing-room",
+    "v06": "Rakitin, Belyaev in the drawing-room",
+    "v07": "Natalya Petrovna, Rakitin, Belyaev in the drawing-room",
+    "v08": "Vera, Natalya Petrovna, Rakitin in the drawing-room",
+    "v09": "Vera, Natalya Petrovna, Shpigelsky, Islayev in the drawing-room",
+    "v10": "Vera, Belyaev, Shpigelsky in the drawing-room",
+    "v11": "Vera, Belyaev in the drawing-room",
+    "v12": "Vera, Natalya Petrovna in the drawing-room",
+    "v13": "Natalya Petrovna, Rakitin, Islayev in the drawing-room",
+    "v14": "Anna Semyonovna, Rakitin, Shpigelsky, Islayev in the drawing-room",
+    "v15": "Anna Semyonovna, Rakitin, Shpigelsky, Islayev in the drawing-room",
+    "v16": "Anna Semyonovna, Lizaveta Bogdanovna, Shpigelsky in the drawing-room",
+    "1_cards": "Natalya Petrovna and Rakitin at the round table, Anna Semyonovna, Lizaveta Bogdanovna and Schaaf playing preference in the drawing-room",
+    "2_kite": "Vera and Belyaev with a red kite in the garden under the limes",
+    "3_confidence": "Natalya Petrovna and Vera in the drawing-room at the moment of the confession",
+    "4_hall": "Natalya Petrovna and Belyaev in the empty stone hall in the red evening light",
+    "5_parting": "Rakitin and Islayev in the drawing-room on the morning of the parting"
+  },
+  "focus": {
+    "i01": [
+      [
+        0.51,
+        0.6
+      ],
+      [
+        0.63,
+        0.55
+      ],
+      [
+        0.86,
+        0.55
+      ]
+    ],
+    "i02": [
+      [
+        0.51,
+        0.6
+      ],
+      [
+        0.63,
+        0.55
+      ],
+      [
+        0.86,
+        0.55
+      ]
+    ],
+    "i03": [
+      [
+        0.4,
+        0.6
+      ],
+      [
+        0.63,
+        0.55
+      ],
+      [
+        0.4,
+        0.55
+      ]
+    ],
+    "i04": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.21,
+        0.55
+      ],
+      [
+        0.4,
+        0.55
+      ]
+    ],
+    "i05": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "i06": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.21,
+        0.55
+      ],
+      [
+        0.4,
+        0.55
+      ]
+    ],
+    "i07": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.21,
+        0.55
+      ],
+      [
+        0.4,
+        0.55
+      ]
+    ],
+    "i08": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.21,
+        0.55
+      ],
+      [
+        0.4,
+        0.55
+      ]
+    ],
+    "i09": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.21,
+        0.55
+      ],
+      [
+        0.5,
+        0.55
+      ]
+    ],
+    "i10": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.21,
+        0.55
+      ],
+      [
+        0.5,
+        0.55
+      ]
+    ],
+    "i11": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.21,
+        0.55
+      ],
+      [
+        0.4,
+        0.55
+      ]
+    ],
+    "i12": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "i13": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "i14": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.21,
+        0.55
+      ],
+      [
+        0.4,
+        0.55
+      ]
+    ],
+    "i15": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "ii01": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.21,
+        0.55
+      ],
+      [
+        0.5,
+        0.55
+      ]
+    ],
+    "ii02": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.21,
+        0.55
+      ],
+      [
+        0.4,
+        0.55
+      ]
+    ],
+    "ii03": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "ii04": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "ii05": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "ii06": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "ii07": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "ii08": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "ii09": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.5,
+        0.5
+      ]
+    ],
+    "ii10": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "ii11": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.21,
+        0.55
+      ],
+      [
+        0.5,
+        0.55
+      ]
+    ],
+    "ii12": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.21,
+        0.55
+      ],
+      [
+        0.4,
+        0.55
+      ]
+    ],
+    "ii13": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "ii14": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "ii15": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "ii16": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.21,
+        0.55
+      ],
+      [
+        0.5,
+        0.55
+      ]
+    ],
+    "ii17": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.5,
+        0.5
+      ]
+    ],
+    "iii01": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "iii02": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "iii03": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "iii04": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "iii05": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.21,
+        0.55
+      ],
+      [
+        0.5,
+        0.55
+      ]
+    ],
+    "iii06": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "iii07": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "iii08": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "iii09": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "iii10": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.5,
+        0.5
+      ]
+    ],
+    "iii11": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "iii12": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "iii13": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.21,
+        0.55
+      ],
+      [
+        0.4,
+        0.55
+      ]
+    ],
+    "iii14": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.21,
+        0.55
+      ],
+      [
+        0.4,
+        0.55
+      ]
+    ],
+    "iii15": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "iii16": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "iii17": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "iii18": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "iii19": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.5,
+        0.5
+      ]
+    ],
+    "iv01": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.21,
+        0.55
+      ],
+      [
+        0.5,
+        0.55
+      ]
+    ],
+    "iv02": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "iv03": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "iv04": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "iv05": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "iv06": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "iv07": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.21,
+        0.55
+      ],
+      [
+        0.5,
+        0.55
+      ]
+    ],
+    "iv08": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "iv09": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "iv10": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.21,
+        0.55
+      ],
+      [
+        0.5,
+        0.55
+      ]
+    ],
+    "iv11": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.21,
+        0.55
+      ],
+      [
+        0.5,
+        0.55
+      ]
+    ],
+    "iv12": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "iv13": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "iv14": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.21,
+        0.55
+      ],
+      [
+        0.5,
+        0.55
+      ]
+    ],
+    "iv15": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.21,
+        0.55
+      ],
+      [
+        0.4,
+        0.55
+      ]
+    ],
+    "iv16": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.5,
+        0.5
+      ]
+    ],
+    "v01": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.21,
+        0.55
+      ],
+      [
+        0.5,
+        0.55
+      ]
+    ],
+    "v02": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.21,
+        0.55
+      ],
+      [
+        0.4,
+        0.55
+      ]
+    ],
+    "v03": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "v04": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "v05": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.21,
+        0.55
+      ],
+      [
+        0.5,
+        0.55
+      ]
+    ],
+    "v06": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "v07": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.21,
+        0.55
+      ],
+      [
+        0.5,
+        0.55
+      ]
+    ],
+    "v08": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.21,
+        0.55
+      ],
+      [
+        0.5,
+        0.55
+      ]
+    ],
+    "v09": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.21,
+        0.55
+      ],
+      [
+        0.4,
+        0.55
+      ]
+    ],
+    "v10": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.21,
+        0.55
+      ],
+      [
+        0.5,
+        0.55
+      ]
+    ],
+    "v11": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "v12": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "v13": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.21,
+        0.55
+      ],
+      [
+        0.5,
+        0.55
+      ]
+    ],
+    "v14": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.21,
+        0.55
+      ],
+      [
+        0.4,
+        0.55
+      ]
+    ],
+    "v15": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.21,
+        0.55
+      ],
+      [
+        0.4,
+        0.55
+      ]
+    ],
+    "v16": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.21,
+        0.55
+      ],
+      [
+        0.5,
+        0.55
+      ]
+    ],
+    "1_cards": [
+      [
+        0.56,
+        0.6
+      ],
+      [
+        0.63,
+        0.55
+      ],
+      [
+        0.75,
+        0.55
+      ]
+    ],
+    "2_kite": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "3_confidence": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "4_hall": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.55
+      ],
+      [
+        0.65,
+        0.55
+      ]
+    ],
+    "5_parting": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.21,
+        0.55
+      ],
+      [
+        0.5,
+        0.55
+      ]
+    ]
+  },
+  "fx": {
+    "ii01": "leaves",
+    "ii02": "leaves",
+    "ii03": "leaves",
+    "ii04": "leaves",
+    "ii05": "leaves",
+    "ii06": "leaves",
+    "ii07": "leaves",
+    "ii08": "leaves",
+    "ii09": "leaves",
+    "ii10": "leaves",
+    "ii11": "leaves",
+    "ii12": "leaves",
+    "ii13": "leaves",
+    "ii14": "leaves",
+    "ii15": "leaves",
+    "ii16": "leaves",
+    "ii17": "leaves",
+    "2_kite": "leaves"
+  },
+  "episodes": [
+    {
+      "title": "The New Tutor",
+      "from_part": "I",
+      "to_part": "I",
+      "thumb_art": "1_cards",
+      "blurb": "A summer afternoon on the Islayev estate. Natalya Petrovna is bored with her devoted friend Rakitin, the cards go round, and a young student, Belyaev, arrives as tutor to her son. The doctor Shpigelsky has a proposal for the ward Vera."
+    },
+    {
+      "title": "Raspberries and a Kite",
+      "from_part": "II",
+      "to_part": "II",
+      "thumb_art": "2_kite",
+      "blurb": "In the garden Vera and Belyaev make a kite, the maid Katya is courted by two men, and the shy neighbour Bolshintsov is coached by the doctor in how to propose. Natalya Petrovna watches the young people and cannot hide her new feelings from Rakitin."
+    },
+    {
+      "title": "Natalya Petrovna's Secret",
+      "from_part": "III",
+      "to_part": "III",
+      "thumb_art": "3_confidence",
+      "blurb": "Natalya Petrovna tries to marry her ward off, draws out Vera's secret and discovers her own. Rakitin names what is happening to her, and she summons Belyaev to dismiss him."
+    },
+    {
+      "title": "The Declaration",
+      "from_part": "IV",
+      "to_part": "IV",
+      "thumb_art": "4_hall",
+      "blurb": "In an empty hall in the evening light the doctor proposes to the companion Lizaveta Bogdanovna, Vera confronts her guardian, and Natalya Petrovna and Belyaev say what they must not say."
+    },
+    {
+      "title": "The Parting",
+      "from_part": "V",
+      "to_part": "V",
+      "thumb_art": "5_parting",
+      "blurb": "The morning after. Islayev asks his oldest friend the question he fears, Rakitin leaves, Belyaev leaves, Vera decides her future, and the household is left with what was said."
+    }
+  ],
+  "glossary": [
+    [
+      "Natalya Petrovna",
+      "Russians are addressed by first name and patronymic: Natalya, daughter of Pyotr; Arkady Sergeich is Arkady, son of Sergei. Close friends and family use short forms: Natasha, Arkasha, Verochka, Mishel (Michel)."
+    ],
+    [
+      "preference",
+      "a Russian card game for three or four, played at the card table in Act One."
+    ],
+    [
+      "whist",
+      "a card game for four players, a favourite pastime of country houses."
+    ],
+    [
+      "souls",
+      "serfs; an estate was counted by its number of “souls” (male serfs), so “three hundred souls” means a wealthy landowner."
+    ],
+    [
+      "verst",
+      "a Russian measure of distance, a little over a kilometre."
+    ],
+    [
+      "ward",
+      "a girl brought up in a household as its dependent; Vera is an orphan raised by Natalya's family."
+    ],
+    [
+      "name-day",
+      "the feast day of a person's saint, celebrated like a birthday; Natalya Petrovna's is a week away."
+    ],
+    [
+      "troika",
+      "a carriage drawn by three horses; the doctor's reward for matchmaking."
+    ],
+    [
+      "tutor",
+      "a young man hired to teach the family's son, here for the summer months."
+    ],
+    [
+      "Monte Cristo",
+      "the novel by Alexandre Dumas that Rakitin reads aloud in the opening scene."
+    ],
+    [
+      "Talleyrand",
+      "the famously crafty French diplomat; Natalya Petrovna mocks the doctor as a “district Talleyrand”."
+    ]
+  ],
+  "thumb_art": "2_kite",
+  "thumb_position": "50% 50%",
+  "thumb_sub": "A PLAY IN FIVE ACTS<br>FULL-CAST AUDIOBOOK",
+  "cover_bg": [
+    "#22405a",
+    "#7fa656"
+  ],
+  "summary": "One summer month on a Russian country estate: a bored, clever wife, her devoted friend, a young student tutor and an innocent ward. Turgenev's play, a story of love told in dramatic form, in a full-cast English audiobook.",
+  "site_description": "On the Islayev estate, in the early 1840s, Natalya Petrovna is bored with her loyal friend Rakitin until a twenty-one-year-old student, Belyaev, arrives as her son's tutor. Her seventeen-year-old ward Vera falls in love with him too, the doctor Shpigelsky and the shy neighbour Bolshintsov scheme over a marriage, and a month in the country changes everyone. Turgenev called it «a tale in dramatic form»; it became one of the most staged Russian plays. Full cast, five acts, English translation.",
+  "tags": [
+    "Turgenev",
+    "Ivan Turgenev",
+    "A Month in the Country",
+    "audiobook",
+    "full cast audiobook",
+    "play",
+    "radio play",
+    "classic literature",
+    "Russian literature",
+    "drama",
+    "public domain",
+    "English audiobook"
+  ],
+  "hashtags": "#Turgenev #audiobook #classicliterature #russianliterature #publicdomain",
+  "playlist": "PLVuswr3XMg9E",
+  "text_note": "Translated from the Russian by an AI, a draft that needs a human editor. Stage directions are shortened: cues of tone or of whom a speaker addresses are left out.",
+  "ru": {
+    "title": "Месяц в деревне",
+    "author": "Иван Тургенев",
+    "names": {
+      "I": "Гостиная",
+      "II": "Сад",
+      "III": "Признание",
+      "IV": "Сени",
+      "V": "Прощание"
+    },
+    "note": "Пьеса в издании для чтения с оригинальными иллюстрациями.",
+    "source_note": "Текст с ru.wikisource.org (страница «Месяц в деревне»).",
+    "contents": "Содержание",
+    "back": "О тексте",
+    "small": "Текст пьесы находится в общественном достоянии. Названия действий и иллюстрации сделаны для этого издания; имя говорящего набрано заглавными. Набрано шрифтом Lora (SIL Open Font License).",
+    "description": "Лето в усадьбе Ислаевых. Наталья Петровна скучает рядом с преданным другом Ракитиным, пока в доме не появляется молодой студент Беляев, учитель её сына. В него влюбляется и семнадцатилетняя воспитанница Вера. Пьеса Тургенева «Месяц в деревне»."
+  },
+  "series_playlist": "PLEvIlvnHj-q4"
+}

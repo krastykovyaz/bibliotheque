@@ -1,0 +1,38 @@
+{
+ "NARRATOR": {
+  "voice": "Sulafat",
+  "style": "Warm, gentle storyteller for children; read the verse with a lilting, rhythmic cadence, unhurried, with soft pauses at line ends."
+ },
+ "KING": {
+  "voice": "Orus",
+  "style": "Kindly, slightly worried old king; calm, fatherly, a little slow; keep the verse rhythm."
+ },
+ "QUEEN": {
+  "voice": "Aoede",
+  "style": "Soft, tender, gentle queen; happy and a little surprised; light singsong."
+ },
+ "CRAB": {
+  "voice": "Puck",
+  "style": "Small, quick, cheerful and wise; a bit comical, kind; brisk lilting verse."
+ },
+ "GOODFAIRY": {
+  "voice": "Leda",
+  "style": "Bright, warm, kind fairy; gentle blessing tone, musical and soothing."
+ },
+ "WITCH": {
+  "voice": "Vindemiatrix",
+  "style": "Old, croaky, grumbling and sly, but not frightening for children; slower, with a creaky sing-song."
+ },
+ "PRINCE": {
+  "voice": "Achird",
+  "style": "Brave, young, eager, friendly; clear and energetic, but still lilting."
+ },
+ "OLDMAN": {
+  "voice": "Charon",
+  "style": "Old grandfatherly man, slow and low, kind; quiet storytelling."
+ },
+ "PRINCESS": {
+  "voice": "Kore",
+  "style": "Young, curious, sweet girl; light and playful, clear voice."
+ }
+}

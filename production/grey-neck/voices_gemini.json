@@ -1,0 +1,34 @@
+{
+ "NARRATOR": {
+  "voice": "Sulafat",
+  "style": ""
+ },
+ "GREYNECK": {
+  "voice": "Leda",
+  "style": ""
+ },
+ "MOTHER": {
+  "voice": "Aoede",
+  "style": ""
+ },
+ "DRAKE": {
+  "voice": "Orus",
+  "style": ""
+ },
+ "HARE": {
+  "voice": "Puck",
+  "style": ""
+ },
+ "FOX": {
+  "voice": "Algieba",
+  "style": ""
+ },
+ "HUNTER": {
+  "voice": "Iapetus",
+  "style": ""
+ },
+ "LEADER": {
+  "voice": "Sadaltager",
+  "style": ""
+ }
+}

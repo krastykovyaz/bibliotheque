@@ -1,0 +1,46 @@
+{
+ "NARRATOR": {
+  "voice": "Sulafat",
+  "style": ""
+ },
+ "QUEEN": {
+  "voice": "Callirrhoe",
+  "style": ""
+ },
+ "MIRROR": {
+  "voice": "Charon",
+  "style": ""
+ },
+ "PRINCESS": {
+  "voice": "Aoede",
+  "style": ""
+ },
+ "KNIGHT": {
+  "voice": "Orus",
+  "style": ""
+ },
+ "YELISEY": {
+  "voice": "Puck",
+  "style": ""
+ },
+ "SUN": {
+  "voice": "Algieba",
+  "style": ""
+ },
+ "MOON": {
+  "voice": "Vindemiatrix",
+  "style": ""
+ },
+ "WIND": {
+  "voice": "Fenrir",
+  "style": ""
+ },
+ "CHERNAVKA": {
+  "voice": "Kore",
+  "style": ""
+ },
+ "NUN": {
+  "voice": "Despina",
+  "style": ""
+ }
+}

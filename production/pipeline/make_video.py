@@ -20,7 +20,9 @@ B, _BASE = book.load()
 W, H, VH, FPS = 1920, 1080, 990, 30
 TITLE_SECONDS, SHOT_SECONDS, LEAD = 5.0, 25.0, 1.0   # the picture changes LEAD seconds before the new part is heard
 SHOT_SECONDS = float(B.get("shot_seconds", SHOT_SECONDS))   # book.json "shot_seconds": 15 gives short scenes more shots (children's books)
-ASSETS = "video_assets"
+LANG = os.environ.get("BOOK_LANG", "en")      # "ru": Russian voice script, strips and title card (video_assets_ru), pictures from video_assets
+ASSETS = "video_assets_ru" if LANG == "ru" else "video_assets"
+SCRIPT = f"{B['prefix']}_voice_script_ru.json" if LANG == "ru" else f"{B['prefix']}_voice_script.json"
 ART = B["art_for_part"]
 # points of interest in each picture, as fractions of its width and height
 FOCUS = {k: [tuple(p) for p in v] for k, v in B["focus"].items()}
@@ -28,7 +30,9 @@ DEFAULT_FOCUS = [(0.3, 0.5), (0.7, 0.55), (0.5, 0.7)]
 POOL = B.get("art_pool")          # optional: pictures per part; a new picture every SUB_SECONDS and at every letter (see plan_letters)
 FX = B.get("fx", {})              # optional: {"picture name": "rain" | "snow" | "leaves" | "flicker"}
 SUB_SECONDS = 180.0
-SCENES = B.get("scenes")          # optional: [{"id": first voice-script row id of the scene, "art": picture name}, ...] a new picture where the place or the time changes
+SCENES = B.get("scenes")           # optional: [{"id": first voice-script row id of the scene, "art": picture name}, ...] a new picture where the place or the time changes
+if LANG == "ru" and SCENES:     # book.json scene ids are rows of the English script: convert them by part + paragraph
+    SCENES = book.map_scene_ids(SCENES, json.load(open(f"{B['prefix']}_voice_script.json", encoding="utf-8")), json.load(open(SCRIPT, encoding="utf-8")))
 
 
 def moves(art, k):
@@ -111,7 +115,7 @@ def plan_scenes(timing):
     """Scenes where the story changes place or time (book.json "scenes", by the id of the first voice-script row), plus a scene start at
     every part so the label under the picture is right. A part start without a listed scene keeps the previous picture."""
     seg_start = {s["id"]: s["start"] for s in timing["segments"]}
-    rows = json.load(open(f"{B['prefix']}_voice_script.json", encoding="utf-8"))
+    rows = json.load(open(SCRIPT, encoding="utf-8"))
     part_of = {r["id"]: r["part"] for r in rows}
     first_of_part = {}
     for r in rows:
@@ -123,6 +127,8 @@ def plan_scenes(timing):
     for sid, art in want.items():
         starts[sid] = art
     order = sorted(starts)
+    while len(order) > 1 and seg_start[order[1]] - LEAD < TITLE_SECONDS + 2.0:     # a scene that would last under 2 s after the title card (e.g. a spoken title row only) is dropped; the next scene starts the picture
+        order.pop(0)
     scenes = [{"name": "title", "part": None, "f0": 0, "f1": int(round(TITLE_SECONDS * FPS)), "art": None, "strip": None}]
     total_frames = int(math.ceil(timing["total"] * FPS))
     cur_art = None
@@ -196,7 +202,7 @@ def load(scene):
     if scene["part"] is None:
         return None, None, title, None
     art = scene.get("art") or ART[scene["part"]]
-    return cv2.imread(f"{ASSETS}/art_{art}.png"), cv2.imread(f"{ASSETS}/strip_{scene.get('strip') or scene['part']}.png"), title, art
+    return cv2.imread(f"video_assets/art_{art}.png"), cv2.imread(f"{ASSETS}/strip_{scene.get('strip') or scene['part']}.png"), title, art
 
 
 def render_scene(args):
@@ -216,9 +222,10 @@ def render_scene(args):
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("--timing", default=f"{B['prefix']}_audiobook_timing.json")
-    ap.add_argument("--audio", default=f"{B['prefix']}_audiobook.mp3")
-    ap.add_argument("--out", default=f"{B['prefix']}_YouTube.mp4")
+    TAG = "_RU" if LANG == "ru" else ""
+    ap.add_argument("--timing", default=f"{B['prefix']}{TAG}_audiobook_timing.json")
+    ap.add_argument("--audio", default=f"{B['prefix']}{TAG}_audiobook.mp3")
+    ap.add_argument("--out", default=f"{B['prefix']}{TAG}_YouTube.mp4")
     ap.add_argument("--test-frames", action="store_true")
     ap.add_argument("--workers", type=int, default=9)
     a = ap.parse_args()

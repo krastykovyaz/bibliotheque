@@ -1,0 +1,2160 @@
+{
+  "slug": "childhood",
+  "prefix": "Childhood",
+  "lang": "en",
+  "title": "Childhood",
+  "author": "Leo Tolstoy",
+  "author_ru": "Лев Толстой",
+  "year": 1852,
+  "title_original": "Детство",
+  "publication_note": "first published in the magazine «Современник» (The Contemporary), St Petersburg, 1852",
+  "source_note": "Text from ru.wikisource.org, after L. N. Tolstoy, Complete Works in 90 volumes, vol. 1.",
+  "translated_from": "the Russian original",
+  "parts": [
+    "I",
+    "II",
+    "III",
+    "IV",
+    "V",
+    "VI",
+    "VII",
+    "VIII",
+    "IX",
+    "X",
+    "XI",
+    "XII",
+    "XIII",
+    "XIV",
+    "XV",
+    "XVI",
+    "XVII",
+    "XVIII",
+    "XIX",
+    "XX",
+    "XXI",
+    "XXII",
+    "XXIII",
+    "XXIV",
+    "XXV",
+    "XXVI",
+    "XXVII",
+    "XXVIII"
+  ],
+  "names": {
+    "I": "The Tutor Karl Ivanych",
+    "II": "Maman",
+    "III": "Papa",
+    "IV": "Lessons",
+    "V": "The Holy Fool",
+    "VI": "Preparing for the Hunt",
+    "VII": "The Hunt",
+    "VIII": "Games",
+    "IX": "Something Like a First Love",
+    "X": "What Sort of Man Was My Father?",
+    "XI": "Work in the Study and the Drawing Room",
+    "XII": "Grisha",
+    "XIII": "Natalya Savishna",
+    "XIV": "The Parting",
+    "XV": "Childhood",
+    "XVI": "Verses",
+    "XVII": "Princess Kornakova",
+    "XVIII": "Prince Ivan Ivanovich",
+    "XIX": "The Ivins",
+    "XX": "The Guests Gather",
+    "XXI": "Before the Mazurka",
+    "XXII": "The Mazurka",
+    "XXIII": "After the Mazurka",
+    "XXIV": "In Bed",
+    "XXV": "The Letter",
+    "XXVI": "What Awaited Us in the Country",
+    "XXVII": "Grief",
+    "XXVIII": "The Last Sad Memories"
+  },
+  "art": {
+    "I": "01a_wake_up",
+    "II": "02a_drawing_room",
+    "III": "03a_papa_study",
+    "IV": "04a_karl_cross",
+    "V": "05a_holy_fool",
+    "VI": "06a_porch",
+    "VII": "07a_hunt_field",
+    "VIII": "08a_picnic",
+    "IX": "09a_worm_on_the_leaf",
+    "X": "10a_papa_cards",
+    "XI": "11a_piano_dusk",
+    "XII": "12a_closet_grisha",
+    "XIII": "13a_natashka",
+    "XIV": "14a_farewell_porch",
+    "XV": "15a_tea_table_dusk",
+    "XVI": "16a_drawing_lesson",
+    "XVII": "17a_princess_drawing_room",
+    "XVIII": "18a_the_poem",
+    "XIX": "19a_the_ivins_arrive",
+    "XX": "20a_the_house_prepared",
+    "XXI": "21a_hunt_for_gloves",
+    "XXII": "22a_the_mazurka",
+    "XXIII": "23a_supper",
+    "XXIV": "24a_in_bed",
+    "XXV": "25a_news",
+    "XXVI": "26a_arrival",
+    "XXVII": "27a_night_coffin",
+    "XXVIII": "28a_same_house"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "art": "01a_wake_up"
+    },
+    {
+      "id": 5,
+      "art": "01x1_snuff_tickle"
+    },
+    {
+      "id": 15,
+      "art": "01b_washing"
+    },
+    {
+      "id": 21,
+      "art": "01c_classroom"
+    },
+    {
+      "id": 26,
+      "art": "01x2_karl_alone"
+    },
+    {
+      "id": 29,
+      "art": "01d_stove_corner"
+    },
+    {
+      "id": 33,
+      "art": "02a_drawing_room"
+    },
+    {
+      "id": 41,
+      "art": "02x1_cap_permission"
+    },
+    {
+      "id": 59,
+      "art": "03a_papa_study"
+    },
+    {
+      "id": 75,
+      "art": "03x1_envelope"
+    },
+    {
+      "id": 91,
+      "art": "03x2_abacus_yakov"
+    },
+    {
+      "id": 103,
+      "art": "03b_trunk_evening"
+    },
+    {
+      "id": 115,
+      "art": "04a_karl_cross"
+    },
+    {
+      "id": 118,
+      "art": "04b_door_listening"
+    },
+    {
+      "id": 144,
+      "art": "04x1_corner_thinking"
+    },
+    {
+      "id": 151,
+      "art": "05a_holy_fool"
+    },
+    {
+      "id": 159,
+      "art": "05b_stairs"
+    },
+    {
+      "id": 165,
+      "art": "05c_dinner"
+    },
+    {
+      "id": 194,
+      "art": "05x1_the_pie"
+    },
+    {
+      "id": 212,
+      "art": "06a_porch"
+    },
+    {
+      "id": 216,
+      "art": "06x1_leaving"
+    },
+    {
+      "id": 228,
+      "art": "07a_hunt_field"
+    },
+    {
+      "id": 230,
+      "art": "07x1_harvest"
+    },
+    {
+      "id": 244,
+      "art": "07b_oak_ants"
+    },
+    {
+      "id": 250,
+      "art": "07c_hare"
+    },
+    {
+      "id": 255,
+      "art": "08a_picnic"
+    },
+    {
+      "id": 270,
+      "art": "08x1_tears"
+    },
+    {
+      "id": 277,
+      "art": "09a_worm_on_the_leaf"
+    },
+    {
+      "id": 286,
+      "art": "10a_papa_cards"
+    },
+    {
+      "id": 288,
+      "art": "10x1_old_gentleman"
+    },
+    {
+      "id": 294,
+      "art": "11a_piano_dusk"
+    },
+    {
+      "id": 301,
+      "art": "11b_study_karl"
+    },
+    {
+      "id": 322,
+      "art": "11x1_karl_bill"
+    },
+    {
+      "id": 335,
+      "art": "12a_closet_grisha"
+    },
+    {
+      "id": 340,
+      "art": "12b_grisha_prays"
+    },
+    {
+      "id": 346,
+      "art": "12x1_grisha_sobs"
+    },
+    {
+      "id": 353,
+      "art": "13a_natashka"
+    },
+    {
+      "id": 358,
+      "art": "13x1_free_paper"
+    },
+    {
+      "id": 367,
+      "art": "13b_savishna_room"
+    },
+    {
+      "id": 384,
+      "art": "14a_farewell_porch"
+    },
+    {
+      "id": 392,
+      "art": "14x1_coachmen"
+    },
+    {
+      "id": 402,
+      "art": "14b_sit_before_leaving"
+    },
+    {
+      "id": 416,
+      "art": "14x2_inside_carriage"
+    },
+    {
+      "id": 421,
+      "art": "14c_the_road"
+    },
+    {
+      "id": 424,
+      "art": "15a_tea_table_dusk"
+    },
+    {
+      "id": 444,
+      "art": "15b_prayer_moon"
+    },
+    {
+      "id": 450,
+      "art": "16a_drawing_lesson"
+    },
+    {
+      "id": 469,
+      "art": "16b_poem_night"
+    },
+    {
+      "id": 481,
+      "art": "16x1_starched_shirtfront"
+    },
+    {
+      "id": 487,
+      "art": "16c_hall_birthday"
+    },
+    {
+      "id": 492,
+      "art": "16x2_poem_read"
+    },
+    {
+      "id": 504,
+      "art": "17a_princess_drawing_room"
+    },
+    {
+      "id": 520,
+      "art": "17x1_princess_on_education"
+    },
+    {
+      "id": 551,
+      "art": "17b_boy_at_the_mirror"
+    },
+    {
+      "id": 556,
+      "art": "18a_the_poem"
+    },
+    {
+      "id": 560,
+      "art": "18b_prince_ivan_ivanovich"
+    },
+    {
+      "id": 561,
+      "art": "18x1_young_officer_career"
+    },
+    {
+      "id": 571,
+      "art": "18c_the_overheard_talk"
+    },
+    {
+      "id": 594,
+      "art": "19a_the_ivins_arrive"
+    },
+    {
+      "id": 601,
+      "art": "19x1_the_boys_in_the_hall"
+    },
+    {
+      "id": 608,
+      "art": "19b_robbers_in_the_garden"
+    },
+    {
+      "id": 615,
+      "art": "19c_nursery_games"
+    },
+    {
+      "id": 634,
+      "art": "19d_ilinka_on_the_floor"
+    },
+    {
+      "id": 647,
+      "art": "20a_the_house_prepared"
+    },
+    {
+      "id": 652,
+      "art": "20b_sonechka"
+    },
+    {
+      "id": 663,
+      "art": "20c_the_lost_order"
+    },
+    {
+      "id": 685,
+      "art": "20x1_grandmother_receives_guests"
+    },
+    {
+      "id": 696,
+      "art": "21a_hunt_for_gloves"
+    },
+    {
+      "id": 713,
+      "art": "21b_grandmothers_grip"
+    },
+    {
+      "id": 726,
+      "art": "21c_the_quadrille"
+    },
+    {
+      "id": 728,
+      "art": "21x1_silent_beside_sonechka"
+    },
+    {
+      "id": 734,
+      "art": "22a_the_mazurka"
+    },
+    {
+      "id": 742,
+      "art": "22x1_the_shame_dance"
+    },
+    {
+      "id": 749,
+      "art": "23a_supper"
+    },
+    {
+      "id": 764,
+      "art": "23b_grossvater"
+    },
+    {
+      "id": 770,
+      "art": "23c_corridor"
+    },
+    {
+      "id": 786,
+      "art": "23x1_stairs"
+    },
+    {
+      "id": 791,
+      "art": "24a_in_bed"
+    },
+    {
+      "id": 821,
+      "art": "25a_news"
+    },
+    {
+      "id": 824,
+      "art": "25b_letter"
+    },
+    {
+      "id": 829,
+      "art": "25x1_flamande"
+    },
+    {
+      "id": 835,
+      "art": "25x2_orangery"
+    },
+    {
+      "id": 842,
+      "art": "25x3_farewell"
+    },
+    {
+      "id": 850,
+      "art": "25c_night_writing"
+    },
+    {
+      "id": 857,
+      "art": "26a_arrival"
+    },
+    {
+      "id": 864,
+      "art": "26b_sickroom"
+    },
+    {
+      "id": 875,
+      "art": "27a_night_coffin"
+    },
+    {
+      "id": 879,
+      "art": "27x1_remembering"
+    },
+    {
+      "id": 885,
+      "art": "27b_funeral"
+    },
+    {
+      "id": 890,
+      "art": "27x2_orphans"
+    },
+    {
+      "id": 898,
+      "art": "28a_same_house"
+    },
+    {
+      "id": 900,
+      "art": "28b_nurse_room"
+    },
+    {
+      "id": 920,
+      "art": "28x1_soul"
+    },
+    {
+      "id": 938,
+      "art": "28c_sugar"
+    },
+    {
+      "id": 953,
+      "art": "28d_grandmother"
+    },
+    {
+      "id": 968,
+      "art": "28e_empty_house"
+    },
+    {
+      "id": 973,
+      "art": "28x2_inheritance"
+    },
+    {
+      "id": 980,
+      "art": "28f_grave"
+    }
+  ],
+  "art_alt": {
+    "01a_wake_up": "Early morning in the boys' bedroom: Karl Ivanych in his blue coat and red cap raises a fly swatter over the boy hiding under the pillows.",
+    "01b_washing": "Sunlight pours through the window as the servant Nikolai holds a towel, Volodya laughs at the washstand and the boy sits on his bed pulling on his stockings.",
+    "01c_classroom": "In the schoolroom Karl Ivanych sits in his armchair with a book between the door and the window, while the two boys stand at the long table.",
+    "01d_stove_corner": "The boy stands as punishment in the corner by the tiled stove and its damper, while Karl Ivanych reads peacefully in his armchair under his cardboard screen.",
+    "02a_drawing_room": "In the sunny drawing room Maman pours tea at the samovar, Lyubochka plays the piano, and Karl Ivanych bows to greet the family.",
+    "03a_papa_study": "In his study Papa, in a brown tailcoat, talks heatedly over money and papers to the steward Yakov, who stands by the barometer with his hands behind his back.",
+    "03b_trunk_evening": "By candlelight, with a packed travel trunk nearby, Papa tells the two boys they are leaving for Moscow tonight.",
+    "04a_karl_cross": "Karl Ivanych, in a foul temper, scolds the boy kneeling beside the table while Volodya studies his book of dialogues.",
+    "04b_door_listening": "The boy, standing in the open doorway, listens as Karl Ivanych complains bitterly about ingratitude to the servant Nikolai, who sits at his shoe work.",
+    "05a_holy_fool": "The tall holy fool Grisha, in a ragged cassock with a huge staff, stoops through the doorway and bursts in on the startled children.",
+    "05b_stairs": "The children walk down the staircase, with Grisha clattering behind them with his staff, towards Foka the butler waiting below.",
+    "05c_dinner": "At dinner Papa and Maman sit at the long table with the children and the governess, while Grisha eats alone at his own little table, his eyes on his plate.",
+    "06a_porch": "At the porch the long carriage waits for the ladies, with horses brought up, hunting dogs lying about and big summer clouds overhead.",
+    "07a_hunt_field": "Turka the huntsman on his blue horse leads the pack of hounds across the golden field of ripe grain, the riders following.",
+    "07b_oak_ants": "The boy sits under a great oak holding the borzoi Giran, watching ants swarm over the roots.",
+    "07c_hare": "A hare leaps out of the forest edge; the boy lets go of the dog and runs, while Turka rides out of the wood behind him.",
+    "08a_picnic": "The whole party sits on a carpet in the dappled shade of young birches with plates and fruit, while the children play at Robinson Crusoe with a stick for a gun.",
+    "01x1_snuff_tickle": "Karl Ivanych sits at the foot of the bed, takes a pinch of snuff and tickles the heels of the boy, who pretends to be asleep under the pillows.",
+    "01x2_karl_alone": "From the doorway the boy watches old Karl Ivanych sitting alone in his armchair with his book, and feels sorry for him.",
+    "02x1_cap_permission": "Karl Ivanych, balancing on one foot, lifts his red cap and politely asks Maman's permission, while she sits on the sofa.",
+    "03x1_envelope": "At Papa's desk the boy reads the envelope addressed to Karl Ivanych, among stacks of banknotes, as Papa's hand turns him away.",
+    "03x2_abacus_yakov": "The steward Yakov, at the abacus with 3,000 set on it, explains the mill's troubles to Papa while looking him in the eye.",
+    "04x1_corner_thinking": "Kneeling again in the classroom corner, the boy thinks how to reconcile his father and Karl Ivanych, while Volodya studies at the table.",
+    "05x1_the_pie": "At dinner Papa holds a pie out of Maman's reach and bangs his fork on the table, while she stretches out her hand for it.",
+    "06x1_leaving": "The ladies, under parasols, drive off in the long carriage while Foka stands firm on the drive and the boy on his pony picks his way among the dogs.",
+    "07x1_harvest": "The hunting party rides through the boundless golden field of harvest, with reapers and sheaves and the far blue forest.",
+    "08x1_tears": "In the imaginary boat the boy rows, Volodya sits with arms folded, and Lyubochka, tearful, wants to go home.",
+    "09a_worm_on_the_leaf": "Children on a summer meadow: Lyubochka throws up her hands at a worm on a leaf that Katenka holds, while the boy looks over her shoulder.",
+    "10a_papa_cards": "Papa in a brown tailcoat plays cards by candlelight at a green table, with gold coins stacked before the gentlemen.",
+    "11a_piano_dusk": "At dusk Maman plays the piano by a candle while the children draw at a round table and Karl Ivanych waits in the lit study doorway.",
+    "11b_study_karl": "In the study Karl Ivanych in his blue coat weeps while Papa rests a hand on his shoulder and Maman looks on.",
+    "12a_closet_grisha": "From the dark closet the huddled children watch the holy fool Grisha enter the lit room with his staff and a tallow candle.",
+    "12b_grisha_prays": "In the moonlit room Grisha, with chains on his chest, prays with raised arms before the icons while children peek from behind the partition.",
+    "13a_natashka": "In the village of Khabarovka the barefoot plump girl Natashka runs about the yard while her father Savva plays the clarinet.",
+    "13b_savishna_room": "In her little room full of chests, old Natalya Savishna knits by the lamp while the boy sits and listens to her stories.",
+    "14a_farewell_porch": "The carriage waits at the porch in autumn while Maman in a pale dress stands at the top of the steps and the household gathers to say goodbye.",
+    "14b_sit_before_leaving": "The whole family sits silently round the table for a last moment before the journey, with old Foka perched on the edge of a chair.",
+    "14c_the_road": "The carriage rolls along the autumn road between birches, the manor house shrinking in the distance under a heavy sky.",
+    "15a_tea_table_dusk": "Late in the evening a sleepy boy curls up in an armchair by a single candle while Maman bends over him tenderly.",
+    "15b_prayer_moon": "Upstairs in his quilted gown the boy stands before the icon lamp while Natalya Savishna sits by the bed and the full moon shines in the window.",
+    "16a_drawing_lesson": "In grandmother's Moscow house the drawing master corrects a drawing of a Turk's head while Volodya reaches up on tiptoe and the boy sits at the big table.",
+    "16b_poem_night": "The boy writes a birthday poem by candlelight at his desk, with spoiled crumpled sheets all around.",
+    "16c_hall_birthday": "In the hall grandmother prays before the icons and the priest holds the cross, while the family in new brown coats waits and two huge footmen stand at the door.",
+    "10x1_old_gentleman": "Papa in his brown tailcoat tells a story with a sweeping gesture in a bright salon while gentlemen and ladies gather round him in admiration.",
+    "11x1_karl_bill": "Close view: Karl Ivanych in his blue coat wipes a tear with one hand and holds out his bill with the other, while Papa listens.",
+    "12x1_grisha_sobs": "In a pool of moonlight Grisha lies with his forehead on the floor, sobbing like a child, while a child's dark silhouette watches from the door.",
+    "13x1_free_paper": "Maman holds out the paper that frees Natalya Savishna, and the old nurse flings up her hands in anger, about to run out and slam the door.",
+    "14x1_coachmen": "In the yard the old coachman fingers the carriage shaft while the young one in a white shirt cracks his whip, servants waiting behind.",
+    "14x2_inside_carriage": "Huddled in a scarf on the back seat, the boy sees through the gap of the raised hood Maman on the porch, the blue kerchief at her neck.",
+    "16x1_starched_shirtfront": "The boy in his new brown coat takes a starched white shirt-front from the grandmother's maid at the stair door for Karl Ivanych.",
+    "16x2_poem_read": "The boy stands hunched before grandmother in her armchair while she reads his poem aloud and Papa and the others look on.",
+    "17a_princess_drawing_room": "In grandmother's Moscow drawing room the stern old lady sits in her armchair while a small thin princess in a feathered hat calls, with father and two boys standing before them.",
+    "17b_boy_at_the_mirror": "Dusk: the ten-year-old boy stands by a gilt mirror and a lone candle, sadly studying his own plain face.",
+    "18a_the_poem": "The boy stands holding his sheet of verse before grandmother and the visiting princess, who listen politely in the drawing room.",
+    "18b_prince_ivan_ivanovich": "A tall old prince in a green uniform with epaulettes and a white cross enters through the great doorway and greets the family.",
+    "18c_the_overheard_talk": "Seen from the dark doorway, the grandmother holds a handkerchief to her face as the old prince consoles her, unaware of the boy listening.",
+    "19a_the_ivins_arrive": "From the window the two brothers watch three boys in blue coats and a young tutor crossing the snowy street towards the house.",
+    "19b_robbers_in_the_garden": "In the small front garden the boys play robbers and travellers on an early-spring afternoon, with patches of snow on the grass.",
+    "19c_nursery_games": "Upstairs in the nursery the boys show off gymnastic tricks and hold the poor little Ilinka upside down on his head.",
+    "19d_ilinka_on_the_floor": "Little Ilinka lies crying on the floor while Seryozha stands over him and the other boys look on, ashamed.",
+    "20a_the_house_prepared": "The great hall glows with candle chandeliers and polished parquet, with the musicians on their platform and the buffet laid for the ball.",
+    "20b_sonechka": "Grandmother in her armchair welcomes little Sonechka in a white dress with a pink sash, while the shy boy watches from aside.",
+    "20c_the_lost_order": "In the anteroom a footman in livery scolds the young prince Etienne about a lost errand while the boy and Sonechka look on.",
+    "21a_hunt_for_gloves": "By candlelight the boy rummages through a chest of drawers in an empty room, hunting for gloves and finding only old ones.",
+    "21b_grandmothers_grip": "In the ballroom grandmother holds the boy's gloved hand before the guests while Sonechka laughs and the crowd smiles.",
+    "21c_the_quadrille": "Couples dance the French quadrille under the chandeliers, and the boy gives Sonechka his hand in the chain.",
+    "22a_the_mazurka": "The mazurka whirls through the ballroom, a young man stamping his heel, while the boy watches from behind grandmother's high armchair.",
+    "17x1_princess_on_education": "The princess, large in the foreground in her feathered hat, lectures on bringing up boys while the two boys stand uneasily and grandmother and father listen.",
+    "18x1_young_officer_career": "A young officer in green rides a brown horse at the gallop, sword raised, before white tents and red pennants: the old prince's brilliant youth.",
+    "19x1_the_boys_in_the_hall": "In the cloakroom the boy stares in longing admiration at dark-haired Seryozha, with the other Ivin boys and their tutor near the lit doorway.",
+    "20x1_grandmother_receives_guests": "Framed by the great doorway, grandmother in her armchair receives arriving guests as a footman carries their wraps to the chest.",
+    "21x1_silent_beside_sonechka": "Between dances the boy and Sonechka sit side by side on two chairs, tongue-tied, while the dancers wait in the distance.",
+    "22x1_the_shame_dance": "The boy flings out his legs in the forbidden pas de Basques in the middle of the ballroom while father steps in angrily and the guests watch.",
+    "23a_supper": "At the ball's supper the young man in a tailcoat sits at the children's table beside the boy, Sonechka and other children under a chandelier, with the lit ballroom beyond the doorway.",
+    "23b_grossvater": "In the golden ballroom the boy and Sonechka dance gaily at the front while rows of couples dance the grossvater and musicians play from a gallery.",
+    "23c_corridor": "In a lamplit corridor beside a lattice screen and a dark closet under the stairs, the boy walks beside Sonechka and shyly talks to her.",
+    "24a_in_bed": "At night in the moonlit bedroom the boy sits up under his blanket dreaming of Sonechka while his brother Volodya lies in the other bed.",
+    "25a_news": "In the Moscow schoolroom the father in a brown tailcoat tells the tutor in his blue coat and red cap and the boys that they leave for the country tonight.",
+    "25b_letter": "By lamplight the father bows over a long letter spread on his table while the two boys wait apart in the shadows.",
+    "25c_night_writing": "In a night memory the mother sits propped in bed writing a letter by candlelight while the old nurse dozes in an armchair by the icon lamp.",
+    "26a_arrival": "On a grey April day the carriage has stopped before the yellow Petrovskoe house, the dog runs to the boys and old Foka stands in the doorway.",
+    "26b_sickroom": "In the dim sickroom a fair girl in white holds ice to the sick mother's head, the doctor dozes in an armchair and the father and boys stand at the door.",
+    "27a_night_coffin": "Late at night the mother's coffin stands on a table in the dark hall among tall silver candlesticks, the deacon sits in a far corner and the boy waits at the door.",
+    "27b_funeral": "At the funeral service servants and peasants crowd the grey hall around the coffin, a priest swings a censer and the boy stands in his tight new jacket.",
+    "28a_same_house": "In the quiet grey dining room the family sits at the laid table, the samovar steams and the mother's chair stands empty.",
+    "28b_nurse_room": "In her small candlelit room Natalya Savishna sits on her bed beside the boy, pointing upward, under the red glow of the icon lamp.",
+    "28c_sugar": "Natalya Savishna stands at her open chest weighing sugar on the scales while old Foka waits and grumbles by the candle.",
+    "28d_grandmother": "In a darkened Moscow room the grandmother in black sits bowed in her armchair while the boy looks in from the doorway.",
+    "28e_empty_house": "In the big empty Petrovskoe hall, furniture under white sheets, the old nurse sits by a candle sewing a white dress with pink ribbons.",
+    "28f_grave": "At dusk, by the little white chapel, the grown boy stands before the nurse's grave behind its black railing as autumn leaves drift down.",
+    "23x1_stairs": "In the front hall the boys crowd the staircase to watch Sonechka, wrapped in a pale hooded coat, leave with her mother through the open door onto a starry winter night.",
+    "25x1_flamande": "In a sunny room with the balcony door open on spring, the mother sits wrapped in a shawl while the fair Flemish girl keeps her company and little Lyubochka tears paper at a small table.",
+    "25x2_orangery": "In the spring garden the mother in a pale dress walks with the children toward the glass orangery of blooming peach trees as swallows fly, little Lyubochka holding up the first flowers.",
+    "25x3_farewell": "At night the father and the children sit in the dark before a starry window in which the mother's pale loving figure seems to open her arms over them, the letter and a candle on a table nearby.",
+    "27x1_remembering": "Beside the coffin the boy stares at his mother's face and imagines her alive in a bright summer garden, shown in a round vision above him.",
+    "27x2_orphans": "Neighbours and servants whisper and weep in the grey hall, calling the boys orphans, while in the far corner an old woman kneels in prayer and the boys and their father stand apart.",
+    "28x1_soul": "In the nurse's room the old woman points upward and the boy tilts his head back, looking toward the ceiling where a white light like a dove glows near the cornice, the soul still at home for forty days.",
+    "28x2_inheritance": "In the bare room after Natalya Savishna's death her peasant brother stares in disbelief at the nearly empty chest and the few small things she left."
+  },
+  "focus": {
+    "01a_wake_up": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.35,
+        0.42
+      ],
+      [
+        0.5,
+        0.49
+      ]
+    ],
+    "01b_washing": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.4,
+        0.45
+      ],
+      [
+        0.7,
+        0.45
+      ]
+    ],
+    "01c_classroom": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.49,
+        0.44
+      ],
+      [
+        0.67,
+        0.4
+      ]
+    ],
+    "01d_stove_corner": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.2,
+        0.36
+      ],
+      [
+        0.66,
+        0.42
+      ]
+    ],
+    "02a_drawing_room": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.64,
+        0.56
+      ],
+      [
+        0.28,
+        0.62
+      ]
+    ],
+    "03a_papa_study": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.35,
+        0.42
+      ],
+      [
+        0.66,
+        0.44
+      ]
+    ],
+    "03b_trunk_evening": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.275,
+        0.44
+      ],
+      [
+        0.44,
+        0.49
+      ]
+    ],
+    "04a_karl_cross": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.3,
+        0.47
+      ],
+      [
+        0.46,
+        0.58
+      ]
+    ],
+    "04b_door_listening": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.29,
+        0.42
+      ],
+      [
+        0.7,
+        0.5
+      ]
+    ],
+    "05a_holy_fool": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.44,
+        0.5
+      ],
+      [
+        0.61,
+        0.57
+      ]
+    ],
+    "05b_stairs": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.26,
+        0.17
+      ],
+      [
+        0.8,
+        0.75
+      ]
+    ],
+    "05c_dinner": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.5,
+        0.47
+      ],
+      [
+        0.89,
+        0.56
+      ]
+    ],
+    "06a_porch": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.5,
+        0.49
+      ],
+      [
+        0.82,
+        0.56
+      ]
+    ],
+    "07a_hunt_field": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.73,
+        0.44
+      ],
+      [
+        0.56,
+        0.83
+      ]
+    ],
+    "07b_oak_ants": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.6,
+        0.53
+      ],
+      [
+        0.4,
+        0.95
+      ]
+    ],
+    "07c_hare": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.33,
+        0.76
+      ],
+      [
+        0.86,
+        0.49
+      ]
+    ],
+    "08a_picnic": [
+      [
+        0.5,
+        0.7
+      ],
+      [
+        0.35,
+        0.67
+      ],
+      [
+        0.72,
+        0.62
+      ]
+    ],
+    "01x1_snuff_tickle": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.5,
+        0.3
+      ],
+      [
+        0.2,
+        0.4
+      ]
+    ],
+    "01x2_karl_alone": [
+      [
+        0.6,
+        0.5
+      ],
+      [
+        0.2,
+        0.4
+      ],
+      [
+        0.84,
+        0.35
+      ]
+    ],
+    "02x1_cap_permission": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.7,
+        0.4
+      ],
+      [
+        0.3,
+        0.3
+      ]
+    ],
+    "03x1_envelope": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.6,
+        0.2
+      ],
+      [
+        0.85,
+        0.45
+      ]
+    ],
+    "03x2_abacus_yakov": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.55,
+        0.28
+      ],
+      [
+        0.2,
+        0.35
+      ]
+    ],
+    "04x1_corner_thinking": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.85,
+        0.4
+      ],
+      [
+        0.5,
+        0.35
+      ]
+    ],
+    "05x1_the_pie": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.17,
+        0.3
+      ],
+      [
+        0.65,
+        0.35
+      ]
+    ],
+    "06x1_leaving": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.7,
+        0.5
+      ],
+      [
+        0.77,
+        0.7
+      ]
+    ],
+    "07x1_harvest": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.2,
+        0.45
+      ],
+      [
+        0.45,
+        0.85
+      ]
+    ],
+    "08x1_tears": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.65,
+        0.35
+      ],
+      [
+        0.86,
+        0.55
+      ]
+    ],
+    "09a_worm_on_the_leaf": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.4,
+        0.8
+      ],
+      [
+        0.19,
+        0.5
+      ]
+    ],
+    "10a_papa_cards": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.3,
+        0.5
+      ],
+      [
+        0.46,
+        0.62
+      ]
+    ],
+    "11a_piano_dusk": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.43,
+        0.7
+      ],
+      [
+        0.66,
+        0.82
+      ]
+    ],
+    "11b_study_karl": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.28,
+        0.65
+      ],
+      [
+        0.4,
+        0.7
+      ]
+    ],
+    "12a_closet_grisha": [
+      [
+        0.5,
+        0.45
+      ],
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.65,
+        0.2
+      ]
+    ],
+    "12b_grisha_prays": [
+      [
+        0.55,
+        0.5
+      ],
+      [
+        0.8,
+        0.3
+      ],
+      [
+        0.1,
+        0.95
+      ]
+    ],
+    "13a_natashka": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.55,
+        0.88
+      ],
+      [
+        0.73,
+        0.85
+      ]
+    ],
+    "13b_savishna_room": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.5,
+        0.85
+      ],
+      [
+        0.63,
+        0.9
+      ]
+    ],
+    "14a_farewell_porch": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.4,
+        0.35
+      ],
+      [
+        0.15,
+        0.9
+      ]
+    ],
+    "14b_sit_before_leaving": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.5,
+        0.45
+      ],
+      [
+        0.94,
+        0.85
+      ]
+    ],
+    "14c_the_road": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.53,
+        0.84
+      ],
+      [
+        0.1,
+        0.6
+      ]
+    ],
+    "15a_tea_table_dusk": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.65,
+        0.75
+      ],
+      [
+        0.8,
+        0.9
+      ]
+    ],
+    "15b_prayer_moon": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.22,
+        0.88
+      ],
+      [
+        0.46,
+        0.9
+      ]
+    ],
+    "16a_drawing_lesson": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.4,
+        0.7
+      ],
+      [
+        0.84,
+        0.6
+      ]
+    ],
+    "16b_poem_night": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.25,
+        0.8
+      ],
+      [
+        0.4,
+        0.45
+      ]
+    ],
+    "16c_hall_birthday": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.62,
+        0.9
+      ],
+      [
+        0.95,
+        0.75
+      ]
+    ],
+    "10x1_old_gentleman": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.5,
+        0.7
+      ],
+      [
+        0.25,
+        0.8
+      ]
+    ],
+    "11x1_karl_bill": [
+      [
+        0.4,
+        0.5
+      ],
+      [
+        0.38,
+        0.35
+      ],
+      [
+        0.65,
+        0.6
+      ]
+    ],
+    "12x1_grisha_sobs": [
+      [
+        0.5,
+        0.7
+      ],
+      [
+        0.4,
+        0.85
+      ],
+      [
+        0.95,
+        0.5
+      ]
+    ],
+    "13x1_free_paper": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.75
+      ],
+      [
+        0.58,
+        0.75
+      ]
+    ],
+    "14x1_coachmen": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.62,
+        0.8
+      ],
+      [
+        0.8,
+        0.78
+      ]
+    ],
+    "14x2_inside_carriage": [
+      [
+        0.5,
+        0.4
+      ],
+      [
+        0.5,
+        0.35
+      ],
+      [
+        0.16,
+        0.8
+      ]
+    ],
+    "16x1_starched_shirtfront": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.8,
+        0.85
+      ],
+      [
+        0.3,
+        0.2
+      ]
+    ],
+    "16x2_poem_read": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.5,
+        0.45
+      ],
+      [
+        0.36,
+        0.9
+      ]
+    ],
+    "17a_princess_drawing_room": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.47,
+        0.78
+      ],
+      [
+        0.8,
+        0.88
+      ]
+    ],
+    "17b_boy_at_the_mirror": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.38,
+        0.3
+      ],
+      [
+        0.68,
+        0.7
+      ]
+    ],
+    "18a_the_poem": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.52,
+        0.82
+      ],
+      [
+        0.25,
+        0.82
+      ]
+    ],
+    "18b_prince_ivan_ivanovich": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.5,
+        0.3
+      ],
+      [
+        0.95,
+        0.83
+      ]
+    ],
+    "18c_the_overheard_talk": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.49,
+        0.62
+      ],
+      [
+        0.58,
+        0.73
+      ]
+    ],
+    "19a_the_ivins_arrive": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.3,
+        0.45
+      ],
+      [
+        0.8,
+        0.8
+      ]
+    ],
+    "19b_robbers_in_the_garden": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.36,
+        0.85
+      ],
+      [
+        0.65,
+        0.82
+      ]
+    ],
+    "19c_nursery_games": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.49,
+        0.75
+      ],
+      [
+        0.82,
+        0.8
+      ]
+    ],
+    "19d_ilinka_on_the_floor": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.45,
+        0.9
+      ],
+      [
+        0.62,
+        0.8
+      ]
+    ],
+    "20a_the_house_prepared": [
+      [
+        0.5,
+        0.4
+      ],
+      [
+        0.35,
+        0.2
+      ],
+      [
+        0.88,
+        0.7
+      ]
+    ],
+    "20b_sonechka": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.53,
+        0.85
+      ],
+      [
+        0.38,
+        0.8
+      ]
+    ],
+    "20c_the_lost_order": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.6,
+        0.85
+      ],
+      [
+        0.35,
+        0.85
+      ]
+    ],
+    "21a_hunt_for_gloves": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.24,
+        0.8
+      ],
+      [
+        0.8,
+        0.65
+      ]
+    ],
+    "21b_grandmothers_grip": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.55,
+        0.9
+      ],
+      [
+        0.78,
+        0.85
+      ]
+    ],
+    "21c_the_quadrille": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.75,
+        0.9
+      ],
+      [
+        0.28,
+        0.85
+      ]
+    ],
+    "22a_the_mazurka": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.82
+      ],
+      [
+        0.75,
+        0.93
+      ]
+    ],
+    "17x1_princess_on_education": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.17,
+        0.45
+      ],
+      [
+        0.5,
+        0.85
+      ]
+    ],
+    "18x1_young_officer_career": [
+      [
+        0.6,
+        0.6
+      ],
+      [
+        0.75,
+        0.35
+      ],
+      [
+        0.65,
+        0.85
+      ]
+    ],
+    "19x1_the_boys_in_the_hall": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.4,
+        0.75
+      ],
+      [
+        0.7,
+        0.8
+      ]
+    ],
+    "20x1_grandmother_receives_guests": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.5,
+        0.75
+      ],
+      [
+        0.15,
+        0.85
+      ]
+    ],
+    "21x1_silent_beside_sonechka": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.35,
+        0.82
+      ],
+      [
+        0.55,
+        0.82
+      ]
+    ],
+    "22x1_the_shame_dance": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.45,
+        0.78
+      ],
+      [
+        0.85,
+        0.85
+      ]
+    ],
+    "23a_supper": [
+      [
+        0.5,
+        0.45
+      ],
+      [
+        0.37,
+        0.6
+      ],
+      [
+        0.68,
+        0.58
+      ]
+    ],
+    "23b_grossvater": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.38,
+        0.9
+      ],
+      [
+        0.5,
+        0.4
+      ]
+    ],
+    "23c_corridor": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.4,
+        0.9
+      ],
+      [
+        0.51,
+        0.62
+      ]
+    ],
+    "24a_in_bed": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.19,
+        0.65
+      ],
+      [
+        0.84,
+        0.7
+      ]
+    ],
+    "25a_news": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.27,
+        0.88
+      ],
+      [
+        0.66,
+        0.85
+      ]
+    ],
+    "25b_letter": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.53,
+        0.68
+      ],
+      [
+        0.78,
+        0.85
+      ]
+    ],
+    "25c_night_writing": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.5,
+        0.47
+      ],
+      [
+        0.14,
+        0.7
+      ]
+    ],
+    "26a_arrival": [
+      [
+        0.55,
+        0.5
+      ],
+      [
+        0.62,
+        0.55
+      ],
+      [
+        0.66,
+        0.88
+      ]
+    ],
+    "26b_sickroom": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.6,
+        0.6
+      ],
+      [
+        0.08,
+        0.9
+      ]
+    ],
+    "27a_night_coffin": [
+      [
+        0.5,
+        0.62
+      ],
+      [
+        0.5,
+        0.75
+      ],
+      [
+        0.95,
+        0.95
+      ]
+    ],
+    "27b_funeral": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.65,
+        0.95
+      ],
+      [
+        0.2,
+        0.82
+      ]
+    ],
+    "28a_same_house": [
+      [
+        0.5,
+        0.7
+      ],
+      [
+        0.4,
+        0.62
+      ],
+      [
+        0.45,
+        0.55
+      ]
+    ],
+    "28b_nurse_room": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.53,
+        0.62
+      ],
+      [
+        0.16,
+        0.5
+      ]
+    ],
+    "28c_sugar": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.72,
+        0.4
+      ],
+      [
+        0.92,
+        0.8
+      ]
+    ],
+    "28d_grandmother": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.43,
+        0.75
+      ],
+      [
+        0.06,
+        0.9
+      ]
+    ],
+    "28e_empty_house": [
+      [
+        0.5,
+        0.7
+      ],
+      [
+        0.48,
+        0.8
+      ],
+      [
+        0.58,
+        0.75
+      ]
+    ],
+    "28f_grave": [
+      [
+        0.55,
+        0.6
+      ],
+      [
+        0.24,
+        0.9
+      ],
+      [
+        0.33,
+        0.8
+      ]
+    ],
+    "23x1_stairs": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.2,
+        0.25
+      ],
+      [
+        0.29,
+        0.78
+      ]
+    ],
+    "25x1_flamande": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.24,
+        0.6
+      ],
+      [
+        0.65,
+        0.8
+      ]
+    ],
+    "25x2_orangery": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.33,
+        0.9
+      ],
+      [
+        0.7,
+        0.62
+      ]
+    ],
+    "25x3_farewell": [
+      [
+        0.5,
+        0.45
+      ],
+      [
+        0.5,
+        0.3
+      ],
+      [
+        0.9,
+        0.78
+      ]
+    ],
+    "27x1_remembering": [
+      [
+        0.4,
+        0.6
+      ],
+      [
+        0.74,
+        0.3
+      ],
+      [
+        0.73,
+        0.86
+      ]
+    ],
+    "27x2_orphans": [
+      [
+        0.55,
+        0.7
+      ],
+      [
+        0.55,
+        0.82
+      ],
+      [
+        0.9,
+        0.97
+      ]
+    ],
+    "28x1_soul": [
+      [
+        0.5,
+        0.4
+      ],
+      [
+        0.5,
+        0.3
+      ],
+      [
+        0.43,
+        0.85
+      ]
+    ],
+    "28x2_inheritance": [
+      [
+        0.5,
+        0.7
+      ],
+      [
+        0.28,
+        0.9
+      ],
+      [
+        0.53,
+        0.85
+      ]
+    ]
+  },
+  "fx": {
+    "03b_trunk_evening": "flicker",
+    "10a_papa_cards": "flicker",
+    "11a_piano_dusk": "flicker",
+    "11b_study_karl": "flicker",
+    "12a_closet_grisha": "flicker",
+    "12b_grisha_prays": "flicker",
+    "13b_savishna_room": "flicker",
+    "14a_farewell_porch": "leaves",
+    "14c_the_road": "leaves",
+    "15a_tea_table_dusk": "flicker",
+    "15b_prayer_moon": "flicker",
+    "16b_poem_night": "flicker",
+    "11x1_karl_bill": "flicker",
+    "12x1_grisha_sobs": "flicker",
+    "17b_boy_at_the_mirror": "flicker",
+    "18c_the_overheard_talk": "flicker",
+    "19a_the_ivins_arrive": "snow",
+    "20a_the_house_prepared": "flicker",
+    "20b_sonechka": "flicker",
+    "21a_hunt_for_gloves": "flicker",
+    "21b_grandmothers_grip": "flicker",
+    "21c_the_quadrille": "flicker",
+    "22a_the_mazurka": "flicker",
+    "20x1_grandmother_receives_guests": "flicker",
+    "21x1_silent_beside_sonechka": "flicker",
+    "22x1_the_shame_dance": "flicker",
+    "23a_supper": "flicker",
+    "23b_grossvater": "flicker",
+    "25b_letter": "flicker",
+    "25c_night_writing": "flicker",
+    "26b_sickroom": "flicker",
+    "27a_night_coffin": "flicker",
+    "27b_funeral": "flicker",
+    "28b_nurse_room": "flicker",
+    "28c_sugar": "flicker",
+    "28e_empty_house": "flicker",
+    "28f_grave": "leaves",
+    "25x3_farewell": "flicker",
+    "27x1_remembering": "flicker",
+    "27x2_orphans": "flicker",
+    "28x1_soul": "flicker"
+  },
+  "episodes": [
+    {
+      "title": "Karl Ivanych, Maman and Papa",
+      "from_part": "I",
+      "to_part": "VI",
+      "thumb_art": "05a_holy_fool",
+      "blurb": "A boy wakes in his country home, loved and scolded by his German tutor Karl Ivanych. Maman pours tea, Papa prepares to leave, lessons end badly, and a holy fool comes to dinner: Tolstoy's first memories of childhood."
+    },
+    {
+      "title": "The Hunt, First Love and Grisha",
+      "from_part": "VII",
+      "to_part": "XIII",
+      "thumb_art": "12b_grisha_prays",
+      "blurb": "A day's hunt in the birch wood, a game in the shade, a first stirring of love, a portrait of Papa the gambler, and a night when a boy hides to hear the holy fool Grisha pray. Then the life story of the old nurse Natalya Savishna."
+    },
+    {
+      "title": "Farewell to the Country and Moscow",
+      "from_part": "XIV",
+      "to_part": "XVIII",
+      "thumb_art": "14a_farewell_porch",
+      "blurb": "The family leaves the country for Moscow in tears. At Grandmother's house Nikolenka struggles to write a birthday poem, meets Princess Kornakova and Prince Ivan Ivanovich, and overhears what he was never meant to hear."
+    },
+    {
+      "title": "The Ivins and the Ball",
+      "from_part": "XIX",
+      "to_part": "XXIV",
+      "thumb_art": "21a_hunt_for_gloves",
+      "blurb": "The Ivin boys come to visit, the house is made ready for Grandmother's name-day ball, and Nikolenka learns what it is to be small among the grown-up dancers, and what it is to be unfaithful in love."
+    },
+    {
+      "title": "The Letter and the Last Sad Memories",
+      "from_part": "XXV",
+      "to_part": "XXVIII",
+      "thumb_art": "27a_night_coffin",
+      "blurb": "A letter from the country calls the family home. Maman is dying, and Nikolenka learns what grief is. The end of childhood, and the old nurse who is remembered to the end."
+    }
+  ],
+  "glossary": [
+    [
+      "Maman",
+      "the French word for “mummy”, as upper-class Russian children called their mother; Papa is the father."
+    ],
+    [
+      "Karl Ivanych",
+      "Karl Ivanovich, the German tutor; a Russian first name and patronymic as the family says them."
+    ],
+    [
+      "holy fool (yurodivy)",
+      "a wandering pilgrim thought to be touched by God, who wore chains, prayed aloud and spoke truths to the powerful."
+    ],
+    [
+      "verst",
+      "a Russian measure of distance, about 1.07 kilometres."
+    ],
+    [
+      "kopeck, rouble",
+      "a hundred kopecks make one rouble."
+    ],
+    [
+      "linyeika",
+      "a long open carriage with a bench on which the passengers sit sideways."
+    ],
+    [
+      "britzka",
+      "a light open travelling carriage."
+    ],
+    [
+      "name-day",
+      "the feast day of the saint whose name a person bears, celebrated like a birthday."
+    ],
+    [
+      "mazurka",
+      "a lively Polish dance, the high point of a ball."
+    ],
+    [
+      "serf",
+      "a peasant owned by the landowner and bound to his estate; most of the servants in the book are serfs."
+    ]
+  ],
+  "thumb_art": "27a_night_coffin",
+  "thumb_position": "50% 50%",
+  "thumb_sub": "A NOVELLA<br>FULL-CAST AUDIOBOOK",
+  "cover_bg": [
+    "#1d2a3a",
+    "#e8dcc0"
+  ],
+  "summary": "Ten-year-old Nikolenka wakes on an August morning in the country house where he was born. Through his eyes: the German tutor, Maman, Papa, the holy fool, the hunt, a first love, Moscow, the ball, and the day his mother dies. Tolstoy's first published work.",
+  "site_description": "Tolstoy's first published work (1852), the first part of his autobiographical trilogy. Nikolenka Irtenev, ten years old, tells the happiest and saddest days of his boyhood: the German tutor Karl Ivanych, Maman at the tea table, Papa the gambler, a holy fool at night, a hunt, a first love, a children's ball in Moscow, and the death of his mother. The book is Tolstoy's farewell to a lost paradise of childhood.",
+  "tags": [
+    "Tolstoy",
+    "Leo Tolstoy",
+    "Childhood",
+    "audiobook",
+    "full cast audiobook",
+    "novella",
+    "coming of age",
+    "classic literature",
+    "Russian literature",
+    "autobiographical",
+    "public domain",
+    "English audiobook"
+  ],
+  "hashtags": "#Tolstoy #audiobook #classicliterature #russianliterature #publicdomain",
+  "playlist": "PLVuswr3XMg9E",
+  "text_note": "Translated from the Russian by an AI, a draft that needs a human editor. German and French phrases are given in English.",
+  "ru": {
+    "title": "Детство",
+    "author": "Лев Толстой",
+    "names": {
+      "I": "Учитель Карл Иваныч",
+      "II": "Maman",
+      "III": "Папа",
+      "IV": "Классы",
+      "V": "Юродивый",
+      "VI": "Приготовления к охоте",
+      "VII": "Охота",
+      "VIII": "Игры",
+      "IX": "Что-то в роде первой любви",
+      "X": "Что за человек был мой отец?",
+      "XI": "Занятия в кабинете и гостиной",
+      "XII": "Гриша",
+      "XIII": "Наталья Савишна",
+      "XIV": "Разлука",
+      "XV": "Детство",
+      "XVI": "Стихи",
+      "XVII": "Княгиня Корнакова",
+      "XVIII": "Князь Иван Иваныч",
+      "XIX": "Ивины",
+      "XX": "Собираются гости",
+      "XXI": "До мазурки",
+      "XXII": "Мазурка",
+      "XXIII": "После мазурки",
+      "XXIV": "В постели",
+      "XXV": "Письмо",
+      "XXVI": "Что ожидало нас в деревне",
+      "XXVII": "Горе",
+      "XXVIII": "Последние грустные воспоминания"
+    },
+    "note": "Повесть в издании для чтения с оригинальными иллюстрациями.",
+    "source_note": "Текст с ru.wikisource.org, по изданию: Л. Н. Толстой, Полное собрание сочинений в 90 томах, т. 1.",
+    "contents": "Содержание",
+    "back": "О тексте",
+    "small": "Текст повести находится в общественном достоянии. Иностранные фразы даны как в оригинале. Названия глав и иллюстрации сделаны для этого издания. Набрано шрифтом Lora (SIL Open Font License).",
+    "description": "Десятилетний Николенька просыпается августовским утром в родном доме. Учитель Карл Иваныч, maman, папа, юродивый, охота, первая любовь, Москва, бал и день, когда умирает мать. Первое произведение Толстого (1852)."
+  },
+  "series_playlist": "PLeDobnif5wtk"
+}

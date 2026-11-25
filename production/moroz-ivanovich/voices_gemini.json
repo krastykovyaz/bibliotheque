@@ -1,0 +1,34 @@
+{
+ "NARRATOR": {
+  "voice": "Sulafat",
+  "style": ""
+ },
+ "RUKODELNITSA": {
+  "voice": "Aoede",
+  "style": ""
+ },
+ "LENIVITSA": {
+  "voice": "Despina",
+  "style": ""
+ },
+ "NANNY": {
+  "voice": "Vindemiatrix",
+  "style": ""
+ },
+ "MOROZ": {
+  "voice": "Charon",
+  "style": ""
+ },
+ "PIE": {
+  "voice": "Puck",
+  "style": ""
+ },
+ "APPLES": {
+  "voice": "Achird",
+  "style": ""
+ },
+ "ROOSTER": {
+  "voice": "Fenrir",
+  "style": ""
+ }
+}
