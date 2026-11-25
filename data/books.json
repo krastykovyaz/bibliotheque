@@ -375,5 +375,26 @@
     },
     "kids": true,
     "coverRu": "/covers/moroz-ivanovich-ru.webp"
+  },
+  {
+    "id": "grey-neck",
+    "author": {
+      "en": "Dmitry Mamin-Sibiryak",
+      "ru": "Дмитрий Мамин-Сибиряк"
+    },
+    "year": 1891,
+    "cover": "/covers/grey-neck.webp",
+    "languages": {
+      "en": {
+        "title": "Grey Neck",
+        "description": "Autumn comes, and all the birds fly south. But little Grey Neck, a duck with a broken wing, cannot go, and her mother has to leave her on the river. The river slowly freezes, a frightened Hare becomes her friend, and a sly Fox comes every day to the last patch of open water. Dmitry Mamin-Sibiryak's much-loved tale of kindness and hope in winter, for children and for listening together, in a full-cast English audiobook with many illustrations.",
+        "youtube": "https://www.youtube.com/watch?v=SsB0VijEFqI",
+        "pdf": "/pdf/grey-neck-en.pdf",
+        "text": "texts/grey-neck-en.txt",
+        "booklet": "/pdf/grey-neck-en-booklet.pdf",
+        "textNote": "Machine translation from the Russian into simple English for children, a draft that needs a human editor."
+      }
+    },
+    "kids": true
   }
 ]
