@@ -139,7 +139,7 @@ if (bar && grid && count) {
     const url = new URL(location.href);
     if (sort === 'shelf') url.searchParams.delete('sort');
     else url.searchParams.set('sort', sort);
-    if (show === '24') url.searchParams.delete('show');
+    if (show === '48') url.searchParams.delete('show');
     else url.searchParams.set('show', show);
     history.replaceState(null, '', url);
     refresh();
@@ -147,7 +147,7 @@ if (bar && grid && count) {
 
   const params = new URL(location.href).searchParams;
   sort = sorters[params.get('sort') ?? ''] ? (params.get('sort') as string) : 'shelf';
-  show = limits.includes(params.get('show') ?? '') ? (params.get('show') as string) : '24';
+  show = limits.includes(params.get('show') ?? '') ? (params.get('show') as string) : '48';
   dropdown(bar.querySelector<HTMLElement>('[data-dd=sort]')!, sort, (v) => ((sort = v), apply()));
   dropdown(bar.querySelector<HTMLElement>('[data-dd=show]')!, show, (v) => ((show = v), apply()));
   grid.addEventListener('cardschange', refresh);
