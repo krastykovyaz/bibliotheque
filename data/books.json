@@ -201,5 +201,40 @@
       }
     },
     "coverRu": "/covers/the-blizzard-ru.webp"
+  },
+  {
+    "id": "night-before-christmas",
+    "author": {
+      "en": "Nikolai Gogol",
+      "ru": "Николай Гоголь"
+    },
+    "year": 1832,
+    "cover": "/covers/night-before-christmas.webp",
+    "languages": {
+      "en": {
+        "title": "The Night Before Christmas",
+        "description": "On the last night before Christmas in the Ukrainian village of Dikanka, a devil steals the moon to get back at the blacksmith Vakula, who has painted him in hell on the church wall. The vain beauty Oksana will marry Vakula only if he brings her the shoes of the Empress. A full-cast audiobook of Nikolai Gogol's 1832 comic fairy tale, with Cossacks, witches, sacks full of lovers, and a flight to Petersburg.",
+        "youtube": "https://www.youtube.com/watch?v=TqvcHLl_CUQ",
+        "pdf": "/pdf/night-before-christmas-en.pdf",
+        "text": "texts/night-before-christmas-en.txt",
+        "parts": [
+          {
+            "title": "Part 1: The Stolen Moon",
+            "youtube": "https://www.youtube.com/watch?v=TqvcHLl_CUQ"
+          },
+          {
+            "title": "Part 2: The Devil's Bargain",
+            "youtube": "https://www.youtube.com/watch?v=xdRim124_1I"
+          },
+          {
+            "title": "Part 3: To Petersburg and Back",
+            "youtube": "https://www.youtube.com/watch?v=jAw0w3DYyF4"
+          }
+        ],
+        "playlist": "https://www.youtube.com/playlist?list=PLMps_WU02rY0",
+        "booklet": "/pdf/night-before-christmas-en-booklet.pdf",
+        "textNote": "English translation from the Russian original by an AI model, a draft that needs a human editor."
+      }
+    }
   }
 ]
