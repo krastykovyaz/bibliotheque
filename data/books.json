@@ -393,8 +393,17 @@
         "text": "texts/grey-neck-en.txt",
         "booklet": "/pdf/grey-neck-en-booklet.pdf",
         "textNote": "Machine translation from the Russian into simple English for children, a draft that needs a human editor."
+      },
+      "ru": {
+        "title": "Серая Шейка",
+        "description": "Осенью все птицы улетают на юг, а маленькая утка Серая Шейка, у которой сломано крылышко, остаётся на реке одна. Река замерзает, Заяц становится ей другом, а хитрая Лиса приходит каждый день. Зимняя сказка Дмитрия Мамина-Сибиряка, чтобы слушать вместе с детьми.",
+        "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
+        "pdf": "/pdf/grey-neck-ru.pdf",
+        "text": "texts/grey-neck-ru.txt",
+        "booklet": "/pdf/grey-neck-ru-booklet.pdf"
       }
     },
-    "kids": true
+    "kids": true,
+    "coverRu": "/covers/grey-neck-ru.webp"
   }
 ]
