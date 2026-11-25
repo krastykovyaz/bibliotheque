@@ -345,5 +345,26 @@
     },
     "kids": true,
     "coverRu": "/covers/the-sleeping-princess-ru.webp"
+  },
+  {
+    "id": "moroz-ivanovich",
+    "author": {
+      "en": "Vladimir Odoevsky",
+      "ru": "Владимир Одоевский"
+    },
+    "year": 1841,
+    "cover": "/covers/moroz-ivanovich.webp",
+    "languages": {
+      "en": {
+        "title": "Moroz Ivanovich",
+        "description": "Two girls live with their old nurse: Rukodelnitsa, who loves to work, and Lenivitsa, who never lifts a finger. When Rukodelnitsa's bucket falls into the well, she climbs down after it and finds a pie, a tree of golden apples and old Moroz Ivanovich himself, who lets her serve him for three days. Lenivitsa goes after her, hoping for easy silver. Vladimir Odoevsky's winter fairy tale of 1841, for children and for listening together, in a full-cast English audiobook with many illustrations.",
+        "youtube": "https://www.youtube.com/watch?v=raoDExAu7zI",
+        "pdf": "/pdf/moroz-ivanovich-en.pdf",
+        "text": "texts/moroz-ivanovich-en.txt",
+        "booklet": "/pdf/moroz-ivanovich-en-booklet.pdf",
+        "textNote": "Machine translation from the Russian into simple English for children, a draft that needs a human editor."
+      }
+    },
+    "kids": true
   }
 ]
