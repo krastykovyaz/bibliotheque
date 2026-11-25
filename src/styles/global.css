@@ -937,5 +937,25 @@ main.wrap {
 }
 .sort-count {
   margin: 0;
-  color: var(--muted);
+  color: var(--text);
+  font-weight: 700;
+  background: var(--card);
+  border: 2px solid var(--line);
+  border-radius: 999px;
+  padding: 0.4rem 1.1rem;
+  white-space: nowrap;
+  width: fit-content;
+}
+.grid > [data-cut] {
+  display: none;
+}
+.sortbar {
+  justify-content: flex-start;
+  gap: 0.7rem 1.6rem;
+}
+.sortbar .sort-field + .sort-field {
+  margin-left: 0.2rem;
+}
+.js .sortbar {
+  display: flex;
 }

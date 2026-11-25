@@ -4,32 +4,51 @@ interface Props {
   lang: UiLang;
 }
 const t = ui[(Astro.props as Props).lang];
-const options = [
-  ['shelf', t.sortShelf],
-  ['title', t.sortTitle],
-  ['author', t.sortAuthor],
-  ['year', t.sortYearOld],
-  ['year-desc', t.sortYearNew],
+const dropdowns = [
+  {
+    key: 'sort',
+    label: t.sortLabel,
+    options: [
+      ['shelf', t.sortShelf],
+      ['title', t.sortTitle],
+      ['author', t.sortAuthor],
+      ['year', t.sortYearOld],
+      ['year-desc', t.sortYearNew],
+    ],
+  },
+  {
+    key: 'show',
+    label: t.showLabel,
+    options: [
+      ['6', '6'],
+      ['12', '12'],
+      ['24', '24'],
+      ['48', '48'],
+      ['all', t.showAll],
+    ],
+  },
 ];
 ---
 
 <div class="sortbar js-only" data-sortbar data-showing={t.showing}>
-  <div class="sort-field">
-    <span id="sort-label">{t.sortLabel}</span>
-    <div class="dd" data-dd>
-      <button type="button" class="dd-btn" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="sort-label sort-current" data-dd-btn>
-        <span id="sort-current" data-dd-current>{t.sortShelf}</span>
-        <svg class="dd-chevron" width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M2.5 5l4.5 4.5L11.5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-      </button>
-      <ul class="dd-list" role="listbox" tabindex="-1" aria-labelledby="sort-label" hidden data-dd-list>
-        {options.map(([value, label], i) => (
-          <li role="option" id={`sort-opt-${i}`} data-value={value} aria-selected={i === 0 ? 'true' : 'false'}>
-            <span class="dd-check" aria-hidden="true">✓</span>{label}
-          </li>
-        ))}
-      </ul>
+  {dropdowns.map((d) => (
+    <div class="sort-field">
+      <span id={`${d.key}-label`}>{d.label}</span>
+      <div class="dd" data-dd={d.key}>
+        <button type="button" class="dd-btn" aria-haspopup="listbox" aria-expanded="false" aria-labelledby={`${d.key}-label ${d.key}-current`} data-dd-btn>
+          <span id={`${d.key}-current`} data-dd-current>{d.options[0][1]}</span>
+          <svg class="dd-chevron" width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M2.5 5l4.5 4.5L11.5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+        </button>
+        <ul class="dd-list" role="listbox" tabindex="-1" aria-labelledby={`${d.key}-label`} hidden data-dd-list>
+          {d.options.map(([value, label], i) => (
+            <li role="option" id={`${d.key}-opt-${i}`} data-value={value} aria-selected={i === 0 ? 'true' : 'false'}>
+              <span class="dd-check" aria-hidden="true">✓</span>{label}
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
-  </div>
+  ))}
   <p class="sort-count" data-count aria-live="polite"></p>
 </div>
 
