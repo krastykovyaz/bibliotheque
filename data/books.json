@@ -114,5 +114,25 @@
       }
     },
     "coverRu": "/covers/vanka-ru.webp"
+  },
+  {
+    "id": "boy-at-christs-tree",
+    "author": {
+      "en": "Fyodor Dostoevsky",
+      "ru": "Фёдор Достоевский"
+    },
+    "year": 1876,
+    "cover": "/covers/boy-at-christs-tree.webp",
+    "languages": {
+      "en": {
+        "title": "The Boy at Christ's Christmas Tree",
+        "description": "On the eve of Christmas, in an enormous freezing city, a small boy wakes in a cellar beside his mother, who will not wake. He goes out to look for bread and finds only lit windows, a tree he cannot reach and dolls that seem alive. Dostoevsky's brief Christmas story, written for his Diary of a Writer in 1876, is about the children nobody counts and the tree that waits for them.",
+        "youtube": "https://www.youtube.com/watch?v=dEO2f9FYUEA",
+        "pdf": "/pdf/boy-at-christs-tree-en.pdf",
+        "text": "texts/boy-at-christs-tree-en.txt",
+        "booklet": "/pdf/boy-at-christs-tree-en-booklet.pdf",
+        "textNote": "Machine translation from the Russian, a draft that needs a human editor."
+      }
+    }
   }
 ]
