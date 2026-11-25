@@ -19,6 +19,7 @@ B, _BASE = book.load()
 
 W, H, VH, FPS = 1920, 1080, 990, 30
 TITLE_SECONDS, SHOT_SECONDS, LEAD = 5.0, 25.0, 1.0   # the picture changes LEAD seconds before the new part is heard
+SHOT_SECONDS = float(B.get("shot_seconds", SHOT_SECONDS))   # book.json "shot_seconds": 15 gives short scenes more shots (children's books)
 ASSETS = "video_assets"
 ART = B["art_for_part"]
 # points of interest in each picture, as fractions of its width and height

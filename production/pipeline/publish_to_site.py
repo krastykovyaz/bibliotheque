@@ -97,7 +97,9 @@ if len(q["items"]) != n:
 # rebuild the PDFs now: the last page carries the QR code of the video and of the book page, which are known only now
 PIPE = os.path.dirname(os.path.abspath(__file__))
 env = dict(os.environ, BOOK_DIR=bdir, **({"BOOK_LANG": "ru"} if RU else {}))
-subprocess.run([sys.executable, "-W", "ignore", os.path.join(PIPE, "build_pdf.py")], cwd=bdir, env=env, check=True, capture_output=True)
+# a verse book keeps its own build_pdf_verse.py (it keeps the line breaks of the Russian text)
+BUILDER = os.path.join(bdir, "build_pdf_verse.py") if os.path.exists(os.path.join(bdir, "build_pdf_verse.py")) else os.path.join(PIPE, "build_pdf.py")
+subprocess.run([sys.executable, "-W", "ignore", BUILDER], cwd=bdir, env=env, check=True, capture_output=True)
 if not NOBOOK:
     subprocess.run([sys.executable, os.path.join(PIPE, "make_booklet.py"), os.path.join(bdir, A5), os.path.join(bdir, A4)], check=True, capture_output=True)
 shutil.copy(os.path.join(bdir, A5), os.path.join(ROOT, "public/pdf", f"{slug}-{lang}.pdf"))

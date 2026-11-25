@@ -12,7 +12,7 @@ say() { echo "[$(date +%H:%M:%S)] $*"; }
 fail() { say "STOPPED: $*"; echo "$*" > CHAIN_FAILED; exit 1; }
 rm -f CHAIN_FAILED
 say "waiting for the audio"
-while pgrep -f make_audio_kokoro > /dev/null; do sleep 60; done
+while ( for p in $(pgrep -f make_audio_kokoro); do [ "$(readlink /proc/$p/cwd)" = "$PWD" ] && exit 0; done; exit 1 ); do sleep 60; done   # only this book's own audio job
 [ -s ${PREFIX}_audiobook.mp3 ] && [ -s ${PREFIX}_audiobook_timing.json ] || fail "the audio is missing (see run_audio.log)"
 say "audio ready: $(ffprobe -v error -show_entries format=duration -of csv=p=0 ${PREFIX}_audiobook.mp3) s"
 if [ ! -s ${PREFIX}_YouTube.mp4 ]; then
