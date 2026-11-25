@@ -103,7 +103,16 @@
         "text": "texts/vanka-en.txt",
         "booklet": "/pdf/vanka-en-booklet.pdf",
         "textNote": "Machine translation from the Russian, a draft that needs a human editor."
+      },
+      "ru": {
+        "title": "Ванька",
+        "description": "В ночь под Рождество девятилетний Ванька Жуков, отданный в ученье к московскому сапожнику, украдкой пишет письмо единственному человеку, который у него остался: деду в деревню. Один из самых любимых рассказов Чехова о голоде, тоске по дому и надежде без адреса.",
+        "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
+        "pdf": "/pdf/vanka-ru.pdf",
+        "text": "texts/vanka-ru.txt",
+        "booklet": "/pdf/vanka-ru-booklet.pdf"
       }
-    }
+    },
+    "coverRu": "/covers/vanka-ru.webp"
   }
 ]
