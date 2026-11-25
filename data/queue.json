@@ -1,12 +1,30 @@
 {
   "_note": "Order of the daily 'next on the shelf' announcement: one book per day starting at 'start', then it begins again. Reorder or edit freely; it is announcement only, nothing is prepared or published from it.",
-  "start": "2026-11-24",
+  "start": "2026-11-25",
   "items": [
     {
-      "author_en": "Leo Tolstoy",
-      "author_ru": "Лев Толстой",
-      "title_en": "Childhood",
-      "title_ru": "Детство"
+      "author_en": "Nikolai Gogol",
+      "author_ru": "Николай Гоголь",
+      "title_en": "The Night Before Christmas",
+      "title_ru": "Ночь перед Рождеством"
+    },
+    {
+      "author_en": "Nikolai Gogol",
+      "author_ru": "Николай Гоголь",
+      "title_en": "The Overcoat",
+      "title_ru": "Шинель"
+    },
+    {
+      "author_en": "Fyodor Dostoevsky",
+      "author_ru": "Фёдор Достоевский",
+      "title_en": "The Boy at Christ's Christmas Tree",
+      "title_ru": "Мальчик у Христа на ёлке"
+    },
+    {
+      "author_en": "Alexander Kuprin",
+      "author_ru": "Александр Куприн",
+      "title_en": "The Wonderful Doctor",
+      "title_ru": "Чудесный доктор"
     },
     {
       "author_en": "Anton Chekhov",
@@ -15,10 +33,16 @@
       "title_ru": "Ванька"
     },
     {
-      "author_en": "Nikolai Gogol",
-      "author_ru": "Николай Гоголь",
-      "title_en": "The Night Before Christmas",
-      "title_ru": "Ночь перед Рождеством"
+      "author_en": "Alexander Pushkin",
+      "author_ru": "Александр Пушкин",
+      "title_en": "The Blizzard",
+      "title_ru": "Метель"
+    },
+    {
+      "author_en": "Leo Tolstoy",
+      "author_ru": "Лев Толстой",
+      "title_en": "Childhood",
+      "title_ru": "Детство"
     },
     {
       "author_en": "Ivan Turgenev",
@@ -435,12 +459,6 @@
       "title_ru": "Рудин"
     },
     {
-      "author_en": "Alexander Pushkin",
-      "author_ru": "Александр Пушкин",
-      "title_en": "The Blizzard",
-      "title_ru": "Метель"
-    },
-    {
       "author_en": "Mikhail Lermontov",
       "author_ru": "Михаил Лермонтов",
       "title_en": "The Demon",
@@ -625,12 +643,6 @@
       "author_ru": "Антон Чехов",
       "title_en": "The Seagull",
       "title_ru": "Чайка"
-    },
-    {
-      "author_en": "Nikolai Gogol",
-      "author_ru": "Николай Гоголь",
-      "title_en": "The Overcoat",
-      "title_ru": "Шинель"
     },
     {
       "author_en": "Ivan Turgenev",
