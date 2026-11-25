@@ -315,5 +315,26 @@
     },
     "kids": true,
     "coverRu": "/covers/the-girl-snow-maiden-ru.webp"
+  },
+  {
+    "id": "the-sleeping-princess",
+    "author": {
+      "en": "Vasily Zhukovsky",
+      "ru": "Василий Жуковский"
+    },
+    "year": 1831,
+    "cover": "/covers/the-sleeping-princess.webp",
+    "languages": {
+      "en": {
+        "title": "The Sleeping Princess",
+        "description": "A King and a Queen long for a child, and a wise crab tells them a princess will be born. But at the feast the twelfth fairy, whom nobody asked, makes a spell: a spindle will send the princess to sleep for three hundred years. The whole palace sleeps behind a wall of thorns, until a young Prince hears the old man's story. Vasily Zhukovsky's gentle retelling of Sleeping Beauty (1831), a fairy tale in verse for children and for listening together, in a full-cast English audiobook with many illustrations.",
+        "youtube": "https://www.youtube.com/watch?v=TyLlAPxp12U",
+        "pdf": "/pdf/the-sleeping-princess-en.pdf",
+        "text": "texts/the-sleeping-princess-en.txt",
+        "booklet": "/pdf/the-sleeping-princess-en-booklet.pdf",
+        "textNote": "Free English verse rendering from the Russian, written for children: a draft that needs a human editor."
+      }
+    },
+    "kids": true
   }
 ]
