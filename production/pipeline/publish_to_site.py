@@ -97,7 +97,7 @@ if "Complete!" not in out:
 print("build ok")
 
 sh(["git", "add", "data/books.json", "data/queue.json", f"data/texts/{slug}-{lang}.txt", f"public/covers/{slug}.webp", f"public/pdf/{slug}-{lang}.pdf"] + ([] if NOBOOK else [f"public/pdf/{slug}-{lang}-booklet.pdf"]) + ([f"public/covers/{slug}-ru.webp"] if RU and os.path.exists(RUCOVER) else []))
-sh(["git", "commit", "-q", "-m", f"Add {B['title']} by {B['author']} to the shelf\n\nCover, reading text, PDFs and the YouTube video, made with the book pipeline.\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>"])
+sh(["git", "commit", "-q", "-m", f"Add {B['title']} by {B['author']} to the shelf\n\nCover, reading text, PDFs and the YouTube video, made with the book pipeline.\n\nCo-Authored-By: Claude Fable 5.2 <noreply@anthropic.com>"])
 env = dict(os.environ)
 env.pop("GH_TOKEN", None)
 env.pop("GITHUB_TOKEN", None)
