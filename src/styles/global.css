@@ -525,6 +525,14 @@ main.wrap {
 .header-search input::-webkit-search-cancel-button {
   display: none;
 }
+/* Closed (a round button) while it still holds a query: do not let the typed text show through over the magnifier;
+   a ring in the accent colour says a search is active. */
+.header-search input:not(:focus) {
+  color: transparent;
+}
+.header-search input:not(:focus):not(:placeholder-shown) {
+  border-color: var(--accent);
+}
 /* The width to open to is measured in src/scripts/search.ts (--search-w): out to the logo, or to the left edge of the bar. */
 .header-search input:focus {
   width: var(--search-w, min(16rem, calc(100vw - 2rem)));
@@ -555,6 +563,9 @@ main.wrap {
   }
   .header-search input::placeholder {
     color: var(--muted);
+  }
+  .header-search input:not(:focus) {
+    color: var(--text); /* the field is wide here: the typed text shows */
   }
   .header-row:has(.header-search input:focus) .nav {
     opacity: 1;
