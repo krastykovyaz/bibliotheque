@@ -101,6 +101,14 @@ if (bar && grid && count) {
     year: byYear(1),
     'year-desc': byYear(-1),
   };
+  // a cover that fails once (a dropped connection) is asked for again, once
+  grid.querySelectorAll<HTMLImageElement>('img').forEach((img) => {
+    img.addEventListener('error', () => {
+      if (img.dataset.retry) return;
+      img.dataset.retry = '1';
+      setTimeout(() => (img.src = img.currentSrc.split('?')[0] + '?r=1'), 800);
+    });
+  });
   const limits = ['6', '12', '24', '48', 'all'];
   let sort = 'shelf';
   let show = 'all';
@@ -110,7 +118,8 @@ if (bar && grid && count) {
     const limit = show === 'all' ? Infinity : Number(show);
     let matching = 0;
     let shown = 0;
-    for (const x of [...grid.children] as HTMLElement[]) {
+    for (const item of [...items].sort(sorters[sort])) {
+      const x = item.el;
       if (x.hidden) {
         x.removeAttribute('data-cut');
         continue;
@@ -125,7 +134,8 @@ if (bar && grid && count) {
     count.textContent = (bar.dataset.showing ?? '{n}').replace('{n}', String(shown)).replace('{total}', String(matching));
   };
   const apply = () => {
-    for (const x of [...items].sort(sorters[sort])) grid.append(x.el);
+    // Sort with the CSS order property, not by moving the cards: moving a card with a lazy-loaded picture can make the picture fail to load.
+    [...items].sort(sorters[sort]).forEach((x, k) => (x.el.style.order = String(k)));
     const url = new URL(location.href);
     if (sort === 'shelf') url.searchParams.delete('sort');
     else url.searchParams.set('sort', sort);
