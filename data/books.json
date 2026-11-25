@@ -464,5 +464,25 @@
       }
     },
     "coverRu": "/covers/borodino-ru.webp"
+  },
+  {
+    "id": "makar-chudra",
+    "author": {
+      "en": "Maxim Gorky",
+      "ru": "Максим Горький"
+    },
+    "year": 1892,
+    "cover": "/covers/makar-chudra.webp",
+    "languages": {
+      "en": {
+        "title": "Makar Chudra",
+        "description": "Beside a campfire on the Black Sea steppe, old Makar Chudra tells a young wanderer about freedom, and about Loiko Zobar, a horse thief who played the fiddle like no one alive, and Radda, the proud Gypsy girl who loved her freedom more than the man she loved. Maxim Gorky's first published story (1892), in a full-cast English audiobook.",
+        "youtube": "https://www.youtube.com/watch?v=LRz66hq0N1c",
+        "pdf": "/pdf/makar-chudra-en.pdf",
+        "text": "texts/makar-chudra-en.txt",
+        "booklet": "/pdf/makar-chudra-en-booklet.pdf",
+        "textNote": "Machine translation from the Russian, a draft that needs a human editor."
+      }
+    }
   }
 ]
