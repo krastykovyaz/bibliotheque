@@ -19,6 +19,8 @@ export interface BookLanguage {
   pdf?: string;
   /** Optional A4 print-booklet PDF, offered next to the reading PDF. */
   booklet?: string;
+  /** Optional A4 booklet for two-sided printing (fold the stack), next to the one-sided booklet. */
+  bookletDuplex?: string;
   /** Optional excerpt (public/preview/*.txt), shown on the book page without any registration. */
   preview?: string;
   previewParagraphs?: string[];

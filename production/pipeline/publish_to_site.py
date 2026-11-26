@@ -72,6 +72,7 @@ if a.playlist:
     entry_lang["playlist"] = a.playlist
 if not NOBOOK:
     entry_lang["booklet"] = f"/pdf/{slug}-{lang}-booklet.pdf"
+    entry_lang["bookletDuplex"] = f"/pdf/{slug}-{lang}-booklet-duplex.pdf"
 if B.get("text_note") and not RU:
     entry_lang["textNote"] = B["text_note"]
 existing = next((b for b in books if b["id"] == slug), None)
@@ -107,9 +108,11 @@ BUILDER = os.path.join(bdir, "build_pdf_verse.py") if os.path.exists(os.path.joi
 subprocess.run([sys.executable, "-W", "ignore", BUILDER], cwd=bdir, env=env, check=True, capture_output=True)
 if not NOBOOK:
     subprocess.run([sys.executable, os.path.join(PIPE, "make_booklet.py"), os.path.join(bdir, A5), os.path.join(bdir, A4)], check=True, capture_output=True)
+    subprocess.run([sys.executable, os.path.join(PIPE, "make_booklet.py"), os.path.join(bdir, A5), os.path.join(bdir, A4.replace("_A4_booklet", "_A4_booklet_duplex")), "--fold"], check=True, capture_output=True)
 shutil.copy(os.path.join(bdir, A5), os.path.join(ROOT, "public/pdf", f"{slug}-{lang}.pdf"))
 if not NOBOOK:
     shutil.copy(os.path.join(bdir, A4), os.path.join(ROOT, "public/pdf", f"{slug}-{lang}-booklet.pdf"))
+    shutil.copy(os.path.join(bdir, A4.replace("_A4_booklet", "_A4_booklet_duplex")), os.path.join(ROOT, "public/pdf", f"{slug}-{lang}-booklet-duplex.pdf"))
 
 print("validating the site build ...")
 out = sh(["npm", "run", "build"])
@@ -117,7 +120,7 @@ if "Complete!" not in out:
     sys.exit("the site build did not complete:\n" + out[-600:])
 print("build ok")
 
-sh(["git", "add", "data/books.json", "data/queue.json", f"data/texts/{slug}-{lang}.txt", f"public/covers/{slug}.webp", f"public/pdf/{slug}-{lang}.pdf"] + ([] if NOBOOK else [f"public/pdf/{slug}-{lang}-booklet.pdf"]) + ([f"public/covers/{slug}-ru.webp"] if RU and os.path.exists(RUCOVER) else []))
+sh(["git", "add", "data/books.json", "data/queue.json", f"data/texts/{slug}-{lang}.txt", f"public/covers/{slug}.webp", f"public/pdf/{slug}-{lang}.pdf"] + ([] if NOBOOK else [f"public/pdf/{slug}-{lang}-booklet.pdf", f"public/pdf/{slug}-{lang}-booklet-duplex.pdf"]) + ([f"public/covers/{slug}-ru.webp"] if RU and os.path.exists(RUCOVER) else []))
 sh(["git", "commit", "-q", "-m", f"Add {B['title']} by {B['author']} to the shelf\n\nCover, reading text, PDFs and the YouTube video, made with the book pipeline.\n\nCo-Authored-By: Claude Fable 5.2 <noreply@anthropic.com>"])
 env = dict(os.environ)
 env.pop("GH_TOKEN", None)

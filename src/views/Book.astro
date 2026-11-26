@@ -137,6 +137,7 @@ const short = (s: string) => (s.length <= 158 ? s : s.slice(0, 155).replace(/\s+
                         <div class="seg-links" role="group" aria-label={t.dlFormat}>
                           <a href={pdfLink(l.pdf)} download>{t.fmtRead}</a>
                           <a href={pdfLink(l.booklet)} download>{t.fmtPrint}</a>
+                          {l.bookletDuplex && <a href={pdfLink(l.bookletDuplex)} download>{t.fmtPrintDuplex}</a>}
                         </div>
                       ) : (
                         <a class="btn btn-secondary" href={pdfLink(l.pdf)} download>{t.dlGo}</a>

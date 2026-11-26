@@ -15,6 +15,7 @@
         "pdf": "/pdf/lady-en.pdf",
         "preview": "/preview/lady-en.txt",
         "booklet": "/pdf/lady-en-booklet.pdf",
+        "bookletDuplex": "/pdf/lady-en-booklet-duplex.pdf",
         "text": "texts/lady-en.txt",
         "textNote": "Machine translation from the Russian, a draft that needs a human editor."
       },
@@ -25,6 +26,7 @@
         "pdf": "/pdf/lady-ru.pdf",
         "preview": "/preview/lady-ru.txt",
         "booklet": "/pdf/lady-ru-booklet.pdf",
+        "bookletDuplex": "/pdf/lady-ru-booklet-duplex.pdf",
         "text": "texts/lady-ru.txt"
       }
     },
@@ -46,6 +48,7 @@
         "pdf": "/pdf/how-much-land-en.pdf",
         "text": "texts/how-much-land-en.txt",
         "booklet": "/pdf/how-much-land-en-booklet.pdf",
+        "bookletDuplex": "/pdf/how-much-land-en-booklet-duplex.pdf",
         "textNote": "Machine translation from the Russian, a draft that needs a human editor."
       },
       "ru": {
@@ -54,7 +57,8 @@
         "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
         "pdf": "/pdf/how-much-land-ru.pdf",
         "text": "texts/how-much-land-ru.txt",
-        "booklet": "/pdf/how-much-land-ru-booklet.pdf"
+        "booklet": "/pdf/how-much-land-ru-booklet.pdf",
+        "bookletDuplex": "/pdf/how-much-land-ru-booklet-duplex.pdf"
       }
     },
     "coverRu": "/covers/how-much-land-ru.webp"
@@ -102,6 +106,7 @@
         "pdf": "/pdf/vanka-en.pdf",
         "text": "texts/vanka-en.txt",
         "booklet": "/pdf/vanka-en-booklet.pdf",
+        "bookletDuplex": "/pdf/vanka-en-booklet-duplex.pdf",
         "textNote": "Machine translation from the Russian, a draft that needs a human editor."
       },
       "ru": {
@@ -110,7 +115,8 @@
         "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
         "pdf": "/pdf/vanka-ru.pdf",
         "text": "texts/vanka-ru.txt",
-        "booklet": "/pdf/vanka-ru-booklet.pdf"
+        "booklet": "/pdf/vanka-ru-booklet.pdf",
+        "bookletDuplex": "/pdf/vanka-ru-booklet-duplex.pdf"
       }
     },
     "coverRu": "/covers/vanka-ru.webp"
@@ -131,6 +137,7 @@
         "pdf": "/pdf/boy-at-christs-tree-en.pdf",
         "text": "texts/boy-at-christs-tree-en.txt",
         "booklet": "/pdf/boy-at-christs-tree-en-booklet.pdf",
+        "bookletDuplex": "/pdf/boy-at-christs-tree-en-booklet-duplex.pdf",
         "textNote": "Machine translation from the Russian, a draft that needs a human editor."
       },
       "ru": {
@@ -139,7 +146,8 @@
         "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
         "pdf": "/pdf/boy-at-christs-tree-ru.pdf",
         "text": "texts/boy-at-christs-tree-ru.txt",
-        "booklet": "/pdf/boy-at-christs-tree-ru-booklet.pdf"
+        "booklet": "/pdf/boy-at-christs-tree-ru-booklet.pdf",
+        "bookletDuplex": "/pdf/boy-at-christs-tree-ru-booklet-duplex.pdf"
       }
     },
     "coverRu": "/covers/boy-at-christs-tree-ru.webp"
@@ -160,6 +168,7 @@
         "pdf": "/pdf/wonderful-doctor-en.pdf",
         "text": "texts/wonderful-doctor-en.txt",
         "booklet": "/pdf/wonderful-doctor-en-booklet.pdf",
+        "bookletDuplex": "/pdf/wonderful-doctor-en-booklet-duplex.pdf",
         "textNote": "Translated from the Russian, a draft that needs a human editor."
       },
       "ru": {
@@ -168,7 +177,8 @@
         "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
         "pdf": "/pdf/wonderful-doctor-ru.pdf",
         "text": "texts/wonderful-doctor-ru.txt",
-        "booklet": "/pdf/wonderful-doctor-ru-booklet.pdf"
+        "booklet": "/pdf/wonderful-doctor-ru-booklet.pdf",
+        "bookletDuplex": "/pdf/wonderful-doctor-ru-booklet-duplex.pdf"
       }
     },
     "coverRu": "/covers/wonderful-doctor-ru.webp"
@@ -189,6 +199,7 @@
         "pdf": "/pdf/the-blizzard-en.pdf",
         "text": "texts/the-blizzard-en.txt",
         "booklet": "/pdf/the-blizzard-en-booklet.pdf",
+        "bookletDuplex": "/pdf/the-blizzard-en-booklet-duplex.pdf",
         "textNote": "Machine translation from the Russian, a draft that needs a human editor."
       },
       "ru": {
@@ -197,7 +208,8 @@
         "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
         "pdf": "/pdf/the-blizzard-ru.pdf",
         "text": "texts/the-blizzard-ru.txt",
-        "booklet": "/pdf/the-blizzard-ru-booklet.pdf"
+        "booklet": "/pdf/the-blizzard-ru-booklet.pdf",
+        "bookletDuplex": "/pdf/the-blizzard-ru-booklet-duplex.pdf"
       }
     },
     "coverRu": "/covers/the-blizzard-ru.webp"
@@ -233,6 +245,7 @@
         ],
         "playlist": "https://www.youtube.com/playlist?list=PLMps_WU02rY0",
         "booklet": "/pdf/night-before-christmas-en-booklet.pdf",
+        "bookletDuplex": "/pdf/night-before-christmas-en-booklet-duplex.pdf",
         "textNote": "English translation from the Russian original by an AI model, a draft that needs a human editor."
       },
       "ru": {
@@ -241,7 +254,8 @@
         "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
         "pdf": "/pdf/night-before-christmas-ru.pdf",
         "text": "texts/night-before-christmas-ru.txt",
-        "booklet": "/pdf/night-before-christmas-ru-booklet.pdf"
+        "booklet": "/pdf/night-before-christmas-ru-booklet.pdf",
+        "bookletDuplex": "/pdf/night-before-christmas-ru-booklet-duplex.pdf"
       }
     },
     "coverRu": "/covers/night-before-christmas-ru.webp"
@@ -273,6 +287,7 @@
         ],
         "playlist": "https://www.youtube.com/playlist?list=PLZjJ8Oz0nnRE",
         "booklet": "/pdf/the-overcoat-en-booklet.pdf",
+        "bookletDuplex": "/pdf/the-overcoat-en-booklet-duplex.pdf",
         "textNote": "Translated from the Russian by an AI, a draft that needs a human editor."
       },
       "ru": {
@@ -281,7 +296,8 @@
         "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
         "pdf": "/pdf/the-overcoat-ru.pdf",
         "text": "texts/the-overcoat-ru.txt",
-        "booklet": "/pdf/the-overcoat-ru-booklet.pdf"
+        "booklet": "/pdf/the-overcoat-ru-booklet.pdf",
+        "bookletDuplex": "/pdf/the-overcoat-ru-booklet-duplex.pdf"
       }
     },
     "coverRu": "/covers/the-overcoat-ru.webp"
@@ -302,6 +318,7 @@
         "pdf": "/pdf/the-girl-snow-maiden-en.pdf",
         "text": "texts/the-girl-snow-maiden-en.txt",
         "booklet": "/pdf/the-girl-snow-maiden-en-booklet.pdf",
+        "bookletDuplex": "/pdf/the-girl-snow-maiden-en-booklet-duplex.pdf",
         "textNote": "Machine translation from the Russian into simple English for children, a draft that needs a human editor. A short spoken introduction and a goodnight were added for the audiobook."
       },
       "ru": {
@@ -310,7 +327,8 @@
         "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
         "pdf": "/pdf/the-girl-snow-maiden-ru.pdf",
         "text": "texts/the-girl-snow-maiden-ru.txt",
-        "booklet": "/pdf/the-girl-snow-maiden-ru-booklet.pdf"
+        "booklet": "/pdf/the-girl-snow-maiden-ru-booklet.pdf",
+        "bookletDuplex": "/pdf/the-girl-snow-maiden-ru-booklet-duplex.pdf"
       }
     },
     "kids": true,
@@ -332,6 +350,7 @@
         "pdf": "/pdf/the-sleeping-princess-en.pdf",
         "text": "texts/the-sleeping-princess-en.txt",
         "booklet": "/pdf/the-sleeping-princess-en-booklet.pdf",
+        "bookletDuplex": "/pdf/the-sleeping-princess-en-booklet-duplex.pdf",
         "textNote": "Free English verse rendering from the Russian, written for children: a draft that needs a human editor."
       },
       "ru": {
@@ -340,7 +359,8 @@
         "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
         "pdf": "/pdf/the-sleeping-princess-ru.pdf",
         "text": "texts/the-sleeping-princess-ru.txt",
-        "booklet": "/pdf/the-sleeping-princess-ru-booklet.pdf"
+        "booklet": "/pdf/the-sleeping-princess-ru-booklet.pdf",
+        "bookletDuplex": "/pdf/the-sleeping-princess-ru-booklet-duplex.pdf"
       }
     },
     "kids": true,
@@ -362,6 +382,7 @@
         "pdf": "/pdf/moroz-ivanovich-en.pdf",
         "text": "texts/moroz-ivanovich-en.txt",
         "booklet": "/pdf/moroz-ivanovich-en-booklet.pdf",
+        "bookletDuplex": "/pdf/moroz-ivanovich-en-booklet-duplex.pdf",
         "textNote": "Machine translation from the Russian into simple English for children, a draft that needs a human editor."
       },
       "ru": {
@@ -370,7 +391,8 @@
         "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
         "pdf": "/pdf/moroz-ivanovich-ru.pdf",
         "text": "texts/moroz-ivanovich-ru.txt",
-        "booklet": "/pdf/moroz-ivanovich-ru-booklet.pdf"
+        "booklet": "/pdf/moroz-ivanovich-ru-booklet.pdf",
+        "bookletDuplex": "/pdf/moroz-ivanovich-ru-booklet-duplex.pdf"
       }
     },
     "kids": true,
@@ -392,6 +414,7 @@
         "pdf": "/pdf/grey-neck-en.pdf",
         "text": "texts/grey-neck-en.txt",
         "booklet": "/pdf/grey-neck-en-booklet.pdf",
+        "bookletDuplex": "/pdf/grey-neck-en-booklet-duplex.pdf",
         "textNote": "Machine translation from the Russian into simple English for children, a draft that needs a human editor."
       },
       "ru": {
@@ -400,7 +423,8 @@
         "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
         "pdf": "/pdf/grey-neck-ru.pdf",
         "text": "texts/grey-neck-ru.txt",
-        "booklet": "/pdf/grey-neck-ru-booklet.pdf"
+        "booklet": "/pdf/grey-neck-ru-booklet.pdf",
+        "bookletDuplex": "/pdf/grey-neck-ru-booklet-duplex.pdf"
       }
     },
     "kids": true,
@@ -422,6 +446,7 @@
         "pdf": "/pdf/dead-princess-and-seven-knights-en.pdf",
         "text": "texts/dead-princess-and-seven-knights-en.txt",
         "booklet": "/pdf/dead-princess-and-seven-knights-en-booklet.pdf",
+        "bookletDuplex": "/pdf/dead-princess-and-seven-knights-en-booklet-duplex.pdf",
         "textNote": "English verse written for children from the Russian original, a free rendering that keeps the story and the stanzas but not the rhymes of the original. A draft that needs a human editor."
       },
       "ru": {
@@ -430,7 +455,8 @@
         "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
         "pdf": "/pdf/dead-princess-and-seven-knights-ru.pdf",
         "text": "texts/dead-princess-and-seven-knights-ru.txt",
-        "booklet": "/pdf/dead-princess-and-seven-knights-ru-booklet.pdf"
+        "booklet": "/pdf/dead-princess-and-seven-knights-ru-booklet.pdf",
+        "bookletDuplex": "/pdf/dead-princess-and-seven-knights-ru-booklet-duplex.pdf"
       }
     },
     "kids": true,
@@ -452,6 +478,7 @@
         "pdf": "/pdf/borodino-en.pdf",
         "text": "texts/borodino-en.txt",
         "booklet": "/pdf/borodino-en-booklet.pdf",
+        "bookletDuplex": "/pdf/borodino-en-booklet-duplex.pdf",
         "textNote": "English prose rendering of the Russian poem by an AI model, a draft that needs a human editor; the rhymes and metre are not kept."
       },
       "ru": {
@@ -460,7 +487,8 @@
         "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
         "pdf": "/pdf/borodino-ru.pdf",
         "text": "texts/borodino-ru.txt",
-        "booklet": "/pdf/borodino-ru-booklet.pdf"
+        "booklet": "/pdf/borodino-ru-booklet.pdf",
+        "bookletDuplex": "/pdf/borodino-ru-booklet-duplex.pdf"
       }
     },
     "coverRu": "/covers/borodino-ru.webp"
@@ -481,6 +509,7 @@
         "pdf": "/pdf/makar-chudra-en.pdf",
         "text": "texts/makar-chudra-en.txt",
         "booklet": "/pdf/makar-chudra-en-booklet.pdf",
+        "bookletDuplex": "/pdf/makar-chudra-en-booklet-duplex.pdf",
         "textNote": "Machine translation from the Russian, a draft that needs a human editor."
       },
       "ru": {
@@ -489,7 +518,8 @@
         "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
         "pdf": "/pdf/makar-chudra-ru.pdf",
         "text": "texts/makar-chudra-ru.txt",
-        "booklet": "/pdf/makar-chudra-ru-booklet.pdf"
+        "booklet": "/pdf/makar-chudra-ru-booklet.pdf",
+        "bookletDuplex": "/pdf/makar-chudra-ru-booklet-duplex.pdf"
       }
     },
     "coverRu": "/covers/makar-chudra-ru.webp"
