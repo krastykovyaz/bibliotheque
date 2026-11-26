@@ -87,7 +87,8 @@ def synth(text, voice, style, speech=None, max_empty=4):
     """One request. Returns float32 samples at 24 kHz. Obeys the quota (see the top of the file). `speech` replaces the single-voice
     speechConfig (chunk mode with two speakers); `max_empty` is how many times a no-audio answer is tried."""
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{a.model}:generateContent"
-    body = {"contents": [{"parts": [{"text": f"{style}: {text}" if style else text}]}],
+    parts = text if isinstance(text, list) else [{"text": f"{style}: {text}" if style else text}]   # a list = one part per row, each with its speaker
+    body = {"contents": [{"parts": parts}],
             "generationConfig": {"responseModalities": ["AUDIO"],
                                  "speechConfig": speech or {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": voice}}}}}
     data = json.dumps(body).encode()
@@ -130,7 +131,7 @@ def synth(text, voice, style, speech=None, max_empty=4):
             # the model sometimes answers with text instead of audio: ask again (a few times)
             if attempts < max_empty:
                 continue
-            sys.exit(f"no audio in the answer for: {text[:60]!r}: {json.dumps(j)[:300]}")
+            sys.exit(f"no audio in the answer for: {str(text)[:60]!r}: {json.dumps(j)[:300]}")
 
 
 def trim_and_level(x, sr):
@@ -184,7 +185,7 @@ def chunk_request(ch):
     if len(names) == 1:
         return " ".join(x["text"] for x in ch), {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": voices[names[0]]["voice"]}}}
     label = {n: re.sub(r"[^A-Za-z0-9]", "", n).title() or f"Speaker{i + 1}" for i, n in enumerate(names)}
-    text = "\n".join(f"{label[x['speaker']]}: {x['text']}" for x in ch)
+    text = [{"text": x["text"], "speechMetadata": {"speaker": label[x["speaker"]]}} for x in ch]   # newer models require the speaker on every part
     cfg = {"multiSpeakerVoiceConfig": {"speakerVoiceConfigs": [
         {"speaker": label[n], "voiceConfig": {"prebuiltVoiceConfig": {"voiceName": voices[n]["voice"]}}} for n in names]}}
     return text, cfg
