@@ -11,8 +11,8 @@ T = {
     "ru": {"notes": "О тексте", "listen": "Читать и слушать", "watch": "Смотреть и слушать", "read": "Читать онлайн, скачать", "next": "Скоро на полке"},
 }
 CSS = """
-.back{page:notes;break-before:page;position:relative;box-sizing:border-box;height:194mm;padding:14mm 13mm 10mm;border:.35mm solid #d9c9a8;border-radius:1mm}
-@page notes{margin:7mm;@bottom-center{content:none}}
+.back{page:notes;break-before:page;position:relative;box-sizing:border-box;height:209.4mm;padding:21mm 20mm 17mm;border:.35mm solid #d9c9a8;border-radius:1mm}
+@page notes{margin:0;@bottom-center{content:none}}
 .back h2{font-size:13pt;letter-spacing:.2em;text-transform:uppercase;text-align:center;font-weight:600;color:#1d2340;margin:0 0 5mm}
 .qr{margin:0 0 6mm;break-inside:avoid}
 .qr .row{display:flex;gap:6mm;justify-content:center}.qr .item{text-align:center;width:52mm}
