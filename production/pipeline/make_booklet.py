@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Lays out an A5 reading PDF as an A4 landscape saddle-stitch booklet (two pages per side).
 Usage: python3 make_booklet.py reading.pdf booklet.pdf [--fold]   (needs: pypdf)
-Default (what we publish): pages in plain reading order, two to a sheet side: 1|2, 3|4, 5|6 ... Print single-sided, cut every
-sheet down the middle, put the halves in page-number order and glue or bind them at the left edge.
+Default (what we publish): print SINGLE-sided; sheet k carries page N+1-k on the left and page k on the right (24|1, 23|2, 22|3 ...
+13|12 for N=24). Cut the whole stack down the middle: the right-hand pile is pages 1..N/2 in order, the left-hand pile is
+N..N/2+1, so turn it over to get N/2+1..N and put it behind the first pile. Glue or bind at the left edge.
 --fold: saddle-stitch order for double-sided printing (flip on the short edge), fold the stack in half."""
 import sys
 from pypdf import PdfReader, PdfWriter, PageObject, Transformation
@@ -33,6 +34,6 @@ if FOLD:
         side(get(2 * i + 1), get(total - 2 - 2 * i))          # back of the sheet
 else:
     for i in range(total // 2):
-        side(get(2 * i), get(2 * i + 1))                      # plain order: 1|2, 3|4, ...
+        side(get(total - 1 - i), get(i))                      # single-sided: N|1, N-1|2, N-2|3, ...
 out.write(sys.argv[2])
 print(f"{n} pages -> {total} padded -> {len(out.pages)} landscape sides")
