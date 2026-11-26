@@ -4,16 +4,24 @@ Usage: python3 make_booklet.py reading.pdf booklet.pdf [--fold]   (needs: pypdf)
 Default (what we publish): print SINGLE-sided; sheet k carries page N+1-k on the left and page k on the right (24|1, 23|2, 22|3 ...
 13|12 for N=24). Cut the whole stack down the middle: the right-hand pile is pages 1..N/2 in order, the left-hand pile is
 N..N/2+1, so turn it over to get N/2+1..N and put it behind the first pile. Glue or bind at the left edge.
---fold: saddle-stitch order for double-sided printing (flip on the short edge), fold the stack in half."""
+--fold: saddle-stitch order for double-sided printing (flip on the short edge), fold the stack in half. The first sheet has a blank back
+(blank page after the cover and before the last page)."""
 import sys
 from pypdf import PdfReader, PdfWriter, PageObject, Transformation
 
 FOLD = '--fold' in sys.argv
 src = PdfReader(sys.argv[1])
 n = len(src.pages)
-total = (n + 3) // 4 * 4 if FOLD else (n + 1) // 2 * 2   # blanks: multiple of 4 (fold) / even (plain)
 w, h = (float(x) for x in (src.pages[0].mediabox.width, src.pages[0].mediabox.height))
-get = lambda i: src.pages[i] if i < n else None
+if FOLD and n >= 3:
+    # two-sided: the first sheet is printed on one side only (cover and last page outside; the back of the sheet is blank): a blank page
+    # follows the cover and another one comes before the last page; spare blanks to make a multiple of 4 sit before the last page too
+    total = (n + 2 + 3) // 4 * 4
+    order = [0, None] + list(range(1, n - 1)) + [None] * (total - n - 1) + [n - 1]
+    get = lambda i: src.pages[order[i]] if order[i] is not None else None
+else:
+    total = (n + 3) // 4 * 4 if FOLD else (n + 1) // 2 * 2   # blanks: multiple of 4 (fold) / even (plain)
+    get = lambda i: src.pages[i] if i < n else None
 out = PdfWriter()
 
 # Every page is shrunk a little and moved away from the centre line, so that nothing is near the fold / the cut when the sheet is halved
