@@ -177,9 +177,9 @@ if pages != pages2 or n1 != n2:
 
 
 def last_page_overflows():
-    """True when the last page (the one with the QR codes and 'Next on the shelf') spills onto a second page."""
+    """True when the last page (the one framed page with the notes and 'Next on the shelf') spills onto a second page."""
     doc = pymupdf.open(OUT_PDF)
-    key = lastpage.T[LANG]["listen"].upper().replace(" ", "")
+    key = lastpage.T[LANG]["notes"].upper().replace(" ", "")
     for i in range(len(doc) - 1, -1, -1):
         if key in doc[i].get_text().upper().replace(" ", "").replace("\n", ""):
             return i != len(doc) - 1

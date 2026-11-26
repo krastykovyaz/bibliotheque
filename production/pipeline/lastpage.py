@@ -11,7 +11,8 @@ T = {
     "ru": {"notes": "О тексте", "listen": "Читать и слушать", "watch": "Смотреть и слушать", "read": "Читать онлайн, скачать", "next": "Скоро на полке"},
 }
 CSS = """
-.back{page:front;break-before:page;padding-top:2mm;position:relative}
+.back{page:notes;break-before:page;position:relative;box-sizing:border-box;height:194mm;padding:14mm 13mm 10mm;border:.35mm solid #d9c9a8;border-radius:1mm}
+@page notes{margin:7mm;@bottom-center{content:none}}
 .back h2{font-size:13pt;letter-spacing:.2em;text-transform:uppercase;text-align:center;font-weight:600;color:#1d2340;margin:0 0 5mm}
 .listen{border:1pt solid #c79a4a;border-radius:3mm;padding:4mm 5mm 3mm;margin-bottom:5mm;background:#fbf6ea;break-inside:avoid}
 .listen h3{margin:0 0 3mm;font-size:10.5pt;letter-spacing:.14em;text-transform:uppercase;color:#9c4a2e;font-weight:600;text-align:center}
@@ -71,7 +72,7 @@ def section(lang, slug, title_en, glossary, credits, compact=False):
     nb = next_book(title_en, lang)
     nxt = f'<div class="next"><small>{t["next"]}</small><i>{html.escape(nb[0])}</i><em>{html.escape(nb[1])} · biblio.unilu.space</em></div>' if nb else ""
     cls = " compact tight" if compact == 2 else " compact" if compact else ""
-    return (f'<section class="back{cls}"><h2>{t["notes"]}</h2><div class="listen"><h3>{t["listen"]}</h3><div class="row">{row}</div></div>'
+    return (f'<section class="back{cls}"><h2>{t["notes"]}</h2>'
             f'<dl>{gl}</dl><p class="credits">{html.escape(credits)}</p>{nxt}</section>')
 
 # when the page still overflows, build_pdf asks for this tighter variant
