@@ -4,3 +4,4 @@ the-sleeping-princess The_Sleeping_Princess
 grey-neck Grey_Neck
 dead-princess-and-seven-knights The_Dead_Princess
 the-scarlet-flower The_Scarlet_Flower
+the-tale-of-tsar-saltan Tsar_Saltan

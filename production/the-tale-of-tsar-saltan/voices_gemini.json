@@ -1,0 +1,50 @@
+{
+ "NARRATOR": {
+  "voice": "Sulafat",
+  "style": ""
+ },
+ "SISTER1": {
+  "voice": "Leda",
+  "style": ""
+ },
+ "SISTER2": {
+  "voice": "Kore",
+  "style": ""
+ },
+ "SISTER3": {
+  "voice": "Aoede",
+  "style": ""
+ },
+ "TSAR": {
+  "voice": "Algieba",
+  "style": ""
+ },
+ "GVIDON": {
+  "voice": "Puck",
+  "style": ""
+ },
+ "SWAN": {
+  "voice": "Vindemiatrix",
+  "style": ""
+ },
+ "SHIPMEN": {
+  "voice": "Orus",
+  "style": ""
+ },
+ "COOK": {
+  "voice": "Despina",
+  "style": ""
+ },
+ "WEAVER": {
+  "voice": "Autonoe",
+  "style": ""
+ },
+ "BABARIKHA": {
+  "voice": "Gacrux",
+  "style": ""
+ },
+ "CHERNOMOR": {
+  "voice": "Charon",
+  "style": ""
+ }
+}
