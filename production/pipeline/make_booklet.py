@@ -19,19 +19,21 @@ out = PdfWriter()
 # Every page is shrunk a little and moved away from the centre line, so that nothing is near the fold / the cut when the sheet is halved
 # and a printer's unprintable edge cannot take a letter: inner gap = 75 % of the spare width, outer gap = 25 %.
 SCALE, INNER = 0.94, 0.75
-def side(left, right):
+def side(left, right, flip=False):
     sheet = PageObject.create_blank_page(width=2 * w, height=h)
     spare = w * (1 - SCALE)
     for k, p in enumerate((left, right)):
         if p is not None:
             x = k * w + (spare * (1 - INNER) if k == 0 else spare * INNER)
             sheet.merge_transformed_page(p, Transformation().scale(SCALE, SCALE).translate(x, h * (1 - SCALE) / 2))
+    if flip:
+        sheet.rotate(180)          # duplex: every second side is turned 180 degrees (this printer turns the paper over the long edge)
     out.add_page(sheet)
 
 if FOLD:
     for i in range(total // 4):
         side(get(total - 1 - 2 * i), get(2 * i))              # front of the sheet
-        side(get(2 * i + 1), get(total - 2 - 2 * i))          # back of the sheet
+        side(get(2 * i + 1), get(total - 2 - 2 * i), flip=True)   # back of the sheet, rotated 180
 else:
     for i in range(total // 2):
         side(get(total - 1 - i), get(i))                      # single-sided: N|1, N-1|2, N-2|3, ...
