@@ -55,5 +55,5 @@ PY
   log "$slug: audio script exit code $rc ($(grep -c '^  chunk ' run_audio_ru_daily.log) chunks reported this run)"
   if [ $rc -eq 3 ]; then log "daily quota used up: stopping for today"; break; fi
   if [ $rc -eq 0 ] && [ -s "${P}_RU_audiobook.mp3" ]; then log "$slug: audio finished"; start_chain "$slug" "$P"; else log "$slug: audio not finished (see $slug/run_audio_ru_daily.log)"; fi
-done < "$ROOT/gemini_queue.txt"
+done < "$ROOT/pipeline/gemini_queue.txt"
 log "run end"
