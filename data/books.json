@@ -565,7 +565,17 @@
         "booklet": "/pdf/a-month-in-the-country-en-booklet.pdf",
         "bookletDuplex": "/pdf/a-month-in-the-country-en-booklet-duplex.pdf",
         "textNote": "Translated from the Russian by an AI, a draft that needs a human editor. Stage directions are shortened: cues of tone or of whom a speaker addresses are left out."
+      },
+      "ru": {
+        "title": "Месяц в деревне",
+        "description": "Лето в усадьбе Ислаевых. Наталья Петровна скучает рядом с преданным другом Ракитиным, пока в доме не появляется молодой студент Беляев, учитель её сына. В него влюбляется и семнадцатилетняя воспитанница Вера. Пьеса Тургенева «Месяц в деревне».",
+        "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
+        "pdf": "/pdf/a-month-in-the-country-ru.pdf",
+        "text": "texts/a-month-in-the-country-ru.txt",
+        "booklet": "/pdf/a-month-in-the-country-ru-booklet.pdf",
+        "bookletDuplex": "/pdf/a-month-in-the-country-ru-booklet-duplex.pdf"
       }
-    }
+    },
+    "coverRu": "/covers/a-month-in-the-country-ru.webp"
   }
 ]
