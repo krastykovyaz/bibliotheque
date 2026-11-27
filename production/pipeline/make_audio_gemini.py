@@ -185,7 +185,10 @@ def chunk_request(ch):
     if len(names) == 1:
         return " ".join(x["text"] for x in ch), {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": voices[names[0]]["voice"]}}}
     label = {n: re.sub(r"[^A-Za-z0-9]", "", n).title() or f"Speaker{i + 1}" for i, n in enumerate(names)}
-    text = [{"text": x["text"], "speechMetadata": {"speaker": label[x["speaker"]]}} for x in ch]   # newer models require the speaker on every part
+    if "3.1" in a.model:   # this model rejects speechMetadata: plain "Name: text" lines in one part
+        text = "\n".join(f"{label[x['speaker']]}: {x['text']}" for x in ch)
+    else:
+        text = [{"text": x["text"], "speechMetadata": {"speaker": label[x["speaker"]]}} for x in ch]   # other models want the speaker on every part
     cfg = {"multiSpeakerVoiceConfig": {"speakerVoiceConfigs": [
         {"speaker": label[n], "voiceConfig": {"prebuiltVoiceConfig": {"voiceName": voices[n]["voice"]}}} for n in names]}}
     return text, cfg
