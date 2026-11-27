@@ -523,5 +523,49 @@
       }
     },
     "coverRu": "/covers/makar-chudra-ru.webp"
+  },
+  {
+    "id": "a-month-in-the-country",
+    "author": {
+      "en": "Ivan Turgenev",
+      "ru": "Иван Тургенев"
+    },
+    "year": 1855,
+    "cover": "/covers/a-month-in-the-country.webp",
+    "languages": {
+      "en": {
+        "title": "A Month in the Country",
+        "description": "On the Islayev estate, in the early 1840s, Natalya Petrovna is bored with her loyal friend Rakitin until a twenty-one-year-old student, Belyaev, arrives as her son's tutor. Her seventeen-year-old ward Vera falls in love with him too, the doctor Shpigelsky and the shy neighbour Bolshintsov scheme over a marriage, and a month in the country changes everyone. Turgenev called it «a tale in dramatic form»; it became one of the most staged Russian plays. Full cast, five acts, English translation.",
+        "youtube": "https://www.youtube.com/watch?v=OpboI0prA_8",
+        "pdf": "/pdf/a-month-in-the-country-en.pdf",
+        "text": "texts/a-month-in-the-country-en.txt",
+        "parts": [
+          {
+            "title": "Part 1: The New Tutor",
+            "youtube": "https://www.youtube.com/watch?v=OpboI0prA_8"
+          },
+          {
+            "title": "Part 2: Raspberries and a Kite",
+            "youtube": "https://www.youtube.com/watch?v=HEgEfMRGaQQ"
+          },
+          {
+            "title": "Part 3: Natalya Petrovna's Secret",
+            "youtube": "https://www.youtube.com/watch?v=jA46GDz1dV4"
+          },
+          {
+            "title": "Part 4: The Declaration",
+            "youtube": "https://www.youtube.com/watch?v=Fd3kA4Y126s"
+          },
+          {
+            "title": "Part 5: The Parting",
+            "youtube": "https://www.youtube.com/watch?v=BJC2KfWzc8g"
+          }
+        ],
+        "playlist": "https://www.youtube.com/playlist?list=PLEvIlvnHj-q4",
+        "booklet": "/pdf/a-month-in-the-country-en-booklet.pdf",
+        "bookletDuplex": "/pdf/a-month-in-the-country-en-booklet-duplex.pdf",
+        "textNote": "Translated from the Russian by an AI, a draft that needs a human editor. Stage directions are shortened: cues of tone or of whom a speaker addresses are left out."
+      }
+    }
   }
 ]
