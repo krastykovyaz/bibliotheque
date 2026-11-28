@@ -12,7 +12,8 @@ say() { echo "[$(date +%H:%M:%S)] $*"; }
 fail() { say "STOPPED: $*"; echo "$*" > CHAIN_FAILED; exit 1; }
 rm -f CHAIN_FAILED
 say "waiting for the other books' chains and jobs to finish"
-while pgrep -f 'chain_split_on_server.sh|chain_on_server.sh|chain_ru.sh|make_audio_kokoro.py|make_video.py' > /dev/null; do sleep 120; done
+# running jobs only: a chain script started as 'bash ./chain_x.sh' or 'flock ... ./chain_ru.sh', or an audio/video python process. (Other books' *waiting* shells, 'bash -c while pgrep ...', are not counted.)
+while pgrep -f '^(/bin/)?bash (\./|\.\./pipeline/)?chain_(split_on_server|on_server|ru)\.sh|^flock .*chain_ru\.sh|python[0-9.]* .*(make_audio_kokoro|make_video)\.py'  > /dev/null; do sleep 120; done
 say "no other job is running; waiting for 20 GB of free disk if needed"
 while [ "$(df --output=avail -BG ~ | tail -1 | tr -dc 0-9)" -lt 20 ]; do sleep 600; done   # needs about 20 GB free for the audio, video and episode cuts (the disk was full on 2026-11-28)
 say "starting"
