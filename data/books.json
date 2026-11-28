@@ -615,7 +615,17 @@
         "booklet": "/pdf/olesya-en-booklet.pdf",
         "bookletDuplex": "/pdf/olesya-en-booklet-duplex.pdf",
         "textNote": "Translated from the Russian by an AI, a draft that needs a human editor."
+      },
+      "ru": {
+        "title": "Олеся",
+        "description": "Иван Тимофеевич, городской литератор, проводит зиму в глухой деревне на Полесье и идёт посмотреть на ведьму, которая живёт в болоте. В избушке на курьих ножках он встречает Олесю, гадалку и лесную девушку, которая ничего не боится, кроме своей судьбы. Повесть Куприна 1898 года о весне, любви и жестокости деревни.",
+        "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
+        "pdf": "/pdf/olesya-ru.pdf",
+        "text": "texts/olesya-ru.txt",
+        "booklet": "/pdf/olesya-ru-booklet.pdf",
+        "bookletDuplex": "/pdf/olesya-ru-booklet-duplex.pdf"
       }
-    }
+    },
+    "coverRu": "/covers/olesya-ru.webp"
   }
 ]
