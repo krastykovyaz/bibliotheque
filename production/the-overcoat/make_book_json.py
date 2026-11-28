@@ -105,7 +105,7 @@ B = {
  "site_description": "Akaky Akakievich Bashmachkin is a humble copying clerk in St Petersburg, mocked by colleagues and content with his papers, until his old overcoat can no longer be mended. He starves himself to save for a new one, and for a single evening he is happy; then comes a night on an empty square, an Important Person who will not listen, and a ghost. Gogol's 1842 masterpiece of pity, comedy and the supernatural, the story from which, as Russians say, all of their literature came.",
  "tags": ["Gogol", "Nikolai Gogol", "The Overcoat", "audiobook", "full cast audiobook", "novella", "ghost story", "classic literature", "Russian literature", "St Petersburg", "public domain", "English audiobook"],
  "hashtags": "#Gogol #audiobook #classicliterature #russianliterature #publicdomain", "playlist": "PLVuswr3XMg9E",
- "text_note": "Translated from the Russian by an AI, a draft that needs a human editor.",
+ "text_note": "",
  "ru": {"title": "Шинель", "author": "Николай Гоголь",
         "names": {"I": "Один чиновник", "II": "Переписчик", "III": "Мороз и портной", "IV": "Копилка", "V": "Новая шинель", "VI": "Вечер", "VII": "Пустая площадь", "VIII": "Значительное лицо", "IX": "Горячка", "X": "Привидение"},
         "note": "Повесть в издании для чтения с оригинальными иллюстрациями.",

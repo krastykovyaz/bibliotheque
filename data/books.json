@@ -287,8 +287,7 @@
         ],
         "playlist": "https://www.youtube.com/playlist?list=PLZjJ8Oz0nnRE",
         "booklet": "/pdf/the-overcoat-en-booklet.pdf",
-        "bookletDuplex": "/pdf/the-overcoat-en-booklet-duplex.pdf",
-        "textNote": "Translated from the Russian by an AI, a draft that needs a human editor."
+        "bookletDuplex": "/pdf/the-overcoat-en-booklet-duplex.pdf"
       },
       "ru": {
         "title": "Шинель",
@@ -564,7 +563,7 @@
         "playlist": "https://www.youtube.com/playlist?list=PLEvIlvnHj-q4",
         "booklet": "/pdf/a-month-in-the-country-en-booklet.pdf",
         "bookletDuplex": "/pdf/a-month-in-the-country-en-booklet-duplex.pdf",
-        "textNote": "Translated from the Russian by an AI, a draft that needs a human editor. Stage directions are shortened: cues of tone or of whom a speaker addresses are left out."
+        "textNote": "Stage directions are shortened: cues of tone or of whom a speaker addresses are left out."
       },
       "ru": {
         "title": "Месяц в деревне",
@@ -613,8 +612,7 @@
         ],
         "playlist": "https://www.youtube.com/playlist?list=PLb5qT1huvOu0",
         "booklet": "/pdf/olesya-en-booklet.pdf",
-        "bookletDuplex": "/pdf/olesya-en-booklet-duplex.pdf",
-        "textNote": "Translated from the Russian by an AI, a draft that needs a human editor."
+        "bookletDuplex": "/pdf/olesya-en-booklet-duplex.pdf"
       },
       "ru": {
         "title": "Олеся",
