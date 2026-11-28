@@ -20,6 +20,7 @@ A_=${PREFIX}_RU_audiobook
 say "audio ready: $(ffprobe -v error -show_entries format=duration -of csv=p=0 $A_.mp3) s"
 [ -d video_assets_ru ] || fail "video_assets_ru is missing (make it on the Mac: BOOK_LANG=ru make_video_assets.py)"
 if [ ! -s ${PREFIX}_RU_YouTube.mp4 ]; then
+  while [ "$(df --output=avail -BG ~ | tail -1 | tr -dc 0-9)" -lt 20 ]; do sleep 600; done   # needs about 20 GB free for the audio, video and episode cuts (the disk was full on 2026-11-28)
   say "rendering the video"
   rm -rf scenes video_only.mp4
   nice -n 5 ../venv/bin/python ../pipeline/make_video.py --workers $WORKERS > run_video_ru.log 2>&1
@@ -32,6 +33,13 @@ say "video ok: $V s (audio $A s)"
 PKG_MODE=text ../venv/bin/python ../pipeline/make_package.py > run_package_ru.log 2>&1 || fail "subtitles/description failed (see run_package_ru.log)"
 [ -s ${PREFIX}_RU_thumbnail.png ] || fail "the Russian thumbnail is missing (make it on the Mac with BOOK_LANG=ru PKG_MODE=thumb)"
 say "package ready: ${PREFIX}_RU_YouTube.mp4, ${PREFIX}_RU_youtube_description.txt, ${PREFIX}_RU.srt, ${PREFIX}_RU_thumbnail.png"
+if python3 -c "import json,sys; sys.exit(0 if json.load(open('book.json')).get('episodes') else 1)"; then   # split book (over an hour): cut the Russian video into its episodes here
+  say "cutting the Russian video into the episodes of book.json"
+  BOOK_DIR=$PWD python3 split_ru.py > run_split_ru.log 2>&1 || fail "the split failed (see run_split_ru.log)"
+  cat run_split_ru.log
+  say "episodes ready (${PREFIX}_RU_EP<n>.mp4 and descriptions); delivery of Russian episodes is not decided (playlist/placement), nothing was sent"
+  exit 0
+fi
 if [ "$DELIVER" != "yes" ]; then say "DELIVER is not yes: stopping before delivery"; exit 0; fi
 KEY=~/.ssh/id_ed25519_bibliotheque_deliver
 SSHO="ssh -i $KEY -o IdentitiesOnly=yes -o BatchMode=yes -o ConnectTimeout=20"

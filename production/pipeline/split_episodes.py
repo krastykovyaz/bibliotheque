@@ -43,8 +43,8 @@ for i, ep in enumerate(eps, 1):
     chapters = []
     if "from_part" in ep:
         if ep.get("chapters"):      # optional: [[part, paragraph, title], ...]
-            for cp, cpar, ctitle in ep["chapters"]:
-                chapters.append(f"{stamp(max(0.0, pstart(cp, cpar) - t0))} {ctitle}")
+            for ci, (cp, cpar, ctitle, *_) in enumerate(ep["chapters"]):
+                chapters.append(f"{stamp(0 if ci == 0 else max(0.0, pstart(cp, cpar) - t0))} {ctitle}")
         else:
           for q in range(pa, pb + 1):
             chapters.append(f"{stamp(pstart(parts_order[q]) - t0)} Part {parts_order[q]}: {pnames[parts_order[q]]}")
@@ -63,7 +63,7 @@ for i, ep in enumerate(eps, 1):
 
 {ep['blurb']}
 
-All {N} parts in order: https://www.youtube.com/playlist?list={B['series_playlist']}
+{('All ' + str(N) + ' parts in order: https://www.youtube.com/playlist?list=' + B['series_playlist']) if B.get('series_playlist') else ('Part ' + str(i) + ' of ' + str(N) + (', continued in part ' + str(i + 1) if i < N else ''))}
 {ch}
 Read the text and download the book (PDF): https://biblio.unilu.space/book/{B['slug']}/
 

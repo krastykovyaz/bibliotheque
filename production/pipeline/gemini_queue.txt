@@ -5,3 +5,4 @@ grey-neck Grey_Neck
 dead-princess-and-seven-knights The_Dead_Princess
 the-scarlet-flower The_Scarlet_Flower
 the-tale-of-tsar-saltan Tsar_Saltan
+little-humpbacked-horse The_Little_Humpbacked_Horse
