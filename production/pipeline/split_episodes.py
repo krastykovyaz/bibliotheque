@@ -18,7 +18,11 @@ parts_order = list(dict.fromkeys(r["part"] for r in rows))
 first_row = {}
 for r in rows:
     first_row.setdefault(r["part"], r["id"])
-def pstart(part): return 0.0 if part == parts_order[0] else max(0.0, seg[first_row[part]] - LEAD)
+def pstart(part, par=None):
+    if par is not None:     # start of paragraph <par> of the part (episodes that begin or end inside a part)
+        rid = next(r["id"] for r in rows if r["part"] == part and r["paragraph"] == par)
+        return 0.0 if rid == rows[0]["id"] else max(0.0, seg[rid] - LEAD)
+    return 0.0 if part == parts_order[0] else max(0.0, seg[first_row[part]] - LEAD)
 def stamp(t):
     t = int(t); h, r = divmod(t, 3600); m, s = divmod(r, 60)
     return f"{h}:{m:02d}:{s:02d}" if h else f"{m:02d}:{s:02d}"
@@ -26,7 +30,8 @@ eps, N = B["episodes"], len(B["episodes"])
 for i, ep in enumerate(eps, 1):
     if "from_part" in ep:
         pa, pb = parts_order.index(ep["from_part"]), parts_order.index(ep["to_part"])
-        t0 = pstart(parts_order[pa]); t1 = pstart(parts_order[pb + 1]) if pb + 1 < len(parts_order) else timing["total"]
+        t0 = pstart(parts_order[pa], ep.get("from_paragraph")); t1 = pstart(parts_order[pb + 1]) if pb + 1 < len(parts_order) else timing["total"]
+        if "to_paragraph" in ep: t1 = pstart(ep["to_part"], ep["to_paragraph"] + 1)     # optional: end inside the last part
         pnames = B["names"]
     else:
         a, b = ep["letters"]
@@ -37,7 +42,11 @@ for i, ep in enumerate(eps, 1):
     dur = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", out]))
     chapters = []
     if "from_part" in ep:
-        for q in range(pa, pb + 1):
+        if ep.get("chapters"):      # optional: [[part, paragraph, title], ...]
+            for cp, cpar, ctitle in ep["chapters"]:
+                chapters.append(f"{stamp(max(0.0, pstart(cp, cpar) - t0))} {ctitle}")
+        else:
+          for q in range(pa, pb + 1):
             chapters.append(f"{stamp(pstart(parts_order[q]) - t0)} Part {parts_order[q]}: {pnames[parts_order[q]]}")
     else:
       for n in range(a, b + 1):

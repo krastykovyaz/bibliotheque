@@ -1,0 +1,110 @@
+{
+ "NARRATOR": {
+  "voice": "Sulafat",
+  "style": ""
+ },
+ "IVAN": {
+  "voice": "Puck",
+  "style": ""
+ },
+ "KONEK": {
+  "voice": "Achird",
+  "style": ""
+ },
+ "TSAR": {
+  "voice": "Algieba",
+  "style": ""
+ },
+ "DANILO": {
+  "voice": "Orus",
+  "style": ""
+ },
+ "GAVRILO": {
+  "voice": "Fenrir",
+  "style": ""
+ },
+ "FATHER": {
+  "voice": "Charon",
+  "style": ""
+ },
+ "MARE": {
+  "voice": "Vindemiatrix",
+  "style": ""
+ },
+ "WARDEN": {
+  "voice": "Rasalgethi",
+  "style": ""
+ },
+ "HERALD": {
+  "voice": "Alnilam",
+  "style": ""
+ },
+ "MERCHANT": {
+  "voice": "Zubenelgenubi",
+  "style": ""
+ },
+ "GUARD": {
+  "voice": "Iapetus",
+  "style": ""
+ },
+ "CHAMBERLAIN": {
+  "voice": "Enceladus",
+  "style": ""
+ },
+ "NOBLE": {
+  "voice": "Schedar",
+  "style": ""
+ },
+ "SERVANT": {
+  "voice": "Sadaltager",
+  "style": ""
+ },
+ "COOKS": {
+  "voice": "Despina",
+  "style": ""
+ },
+ "HUNTER": {
+  "voice": "Algenib",
+  "style": ""
+ },
+ "MAIDEN": {
+  "voice": "Aoede",
+  "style": ""
+ },
+ "MOON": {
+  "voice": "Kore",
+  "style": ""
+ },
+ "WHALE": {
+  "voice": "Umbriel",
+  "style": ""
+ },
+ "RUFF": {
+  "voice": "Sadachbia",
+  "style": ""
+ },
+ "DOLPHINS": {
+  "voice": "Leda",
+  "style": ""
+ },
+ "STURGEON": {
+  "voice": "Laomedeia",
+  "style": ""
+ },
+ "CROWD": {
+  "voice": "Fenrir",
+  "style": ""
+ },
+ "SAILORS": {
+  "voice": "Orus",
+  "style": ""
+ },
+ "RAVEN": {
+  "voice": "Charon",
+  "style": ""
+ },
+ "FLY": {
+  "voice": "Callirrhoe",
+  "style": ""
+ }
+}

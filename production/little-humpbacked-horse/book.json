@@ -1,0 +1,1650 @@
+{
+  "slug": "little-humpbacked-horse",
+  "prefix": "The_Little_Humpbacked_Horse",
+  "lang": "en",
+  "title": "The Little Humpbacked Horse",
+  "author": "Pyotr Yershov",
+  "author_ru": "Пётр Ершов",
+  "year": 1834,
+  "title_original": "Конёк-горбунок",
+  "publication_note": "a Russian fairy tale in verse in three parts, first published in 1834 (part one) and in full in 1834-1856",
+  "source_note": "Text from ru.wikisource.org, the seventh edition of 1868 (St Petersburg), the last in the author's lifetime.",
+  "translated_from": "the Russian original",
+  "parts": [
+    "I",
+    "II",
+    "III"
+  ],
+  "names": {
+    "I": "Ivan and the Golden Horses",
+    "II": "The Firebird and the Tsar-Maiden",
+    "III": "The Whale, the Moon and the Cauldrons"
+  },
+  "art": {
+    "I": "01_old_man_sons",
+    "II": "31_firebird_hall",
+    "III": "42_whale_island"
+  },
+  "art_alt": {
+    "01_old_man_sons": "The old man and his three sons: Danilo, Gavrilo, and Ivan the fool.",
+    "02_danilo_hides": "Someone is trampling the wheat. Danilo goes to watch, and hides in a haystack from the rain.",
+    "03_gavrilo_cold": "Gavrilo is frightened by the frost and runs about all night by the neighbour's fence.",
+    "04_ivan_stove": "Ivan sings on the stove and will not go to watch the field, until his father promises him peas and beans.",
+    "05_mare_ride": "At midnight Ivan jumps on a white mare, with his face to her tail, and she takes him flying over the fields.",
+    "06_mare_promise": "The tired mare promises Ivan two golden-maned horses and a little humpbacked horse.",
+    "07_ivan_tells": "Ivan tells his brothers about the devil he caught, and they laugh until they cry.",
+    "08_golden_horses": "Danilo and Gavrilo find two golden-maned horses and a tiny humpbacked horse in the shed.",
+    "09_empty_barn": "The shed is empty, and the little horse dances round the weeping Ivan.",
+    "10_konek_ride": "The Little Humpbacked Horse flies like an arrow and catches the thieves.",
+    "11_brothers_bargain": "The brothers are ashamed, and Ivan goes with them to sell the horses.",
+    "12_camp_fire": "At night the brothers see a faraway light in the dark.",
+    "13_ride_to_light": "Ivan rides to the strange light that gives no warmth.",
+    "14_firebird_feather": "It is a feather of the Firebird. The little horse warns Ivan, but he takes it anyway.",
+    "15_capital_market": "In the capital, the brothers set out the two horses in the market.",
+    "16_horse_row": "The whole town crowds round the horses with golden manes.",
+    "17_warden_reports": "The city warden tells the Tsar about the wonderful horses.",
+    "18_tsar_buys": "The Tsar buys the horses, and Ivan takes the Tsar's silver.",
+    "19_ivan_groom": "Ivan becomes the Tsar's chief groom and walks through the town, and the horses dance.",
+    "20_brothers_home": "The brothers go home with their money, and soon they marry.",
+    "21_prelude": "The beginning of the tale: goats on the sea, a horse that flies to the sun, a maiden on a faraway island.",
+    "22_chamberlain_hides": "The Chamberlain, who envies Ivan, hides in the stable under a heap of oats.",
+    "23_ivan_braids_manes": "At midnight Ivan braids the horses' manes, and the Firebird's feather glows in the corner.",
+    "24_feather_stolen": "While Ivan sleeps, the Chamberlain steals the feather.",
+    "25_courtiers_tumble": "The Tsar's messengers tumble over one another, and the Tsar laughs.",
+    "26_waking_ivan": "The messengers try to wake Ivan, who sleeps like a hero.",
+    "27_ivan_before_tsar": "Ivan trembles before the Tsar, who has found the feather.",
+    "28_konek_advice": "Ivan cries in the hayloft, and the little horse comforts him.",
+    "29_silver_mountain": "They ride east, to a mountain of pure silver.",
+    "30_trough_trap": "Ivan hides under a trough of millet and wine while the Firebirds fly in.",
+    "31_firebird_hall": "The Firebird comes out of the sack, and the whole hall is flooded with light.",
+    "32_cooks_story": "In the kitchen the servants read a book of tales, and the Chamberlain listens at the window.",
+    "33_servant_tells": "A servant tells of the lovely Tsar-Maiden, who sails the ocean in a golden boat.",
+    "34_maiden_order": "The Tsar wants the Tsar-Maiden, and Ivan, in his nightshirt, has to promise to bring her.",
+    "35_ride_to_ocean": "Ivan and the little horse ride to the shore of the ocean.",
+    "36_maiden_boat": "The Tsar-Maiden sails to the gold tent, and plays her harp.",
+    "37_ivan_asleep": "Ivan falls asleep, and the little horse scolds him.",
+    "38_ivan_catches": "The next day Ivan catches the Tsar-Maiden by her long braid.",
+    "39_tsar_courts": "The Tsar kneels before the Tsar-Maiden, but she turns away.",
+    "40_tsar_sends_ivan": "The Tsar sends Ivan to the ocean for the Tsar-Maiden's ring.",
+    "41_ride_flying": "The little horse flies like the wind towards the ocean.",
+    "42_whale_island": "A great whale lies across the ocean, with a whole village on his back.",
+    "43_sky_land": "Ivan and the little horse ride up into the sky.",
+    "44_crystal_gate": "The crystal gates of the heavenly palace, with their golden snakes and three stars.",
+    "45_moon_talks": "Ivan talks with Moon Moonovich, the mother of the Tsar-Maiden.",
+    "46_moon_farewell": "The Moon tells Ivan how the whale can be forgiven, and says goodbye.",
+    "47_villagers_flee": "The little horse warns the villagers, and they run away with their carts.",
+    "48_whale_frees_ships": "The whale lets go of the thirty ships he swallowed.",
+    "49_ships_sail": "The ships sail out, with white sails, flags, and songs.",
+    "50_whale_court": "The whale king calls the sturgeons and orders them to find the ring.",
+    "51_ruff_fights_carp": "The dolphins find the quarrelsome ruff, who is fighting with a carp in a pond.",
+    "52_herring_chest": "The sturgeons lift the heavy little chest from the sea-bed.",
+    "53_whale_gives_chest": "At sunset the whale brings the little chest ashore.",
+    "54_tsar_too_old": "The Tsar-Maiden says she cannot marry a grey old man.",
+    "55_cauldrons_plan": "At night in the hayloft the little horse tells Ivan what to do about the cauldrons.",
+    "56_cauldrons_yard": "Three cauldrons in the courtyard: cold water, boiled water, and milk.",
+    "57_ivan_handsome": "Ivan dives into the cauldrons and comes out a handsome prince.",
+    "58_tsar_cauldron": "The Tsar-Maiden speaks to the people and names Ivan as their Tsar.",
+    "59_wedding_feast": "The wedding feast: Tsar Ivan and the Tsar-Maiden, and the whole people merry."
+  },
+  "focus": {
+    "01_old_man_sons": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.22,
+        0.72
+      ],
+      [
+        0.8,
+        0.7
+      ]
+    ],
+    "02_danilo_hides": [
+      [
+        0.4,
+        0.7
+      ],
+      [
+        0.72,
+        0.65
+      ],
+      [
+        0.5,
+        0.3
+      ]
+    ],
+    "03_gavrilo_cold": [
+      [
+        0.62,
+        0.8
+      ],
+      [
+        0.2,
+        0.75
+      ],
+      [
+        0.5,
+        0.45
+      ]
+    ],
+    "04_ivan_stove": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.15,
+        0.85
+      ],
+      [
+        0.85,
+        0.75
+      ]
+    ],
+    "05_mare_ride": [
+      [
+        0.3,
+        0.65
+      ],
+      [
+        0.7,
+        0.6
+      ],
+      [
+        0.5,
+        0.85
+      ]
+    ],
+    "06_mare_promise": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.22,
+        0.72
+      ],
+      [
+        0.8,
+        0.7
+      ]
+    ],
+    "07_ivan_tells": [
+      [
+        0.4,
+        0.7
+      ],
+      [
+        0.72,
+        0.65
+      ],
+      [
+        0.5,
+        0.3
+      ]
+    ],
+    "08_golden_horses": [
+      [
+        0.62,
+        0.8
+      ],
+      [
+        0.2,
+        0.75
+      ],
+      [
+        0.5,
+        0.45
+      ]
+    ],
+    "09_empty_barn": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.15,
+        0.85
+      ],
+      [
+        0.85,
+        0.75
+      ]
+    ],
+    "10_konek_ride": [
+      [
+        0.3,
+        0.65
+      ],
+      [
+        0.7,
+        0.6
+      ],
+      [
+        0.5,
+        0.85
+      ]
+    ],
+    "11_brothers_bargain": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.22,
+        0.72
+      ],
+      [
+        0.8,
+        0.7
+      ]
+    ],
+    "12_camp_fire": [
+      [
+        0.4,
+        0.7
+      ],
+      [
+        0.72,
+        0.65
+      ],
+      [
+        0.5,
+        0.3
+      ]
+    ],
+    "13_ride_to_light": [
+      [
+        0.62,
+        0.8
+      ],
+      [
+        0.2,
+        0.75
+      ],
+      [
+        0.5,
+        0.45
+      ]
+    ],
+    "14_firebird_feather": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.15,
+        0.85
+      ],
+      [
+        0.85,
+        0.75
+      ]
+    ],
+    "15_capital_market": [
+      [
+        0.3,
+        0.65
+      ],
+      [
+        0.7,
+        0.6
+      ],
+      [
+        0.5,
+        0.85
+      ]
+    ],
+    "16_horse_row": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.22,
+        0.72
+      ],
+      [
+        0.8,
+        0.7
+      ]
+    ],
+    "17_warden_reports": [
+      [
+        0.4,
+        0.7
+      ],
+      [
+        0.72,
+        0.65
+      ],
+      [
+        0.5,
+        0.3
+      ]
+    ],
+    "18_tsar_buys": [
+      [
+        0.62,
+        0.8
+      ],
+      [
+        0.2,
+        0.75
+      ],
+      [
+        0.5,
+        0.45
+      ]
+    ],
+    "19_ivan_groom": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.15,
+        0.85
+      ],
+      [
+        0.85,
+        0.75
+      ]
+    ],
+    "20_brothers_home": [
+      [
+        0.3,
+        0.65
+      ],
+      [
+        0.7,
+        0.6
+      ],
+      [
+        0.5,
+        0.85
+      ]
+    ],
+    "21_prelude": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.22,
+        0.72
+      ],
+      [
+        0.8,
+        0.7
+      ]
+    ],
+    "22_chamberlain_hides": [
+      [
+        0.4,
+        0.7
+      ],
+      [
+        0.72,
+        0.65
+      ],
+      [
+        0.5,
+        0.3
+      ]
+    ],
+    "23_ivan_braids_manes": [
+      [
+        0.62,
+        0.8
+      ],
+      [
+        0.2,
+        0.75
+      ],
+      [
+        0.5,
+        0.45
+      ]
+    ],
+    "24_feather_stolen": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.15,
+        0.85
+      ],
+      [
+        0.85,
+        0.75
+      ]
+    ],
+    "25_courtiers_tumble": [
+      [
+        0.3,
+        0.65
+      ],
+      [
+        0.7,
+        0.6
+      ],
+      [
+        0.5,
+        0.85
+      ]
+    ],
+    "26_waking_ivan": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.22,
+        0.72
+      ],
+      [
+        0.8,
+        0.7
+      ]
+    ],
+    "27_ivan_before_tsar": [
+      [
+        0.4,
+        0.7
+      ],
+      [
+        0.72,
+        0.65
+      ],
+      [
+        0.5,
+        0.3
+      ]
+    ],
+    "28_konek_advice": [
+      [
+        0.62,
+        0.8
+      ],
+      [
+        0.2,
+        0.75
+      ],
+      [
+        0.5,
+        0.45
+      ]
+    ],
+    "29_silver_mountain": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.15,
+        0.85
+      ],
+      [
+        0.85,
+        0.75
+      ]
+    ],
+    "30_trough_trap": [
+      [
+        0.3,
+        0.65
+      ],
+      [
+        0.7,
+        0.6
+      ],
+      [
+        0.5,
+        0.85
+      ]
+    ],
+    "31_firebird_hall": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.22,
+        0.72
+      ],
+      [
+        0.8,
+        0.7
+      ]
+    ],
+    "32_cooks_story": [
+      [
+        0.4,
+        0.7
+      ],
+      [
+        0.72,
+        0.65
+      ],
+      [
+        0.5,
+        0.3
+      ]
+    ],
+    "33_servant_tells": [
+      [
+        0.62,
+        0.8
+      ],
+      [
+        0.2,
+        0.75
+      ],
+      [
+        0.5,
+        0.45
+      ]
+    ],
+    "34_maiden_order": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.15,
+        0.85
+      ],
+      [
+        0.85,
+        0.75
+      ]
+    ],
+    "35_ride_to_ocean": [
+      [
+        0.3,
+        0.65
+      ],
+      [
+        0.7,
+        0.6
+      ],
+      [
+        0.5,
+        0.85
+      ]
+    ],
+    "36_maiden_boat": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.22,
+        0.72
+      ],
+      [
+        0.8,
+        0.7
+      ]
+    ],
+    "37_ivan_asleep": [
+      [
+        0.4,
+        0.7
+      ],
+      [
+        0.72,
+        0.65
+      ],
+      [
+        0.5,
+        0.3
+      ]
+    ],
+    "38_ivan_catches": [
+      [
+        0.62,
+        0.8
+      ],
+      [
+        0.2,
+        0.75
+      ],
+      [
+        0.5,
+        0.45
+      ]
+    ],
+    "39_tsar_courts": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.15,
+        0.85
+      ],
+      [
+        0.85,
+        0.75
+      ]
+    ],
+    "40_tsar_sends_ivan": [
+      [
+        0.3,
+        0.65
+      ],
+      [
+        0.7,
+        0.6
+      ],
+      [
+        0.5,
+        0.85
+      ]
+    ],
+    "41_ride_flying": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.22,
+        0.72
+      ],
+      [
+        0.8,
+        0.7
+      ]
+    ],
+    "42_whale_island": [
+      [
+        0.4,
+        0.7
+      ],
+      [
+        0.72,
+        0.65
+      ],
+      [
+        0.5,
+        0.3
+      ]
+    ],
+    "43_sky_land": [
+      [
+        0.62,
+        0.8
+      ],
+      [
+        0.2,
+        0.75
+      ],
+      [
+        0.5,
+        0.45
+      ]
+    ],
+    "44_crystal_gate": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.15,
+        0.85
+      ],
+      [
+        0.85,
+        0.75
+      ]
+    ],
+    "45_moon_talks": [
+      [
+        0.3,
+        0.65
+      ],
+      [
+        0.7,
+        0.6
+      ],
+      [
+        0.5,
+        0.85
+      ]
+    ],
+    "46_moon_farewell": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.22,
+        0.72
+      ],
+      [
+        0.8,
+        0.7
+      ]
+    ],
+    "47_villagers_flee": [
+      [
+        0.4,
+        0.7
+      ],
+      [
+        0.72,
+        0.65
+      ],
+      [
+        0.5,
+        0.3
+      ]
+    ],
+    "48_whale_frees_ships": [
+      [
+        0.62,
+        0.8
+      ],
+      [
+        0.2,
+        0.75
+      ],
+      [
+        0.5,
+        0.45
+      ]
+    ],
+    "49_ships_sail": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.15,
+        0.85
+      ],
+      [
+        0.85,
+        0.75
+      ]
+    ],
+    "50_whale_court": [
+      [
+        0.3,
+        0.65
+      ],
+      [
+        0.7,
+        0.6
+      ],
+      [
+        0.5,
+        0.85
+      ]
+    ],
+    "51_ruff_fights_carp": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.22,
+        0.72
+      ],
+      [
+        0.8,
+        0.7
+      ]
+    ],
+    "52_herring_chest": [
+      [
+        0.4,
+        0.7
+      ],
+      [
+        0.72,
+        0.65
+      ],
+      [
+        0.5,
+        0.3
+      ]
+    ],
+    "53_whale_gives_chest": [
+      [
+        0.62,
+        0.8
+      ],
+      [
+        0.2,
+        0.75
+      ],
+      [
+        0.5,
+        0.45
+      ]
+    ],
+    "54_tsar_too_old": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.15,
+        0.85
+      ],
+      [
+        0.85,
+        0.75
+      ]
+    ],
+    "55_cauldrons_plan": [
+      [
+        0.3,
+        0.65
+      ],
+      [
+        0.7,
+        0.6
+      ],
+      [
+        0.5,
+        0.85
+      ]
+    ],
+    "56_cauldrons_yard": [
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.22,
+        0.72
+      ],
+      [
+        0.8,
+        0.7
+      ]
+    ],
+    "57_ivan_handsome": [
+      [
+        0.4,
+        0.7
+      ],
+      [
+        0.72,
+        0.65
+      ],
+      [
+        0.5,
+        0.3
+      ]
+    ],
+    "58_tsar_cauldron": [
+      [
+        0.62,
+        0.8
+      ],
+      [
+        0.2,
+        0.75
+      ],
+      [
+        0.5,
+        0.45
+      ]
+    ],
+    "59_wedding_feast": [
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.15,
+        0.85
+      ],
+      [
+        0.85,
+        0.75
+      ]
+    ]
+  },
+  "fx": {
+    "04_ivan_stove": "flicker",
+    "07_ivan_tells": "flicker",
+    "17_warden_reports": "flicker",
+    "22_chamberlain_hides": "flicker",
+    "23_ivan_braids_manes": "flicker",
+    "24_feather_stolen": "flicker",
+    "25_courtiers_tumble": "flicker",
+    "26_waking_ivan": "flicker",
+    "27_ivan_before_tsar": "flicker",
+    "28_konek_advice": "flicker",
+    "31_firebird_hall": "flicker",
+    "32_cooks_story": "flicker",
+    "33_servant_tells": "flicker",
+    "34_maiden_order": "flicker",
+    "39_tsar_courts": "flicker",
+    "40_tsar_sends_ivan": "flicker",
+    "54_tsar_too_old": "flicker",
+    "55_cauldrons_plan": "flicker",
+    "59_wedding_feast": "flicker",
+    "02_danilo_hides": "rain"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "art": "01_old_man_sons"
+    },
+    {
+      "id": 4,
+      "art": "02_danilo_hides"
+    },
+    {
+      "id": 10,
+      "art": "03_gavrilo_cold"
+    },
+    {
+      "id": 16,
+      "art": "04_ivan_stove"
+    },
+    {
+      "id": 21,
+      "art": "05_mare_ride"
+    },
+    {
+      "id": 24,
+      "art": "06_mare_promise"
+    },
+    {
+      "id": 27,
+      "art": "07_ivan_tells"
+    },
+    {
+      "id": 33,
+      "art": "08_golden_horses"
+    },
+    {
+      "id": 42,
+      "art": "09_empty_barn"
+    },
+    {
+      "id": 45,
+      "art": "10_konek_ride"
+    },
+    {
+      "id": 48,
+      "art": "11_brothers_bargain"
+    },
+    {
+      "id": 55,
+      "art": "12_camp_fire"
+    },
+    {
+      "id": 60,
+      "art": "13_ride_to_light"
+    },
+    {
+      "id": 66,
+      "art": "14_firebird_feather"
+    },
+    {
+      "id": 72,
+      "art": "15_capital_market"
+    },
+    {
+      "id": 78,
+      "art": "16_horse_row"
+    },
+    {
+      "id": 84,
+      "art": "17_warden_reports"
+    },
+    {
+      "id": 96,
+      "art": "18_tsar_buys"
+    },
+    {
+      "id": 105,
+      "art": "19_ivan_groom"
+    },
+    {
+      "id": 108,
+      "art": "20_brothers_home"
+    },
+    {
+      "id": 110,
+      "art": "21_prelude"
+    },
+    {
+      "id": 112,
+      "art": "22_chamberlain_hides"
+    },
+    {
+      "id": 118,
+      "art": "23_ivan_braids_manes"
+    },
+    {
+      "id": 123,
+      "art": "24_feather_stolen"
+    },
+    {
+      "id": 136,
+      "art": "25_courtiers_tumble"
+    },
+    {
+      "id": 139,
+      "art": "26_waking_ivan"
+    },
+    {
+      "id": 147,
+      "art": "27_ivan_before_tsar"
+    },
+    {
+      "id": 173,
+      "art": "28_konek_advice"
+    },
+    {
+      "id": 184,
+      "art": "29_silver_mountain"
+    },
+    {
+      "id": 190,
+      "art": "30_trough_trap"
+    },
+    {
+      "id": 208,
+      "art": "31_firebird_hall"
+    },
+    {
+      "id": 224,
+      "art": "32_cooks_story"
+    },
+    {
+      "id": 238,
+      "art": "33_servant_tells"
+    },
+    {
+      "id": 248,
+      "art": "34_maiden_order"
+    },
+    {
+      "id": 266,
+      "art": "35_ride_to_ocean"
+    },
+    {
+      "id": 274,
+      "art": "36_maiden_boat"
+    },
+    {
+      "id": 279,
+      "art": "37_ivan_asleep"
+    },
+    {
+      "id": 287,
+      "art": "38_ivan_catches"
+    },
+    {
+      "id": 295,
+      "art": "39_tsar_courts"
+    },
+    {
+      "id": 303,
+      "art": "40_tsar_sends_ivan"
+    },
+    {
+      "id": 324,
+      "art": "41_ride_flying"
+    },
+    {
+      "id": 331,
+      "art": "42_whale_island"
+    },
+    {
+      "id": 347,
+      "art": "43_sky_land"
+    },
+    {
+      "id": 356,
+      "art": "44_crystal_gate"
+    },
+    {
+      "id": 357,
+      "art": "45_moon_talks"
+    },
+    {
+      "id": 378,
+      "art": "46_moon_farewell"
+    },
+    {
+      "id": 387,
+      "art": "47_villagers_flee"
+    },
+    {
+      "id": 390,
+      "art": "48_whale_frees_ships"
+    },
+    {
+      "id": 394,
+      "art": "49_ships_sail"
+    },
+    {
+      "id": 406,
+      "art": "50_whale_court"
+    },
+    {
+      "id": 412,
+      "art": "51_ruff_fights_carp"
+    },
+    {
+      "id": 430,
+      "art": "52_herring_chest"
+    },
+    {
+      "id": 437,
+      "art": "53_whale_gives_chest"
+    },
+    {
+      "id": 454,
+      "art": "54_tsar_too_old"
+    },
+    {
+      "id": 482,
+      "art": "55_cauldrons_plan"
+    },
+    {
+      "id": 500,
+      "art": "56_cauldrons_yard"
+    },
+    {
+      "id": 512,
+      "art": "57_ivan_handsome"
+    },
+    {
+      "id": 516,
+      "art": "58_tsar_cauldron"
+    },
+    {
+      "id": 523,
+      "art": "59_wedding_feast"
+    }
+  ],
+  "episodes": [
+    {
+      "title": "The Golden Horses and the Firebird",
+      "from_part": "I",
+      "to_part": "II",
+      "to_paragraph": 11,
+      "thumb_art": "30_trough_trap",
+      "chapters": [
+        [
+          "I",
+          1,
+          "Three brothers and the wheat thief"
+        ],
+        [
+          "I",
+          5,
+          "The white mare"
+        ],
+        [
+          "I",
+          8,
+          "The golden horses and the Little Humpbacked Horse"
+        ],
+        [
+          "I",
+          14,
+          "The Firebird's feather"
+        ],
+        [
+          "I",
+          15,
+          "The Tsar buys the horses"
+        ],
+        [
+          "II",
+          1,
+          "The tale begins again"
+        ],
+        [
+          "II",
+          2,
+          "The jealous Chamberlain"
+        ],
+        [
+          "II",
+          8,
+          "The little horse's plan"
+        ],
+        [
+          "II",
+          9,
+          "The silver mountain"
+        ],
+        [
+          "II",
+          10,
+          "Catching the Firebird"
+        ],
+        [
+          "II",
+          11,
+          "The Firebird in the palace"
+        ]
+      ],
+      "blurb": "Three brothers, a wheat field watched by night, a white mare, a little humpbacked horse no taller than a loaf of bread, and a feather that glows like fire. Ivan becomes the Tsar's groom and is sent to catch the Firebird."
+    },
+    {
+      "title": "The Tsar-Maiden, the Whale and the Cauldrons",
+      "from_part": "II",
+      "from_paragraph": 12,
+      "to_part": "III",
+      "thumb_art": "42_whale_island",
+      "chapters": [
+        [
+          "II",
+          12,
+          "The Chamberlain plots again"
+        ],
+        [
+          "II",
+          16,
+          "The Tsar-Maiden's boat"
+        ],
+        [
+          "II",
+          19,
+          "The ring from the sea"
+        ],
+        [
+          "III",
+          2,
+          "The whale with a village on his back"
+        ],
+        [
+          "III",
+          3,
+          "Up into the sky"
+        ],
+        [
+          "III",
+          5,
+          "The Moon"
+        ],
+        [
+          "III",
+          8,
+          "The whale lets the ships go"
+        ],
+        [
+          "III",
+          10,
+          "The whale king's court"
+        ],
+        [
+          "III",
+          14,
+          "The Tsar-Maiden's trick"
+        ],
+        [
+          "III",
+          16,
+          "The three cauldrons"
+        ],
+        [
+          "III",
+          19,
+          "The wedding feast"
+        ]
+      ],
+      "blurb": "A jealous Chamberlain sends Ivan for the Tsar-Maiden, and then for her ring at the bottom of the sea. A whale with a village on his back, the Moon, thirty ships, a quarrelsome ruff, and three great cauldrons."
+    }
+  ],
+  "glossary": [
+    [
+      "Tsar",
+      "the king of old Russia. His wife is the tsaritsa, or queen."
+    ],
+    [
+      "Tsar-Maiden",
+      "a princess from beyond the sea, the daughter of the Moon and the sister of the Sun."
+    ],
+    [
+      "Firebird",
+      "a magic bird whose feathers shine like fire and give light but no warmth."
+    ],
+    [
+      "Humpbacked Horse",
+      "the tiny magic horse, with two humps and ears a yard long, who is Ivan's faithful friend."
+    ],
+    [
+      "vershok",
+      "an old Russian measure of about four and a half centimetres: the little horse is three vershoks tall, about as tall as a small loaf of bread."
+    ],
+    [
+      "Chamberlain",
+      "the Tsar's bedchamber servant, who used to be in charge of the stables and is jealous of Ivan."
+    ],
+    [
+      "groom",
+      "a servant who looks after horses."
+    ],
+    [
+      "trough",
+      "a long wooden tub, here used to hide under."
+    ],
+    [
+      "ruff",
+      "a small, prickly, quarrelsome river fish."
+    ],
+    [
+      "sturgeon",
+      "a very big fish with a long body, in the tale a nobleman of the whale's court."
+    ],
+    [
+      "cauldron",
+      "a very big iron pot for boiling water, hung over a fire."
+    ],
+    [
+      "mead",
+      "a sweet drink made from honey."
+    ]
+  ],
+  "thumb_art": "10_konek_ride",
+  "thumb_position": "50% 40%",
+  "thumb_sub": "A FAIRY TALE IN VERSE FOR CHILDREN<br>FULL-CAST AUDIOBOOK",
+  "cover_bg": [
+    "#2c3a78",
+    "#8a9ad8"
+  ],
+  "kids": true,
+  "summary": "Ivan, the youngest brother and the fool of the family, catches a magic mare, is given a tiny humpbacked horse, and wins a place at the Tsar's court. Then he must bring the Firebird, the Tsar-Maiden, and her ring from the bottom of the sea. Pyotr Yershov's fairy tale in verse, for children and for listening together.",
+  "site_description": "Three brothers watch the wheat field by night, and only Ivan the fool catches the thief: a white mare, who gives him two golden-maned horses and a little humpbacked horse with ears a yard long. Ivan sells the horses to the Tsar and becomes his groom, and his jealous rival sends him after the Firebird, then the Tsar-Maiden, then her ring from the bottom of the sea. A talking whale with a village on his back, the Moon and the Sun, thirty ships, and three cauldrons later, Ivan himself becomes the Tsar. Pyotr Yershov's fairy tale in verse (1834), in simple English verse for children and for listening together, as a full-cast audiobook in two parts with many illustrations.",
+  "tags": [
+    "Yershov",
+    "Pyotr Yershov",
+    "Little Humpbacked Horse",
+    "Konyok-Gorbunok",
+    "Ivan the Fool",
+    "Firebird",
+    "fairy tale",
+    "fairy tale in verse",
+    "bedtime story",
+    "Christmas story",
+    "children's audiobook",
+    "audiobook",
+    "full cast audiobook",
+    "Russian fairy tale",
+    "Russian literature",
+    "public domain",
+    "English audiobook"
+  ],
+  "hashtags": "#fairytale #bedtimestory #audiobook #Yershov #publicdomain",
+  "playlist": "PLVuswr3XMg9E",
+  "text_note": "English verse written for children from the Russian original, a free rendering that keeps the story and its order of events but not the rhymes of the original. A machine draft that needs a human editor.",
+  "ru": {
+    "title": "Конёк-Горбунок",
+    "author": "Пётр Ершов",
+    "names": {
+      "I": "Иван и золотогривые кони",
+      "II": "Жар-птица и Царь-девица",
+      "III": "Кит, Месяц и котлы"
+    },
+    "note": "Сказка в стихах в издании для чтения с иллюстрациями.",
+    "source_note": "Текст с ru.wikisource.org, по седьмому изданию 1868 года (Санкт-Петербург), последнему прижизненному.",
+    "contents": "Содержание",
+    "back": "О тексте",
+    "small": "Текст сказки находится в общественном достоянии. Названия частей и иллюстрации сделаны для этого издания. Набрано шрифтом Lora (SIL Open Font License).",
+    "description": "Три брата сторожат пшеницу, и только Иван-дурак ловит ночную гостью: белую кобылицу, которая дарит ему двух золотогривых коней и конька-горбунка. Иван становится царским конюшим, а завистливый спальник посылает его за Жар-птицей, за Царь-девицей и за её перстнем со дна моря. Сказка в стихах Петра Ершова, чтобы слушать вместе с детьми.",
+    "hashtags": "#сказка #аудиокнига #длядетей #Ершов #сказкавстихах #русскиесказки",
+    "tags": [
+      "Ершов",
+      "Пётр Ершов",
+      "Конёк-Горбунок",
+      "Иван-дурак",
+      "Жар-птица",
+      "Царь-девица",
+      "сказка в стихах",
+      "сказка на ночь",
+      "аудиокнига для детей",
+      "аудиосказка",
+      "сказки для детей",
+      "слушать сказку",
+      "русская сказка"
+    ],
+    "thumb_sub": "СКАЗКА В СТИХАХ<br>АУДИОКНИГА"
+  },
+  "shot_seconds": 15,
+  "figures": [
+    {
+      "part": "I",
+      "after": 2,
+      "art": "02_danilo_hides",
+      "caption": "Someone is trampling the wheat. Danilo goes to watch, and hides in a haystack from the rain.",
+      "caption_ru": "Кто-то топчет пшеницу. Данило идёт сторожить и прячется от дождя под сено."
+    },
+    {
+      "part": "I",
+      "after": 4,
+      "art": "04_ivan_stove",
+      "caption": "Ivan sings on the stove and will not go to watch the field, until his father promises him peas and beans.",
+      "caption_ru": "Иван поёт на печи и не хочет идти в дозор, пока отец не обещает ему гороху и бобов."
+    },
+    {
+      "part": "I",
+      "after": 6,
+      "art": "06_mare_promise",
+      "caption": "The tired mare promises Ivan two golden-maned horses and a little humpbacked horse.",
+      "caption_ru": "Усталая кобылица обещает Ивану двух коней золотогривых и конька-горбунка."
+    },
+    {
+      "part": "I",
+      "after": 7,
+      "art": "07_ivan_tells",
+      "caption": "Ivan tells his brothers about the devil he caught, and they laugh until they cry.",
+      "caption_ru": "Иван рассказывает братьям про пойманного чёрта, и те смеются до слёз."
+    },
+    {
+      "part": "I",
+      "after": 8,
+      "art": "08_golden_horses",
+      "caption": "Danilo and Gavrilo find two golden-maned horses and a tiny humpbacked horse in the shed.",
+      "caption_ru": "Данило и Гаврило находят в балагане двух золотогривых коней и конька-горбунка."
+    },
+    {
+      "part": "I",
+      "after": 10,
+      "art": "10_konek_ride",
+      "caption": "The Little Humpbacked Horse flies like an arrow and catches the thieves.",
+      "caption_ru": "Горбунок стрелой летит и настигает воров."
+    },
+    {
+      "part": "I",
+      "after": 12,
+      "art": "12_camp_fire",
+      "caption": "At night the brothers see a faraway light in the dark.",
+      "caption_ru": "Ночью братья замечают вдали огонёк."
+    },
+    {
+      "part": "I",
+      "after": 14,
+      "art": "14_firebird_feather",
+      "caption": "It is a feather of the Firebird. The little horse warns Ivan, but he takes it anyway.",
+      "caption_ru": "Это перо Жар-птицы. Конёк предупреждает Ивана, но тот берёт перо."
+    },
+    {
+      "part": "I",
+      "after": 16,
+      "art": "16_horse_row",
+      "caption": "The whole town crowds round the horses with golden manes.",
+      "caption_ru": "Весь город толпится вокруг коней с золотыми гривами."
+    },
+    {
+      "part": "I",
+      "after": 18,
+      "art": "18_tsar_buys",
+      "caption": "The Tsar buys the horses, and Ivan takes the Tsar's silver.",
+      "caption_ru": "Царь покупает коней, а Иван получает царское серебро."
+    },
+    {
+      "part": "II",
+      "after": 2,
+      "art": "22_chamberlain_hides",
+      "caption": "The Chamberlain, who envies Ivan, hides in the stable under a heap of oats.",
+      "caption_ru": "Спальник, завидуя Ивану, прячется в конюшне под овсом."
+    },
+    {
+      "part": "II",
+      "after": 3,
+      "art": "23_ivan_braids_manes",
+      "caption": "At midnight Ivan braids the horses' manes, and the Firebird's feather glows in the corner.",
+      "caption_ru": "В полночь Иван заплетает коням гривы, а в углу сияет перо Жар-птицы."
+    },
+    {
+      "part": "II",
+      "after": 5,
+      "art": "25_courtiers_tumble",
+      "caption": "The Tsar's messengers tumble over one another, and the Tsar laughs.",
+      "caption_ru": "Царские посыльные кувырком падают, а царь хохочет."
+    },
+    {
+      "part": "II",
+      "after": 7,
+      "art": "27_ivan_before_tsar",
+      "caption": "Ivan trembles before the Tsar, who has found the feather.",
+      "caption_ru": "Иван дрожит перед царём, нашедшим перо."
+    },
+    {
+      "part": "II",
+      "after": 8,
+      "art": "28_konek_advice",
+      "caption": "Ivan cries in the hayloft, and the little horse comforts him.",
+      "caption_ru": "Иван плачет на сеновале, а конёк его утешает."
+    },
+    {
+      "part": "II",
+      "after": 10,
+      "art": "30_trough_trap",
+      "caption": "Ivan hides under a trough of millet and wine while the Firebirds fly in.",
+      "caption_ru": "Иван прячется под корытом с пшеном и вином, а жар-птицы слетаются."
+    },
+    {
+      "part": "II",
+      "after": 12,
+      "art": "32_cooks_story",
+      "caption": "In the kitchen the servants read a book of tales, and the Chamberlain listens at the window.",
+      "caption_ru": "На кухне слуги читают книжку сказок, а спальник слушает у окна."
+    },
+    {
+      "part": "II",
+      "after": 13,
+      "art": "33_servant_tells",
+      "caption": "A servant tells of the lovely Tsar-Maiden, who sails the ocean in a golden boat.",
+      "caption_ru": "Слуга рассказывает о прекрасной Царь-девице, что плавает по окияну в золотой шлюпке."
+    },
+    {
+      "part": "II",
+      "after": 14,
+      "art": "34_maiden_order",
+      "caption": "The Tsar wants the Tsar-Maiden, and Ivan, in his nightshirt, has to promise to bring her.",
+      "caption_ru": "Царь хочет Царь-девицу, и Иван в одной рубашке должен обещать её привезти."
+    },
+    {
+      "part": "II",
+      "after": 15,
+      "art": "35_ride_to_ocean",
+      "caption": "Ivan and the little horse ride to the shore of the ocean.",
+      "caption_ru": "Иван и конёк едут к берегу окияна."
+    },
+    {
+      "part": "II",
+      "after": 17,
+      "art": "37_ivan_asleep",
+      "caption": "Ivan falls asleep, and the little horse scolds him.",
+      "caption_ru": "Иван засыпает, а конёк его бранит."
+    },
+    {
+      "part": "II",
+      "after": 19,
+      "art": "39_tsar_courts",
+      "caption": "The Tsar kneels before the Tsar-Maiden, but she turns away.",
+      "caption_ru": "Царь стоит на коленях перед Царь-девицей, а она отворачивается."
+    },
+    {
+      "part": "III",
+      "after": 3,
+      "art": "43_sky_land",
+      "caption": "Ivan and the little horse ride up into the sky.",
+      "caption_ru": "Иван и конёк въезжают на небо."
+    },
+    {
+      "part": "III",
+      "after": 5,
+      "art": "45_moon_talks",
+      "caption": "Ivan talks with Moon Moonovich, the mother of the Tsar-Maiden.",
+      "caption_ru": "Иван беседует с Месяцем Месяцовичем, матерью Царь-девицы."
+    },
+    {
+      "part": "III",
+      "after": 7,
+      "art": "47_villagers_flee",
+      "caption": "The little horse warns the villagers, and they run away with their carts.",
+      "caption_ru": "Конёк предупреждает мужиков, и те уезжают на телегах."
+    },
+    {
+      "part": "III",
+      "after": 9,
+      "art": "49_ships_sail",
+      "caption": "The ships sail out, with white sails, flags, and songs.",
+      "caption_ru": "Корабли выплывают с белыми парусами, флагами и песнями."
+    },
+    {
+      "part": "III",
+      "after": 10,
+      "art": "50_whale_court",
+      "caption": "The whale king calls the sturgeons and orders them to find the ring.",
+      "caption_ru": "Кит-царь зовёт осетров и велит найти перстень."
+    },
+    {
+      "part": "III",
+      "after": 11,
+      "art": "51_ruff_fights_carp",
+      "caption": "The dolphins find the quarrelsome ruff, who is fighting with a carp in a pond.",
+      "caption_ru": "Дельфины находят ерша-забияку, который дерётся с карасём в пруду."
+    },
+    {
+      "part": "III",
+      "after": 13,
+      "art": "53_whale_gives_chest",
+      "caption": "At sunset the whale brings the little chest ashore.",
+      "caption_ru": "На закате кит выносит сундучок на берег."
+    },
+    {
+      "part": "III",
+      "after": 14,
+      "art": "54_tsar_too_old",
+      "caption": "The Tsar-Maiden says she cannot marry a grey old man.",
+      "caption_ru": "Царь-девица говорит, что не пойдёт за седого старика."
+    },
+    {
+      "part": "III",
+      "after": 15,
+      "art": "55_cauldrons_plan",
+      "caption": "At night in the hayloft the little horse tells Ivan what to do about the cauldrons.",
+      "caption_ru": "Ночью на сеновале конёк рассказывает Ивану, что делать с котлами."
+    },
+    {
+      "part": "III",
+      "after": 17,
+      "art": "57_ivan_handsome",
+      "caption": "Ivan dives into the cauldrons and comes out a handsome prince.",
+      "caption_ru": "Иван ныряет в котлы и выходит красавцем."
+    }
+  ]
+}

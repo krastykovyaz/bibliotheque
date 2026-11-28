@@ -1,0 +1,137 @@
+{
+ "NARRATOR": {
+  "voice": "bm_george",
+  "speed": 0.92,
+  "lang": "en-gb"
+ },
+ "IVAN": {
+  "voice": "bm_fable",
+  "speed": 0.95,
+  "lang": "en-gb"
+ },
+ "KONEK": {
+  "voice": "bf_lily",
+  "speed": 0.97,
+  "lang": "en-gb"
+ },
+ "TSAR": {
+  "voice": "bm_lewis",
+  "speed": 0.88,
+  "lang": "en-gb"
+ },
+ "DANILO": {
+  "voice": "bm_daniel",
+  "speed": 0.95,
+  "lang": "en-gb"
+ },
+ "GAVRILO": {
+  "voice": "bm_lewis",
+  "speed": 0.96,
+  "lang": "en-gb"
+ },
+ "FATHER": {
+  "voice": "bm_lewis",
+  "speed": 0.8,
+  "lang": "en-gb"
+ },
+ "MARE": {
+  "voice": "bf_emma",
+  "speed": 0.9,
+  "lang": "en-gb"
+ },
+ "WARDEN": {
+  "voice": "bm_daniel",
+  "speed": 0.85,
+  "lang": "en-gb"
+ },
+ "HERALD": {
+  "voice": "bm_lewis",
+  "speed": 1.0,
+  "lang": "en-gb"
+ },
+ "MERCHANT": {
+  "voice": "bm_fable",
+  "speed": 1.05,
+  "lang": "en-gb"
+ },
+ "GUARD": {
+  "voice": "bm_daniel",
+  "speed": 1.0,
+  "lang": "en-gb"
+ },
+ "CHAMBERLAIN": {
+  "voice": "bm_daniel",
+  "speed": 0.84,
+  "lang": "en-gb"
+ },
+ "NOBLE": {
+  "voice": "bm_george",
+  "speed": 0.95,
+  "lang": "en-gb"
+ },
+ "SERVANT": {
+  "voice": "bm_fable",
+  "speed": 0.9,
+  "lang": "en-gb"
+ },
+ "COOKS": {
+  "voice": "bf_isabella",
+  "speed": 0.9,
+  "lang": "en-gb"
+ },
+ "HUNTER": {
+  "voice": "bm_daniel",
+  "speed": 0.95,
+  "lang": "en-gb"
+ },
+ "MAIDEN": {
+  "voice": "bf_alice",
+  "speed": 0.92,
+  "lang": "en-gb"
+ },
+ "MOON": {
+  "voice": "bf_isabella",
+  "speed": 0.85,
+  "lang": "en-gb"
+ },
+ "WHALE": {
+  "voice": "bm_lewis",
+  "speed": 0.8,
+  "lang": "en-gb"
+ },
+ "RUFF": {
+  "voice": "bm_fable",
+  "speed": 1.1,
+  "lang": "en-gb"
+ },
+ "DOLPHINS": {
+  "voice": "bf_lily",
+  "speed": 1.05,
+  "lang": "en-gb"
+ },
+ "STURGEON": {
+  "voice": "bm_george",
+  "speed": 0.85,
+  "lang": "en-gb"
+ },
+ "CROWD": {
+  "voice": "bm_daniel",
+  "speed": 1.0,
+  "lang": "en-gb"
+ },
+ "SAILORS": {
+  "voice": "bm_daniel",
+  "speed": 0.95,
+  "lang": "en-gb"
+ },
+ "RAVEN": {
+  "voice": "bf_emma",
+  "speed": 0.85,
+  "lang": "en-gb"
+ },
+ "FLY": {
+  "voice": "bf_lily",
+  "speed": 1.1,
+  "lang": "en-gb"
+ }
+}
