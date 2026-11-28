@@ -27,13 +27,18 @@ for lang in ("en", "ru"):
     subprocess.run([CHROME, "--headless=new", "--disable-gpu", "--no-pdf-header-footer", "--virtual-time-budget=10000", f"--print-to-pdf={pdf}", f"file://{h}"], check=True, capture_output=True)
     src = os.path.join(ROOT, "public/pdf", f"{short}-{lang}.pdf")
     base = PdfReader(src)
-    if "biblio.unilu.space/" in base.pages[-1].extract_text() and "LISTEN" in base.pages[-1].extract_text().upper() + "ЧИТАТЬ":
-        print(lang, "already has the last page"); continue
+    pages = list(base.pages)
+    if "biblio.unilu.space/" in pages[-1].extract_text():
+        pages = pages[:-1]   # an earlier version of the last page: replace it with the current one
     add = PdfReader(pdf)
     assert len(add.pages) == 1, f"the last page has {len(add.pages)} pages"
     w = PdfWriter()
-    for p in base.pages: w.add_page(p)
+    for p in pages: w.add_page(p)
     w.add_page(add.pages[0])
     w.write(src + ".new"); os.replace(src + ".new", src)
-    subprocess.run([sys.executable, os.path.join(PIPE, "make_booklet.py"), src, os.path.join(ROOT, "public/pdf", f"{short}-{lang}-booklet.pdf")], check=True)
-    print(lang, "done:", len(base.pages) + 1, "pages")
+    mk = os.path.join(PIPE, "make_booklet.py")
+    pub = os.path.join(ROOT, "public/pdf")
+    subprocess.run([sys.executable, "-W", "ignore", mk, src, os.path.join(pub, f"{short}-{lang}-booklet.pdf")], check=True)
+    subprocess.run([sys.executable, "-W", "ignore", mk, src, os.path.join(pub, f"{short}-{lang}-booklet-duplex.pdf"), "--fold"], check=True)
+    subprocess.run([sys.executable, "-W", "ignore", os.path.join(PIPE, "make_a4.py"), src, os.path.join(pub, f"{short}-{lang}-a4.pdf")], check=True)
+    print(lang, "done:", len(pages) + 1, "pages")
