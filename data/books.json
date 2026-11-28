@@ -80,7 +80,9 @@
         "youtube": "https://www.youtube.com/watch?v=FYtbmKQ5Ctw",
         "pdf": "/pdf/poor-folk-en.pdf",
         "text": "texts/poor-folk-en.txt",
-        "pdfA4": "/pdf/poor-folk-en-a4.pdf"
+        "pdfA4": "/pdf/poor-folk-en-a4.pdf",
+        "booklet": "/pdf/poor-folk-en-booklet.pdf",
+        "bookletDuplex": "/pdf/poor-folk-en-booklet-duplex.pdf"
       },
       "ru": {
         "title": "Бедные люди",
@@ -88,7 +90,9 @@
         "youtube": "https://www.youtube.com/watch?v=PLACEHOLDER",
         "pdf": "/pdf/poor-folk-ru.pdf",
         "text": "texts/poor-folk-ru.txt",
-        "pdfA4": "/pdf/poor-folk-ru-a4.pdf"
+        "pdfA4": "/pdf/poor-folk-ru-a4.pdf",
+        "booklet": "/pdf/poor-folk-ru-booklet.pdf",
+        "bookletDuplex": "/pdf/poor-folk-ru-booklet-duplex.pdf"
       }
     },
     "coverRu": "/covers/poor-folk-ru.webp"
