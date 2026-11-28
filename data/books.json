@@ -577,5 +577,45 @@
       }
     },
     "coverRu": "/covers/a-month-in-the-country-ru.webp"
+  },
+  {
+    "id": "olesya",
+    "author": {
+      "en": "Alexander Kuprin",
+      "ru": "Александр Куприн"
+    },
+    "year": 1898,
+    "cover": "/covers/olesya.webp",
+    "languages": {
+      "en": {
+        "title": "Olesya",
+        "description": "Ivan Timofeyevich, a city writer stranded for the winter in a village in Polesye, hears of a witch who lives in the marsh and goes to see her. In the cabin on hen's legs he meets her granddaughter Olesya, who tells fortunes, charms blood and does not fear anything but her fate. A story of a spring and summer in the forest, of love, of what a village does to the one who is different, and of a string of red beads. Kuprin's novella of 1898, one of the best loved in Russian.",
+        "youtube": "https://www.youtube.com/watch?v=DOeBFyVfTXo",
+        "pdf": "/pdf/olesya-en.pdf",
+        "text": "texts/olesya-en.txt",
+        "parts": [
+          {
+            "title": "Part 1: The Witch of the Marsh",
+            "youtube": "https://www.youtube.com/watch?v=DOeBFyVfTXo"
+          },
+          {
+            "title": "Part 2: The Cards and the Charm",
+            "youtube": "https://www.youtube.com/watch?v=zeWHrEqP0z4"
+          },
+          {
+            "title": "Part 3: Moonlight in the Pine Forest",
+            "youtube": "https://www.youtube.com/watch?v=BSTiyQrPT2U"
+          },
+          {
+            "title": "Part 4: Trinity Day",
+            "youtube": "https://www.youtube.com/watch?v=uELlusFhet0"
+          }
+        ],
+        "playlist": "https://www.youtube.com/playlist?list=PLb5qT1huvOu0",
+        "booklet": "/pdf/olesya-en-booklet.pdf",
+        "bookletDuplex": "/pdf/olesya-en-booklet-duplex.pdf",
+        "textNote": "Translated from the Russian by an AI, a draft that needs a human editor."
+      }
+    }
   }
 ]
