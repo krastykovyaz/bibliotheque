@@ -51,7 +51,7 @@ b = {
  "tags": ["Lermontov", "Mikhail Lermontov", "Borodino", "audiobook", "full cast audiobook", "poem", "Russian poetry", "war poem", "1812", "classic literature", "Russian literature", "public domain", "English audiobook"],
  "hashtags": "#Lermontov #audiobook #poetry #Borodino #publicdomain",
  "playlist": "PLVuswr3XMg9E",
- "text_note": "English prose rendering of the Russian poem by an AI model, a draft that needs a human editor; the rhymes and metre are not kept.",
+ "text_note": "The rhymes and metre are not kept.",
  "ru": {
   "title": "Бородино", "author": "Михаил Лермонтов",
   "names": {"I": "Поэт и стихотворение", "II": "Сражение 1812 года", "III": "Вопрос", "IV": "Накануне", "V": "Бой", "VI": "Вечер", "VII": "После стихотворения"},

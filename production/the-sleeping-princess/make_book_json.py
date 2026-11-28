@@ -59,7 +59,7 @@ b = {
  "tags": ["Zhukovsky", "Vasily Zhukovsky", "The Sleeping Princess", "Sleeping Beauty", "fairy tale", "fairy tale in verse", "poem for children", "bedtime story", "Christmas story", "children's audiobook", "audiobook", "full cast audiobook", "Russian fairy tale", "Russian literature", "public domain", "English audiobook"],
  "hashtags": "#fairytale #bedtimestory #audiobook #SleepingBeauty #Zhukovsky #publicdomain",
  "playlist": "PLVuswr3XMg9E",
- "text_note": "Free English verse rendering from the Russian, written for children: a draft that needs a human editor.",
+ "text_note": "",
  "ru": {"title": "Спящая царевна", "author": "Василий Жуковский",
   "names": {"I": "Рождение царевны", "II": "Заклятие", "III": "Долгий сон", "IV": "Царевич и старик", "V": "Пробуждение"},
   "note": "Сказка в стихах в издании для чтения с оригинальными иллюстрациями.",

@@ -59,7 +59,7 @@ b = {
  "tags": ["Aksakov", "Sergey Aksakov", "The Scarlet Flower", "Beauty and the Beast", "fairy tale", "bedtime story", "Christmas story", "children's audiobook", "audiobook", "full cast audiobook", "Russian fairy tale", "Russian literature", "public domain", "English audiobook"],
  "hashtags": "#fairytale #bedtimestory #audiobook #Aksakov #publicdomain",
  "playlist": "PLVuswr3XMg9E",
- "text_note": "Machine translation from the Russian into simple English for children, a draft that needs a human editor.",
+ "text_note": "",
  "ru": {"title": "Аленький цветочек", "author": "Сергей Аксаков", "names": NAMES_RU,
   "note": "Сказка ключницы Пелагеи в издании для чтения вслух, с иллюстрациями.",
   "source_note": "Текст с ru.wikisource.org, по изданию: «Сказки русских писателей» (М.: Детская литература, 1980).",

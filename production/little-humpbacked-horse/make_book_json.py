@@ -130,7 +130,7 @@ b = {
  "tags": ["Yershov", "Pyotr Yershov", "Little Humpbacked Horse", "Konyok-Gorbunok", "Ivan the Fool", "Firebird", "fairy tale", "fairy tale in verse", "bedtime story", "Christmas story", "children's audiobook", "audiobook", "full cast audiobook", "Russian fairy tale", "Russian literature", "public domain", "English audiobook"],
  "hashtags": "#fairytale #bedtimestory #audiobook #Yershov #publicdomain",
  "playlist": "PLVuswr3XMg9E",
- "text_note": "English verse written for children from the Russian original, a free rendering that keeps the story and its order of events but not the rhymes of the original. A machine draft that needs a human editor.",
+ "text_note": "English verse written for children from the Russian original, a free rendering that keeps the story and its order of events but not the rhymes of the original.",
  "ru": {"title": "Конёк-Горбунок", "author": "Пётр Ершов",
   "names": {"I": "Иван и золотогривые кони", "II": "Жар-птица и Царь-девица", "III": "Кит, Месяц и котлы"},
   "note": "Сказка в стихах в издании для чтения с иллюстрациями.",

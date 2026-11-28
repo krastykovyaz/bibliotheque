@@ -100,7 +100,7 @@ book = {
  "site_description": "At the wedding feast of the Kiev prince's daughter Ludmila a clap of thunder puts out the lights, and the bride is gone, carried off by the dwarf wizard Chernomor. Three rivals and the bridegroom Ruslan ride out to find her. Pushkin's first great poem (1820), full of fairy-tale wonders, jokes and tender asides, here read as a full-cast English audiobook in a prose rendering of the Russian verse.",
  "tags": ["Pushkin", "Alexander Pushkin", "Ruslan and Ludmila", "audiobook", "full cast audiobook", "poem", "fairy tale", "Russian fairy tale", "classic literature", "Russian literature", "public domain", "English audiobook"],
  "hashtags": "#Pushkin #audiobook #classicliterature #russianliterature #publicdomain",
- "playlist": "PLVuswr3XMg9E", "text_note": "Prose rendering of the Russian verse by an AI, a draft that needs a human editor.",
+ "playlist": "PLVuswr3XMg9E", "text_note": "",
  "ru": {"title": "Руслан и Людмила", "author": "Александр Пушкин", "names": {"I": "Пир и похищение", "II": "Соперники и волшебный сад", "III": "Шапка и Голова", "IV": "Замок дев", "V": "Борода и измена", "VI": "Живая вода"},
         "note": "Поэма в издании для чтения с оригинальными иллюстрациями.", "source_note": "Текст с ru.wikisource.org, по изданию: А. С. Пушкин, Полное собрание сочинений в 10 томах, т. 4 (Л.: Наука, 1977), окончательный текст с прологом и эпилогом.",
         "contents": "Содержание", "back": "О тексте", "small": "Текст поэмы находится в общественном достоянии. Строфы разбиты на более короткие группы строк для удобства чтения. Названия песен и иллюстрации сделаны для этого издания. Набрано шрифтом Lora (SIL Open Font License).",

@@ -101,12 +101,11 @@ def page_html(page_numbers):
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><title>{TITLE}</title><style>{CSS.replace('__FS__', FS).replace('__LH__', LH)}</style></head><body>
 <section class="cover"><img src="art/png/cover_print.png" alt="Cover: {TITLE}"></section>
 <section class="titlepage"><div class="by">{AUTHOR.upper()}</div><h1>{TITLE}</h1><div class="rule"></div><div class="rule s"></div>
-<p class="note">Draft English translation from the Russian text supplied. Machine draft, checked once against the original: needs a human editor before publication.</p>
 <p class="src">Original: «Много ли человеку земли нужно», 1886. Text from ru.wikisource.org, after L. N. Tolstoy, Collected Works in 22 volumes, Moscow, 1982, vol. 10.</p></section>
 <section class="toc"><h2>Contents</h2><ol>{toc}</ol></section>
 {''.join(parts)}
 <section class="back"><h2>Notes</h2><dl>{gloss}</dl>
-<p class="small">The text of the story is in the public domain. The translation is a machine draft and may contain mistakes. The part titles and the illustrations are original to this edition. Typeset in Lora (SIL Open Font License).</p></section>
+<p class="small">The text of the story is in the public domain. The part titles and the illustrations are original to this edition. Typeset in Lora (SIL Open Font License).</p></section>
 </body></html>"""
 
 

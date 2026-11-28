@@ -45,7 +45,7 @@ b = {
  "tags": ["Dal", "Vladimir Dal", "Snow-Maiden", "Snegurochka", "fairy tale", "bedtime story", "Christmas story", "winter story", "children's audiobook", "audiobook", "full cast audiobook", "Russian fairy tale", "Russian literature", "public domain", "English audiobook"],
  "hashtags": "#fairytale #bedtimestory #audiobook #Snegurochka #publicdomain",
  "playlist": "PLVuswr3XMg9E",
- "text_note": "Machine translation from the Russian into simple English for children, a draft that needs a human editor. A short spoken introduction and a goodnight were added for the audiobook.",
+ "text_note": "A short spoken introduction and a goodnight were added for the audiobook.",
  "ru": {"title": "Девочка Снегурочка", "author": "Владимир Даль",
   "names": {"I": "Снежный комочек", "II": "Снегурочка", "III": "Жучка и лиса", "IV": "Ягоды", "V": "На дереве", "VI": "Жучка идёт на помощь", "VII": "Снова дома"},
   "note": "Сказка в издании для чтения с оригинальными иллюстрациями.",

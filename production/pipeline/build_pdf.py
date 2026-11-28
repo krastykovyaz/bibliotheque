@@ -88,7 +88,7 @@ LH = os.environ.get("BOOK_LH", "1.54")
 
 
 CREDITS = (R["source_note"] + " Текст находится в общественном достоянии. Набрано шрифтом Lora (SIL Open Font License)." if R else
-           B["source_note"] + " The text is in the public domain. English translation: machine draft. Typeset in Lora (SIL Open Font License).")
+           B["source_note"] + " The text is in the public domain. Typeset in Lora (SIL Open Font License).")
 COMPACT = False
 BACK = lastpage.section(LANG, B["slug"], B["title"], GLOSSARY, CREDITS)
 CSS += lastpage.CSS
@@ -129,7 +129,7 @@ def page_html(page_numbers):
     return f"""<!doctype html><html lang="{LANG}"><head><meta charset="utf-8"><title>{TITLE}</title><style>{CSS.replace('__C1__', B.get('cover_bg', ['#171c3a', '#77552b'])[0]).replace('__C2__', B.get('cover_bg', ['#171c3a', '#77552b'])[1]).replace('__FS__', FS).replace('__LH__', LH).replace('__FONTS__', 'file://' + os.path.join(PIPE, 'fonts'))}</style></head><body>
 <section class="cover"><img src="art/png/{COVER}_print.png" alt="{TITLE}"></section>
 <section class="titlepage"><div class="by">{AUTHOR.upper()}</div><h1>{TITLE}</h1><div class="rule"></div><div class="rule s"></div>
-<p class="note">{html.escape(R["note"]) if R else "Draft English translation from the Russian text supplied. Machine draft, checked once against the original: needs a human editor before publication."}</p>
+{"<p class=\"note\">" + html.escape(R["note"]) + "</p>" if R else ""}
 <p class="src">{html.escape(R["source_note"]) if R else "Original: «" + B['title_original'] + "», " + str(B['year']) + ". " + B['source_note']}</p></section>
 <section class="toc"><h2>{R.get("contents", "Contents")}</h2><ol>{toc}</ol></section>
 {''.join(parts)}

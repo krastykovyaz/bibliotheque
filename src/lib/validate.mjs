@@ -59,6 +59,10 @@ export function validateBooks(books, publicDir, dataDir) {
         else if (!isStr(l.booklet) || !l.booklet.startsWith('/')) err(`languages.${code}.booklet`, 'must be a path like "/pdf/name-booklet.pdf"');
         else if (!fs.existsSync(path.join(publicDir, l.booklet))) err(`languages.${code}.booklet`, `file not found: public${l.booklet}`);
       }
+      if (l && l.pdfA4 !== undefined) {
+        if (!isStr(l.pdfA4) || !l.pdfA4.startsWith('/')) err(`languages.${code}.pdfA4`, 'must be a path like "/pdf/name-a4.pdf"');
+        else if (!fs.existsSync(path.join(publicDir, l.pdfA4))) err(`languages.${code}.pdfA4`, `file not found: public${l.pdfA4}`);
+      }
       if (l && l.bookletDuplex !== undefined) {
         if (l.booklet === undefined) err(`languages.${code}.bookletDuplex`, 'needs a "booklet" field next to it');
         else if (!isStr(l.bookletDuplex) || !l.bookletDuplex.startsWith('/')) err(`languages.${code}.bookletDuplex`, 'must be a path like "/pdf/name-booklet-duplex.pdf"');

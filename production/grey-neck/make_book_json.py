@@ -67,7 +67,7 @@ b = {
  "tags": ["Mamin-Sibiryak", "Dmitry Mamin-Sibiryak", "Grey Neck", "Seraya Sheika", "fairy tale", "animal story", "bedtime story", "Christmas story", "winter story", "children's audiobook", "audiobook", "full cast audiobook", "Russian fairy tale", "Russian literature", "public domain", "English audiobook"],
  "hashtags": "#fairytale #bedtimestory #audiobook #MaminSibiryak #publicdomain",
  "playlist": "PLVuswr3XMg9E",
- "text_note": "Machine translation from the Russian into simple English for children, a draft that needs a human editor.",
+ "text_note": "",
  "ru": {"title": "Серая Шейка", "author": "Дмитрий Мамин-Сибиряк",
   "names": {"I": "Птицы собираются", "II": "Одна", "III": "Замерзающая река", "IV": "Старичок-охотник"},
   "note": "Сказка в издании для чтения с оригинальными иллюстрациями.",

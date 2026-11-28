@@ -76,7 +76,6 @@ A language can have its full text on the site, so visitors read the whole book i
 
 ```json
 "text": "texts/lady-en.txt",
-"textNote": "Machine translation from the Russian, a draft that needs a human editor."
 ```
 
 `text` is a file in `data/texts/`: a line starting with `## ` begins a part (for example `## I · Yalta`), and blank lines separate paragraphs. `textNote` is optional and is shown above the text. The book page then shows a **Read** button (instead of the short preview), and the text is read on its own pages at `/read/<id>/<language>/` (page 1), `.../2/`, `.../3/` and so on: about 220 words a page (never more than about 300), always ending at a paragraph, with a new part starting on a fresh page. Each page has Previous / Next buttons, a "Page 3 of 28" counter, a jump list, and the left and right arrow keys turn the page. Every page has its own address, so the back button and shared links work. It works without JavaScript and sets no cookie.

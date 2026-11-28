@@ -110,7 +110,7 @@ b = {
  "tags": ["Pushkin", "Alexander Pushkin", "Tsar Saltan", "Tale of Tsar Saltan", "Swan Princess", "Prince Gvidon", "fairy tale", "fairy tale in verse", "bedtime story", "Christmas story", "children's audiobook", "audiobook", "full cast audiobook", "Russian fairy tale", "Russian literature", "public domain", "English audiobook"],
  "hashtags": "#fairytale #bedtimestory #audiobook #Pushkin #publicdomain",
  "playlist": "PLVuswr3XMg9E",
- "text_note": "English verse written for children from the Russian original, a free rendering that keeps the story and its order of events but not the rhymes of the original. A draft that needs a human editor.",
+ "text_note": "English verse written for children from the Russian original, a free rendering that keeps the story and its order of events but not the rhymes of the original.",
  "ru": {"title": "Сказка о царе Салтане", "author": "Александр Пушкин",
   "names": {"I": "Три сестры", "II": "Письмо и бочка", "III": "Лебедь и коршун", "IV": "Город князя Гвидона", "V": "Белка с золотыми орешками",
             "VI": "Тридцать три богатыря", "VII": "Царевна Лебедь", "VIII": "Пир"},

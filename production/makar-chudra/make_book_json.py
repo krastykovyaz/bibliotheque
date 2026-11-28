@@ -47,7 +47,7 @@ b = {
  "site_description": "Beside a campfire on the Black Sea steppe, old Makar Chudra tells a young wanderer about freedom, and about Loiko Zobar, a horse thief who played the fiddle like no one alive, and Radda, the proud Gypsy girl who loved her freedom more than the man she loved. Maxim Gorky's first published story (1892), in a full-cast English audiobook.",
  "tags": ["Gorky", "Maxim Gorky", "Makar Chudra", "audiobook", "full cast audiobook", "short story", "Gypsy legend", "classic literature", "Russian literature", "public domain", "English audiobook"],
  "hashtags": "#Gorky #audiobook #classicliterature #shortstory #publicdomain", "playlist": "PLVuswr3XMg9E",
- "text_note": "Machine translation from the Russian, a draft that needs a human editor.",
+ "text_note": "",
  "ru": {"title": "Макар Чудра", "author": "Максим Горький",
    "names": {"I": "Старый цыган", "II": "Радда", "III": "Лойко Зобар", "IV": "Песня и кнут", "V": "Овраг", "VI": "Нож"},
    "note": "Рассказ в издании для чтения с оригинальными иллюстрациями.",

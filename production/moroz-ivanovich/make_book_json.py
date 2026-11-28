@@ -54,7 +54,7 @@ b = {
  "tags": ["Odoevsky", "Vladimir Odoevsky", "Moroz Ivanovich", "Father Frost", "fairy tale", "bedtime story", "Christmas story", "winter story", "children's audiobook", "audiobook", "full cast audiobook", "Russian fairy tale", "Russian literature", "public domain", "English audiobook"],
  "hashtags": "#fairytale #bedtimestory #audiobook #Odoevsky #publicdomain",
  "playlist": "PLVuswr3XMg9E",
- "text_note": "Machine translation from the Russian into simple English for children, a draft that needs a human editor.",
+ "text_note": "",
  "ru": {"title": "Мороз Иванович", "author": "Владимир Одоевский",
   "names": {"I": "Две девочки", "II": "Колодец", "III": "Мороз Иванович", "IV": "Вопросы", "V": "Три дня", "VI": "Ленивица идёт", "VII": "Обед", "VIII": "Награда"},
   "note": "Сказка в издании для чтения с оригинальными иллюстрациями.",

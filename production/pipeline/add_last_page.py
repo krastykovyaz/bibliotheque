@@ -19,7 +19,7 @@ FONTS = f"""@font-face{{font-family:Lora;src:url(file://{PIPE}/fonts/lora-latin-
 html{{font-family:Lora,serif;font-size:10.6pt;color:#2a211c}}body{{margin:0}}"""
 for lang in ("en", "ru"):
     title, author, year = INFO[lang]
-    credits = (f"{author}, «{title}» ({year}). The text is in the public domain. English translation: machine draft. Typeset in Lora (SIL Open Font License)."
+    credits = (f"{author}, «{title}» ({year}). The text is in the public domain. Typeset in Lora (SIL Open Font License)."
                if lang == "en" else f"{author}, «{title}» ({year}). Текст находится в общественном достоянии. Набрано шрифтом Lora (SIL Open Font License).")
     body = lastpage.section(lang, slug, INFO["en"][0], [], credits)
     tmp = tempfile.mkdtemp(); h = os.path.join(tmp, "p.html"); pdf = os.path.join(tmp, "p.pdf")

@@ -46,7 +46,7 @@ b = {
  "tags": ["Chekhov", "Anton Chekhov", "Children", "Detvora", "audiobook", "full cast audiobook", "short story", "Christmas story", "classic literature", "Russian literature", "public domain", "English audiobook"],
  "hashtags": "#Chekhov #audiobook #classicliterature #shortstory #publicdomain",
  "playlist": "PLVuswr3XMg9E",
- "text_note": "Translated from the Russian, a draft that needs a human editor.",
+ "text_note": "",
  "ru": {"title": "Детвора", "author": "Антон Чехов",
   "names": {"I": "Лото за столом", "II": "Уши, колокол и затрещины", "III": "Васин рубль"},
   "note": "Рассказ в издании для чтения с оригинальными иллюстрациями.",

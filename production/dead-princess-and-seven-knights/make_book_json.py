@@ -74,7 +74,7 @@ b = {
  "tags": ["Pushkin", "Alexander Pushkin", "Dead Princess", "Seven Knights", "Snow White", "fairy tale", "fairy tale in verse", "bedtime story", "Christmas story", "children's audiobook", "audiobook", "full cast audiobook", "Russian fairy tale", "Russian literature", "public domain", "English audiobook"],
  "hashtags": "#fairytale #bedtimestory #audiobook #Pushkin #publicdomain",
  "playlist": "PLVuswr3XMg9E",
- "text_note": "English verse written for children from the Russian original, a free rendering that keeps the story and the stanzas but not the rhymes of the original. A draft that needs a human editor.",
+ "text_note": "English verse written for children from the Russian original, a free rendering that keeps the story and the stanzas but not the rhymes of the original.",
  "ru": {"title": "Сказка о мёртвой царевне и о семи богатырях", "author": "Александр Пушкин",
   "names": {"I": "Царица и зеркальце", "II": "В лес", "III": "Дом в лесу", "IV": "Семь братьев", "V": "Старая нищенка", "VI": "Хрустальный гроб", "VII": "Солнце, месяц и ветер", "VIII": "Свадьба"},
   "note": "Сказка в стихах в издании для чтения с иллюстрациями.",
